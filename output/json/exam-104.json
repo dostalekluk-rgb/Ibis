@@ -1,0 +1,11 @@
+{
+  "id": "EXAM-104",
+  "date": "2026-08-31",
+  "rawDate": "31/08/26",
+  "sourceFile": "ai-stankova-hosp-04.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (31/08/26)",
+  "content": "Výsledky z 31/08/26: Minerály+Osmolalita: Na: 144, K: 3,4, Cl: 107, Ca:      \r\n1,98,   Dusíkové metabolity: Urea: 2,3, Kreat.: 40, Kys. moč.: 243,          \r\nJaterní testy: Bilirubin: 2,7, ALT: 0,08, AST: 0,25, GGT: 1,06, ALP: 2,21,   \r\nFIB-4 index: 1,25,   Bílkoviny: CB: 47,1, CRP: 100,6,   Krevní               \r\nobraz-perifer: Leu: 5,77, Ery: 2,86, HGB: 75, HCT: 0,255, MCV: 89,2, MCH:    \r\n26,2, MCHC: 294, RDW: 17,6, Plt: 345, MPV: 9,1, PCT: 0,320, PDW: 8,8,        \r\nDif.stroj. relativní: Ne: 84,8, Ly: 7,8, Mo: 5,5, Eo: 1,2, Ba: 0,2, Nezralé  \r\ngranulocyty %: 0,5,   Dif.stroj. absolutní: Ne abs.: 4,89, Ly abs.: 0,45, Mo \r\nabs.: 0,32, Eo abs.: 0,07, Ba abs.: 0,01, Nezralé granulocyty abs.: 0,03,    \r\nOstatní hematologie-: Normoblasty strojově: 0,00, Normoblasty abs. strojově: \r\n0,00, NLR: 10,9,   Imunohematologie: Krevní skupina: A poz, Screening        \r\nprotilátek: neg,"
+}

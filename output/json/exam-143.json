@@ -1,0 +1,11 @@
+{
+  "id": "EXAM-143",
+  "date": "2026-09-01",
+  "rawDate": "01/09/26",
+  "sourceFile": "ai-stankova-lab.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (01/09/26)",
+  "content": "Výsledky z 01/09/26: \r\n  Minerály+Osmolalita: \r\n      Na: 140\r\n      K: 3,8\r\n      Cl: 104\r\n      Ca: 2,07\r\n      Ca korig. na albumin: 2,40\r\n  Bílkoviny: \r\n      Albumin: 25,0"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "EXAM-122",
+  "date": "2026-08-03",
+  "rawDate": "03/08/26",
+  "sourceFile": "neumannova-lab.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (03/08/26)",
+  "content": "Výsledky z 03/08/26: \r\n  Texty laboratoř: \r\n      Komentář:\r\nU odběru moče nebyly dodrženy podmínky preanalytické fáze a požadavky na transport vzorků do laboratoře nebo odběrového centra. Možné ovlivnění výsledků. Moč by měla být zpracována do 2 hodin od odběru. Bližší viz. webové stránky VFN - Přehled laboratorních vyšetření - http://laboratore.vfn.cz\r\n -\r\n  Minerály+Osmolalita: \r\n      Na: 139 mmol/l\r\n      K: 4,4 mmol/l\r\n      Cl: 102 mmol/l\r\n  Dusíkové metabolity: \r\n      Urea: 2,6 mmol/l\r\n      Kreat.: 61 µmol/l\r\n      Kys. moč.: 286 µmol/l\r\n  Jaterní testy: \r\n      Bilirubin: 3,4 µmol/l\r\n      ALT: 0,45 µkat/l\r\n      AST: 0,41 µkat/l\r\n      GGT: 0,71 µkat/l\r\n      ALP: 1,49 µkat/l\r\n      FIB-4 index: 1,02 -\r\n  Bílkoviny: \r\n      Albumin: 44,7 g/l\r\n      CB: 65,0 g/l\r\n  Moč chemicky: \r\n      pH: 5,5 _\r\n      Hustota: 1,008 kg/l\r\n      Bílkovina orient.: neg g/l\r\n      Glykosurie: neg mmol/l\r\n      Ketolátky: neg mmol/l\r\n      Bilirubin: neg µmol/l\r\n      Urobilinogen: neg µmol/l\r\n      Erytrocyty v moči: neg počet/µl\r\n      Leuko: neg počet/µl\r\n      Nitrity: neg arb.j.\r\n  Moč - sediment: \r\n      Hlen: poz. \r\n      ERY: 0,0 10^6/l\r\n      LEUKO: 0,0 10^6/l\r\n      Bakterie: negativ. 10^6/l\r\n      Poznámka: \r\nost. neg.\r\n \r\n  Krevní obraz-perifer: \r\n      Leu: 9,97 10^9/l\r\n      Ery: 4,60 10^12/l\r\n      HGB: 132 g/l\r\n      HCT: 0,401 1\r\n      MCV: 87,3 fl\r\n      MCH: 28,7 pg\r\n      MCHC: 329 g/l\r\n      RDW: 18,7 %\r\n      Plt: 302 10^9/l\r\n      MPV: 8,9 fl\r\n  Dif.stroj. relativní: \r\n      Ne: 65,4 %\r\n      Ly: 24,9 %\r\n      Mo: 7,3 %\r\n      Eo: 0,5 %\r\n      Ba: 0,9 %\r\n      Nezralé granulocyty %: 1,0 %\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 6,52 10^9/l\r\n      Ly abs.: 2,48 10^9/l\r\n      Mo abs.: 0,73 10^9/l\r\n      Eo abs.: 0,05 10^9/l\r\n      Ba abs.: 0,09 10^9/l\r\n      Nezralé granulocyty abs.: 0,10 10^9/l\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00 %\r\n      Normoblasty abs. strojově: 0,00 10^9/l\r\n      NLR: 2,7 -"
+}

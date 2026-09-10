@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "patientId": "PAC-VFN-2026-8472",
+    "yearOfBirth": 1968,
+    "primaryDiagnosisICD": "C50.4 - Zhoubný novotvar horního vnějšího kvadrantu prsu",
+    "clinicalStagingInitial": "cT2 cN1 cM0, st. IIB",
+    "initialBiomarkers": {
+      "erStatus": "90% silně pozitivní",
+      "prStatus": "20% slabě pozitivní",
+      "her2Status": "negativní (1+)",
+      "ki67Index": "30%",
+      "brcaStatus": "negativní (germlinová)"
+    }
+  },
+  "generatedAt": "2026-09-04T14:30:00.000Z",
+  "totalEventsProcessed": 5,
+  "events": [
+    {
+      "id": "EVT-2024-03-12-PATH",
+      "date": "2024-03-12",
+      "category": "pathology",
+      "title": "Core-cut biopsie prsu vpravo",
+      "facilityOrDepartment": "VFN - Ústav patologie",
+      "rawTextExcerpt": "Nález: Invazivní duktální karcinom NST, Grade 2. IHC: ER 90%, PR 20%, HER2 1+, Ki-67 30%.",
+      "pathology": {
+        "histologicalType": "Invasive carcinoma NST",
+        "grade": 2,
+        "pTNM": "cT2 cN1 cM0",
+        "biomarkers": {
+          "erStatus": "90%",
+          "prStatus": "20%",
+          "her2Status": "negativní (1+)",
+          "ki67Index": "30%"
+        }
+      }
+    },
+    {
+      "id": "EVT-2024-04-02-SURG",
+      "date": "2024-04-02",
+      "category": "surgery",
+      "title": "Resekce prsu vpravo + exenterace axily",
+      "facilityOrDepartment": "VFN - Chirugická klinika",
+      "rawTextExcerpt": "Provedena parciální mammektomie l.dx a disekce axily I. a II. etáže. Hojení per primam.",
+      "pathology": {
+        "histologicalType": "Invasive carcinoma NST",
+        "pTNM": "pT2 pN1a(2/14) R0",
+        "resectionMargins": "R0 (čisté okraje > 3mm)"
+      }
+    },
+    {
+      "id": "EVT-2024-05-15-SYS",
+      "date": "2024-05-15",
+      "category": "systemic_therapy",
+      "title": "Zahájení adjuvantní chemoterapie 4x AC -> 12x Paclitaxel",
+      "facilityOrDepartment": "VFN - Onkologická klinika",
+      "rawTextExcerpt": "Zahájena adjuvantní chemoterapie. Aplikována sérově. Podávání bez závažné toxicity.",
+      "systemicTherapy": {
+        "line": 1,
+        "regimenName": "4x AC -> 12x Paclitaxel",
+        "cyclesCompleted": 16,
+        "startDate": "2024-05-15",
+        "endDate": "2024-10-20",
+        "reasonForDiscontinuation": "completed"
+      }
+    },
+    {
+      "id": "EVT-2024-11-01-SYS",
+      "date": "2024-11-01",
+      "category": "systemic_therapy",
+      "title": "Zahájení adjuvantní hormonální terapie (Letrozol)",
+      "facilityOrDepartment": "VFN - Onkologická klinika",
+      "rawTextExcerpt": "Zahájena léčba aromatázovým inhibitorem Letrozol 2,5 mg denně tbl.",
+      "systemicTherapy": {
+        "line": 1,
+        "regimenName": "Letrozol 2.5mg 1-0-0",
+        "startDate": "2024-11-01"
+      }
+    },
+    {
+      "id": "EVT-2026-08-20-IMG",
+      "date": "2026-08-20",
+      "category": "imaging",
+      "title": "KONTROLNÍ PET/CT trupu a pánve",
+      "facilityOrDepartment": "VFN - Ústav nukleární medicíny",
+      "rawTextExcerpt": "PET/CT: Nově zachycena 2 ložiska zvýšeného metabolizmu FDG v pravém laloku jater (S4/8 do 22 mm, SUVmax 8.4) a osteolytické ložisko v těle obratle Th12 (SUVmax 6.1). Závěr: Metastatické postižení jater a skeletu (progrese při Letrozolu).",
+      "imaging": {
+        "modality": "PET-CT",
+        "targetRegions": ["Játra", "Skelet"],
+        "findingsSummary": "Progrese: Nové 2 jaterní metastázy (S4/8 do 22mm) + osteolytické ložisko Th12.",
+        "recistEvaluation": "PD"
+      }
+    }
+  ]
+}

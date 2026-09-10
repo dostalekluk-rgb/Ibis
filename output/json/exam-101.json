@@ -1,0 +1,11 @@
+{
+  "id": "EXAM-101",
+  "date": "2026-08-28",
+  "rawDate": "28/08/26",
+  "sourceFile": "ai-stankova-hosp-04.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (28/08/26)",
+  "content": "Výsledky z 28/08/26: Minerály+Osmolalita: Na: 140, K: 3,9, Cl: 99,           \r\nDusíkové metabolity: Urea: 6,3, Kreat.: 53, Kys. moč.: 394,   Jaterní testy: \r\nBilirubin: 4,2, ALT: 0,12, AST: 0,26, ALP: 2,84, FIB-4 index: 0,73,          \r\nBílkoviny: Albumin: 28,7, CB: 60,7, CRP: 148,3, Prealb.: 0,11,   Krevní      \r\nobraz-perifer: Leu: 6,63, Ery: 3,46, HGB: 89, HCT: 0,307, MCV: 88,7, MCH:    \r\n25,7, MCHC: 290, RDW: 17,2, Plt: 500, MPV: 9,1, PCT: 0,450, PDW: 9,2,        \r\nDif.stroj. relativní: Ne: 83,8, Ly: 9,2, Mo: 4,8, Eo: 0,8, Ba: 0,5, Nezralé  \r\ngranulocyty %: 0,9,   Dif.stroj. absolutní: Ne abs.: 5,56, Ly abs.: 0,61, Mo \r\nabs.: 0,32, Eo abs.: 0,05, Ba abs.: 0,03, Nezralé granulocyty abs.: 0,06,    \r\nOstatní hematologie-: Normoblasty strojově: 0,00, Normoblasty abs. strojově: \r\n0,00, NLR: 9,2,"
+}

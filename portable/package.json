@@ -1,0 +1,32 @@
+{
+  "name": "ibis-vfn",
+  "version": "0.1.0",
+  "description": "Multi-agentní systém pro zpracování onkologické dokumentace a podporu rozhodování (VFN)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "parse": "tsx src/index.ts",
+    "server": "tsx src/server.ts",
+    "build:portable": "tsc && tsx scratch/build_portable.ts"
+  },
+  "keywords": ["vfn", "oncology", "gemini", "rtf", "tumor-board", "agents"],
+  "author": "VFN Oncology AI Team",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^2.21.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "iconv-lite": "^0.6.3",
+    "ws": "^8.18.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.5",
+    "@types/ws": "^8.5.14",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}

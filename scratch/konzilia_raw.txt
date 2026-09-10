@@ -1,0 +1,745 @@
+<jméno>
+<číslo pojištěnce>
+<kód zdravotní pojišťovny>
+<adresa>
+<telefon>
+
+45 let, 176 cm, 70 kg, ECOG PS 0
+
+NO: pacientka přichází po LSK biopsii ovaria a evakuaci ascitu s nálezem HGSC ovaria/tuby, dle oper. protokolu karcinoma peritonea, frozen pelvis, infiltrace omenta, kličky nepopsány. Pacientka zahájila NACT v režimu PTX/CBDCA. Po 3 cyklech proveden restaging v rámci operačních indikací s výraznou parciální regresí. Indikována k IDS. Po operaci dokončila CHT do 6 cyklu. Nyní kontrolní CT. 
+
+Anamnéza: 
+OA: vážněji nestonala, Operace: hernioplast. umbil., LPSK
+FA: neguje, AA: na léky a dezinfekci neguje, GA: nulipara, M pravid.
+
+Stagingová vyšetření 
+CT hrudníku, břicha a pánve (8.9.2026): Susp. lymf. uzlina v epikardiálním tuku, podbrániční karcinomatoza, malý ascites v pánvi.
+
+Onko UZ (dr. Frühauf, dne 20.5.2026): Významná parciální regrese, není již frozen pelvis, v pánvi rezidua karcinomatózy v cavum Douglasi a na obou SU vazech, ovaria normální strukutry fixována k děloze, tuby bilat. s reziduálním nádorovým postižením, rektosigmoideum pouze fixováno v cavum Dougalsi, bez infiltrace. Vymizel ascites a omentální cake, reziduální plošná ložisk na levé i pravé kopuli bránice, jinde souvislou karcinomatózu nezobrazuji, nález resekabilní.
+
+Gynekologické vyšetření (prof. Sláma, dne 25.2.2026)
+břicho mírně vzedmuté ascitem bez tenze, klidné, měkké, nebolestivé, bez známek peritoneálního dráždění; zevně: zevní rodidla bez patologie
+spec: pochva klidná, bez fluoru, čípek hladký, konický, ZB štěrbina, nekrvácí
+palp: děloha v AVF, nezvětšená, tuhá, volná, taxe nebolestivá, parametria volná, adnexa nehmatná, Douglas volný
+
+Onko UZ (dr. Emingr, dne 25.2.2026): Frozen pelvis, difúzní karcinomatóza v pánvi, solidní adnextumor vlevo, origo z tuby, povrchová infiltrace rektosigmoidea. Omentální cake, ascites, karcinomatóza povrchu sleziny, pravé parakolické fossy a kopuli bránice. Karcinomatóza tenkých střevních kliček, jejichž část fixována v pánvi, omentální plotna fixována v.s. na podkladě karcinomatózy k mesenteriu ilea. Resumé. Hodnotíme jako primárně non-resekabilní nález
+
+Dg.: s/gBRCA1 pozit., HRD nelze hodnotit
+ca ovarii high grade serózní FIGO IIIC (I. dg. 2/2026)
+St.p. LPSK biopsii, 11.2.2026, Nem. Jičín 
+
+St.p. 3 cyklech CHT v režimu CBDCA/PTX (poslední 23.4.2026) 
+
+St.p. IDS, DSL, HSL, TAH, BSO, OE tot, APE, peritonektomie mesenteria terminálního ilea fokálně 26.5.2026, R0 resekce
+In situ: děloha norm. vel., s drobnými myomy, adnexa s reziduálními tumory, postchemoterapueitcké adheze přední i zadní exkavace, bez postižení rektosigmoidea, omentum ss reziduálním tumorem infrakolicky, drobné uzlíky meseteria terminálního ilea, jinak bez parietální nebo viscerální karcinomatozy, bránice bilat a slezina bez postižení. Játra hladká, peritoneální povrchy hladké. . 
+Histologie: Rezidua high grade serózní karcinom po neoadjuvanci zastiženy pouze v mikroskopickém rozměru v oblasti pravého a levého ovaria v kůře, a v levé tubě v subseróze. V ostatních vyšetřovaných lokalitách regresivní změny. Šíření krevními ani lymfatickými cévami ani perineurální šíření nebylo nalezeno. Serózní povrch je v rozsahu vyšetření bez nádoru, stejně tak i omentum a další vyšetřované lokality. T87, T86, T82, T08, TY44, T6385, M8461/3 HG ypT1b   FGO IB T01, M8787500
+Karcinom ovária check list: 
+primární lokalita: v.s. ovarium 
+typ nádoru: HGSC
+grade: HG
+STIC: ne
+peritoneální cytologie: nevyšetřeno
+LVSI: ne
+omentum: velikost: 330 x 100 x 2-5 mm; nepostiženo
+regrese (v omentu): ano
+NGS: V nádoru BYLA prokázána patogenní varianta genu BRCA1 NM_007294.3:c.5266dup, p.(Gln1756fs), frekvence mutované alely 82 % (121x).
+Nádory s detekovanou patogenní mutací v genech BRCA1 jsou v literatuře spojovány se zvýšenou citlivostí na PARP inhibitory.
+Pozn.: Tento výsledek může, ale nemusí být ve shodě s mutačním stavem zárodečných variant vyšetřované pacientky. Z testování nádorové tkáně nelze jednoznačně určit, zda se jedná o mutaci zděděnou nebo získanou (somatická mutace). Pokud tak již nebylo učiněno, pacientce by mělo být doporučeno vyšetření klinickým genetikem a testování variant zárodečné linie genu BRCA1/BRCA2.
+HRD nelze spolehlivě hodnotit.
+
+St.p. 6.cyklech (3.pooperační) CHT I. linie v režimu CBDCA/PTX (poslední 5.8.2026)
+
+Onkogynekologické konzilium 9.9.2026 
+Přítomni: prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák
+Doporučení: Uzavíráme jako pooperační změny v pánvi a hraniční mediastinální uzlina ke sledování. Pacientka zahájí terapii olaparibem (Lynparza v dávce 150 mg 2-0-2) do 8 týdnů od skončení chemoterapii. Dostaví se do onkogynekologické ambulance s aktuálním KO+diff. Vložit Lynparzu do systému ECL. Informována Dr. Valentovou, objednána k zahájení Lynparzy 17.9.2026, ráno KO, dif cestou FP, žádanky prosí zaslat na mail. Zadáno do ECL.
+
+<jméno>
+<číslo pojištěnce>
+<kód zdravotní pojišťovny>
+<adresa>
+<telefon>
+
+
+48 let, 169 cm, 77 kg, ECOG PS0
+
+NO: Pacientka přichází na vlastní žádost. Z emailu - po gynekologickém vyšetření bylo doporučeno se na Vás obrátit s prosbou o radu k vyloučení rakoviny vaječníků. V roce 2016 jsem byla na operaci kvůli diagnóze rakoviny děložního čípku. Jednorázově vaginálně zakrvácela. Pacientka indikována k cytoredukčnímu výkonu. Potvrzena recidiva onemocnění. Zahájena CHT v režimu PTX/cDDP (6x) + bevacizumab + pembrolizumab. Dále pacientka pokračovala v terapii bevacizumabem + pembrolizumab. Pembrolizumab ukončen 35. cyklem – 2 roky terapie. Nyní kontrolní CT.    
+
+Anamnéza:
+OA: st.p. totální thyreoidektomi pro ca, trombóza levého lýtka 
+GA: PM 2016, bezdětná
+
+Re-stagingová vyšetření:
+CT hrudníku, břicha a pánve (8.9.2026): není k dispozici
+
+CT hrudníku, břicha pánve (14.5.2026): Kontrola, předchozí vyš. v červnu 2024. Nadále bez jasných známek lokál. recidivy či generalizace. Lymfocysta v pánvi vpravo. Progrese nefropatických změn pravé ledviny při zavedeném stentu.
+
+Onko UZ (dr. Maixnerová, dne 11.2.2026): Není známek recidivy nádoru, nesuspektní lymfocysta v oblasti bifurkace vpravo
+
+Dg. Duplicita
+Ca colli uteri v anamn. (2016, Ukrajina) - dokumentace není 
+dle pac. LPT sec Pfannenstiel - hysterekotmie 
+Adj. Kombinovaná RT - EBRT + BRT 
+
+První recidiva onemocnění (pánevní tumor, lymfadenopatie) - adenokarcinom/adenoskvamózní ca colli uteri (I.dg. 2/2024), TFI 8 let
+St.p. OP 1.2.2024 DSL, disekce ureteru, exstirpace tumoru, exstirpace pánevní LN
+In situ: peritoneální povrchy hladké, v pánvi dominuje bělavý tumor, který celý umístěn na pravé pánevní stěn, imponuje jako recidiva ca děložního hrdla, v okolí vasa iliaca communis a bifurkace aorty několik tuhých LN do 2 cm, které ve fibrose a pevně fixovány k cévám, nejprve disekován průběh ureteru se stentem, poté se snažíme uvolnit tumor od m. psoas, tumor perforován, vytéká vaskózní tekutina (starý absces) bez zápachu, otevíráme široce dutinu, která je v rozsahu fossa obturatoria, postupně resekována celá jeho přední stěna - od ureteru, vasa iliaca externa, zůstává pouze stará dutina bez makro patrných tu hmot. Dále spíše z dg důvodů exstirpujeme tuhou LN v oblasti vasa iliaca communis, i z ní vytéká vazký obsah, pevně fixována k cévám, odstraňujeme po částech. Revize krvácení.Postižení LN však není chirurgicky řešitelné do R0.
+Histologie: metastáza HPV asociováného dobře diferencovaného adenokarcinomu hrdla děložního s minoritní dlaždicobuněčnou diferenciací (adenoskvamózní?, bez znalosti primárního histologického nálezu nelze spolehlivě posoudit). Největší rozměr ložiska 20 mm. V materiálu č. 2  jedná uzlina prům. cca 8 mm zcela spotřebována metastázou stejného adenokarcinomu. Apendix bez nádorových struktur.
+
+St.p. zavedení ureterálního stentu vpravo od operace
+
+St.p. CHT v režimu Abraxane/cDDP 6x (poslední 2.7.2024) + bevacizumab – poslední 4.9.2026 + pembrolizumab – poslední 22.5.2026 (od 5.3.2024)
+
+Ca thyroidey 
+St.p. thyroidekotmii 2016
+St.p. terapii radiojodem uk 2016-2020
+Onkogynekologické konzilium 9.9.2026 
+Přítomni: prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák
+Doporučení: Pokračuje terapie bevacizumabem. Je doporučena nefrektomie, pacientka bude konzultovat cestou Urologické kliniky, doporučujeme vysadit bevacizumab 6 týdnů před a 4 týdny po výkonu. Konsilium bude zopakováno za týden s výsledky CT vyšetření. Pacientka bude informována dr. Frühaufem.
+
+<jméno>
+<číslo pojištěnce>
+<kód zdravotní pojišťovny>
+<adresa>
+<telefon>
+
+66 let, 168 cm, 62 kg, ECOG PS 0
+
+NO: pacientka přichází pro pánevní tumor s elevací CA 125. Provedena CNB s nálezem HGSC. Pacientka indikována k radikální hysterektomii. Po operaci zahájila CHT v režimu PTX/CBDCA. Nyní po 6 cyklech kontrolní CT. 
+
+Anamnéza: 
+OA: hypertenze, osteopenie, trombofilní mutace f V
+Operace: herniopl inq. I. dx. 
+AA: na léky a dezinfekci neguje
+GA: partus 4x spont, PM: v cca 50 letech
+
+Stagingová vyšetření 
+CT hrudníku, břicha a pánve (8.9.2026): není k dispozici
+
+Gynekologické vyšetření (prof. Sláma, dne 4.3.2026)
+břicho klidné, měkké, nebolestivé, bez známek peritoneálního dráždění; zevně: zevní rodidla bez patologie
+spec: pochva klidná, bez fluoru, čípek hladký, cylindrický, ZB štěrbina, nekrvácí
+palp: děloha v AVF, nezvětšená, tuhá, volná, taxe nebolestivá, parametria volná, adnexa nehmatná, Douglas volný
+
+Onko UZ (dr. Frühauf, dne 4.3.2026): Dle UZ tumor pravých adnex - neostře ohraničená léze infiltrující okolní struktury včetně stěny sigmoidea a jeho mesocolon, k infiltrace fixováno v.s. rovněž ileum, tumor v pánvi pevně fixován k pravému SU vazu a děloze, patrná struktura tuby vzhledu hydrosalpingu, patologická lymfadenopatie v oblasti vnitřních i zevních externích a společných ilik vpravo, další diseminaci nezobrazuji
+Resumé: v.s. HGSC tubárního origa s atypickým šířením v pánvi a dutině břišní, nález se jeví operabilní (resekce sigmoidea, otázka nutnosti resekce tenkého střeva).
+
+Onko UZ (dr. Bednářová, dne 23.2.2026): Susp. perfundovaný solidní tumor pravých adnex, šířící se kraniálně po pánevní stěně, současně infiltrující okolní struktury se zavzetím epiploik a kliček střevních (prorůstání do stěny střevní nevizualizuji), susp. ložiska v obou parakolických fosách, postižení pravé pánevní stěny, susp. ložisko v omentu
+
+Dg.: sBRCA 1/2 negat., HRD negat. 
+HGSC tubo-ovariální pT3b pN1 (18/1) cM0 FIGO IIIB (I.dg. 3/2026)
+St.p. core needle biopsii 4.3.2026
+Histologie: Nález má zastoupenými znaky charakter high grade serózního karcinomu, jehož primární zdroj v oblasti děložní tuby, ovaria či pánevního peritonea je pravděpodobný. Na imunohistochemické úrovni zastižen typ exprese p53 wild type, tento typ exprese se však u minority high grade serózních karcinomů může vyskytovat. Budeme ještě provádět dodatečná imunohistochemická vyšetření, definitivní závěr sdělíme v dodatku. T87 M8461/3
+
+St.p. Rad hyst lat. dex, AE, OE, APE, PLND 17.3.2026, reziduum: R0
+In situ, v pánvi dominuje tumor vycházející z P adnex, fixovaný k ileocéku, do něho infiltruje apendix, tumor pevně fixovaný do parametria, několik uzlu meta ve volné části omenta, levá adnexa bpn, děloha, periton. povrchy, játra, bránice, slezina hladké, v P parakolické fose tumor, který neinfiltruje rektum, vpravo dokončujeme parametrektomii v rozsahu C1 laterálně...
+Histologie: Nález má charakter high grade karcinomu tuby/ovaria, zastoupenými morfologickými znaky se na prvním místě jedná o high grade serózní karcinom (místy s tzv. SET rysy). Vzhledem k výsledkům předchozího vyšetření doplníme imunohistochemické vyšetření za účelem přesné typizace tumoru, výsledek a definitivní závěr sdělíme v dodatku této biopsie. 
+- s postižením omenta (rozměr největšího nádorového ložiska 18 mm)
+- s postižením pánevního peritonea
+18 lymfatických uzlin, z toho v 1 metastáza (velikosti 11 mm).
+T86 M8461/3vs pT3b pN1 (1/18)
+
+St.p. 6 cyklech CHT v režimu PTX/CBDCA (poslední 11.8.2026)
+
+Onkogynekologické konzilium 9.9.2026 
+Přítomni: prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák
+Doporučení: Pacientka ukončila chemoterapii, je ve screeningu studie MK2870-021 – follow-up vs. sacitizumab tirumotecan. Konsilium bude odloženo o týden s výsledky CT. Pacientka informována Dr. Malčákem - dle pacientky v plánu CT 17.09.2026, tým pádem konsilium 23.09..
+
+<jméno>
+<číslo pojištěnce>
+<kód zdravotní pojišťovny>
+<adresa>
+<telefon>
+
+
+78 let, 160 cm, 70 kg, PS 1
+
+NO: Pacientka s nádorovou duplicitou referována dr. Vočkou, převzata k léčbě z FNB. V 06/2024 pacientka po 6 cyklech CHT II. linie v režimu CBDCA. V 10/2024 recidiva onemocnění dle PET/CT. Pacientka zahájila CHT III. linie v režimu weekly Abraxan + Avastin. Dle kontrolního CT zvětšená uzlina pararektálně. Doporučeno doplnit kolonoskopii. Konzilium s výsledky.  
+
+Anamnéza:
+OA: art. hypertenze, varixy DKK, artróza
+AA: PTX
+
+Re-stagingová vyšetření:
+Kolonoskopie (8.9.2026): totální koloskopie, divertikly sigmatu, známý tumor dolního rekta. doplnit MR rekta, žádanka vydána, pacientka se objedná na Radiologické klinice VFN - při absenci hluboké invaze zvážíme endoskopickou submukozní disekci (ESD).
+
+CT hrudníku, břicha a pánve (11.8.2026): Nově zvětšená uzlina pararektálně vpravo, jinak je obraz beze změny.
+II. čtení (prof. Burgetová): Uzlina pararektálně vpravo se zvětšila s původních 3 mm na 10 mm, vzhledem k uložení spíše souvislost s ca rekta, vhodná rekto/kolonoskopie. Jinak bez generalizace.Ložisko v levé nadledvině stac., zřejmě adenom. 
+
+CT hrudníku, břicha a pánve (10.2.2026): Stacionární ložisko při levé nadledvině. Ostatní rovněž stacionární.
+II. čtení (prof. Burgetová): Stacionární ložisko při levé nadledvině, jinak bez nálezu v souvislosti s onemocněním. SD. 2 akcesorní sleziny při dolním polu sleziny. Dříve popisovaný polyp rekta, rektum je kolabované, nelze hodnotit.
+
+CA 125: 05/01/24 115,8; 16/02/24 25,7; 10/05/24 13,0; 02/09/24 45,8; 07/05/25 9,8; 03/09/25 9,6; 10/12/25 9,7; 10/02/26 11,6; 11/08/26: 13,2
+
+Dg.: gBRCA negat, sBRCA1,2 negat.
+Triplicita dg. 1/2022
+Ca ovarii T3c N0M0, st. p. TCB FN Bulovka 1/2022, histol. HGSC
+St.p. 3 cyklech NACHT 1 x CBDCA + PTX, dále monoterapie CBDCA pro alergickou reakci na PTX, ukončeno 1.3.2022 (Benešov)
+
+St.p. IDS - DSL, HSL, debulking- TAH+BSO, OE tot, APPE, peritonectomie pánve a parakolických prostor (GPK FNB Praha) - R0 
+Histologie: B3132 High grade serózní karcinom s postižením omenta, parakolického prostoru vpravo, parakolického prostoru vlevo, serózy apendixu, peritonea pánve a oboustranných adnex.  
+pTNM staging: ypT3, bez nálezu maligních struktur v resekátu prsu + SLN,
+30.3. 2022 resekce společně s ca prsu - nález viz níže
+
+St.p. adj. CHT CBDCA +PTX 3 x Benešov (dle pacientky pouze monoterapie CBDCA) – uk 7/2022
+St.p. terapii niraparib (09/22 - 12/23) (CHT v Benešově, biologická léčba NNB)
+
+První recidiva onemocnění (vícečetná ložiska na peritoneu), TFI 16M
+St.p. 6 cyklech CHT II. linie v režimu monoterapie CBDCA (poslední 10.5.2024) - CR
+
+Druhá recidiva onemocnění (vícečetná ložiska na na peritoneu), TFI 4M, I. dg. 9/2024
+St.p. core-needle biopsii 25.9.2024
+Histologie: V jehlové biopsii z levého mesorekta/obt. fossy je recidiva dříve diagnostikovaného high grade serózního karcinomu (HGSC). TY6   M8461/3
+
+St.p. 66 cyklech CHT III. linie v režimu weekly Abraxan (poslední 26.8.2026) + Avastin (poslední 26.8.2026)
+
+2) adenoca recti, I. dg. 10/2024
+St.p. rektoskopii s biopsií 1.10.2024
+Histologie: hodnocení je značně limitované fragmentací materiálu, zastižením převážně povrchové vrstvy léze a topografickou nepřehledností, nález nicméně s největší pravděpodobností svědčí pro adenokarcinom, v rozsahu vyšetření s invazí do submukózy. Revidovaná Vídeňská klasifikace: 5
+T68, M8140/3 v.s.
+- t.č. není indikován operační výkon při karcinomatose HGSC, současně není plánována radioterapie rekta, pouze v rámci paliativní léčby
+
+3) ca mammae 1. dx. T1b N0 M0, st.p. core cut biopsii 1/2022 (Benešov, histol. IDC, ER 100 %, PgR 10 %, MIB 15 %, c-erbB2 1 + IA Letrozol
+30.3. 2022 SE mammae l.dx+ SLNB, zároveň IDS - DSL, HSL, debulking- TAH+BSO, OE tot, APPE, peritonectomie pánve a parakolických prostor (GPK FNB Praha), výkon R0, histol: B3132 High grade serózní karcinom s postižením omenta, parakolického prostoru vpravo, parakolického prostoru vlevo, serózy apendixu, peritonea pánve a oboustranných adnex.  
+pTNM staging: ypT3, bez nálezu maligních struktur v resekátu prsu + SLN,
+10.8.2022 st.p. re-resekci tu ca mammae I. dx. GPK FNB, histol. G1 invazivní NST ca, pT1b
+
+Onkogynekologické konzilium 9.9.2026 
+Přítomni: prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák
+Doporučení: Pacientka pokračuje v terapii Abraxane 80 mg/m2 weekly + bevacizumab 10 mg/kg biweekly do progres či nekceptovatelné toxicity. V plánu je MRI rekta a endoskopie IV. IK plánuje resekce tumoru rekta, nebude-li hluboká invaze. Přerušení bevacizumabem je vhodné naplánovat podle timingu výkonu (4 týdny před výkonem). Informována dr. Emingrem. 
+
+<jméno>
+<číslo pojištěnce>
+<kód zdravotní pojišťovny>
+<adresa>
+<telefon>
+
+
+69 let, 165 cm, 92 kg, ECOG PS 0
+NO: pacientka odeslána s histologicky potvrzeným ca endometrii, zde provedena LAVH cum AE bilat., SLNB, PLN. Dále předána ke sledování v onkogynekologické ambulanci. Nyní si pacientka při vertikalizaci stěžuje na vyklenutí břišní stěny vpravo od pupku – mezi přímým a šikmým svalem břišním – kde dle UZ nelze vyloučit přítomnost kalcifikací a obsahu měkkých tkání v místě očekávané Spigeliánské hernice. Doplněno CT trupu.  
+
+Anamnéza: 
+OA: art. hypertenze, DM, dyslipidémie 
+Operace, úrazy: operace prsu – 1990, plastika močového měchýře 2003 - LPT sec Pfannestiel, laparoskopie žlučníku 2004, pravé rameno 2006, levé rameno 2016, gastroenteritida 10/2021 průjmovité on.  
+ 
+Stagingová vyšetření 
+CT hrudníku, břicha a pánve (4.9.2026): Bez známek generalisace, bez lymfadenopatie. St.p. HYE cum AE bilat., pro Ca endometrii.
+II. čtení (prof. Burgetová): V obl. pupku je kýlní branka šíře 15 mm, kýlní vak vel.20x15x17 mm směřuje lehce doprava od pupku, obsahuje břišní tuk.
+
+Onko UZ (prof. Fischerová, dne 18.8.2026): není známek recidivy nádoru. 
+
+Gynekologické vyšetření (dr. Germanová, dne 7.4.2026)
+subj.: cítí se celkem dobře, močení b.o., stolice b.o., nezvrací, v mezidobí u svého OG - vše v pořádku
+zevně: zevní rodidla bpn., sutury zhojeny, otoky DK nemá
+in spec.: poševní pahýl zhojen, hladký
+palp.: malá pánev bez hmatné rezistence, ale limitováno obezitou, třísla bez hmatné lymfadenopatie
+
+Dg.: Ca endometrii (endometroidní G2) pT1a pN0 (15+5sn/0) M0 FIGO IA L0 (I.dg. 9/2021)
+St.p. OP 18.10.2021 LAVH cum AE bilat, SLNB, PLN (studie TESLA)
+Histologie: Low risk group dobře a středně diferencovaný endometroidní adenokarcinom s invazí pod 50 % myometria, bez jednoznačné angioinvaze, bez infiltrace hrdla. Seróza dělohy bez nádorového postižení. Vyšetřeno 20 lymfatických uzlin vč. 5 sentinelových, zpracovaných dle protokolu bez nálezu metastáz. V děloze je drobný intramurální leiomyom a fokální adenomyóza.
+Klasifikace: pTa pN0 pMX (TNM) IA (FIGO)
+CHECK LIST:
+typ nádoru: endometroidní adenokarcinom, grading: G2
+velikost nádoru: 20 x 20 x 9 mm
+nejhlubši invaze / šíře myometria: 5/12
+lokalizace nejhlubší invaze: anterolaterálně vlevo
+vzdálenost tumoru od serózy: 6 mm
+invaze do hrdla (pouze epitel / stroma / hloubka stromální invaze / šíře hrdla): ne
+LVSI: ne
+lymfatické uzliny - celkový počet: 20, počet postižených / lokalizace: 0, porušení pouzdra: ano 
+st.p. biopsii (HSK+CP fract Litoměřice) 9/21 - G2 endometroidní adenoca
+
+st.p. LPT sec Pfannestiel - dle pac plastika MM pro inkontinenci v režii gynekologa 
+
+Onkogynekologické konzilium 9.9.2026 
+Přítomni: prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák
+Doporučení: Sledování v onkogynekologické ambulanci je ukončeno, pacientka je předána do péče registrujícího gynekologa. Řešení symptomatické pupeční kýly možné cestou spádového chirurgického pracoviště. Pacientka informována Dr. Malčákem, výsledek konsilia bude zaslán mailem.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<jméno>
+<číslo pojištěnce>
+<kód zdravotní pojišťovny>
+<adresa>
+<telefon>
+
+
+59 let, 172 cm, 163 kg, ECOG PS 1
+
+NO: pacientka původně hospitalizována na interně v Příbrami pro akutní ren. selhání, během hospitalizace zjištěna bil. hydronefroza (zavedeny bil. stenty) a odebrána biopsie z děl. hrdla, kde susp. HG serózní karcinom. 
+
+Anamnéza: 
+OA: DM, obezita, CHRI, hypertenze, psoriáza, anémie
+Operace, úrazy: zavedení ureter. stentů bil. 
+AA: na léky a dezinfekci neguje
+GA: partus 2x spont., PM: cca v 52 letech
+
+Stagingová vyšetření 
+CT hrudníku, břicha a pánve (4.9.2026): Anamnesticky HG serozní karcinom hrdla děložního. Krček děložní zvětšen. Nález pokročilý, intimní vztah k moč. měchýři, rektosigmatu. V L obturatorní fosse patol. infiltrát. Susp. uzliny bilat. při vnějších ilických svazcích Uzliny v retroperitoneu spíše reaktivní, bilat. akutní nefropatie. Ureterální stent vpravo dosahuje pouze do subrenálního močovodu.
+
+Gynekologické vyšetření (prof. Sláma, dne 19.8.2026)
+břicho pendulující, monstr. obézní, klidné, měkké, nebolestivé, bez známek peritoneálního dráždění; zevně: zevní rodidla bez patologie
+spec: pochva klidná, hojně purulent. fluoru, vrchol. pochvy končí ulcer. defektem s nekrózou, nekrvácí
+palp: hmatný obrovský defekt ve vrcholu pochvy, navazující na tuhý infiltrát dosahující pán. stěn, kran. nelze pro obezitu vymezit
+
+Onko UZ (prof. Fischerová, dne 19.8.2026): dle UZ infiltrace hrdla a těla děložního s postižením parametrií, serozy dělohy, karcinomatosou v pánvi, povrchu rektosigmoidea a stěny močového měchýře vč. ureterů, v pánvi kompletní nádorová frozen pelvis, ureterální steny in situ, hydronefróza není, ascites není, játra orientačně se steatosou, pancreas s fibrolipomatosou, retroperitoneum a detailnější intraabdominální vyšetření není technicky možné, uzliny v tříslech negativní, výška 172 cm / váha 163 kg
+
+Dg.: HG serózní ca uteri FIGO IIIB2/IIIC1 (I.dg. 8/2026)
+St.p. biopsii, Nem. Příbram
+Histologie: HGSC
+
+St.p. inserci stentů bilat.
+
+Onkogynekologické konzilium 9.9.2026 
+Přítomni: prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák
+Doporučení: Pacientka zahájí CHT v režimu PTX/CBDCA +/- pembrolizumab (all comers). Bude doplněno testování POLE, MMR, ER, p53 (žádanku odešle p.as. Drahovzalová). Není kandidátkou pro klinickou studii vzhledem k polymorbiditě. Po 3 cyklech restaging – onkoUZ + CT. Venózní port, vstupní zásoby Fe, CA 125. Pacientka bude s aktuálním krevními odběry pozvána ke konzultaci k naplánování dalšího managementu (režim CHT a místo aplikace) – 11.9.2026 14.00. Informována dr. Emingrem. 
+
+Lánská Jaroslava 
+5551021696
+111
+Horní Rokytnice 552, Rokytnice nad Jizerou 1, 512 44
+tel. +420 737 836 785
+
+71 let, 167 cm, 82 kg, ECOG PS 0
+NO: Pacientka přichází pro pánevní recidivu ca endometria dle MRI. V 12/2021 TLH cum AE bilat. pro G2 endometroidní adenokarcinom endometria. Recidiva biopticky verifikována, provedeno testování MMR statusu – proficientní, takže nebylo možné nabídnout pacientce vstup do studie ENGOT-en15. Pacientka dokončila CHT v režimu PTX/CBDCA 6x s dobrou tolerancí. Byl jí nabídnut vstup do studie XPORTEC – maintenance terapie salinexorem – screening failure. Zahájila maintenance terapii Proverou. Ukončena pro oligometastatickou progresi – k sekundárnímu debulkingu v pánvi. Pacientka po operačním výkonu. Dle vyšetření velmi časná progrese onemocnění – zahájena terapie pembrolizumab + lenvatinib. Nyní pacientka hospitalizována pro zhoršení stavu. Dle kontrolního CT výrazná progrese onemocnění.    
+
+Anamnéza:
+onko RA - matka ca prsu, otec on. uzlin, další členové rodiny s malignitou  
+OA: vážněji nestonala, hypertenze – sy. bílého pláště?
+Operace, úrazy: S.C. z DSL - 1979 
+
+Re-stagingová vyšetření:
+CT hrudníku, břicha a pánve (4.9.2026): výrazná progrese generalizace - v játrech, plicních hilech, na peritoneu, v podkoží, v pochvě, lymfadenopatie, ložiska ve skeletu, intramuskulárně, více v textu.
+
+MRI mozku (3.9.2026): Vpravo v oblasti centrum semiovale ložisko - v.s. prokrvácená meta. Bez dalších susp. ložisek. Bez známek encefalitidy.
+
+CT hrudníku, břicha a pánve (11.6.2026): II. čtení (prof. Burgetová): V porovnání s vyš. 12.3.2026 došlo ke zmenšení meta ložisek plic, karcinomatózy peritonea a lymfadenopatie vpravo parailicky. parc. regrese, uzliny v pravém plic. hilu a v jaterním hilu se mírně zvětšily, zřejmě na vrub centrální nekrózy
+
+CT hrudníku, břicha a pánve (12.3.2026): Nově vícečetné meta postižení plic a jater, ložiska pochvy a poševního pahýlu, progrese karcinózy peritonea.
+
+Onko UZ (prof. Fischerová, dne 21.1.2026): dle UZ centrální pánevní recidiva ve formě ohraničené uzlovité karcinomatosy do 32 mm bez infiltrace ureterů, měchýře a dolního rekta, z proximální části plazivě přechází a splývá s fokálním aviabilním reziduem karcinomatosy na sigmoideu (zde postižení svalové vrstvy v délce 10 mm)
+
+CT hrudníku, břicha a pánve (6.1.2026): Recidiva ve vrcholu pahýlu poševního ve stř. čáře.
+
+transaminázy: AST 0,54; ALP 2,28, GGT 1,84
+
+Dg.: Ca endometrii (endometroidní G2) pT1a (5/22 mm) Nx Mx, susp. L1 (I.dg. 8/2021)
+St.p. TLH cum AE bilat. (12/2021, Jilemnice) 
+Histologie: G2 endometroidní adenoca endometria se susp L1  
+
+St.p. CP fract 8/21 (Nem. Jilemnice) 
+Adjuvantní RT nepodána
+
+První recidiva (neohraničené ložisko v pánvi) dle MRI, I. dg. 5/2023, TFI 21 m, p53wt, MMRp, ER+, G3
+St.p. tru-cut biopsii (31.5.2023, GPK VFN)
+Histologie: V tru-cut biopsii karcinomatózy pánve karcinom, jehož morfologie a imunofenotyp odpovídají dříve extramurálně dg. endometroidnímu karcinomu (EC), v rozsahu možného posouzení G2. P53wt, ER 100 %, PR 60-70 %
+
+St.p. CHT v režimu PTX/CBDCA 6x (uk. 3.11.2023), dobrá tolerance
+
+St.p. maintanance terapii Proverou, ukončeno 12.1.2026 s PD
+
+St.p. reLPT, exstirpace recidivy 27.1.2026
+V klidné celkové anestezii, re DSL, viscerální obezita, mimo pánev bez nádoru, po adheziolýze v pánvi je karcinomatoza v adhezích formující tumor podrůstající do levých postranních parametrií, dorzálně za pochvou vlevo k L ureteru s přechodem na epiploiky rekta a jeho stěnu, bez hluboké infiltrace stěny rekta. Měchýř přitažen, ale není infiltrován. Mimo pánev bpn. R0 resekce - pozn. jednalo se se o plazivou karcinomatózu
+Histologie: V resekátech proximální pochvy a z povrchu rekta je recidiva dříve diagnostikovaného endometroidního karcinomu endometria, v aktuálním odběru grade 3. Kvůli fragmentaci materiálu se k úplnosti odstranění nelze vyjádřit. T81, TY44   M8380/3 G3
+
+IHC: Glandulární komponenta je CKAE1/3 +, CK8/18 +, PAX8 +, SOX17 +, ER + (100 %, středně silně až silně), PR -/+ (do 10 %, středně silně až silně), p40 -/+ (fokálně), p16 -/+ (místy disperzně), p53 wt.
+Solidní komponenta je CKAE1/3 +, CK8/18 +, PAX8 -, SOX17 -, ER -, PR -, p40 -/+ (fokálně), p16 -/+ (místy disperzně), p53 wt.
+Exprese vyšetřených MMR proteinů v nádorové tkáni je zachovaná. Pravděpodobnost nestability mikrosatelitů (MSI) je tedy nízká.
+
+Časná progrese onemocnění (plíce, játra)
+St.p. punch biopsii 5.3.2026
+Histologie: Punch biopsii z poševního pahýlu nález připouští recidivu karcinomu endometria grade 3. Předchozí vyšetření nádoru viz. B01935/26 a B10410/23 T81    M8380/3 G
+Pozn.: Morfologie a imunofenotyp odpovídá solidní komponentě nádoru
+
+T.č. systémová terapie pembrolizumab (7 cyklů, poslední 20.8.2026) + lenvatinib 20 mg/den,  neutropenii vysazen od 28.5.2026, 10 mg od 4.6.2026 do 9/2026 - PD dle MR mozku a CT trupu
+
+St.p. stereotaktické radiochirurgii (LGK) - NNH 7.9.2026 (solitární meta mozku)
+
+NGS a IHC:
+HER2/neu (certifikovaný kit Ventana HER2/neu, klon 4B5) negativní (skóre 0). 
+PD-L1 (clone 22C3)  Exprese PD-L1 zastižena v < 1 % nádorových buněk  (TPS=  0,85 %)
+Ve vzorku BYLY nalezeny pravděpodobně patogenní či patogenní varianty (class 4-5) v genech:
+PTEN, NM_000314.7:c.395G>A, p.(Gly132Asp), frekvence mutované alely 69 % (1076x).
+ARID1A, NM_006015.6:c.6754dup, p.(Thr2252fs), frekvence mutované alely 35 % (644x)
+ARID1A, NM_006015.6:c.5164C>T, p.(Arg1722Ter), frekvence mutované alely 34 % (658x)
+PIK3R1, NM_181523.3:c.1336_1377del, p.(Gly446_Lys459del), frekvence mutované alely 22 % (950x)
+TMB = 5 mut/Mb Analýza mikrosatelitové instability: mikrosatelitně stabilní (MSS) 
+Shrnutí - Potencionální cílená terapie - level of evidence dle OncoKB: 
+3B: PTEN mutace (Capivasertib + Fulvestrant; ca endometria)
+
+St.p. DSL S.C. 1979 
+
+Onkogynekologické konzilium 9.9.2026 
+Přítomni: prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák
+Doporučení: Vzhledem ke zhoršení klinického stavu a vzhledem k rapidní progresi onemocnění doporučujeme ukončit stávající systémovou onkologickou léčbu a dále jen BSC. Pacientka byla informována dr. Frühaufem a dr. Valentovou, proběhlo paliativní konsilium.
+
+<jméno>
+<číslo pojištěnce>
+<kód zdravotní pojišťovny>
+<adresa>
+<telefon>
+
+
+64 let, 167 cm, 70 kg, ECOG PS 0
+
+NO: pacientka přichází pro nález adnextumoru a pyometry na UZ u reg. gynekologa. 
+
+Anamnéza: 
+OA: chronické obtíže s moč. cestami
+Operace: AS pravého ramene 1/2024, operace katarakty 2022
+GA: odstranění myomů, umělé oplodnění neúspěšné 
+AA: alergie na léky neudává
+
+Stagingová vyšetření 
+Gynekologické vyšetření (dr. Dostálek, dne 5.8.2026)
+Spec.: vulva a pochva klidná, vyšetření bolestivé, hrdlo nevidím
+Palp.: děloha drobná, volná, krajina adnex bilat bpn.
+
+Onko UZ (prof. Fischerová, dne 5.8.2026): dle UZ tumor pravých adnex v rámci dif. dg. tubární ca (ale nižší perfuze, než obvykle) či LGOC (maligní transformace endometroidní cysty), zesílené velké omentum, současně pyometra dělohy a uterus myomatosus
+IOTA - BIOC (43011)
+
+Dg.: endometroidní karcinom (LG) pravého ovaria pT1a pN0 (55/0) cM0 FIGO IA (I.dg. 8/2026)
+St.p. Laparotomia med., Lavage, HA cum AE bilat., Adhesiolysis, PLN et PALN, Omentectomia totalis, Peritonectomia pelvis part 17.8.2026 
+Operační nález: Děloha norm. velikosti, uložená v AVF, adnexa vlevo norm. vzhledu, vpravo změněna v tubo-ovar. tumor v adhezích k pán. stěně, na peritoneu pravé pán. stěny drobné uzlíky, CD volný, hepar. hladký s ostrým okrajem, serózy GIT bpn, omentum v adhezích, st. p. apendect. 
+Nádorové reziduum - 0.
+Histologie: LG (G1-2) endometroidní karcinom pravého ovaria s fokální dlaždicobuněčnou diferenciací vzniklý v terénu atypické endometriózy a endometroidního border line tumoru ovaria, s převažujícím expanzivním typem invaze, méně často s invazí destruktivní, omezený na ovarium. Lymfovaskulární invazi v rozsahu vyšetření nenacházíme. V děložním těle vícečetné benigní leiomyomy. Endometrium prosté atrofické, bez atypií. V hrdle mírná až středně těžká chronická cervicitis, fokálně s formací cervikálního polypu. Obě děložní tuby a levé ovarium bez významnějších pozoruhodností.
+Omentum bez nádorových změn. V pánevní a paraaortální lymfadenektomii bylo celkem vyšetřeno 55 lymfatických uzlin, všechny bez nádorových změn. V excizích z pánevního peritonea zastiženy pouze chronické fibroproduktivní reparativní změny s disperzními stehovými granulomy po předchozích operačních výkonech. Další nález viz souběžně vyšetřovaná cytologie č. C02101/26 (negativní lavage).
+Souhrn:
+primární lokalita: pravé ovarium; typ nádoru: endometroidní karcinom ovaria
+grade: low grade - G1-2
+STIC: ne; peritoneální cytologie: negativní; LVSI: ne
+lymfatické uzliny: 55; počet postižených / lokalizace: 0
+omentum (pokud odebráno): 440 x 220 x až 15 mm; nepostiženo
+regrese (v omentu): NE; další metastázy: NE
+Cytologie: Reaktivní peritonitis, v krevním pozadí se smíšenou populací leukocytů. Buňky podezřelé z maligního nádorového původu nenacházíme. 
+
+Onkogynekologické konzilium 9.9.2026 
+Přítomni: prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák
+Doporučení: Pacientka je předána ke sledování do onkogynekologické ambulance, první kontrola za 3-4 měsíce. Bude doporučeno genetické testování germinálních mutací. Testování somatických prediktorů nyní neindikujeme, maintenance terapii nezvažujeme v časném stadiu FIGO IA. Pacientka informována Dr. Malčákem. Objednána kontrola na ambulanci na 19.11.2026. Výsledek konzilia bude zaslán mailem (p.as. Drahovzalová). Kontakt na genetickou ambulanci - 601 557 177 – bude předán mailem a pacientka se telefonicky objedná, byla poučená. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<jméno>
+<číslo pojištěnce>
+<kód zdravotní pojišťovny>
+<adresa>
+<telefon>
+
+
+52 let, 168 cm, 86 kg, ECOG PS 0
+
+NO: pacientka vyšetřena v Kadani pro intermit. bolesti v podbřišku, odeslána k nám. 
+
+Anamnéza: 
+RA: otec matky ca plic
+OA: hypercholesterolemie, anam. oprese na hrudi – negat. Nález na ECHO, bursitis kyčlí bilat. chron., cystosa ledvin
+Operace, úrazy: fraktura P ruky, adenektomie, 2x SC, excize perianální píštěle 1/2022 + absces v jizvě
+AA: pyl, Biseptol – exantém
+GA: PM: 2/2026 – ale v průběhu roku ještě nepravidelné špinění, gestace: 2x SC, 1x MAB s RCUI, IUD Mirena od 2020 – ex 3/2026
+
+Stagingová vyšetření 
+CT hrudníku, břicha a pánve (5.8.2026): expanze pravostranného ovaria, děloha zvětšená. Bez známek generalizace. Denzní okrsek v levém prsu - k dovyšetření v mamocentru. Ložiska jater - nejspíše hemangiomy (event. ke korelaci s US).
+
+Onko UZ (prof. Fischerová, dne 4.8.2026): dle UZ solidní nodulární tumor pravého ovaria s mnohočetnými cystičkami (uvnitř léze viditelné nádorové nodularity s cirkulární a bohatou neuspořádanou perfuzí), dle vzhledu v.s. nádor z ovariálního zároděčného stromatu (adultní GCT anebo Sertoli-Leydig), nelze ani vyloučit clear cell ca apod., bez porušení pouzdra a známek extraovariální diseminace, léze levého laloku jater (v.s. hemangiom)
+
+CA 125: 04/08/26 12,9
+
+Dg.: adultní granulosa cell tumor pT1a cN0 cM0 FIGO IA (I.dg. 8/2026)
+St.p. LPSK - lavage, AE bilat., endobag 21.8.2026
+Situs inventus: děloha RVF, nezvětšená, volná, adnexa vlevo bpn., adnexa vpravo s cca 5-6 cm cystou, CD volný, omentum bpn. Provedena laváž pánve, ad cytol. Adnexa bilat. extrahována v endobagu po rozšíření 10 mm pracovního portu ad histol.
+Histologie: V pravém ováriu adultní nádor z buněk granulózy (AGCT), bez nekróz, bez lymfovaskulární invaze. Ovárium bylo dodané potrhané, k úplnosti odstranění nádoru ani k jeho původní celistvosti se nelze spolehlivě vyjádřit. Současně vyšetřovaná cytologie laváže pánve (C 2134/26), ve které jednoznačné nádorové struktury nenacházíme.
+T87 M8620/3 dle TNM 2017 pT1c1 nebo pT1c2 (nutno korelovat s peroperačním nálezem) pNX
+Dle operačního protokolu a předoperačního zobrazení kapsula intaktní.
+
+Onkogynekologické konzilium 9.9.2026 
+Přítomni: prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák
+Doporučení: Pacientka je předána ke sledování do onkogynekologické ambulance ke sledování, první kontrola za 3-4 měsíce. Kontrolní UZ při příští kontrole (děloha ponechána bez biopsie endometria). Prosím doplnit MMG/UZ prsou (viz CT záznam)-již objednána. Informována dr. Emingrem. Odeslat emailem závěr. 
+
+Kvasničková Jitka
+5857261036
+111
+Filipova 2015/4, Praha 414, 148 00
+tel. +420 725 547 912
+
+68 let, 164 cm, 73 kg, PS 0
+
+NO: pacientka vyšetřena expertním UZ pro náhodný nález ovariální cysty na MRI pro bolesti zad. Provedena LPSK. Nyní po operace konzilium s výsledky histologie.  
+
+Anamnéza:
+GA: PM: v 50 letech, porod: 2x spont., 1x GEU ale operace nebyla 
+
+Stagingová vyšetření:
+MRI pánve (24.8.2026): Malé ložisko vyrůstající ze spodiny močového měchýře intraluminálně k cystoskopickému dovyšetření., polyp? leiomyom? spíše benigního vzhledu - k cystoskopickému dovyšetření.
+
+Gynekologické vyšetření (doc. Kocián, dne 12.8.2026)
+melanoplakie pravého labia, ins pec hrdlo bpn, palpačně děloha volná, adnex tumor volný
+
+Onko UZ (prof. Fischerová, dne 28.7.2026): dle UZ v levém ovarium multilokulární cystický útvar s nerovnými septy (59 mm) - pohyblivý v.s. cystadenom (přechod do LGOC nelze vyloučit), v pravém ovarium v.s. simplexní cysta, bolesti v podbřišku poslední měsíc, v.s. protruze ploténky v oblasti lumb. páteře s iradiací, asymptomatická drobná umbilikální hernie, v.s. unilokulární cysta s hustším obsahem ventrálně ve stěně baze močového měchýře (nejedná se o divertikl – po vymočení beze změny). 
+ 
+MRI pánve (3.6.2026, Poliklinika Chodov): II. čtení (dr. Wagnerová): cystická leze na bazi moč. měchýře, z jedné koronární rovině se k tomu nelze vyjádřit, plus má septovaný cystoid L ováriia, vhodné dovyšteřit malou pánev. MR je dělané na LS páteř
+
+Ca 125: 18,6 (28.7.2026)
+
+Dg.: serózní cystadenom/cystadenofibrom ovarii bilat. Ca 125 18,6
+St.p. LPSK dg, adnexectomia bilateralis, lavage, endobag 21.8.2026
+Nález: děloha v AVF norm. vel., ovarium vlevo-multilokulární cysta s hladkými okraji velikosti 6 cm, vpravo ovarium bpn s hladkou cystou 2 cm, obě volné,obě exkavace volné. M.pánev Volná. Oblast caeka klidná. Játra a celé subfrenium orient. bpn 
+Po zavedení pomoc. portů lavage mat ad cyto, adnexektomie vpravo i vlevo, mat ad endobag, EX levým portem. 
+Histologie: V pravém ovariu je multilokulární benigní serózní cyst adenom a v levém ovariu je multilokulární benigní serózní cystadenofibrom. V obou děložních tubách histologický nález přiměřený věku. 
+Cytologie: negativní laváž 
+
+Onkogynekologické konzilium 9.9.2026 
+Přítomni: prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák
+Doporučení: Pacientka je předána do péče registrujícího gynekologa. Doporučujeme doplnit cystoskopii cestou Urologické kliniky VFN (viz nález na MRI a UZ). Pacientka informována Dr. Malčákem - dostaví se 10.09.2026 na odd onkogyn. Bude vydána žádanka K na urologické vyšetření.
+
+<jméno>
+<číslo pojištěnce>
+<kód zdravotní pojišťovny>
+<adresa>
+<telefon>
+
+
+60 let, 168 cm, 68 kg, ECOG PS 0
+
+NO: pacientka 60 let, ARO zdravotní sestra, léčena pro nádor prsu od roku 2022 - invazivní duktální ca, grade 2, parciální resekce a SLN vpravo (09/2022), adjuvantní RT stěny (11-12/2022), od 10/2022 TMX (ER 100 %, PR 80 %), genetika neprovedena. V rámci gynekologické kontroly záchyt vyššího endometria - dle histologie (HSK, 07.08.2026) - ze zadní stěny a pravého rohu široce nasedající polyp 10x5 mm nesuspektní - dle histologie - středně diferencovaný endometroidní adenokarcinom.
+
+Anamnéza: 
+OA: art. hypertenze, hypofunkce thyroidey, depresivní porucha
+Operace: APPE z LPT, dg. LSK
+
+Stagingová vyšetření 
+Onko UZ (prof. Fischerová, dne 19.8.2026): dle UZ tumor endometria při TMX léčbě s výběžky endometria se známkami nádorových změn v terénu v.s. adenomyozy do přilehlého myometria - na zadní stěně pod 50 % na přední stěně na hranici 50 %, hodnoceno jako T1b N0 M0, nádor má charakteristiky LR EC (v.s. v terénu adenomyozy).
+
+Gynekologické vyšetření (doc. Kocián, dne 19.8.2026)
+vulva bpn,m in spec hrdlo bpn, palpačně děloha v RVF, břicho měkké, nebolestivé, LPT po APE zhojena
+
+Dg.: ca endometria (endometroidní G2) pT1a pN0 (2sn/0) cM0 FIGO IA (I.dg. 8/2026)
+St.p. HSK 7.8.2026
+Histologie: G2 endometroidní karcinom
+
+St.p. TLH cum AE bilat., SLNB (ICG) 24.8.2026
+LSK - in situ: děloha v RVF, adenxa bpn. Otevírám retroperitoneum bilat., bilat. detekovány SLN, v interilické bifurkaci. Exstirpovány. Dále přerušeny infundibulopelvická lig. bilat., lig. teres uteri. Otevřena a plika MM a MM sesunut pod hranici kolpotomie. Vypreparováno přední a zadní okno uterinních svazků na kloboku. Koagulace a přerušení uterinních svazků. Kolpotomie monopolární kličkou. Preparát dělohy a adnex odstraněn vaginálně. 
+Histologie: V endometriu a v části polypu korporálního endometria jsou fokálně struktury endometroidní intraepiteliální neoplazie (EIN) a suspektně i invazivní endometroidní karcinom. Hodnocení je ovšem výrazně limitované autolýzou, grade nelze stanovit. Předchozí diagnostická biopsie nebyla provedena na našem pracovišti. Sentinelové lymfatické uzliny jsou bez metastáz. Adenomyomy a leiomyomy myometria (leiomyomy obvyklého typu).
+T84  M8380/3  M8380/2   pT1a N0(sn)  M88900
+CHECK LIST:
+typ nádoru: endometroidní karcinom, grading: nelze
+velikost nádoru: největší rozměr 2, 3 mm
+nejhlubši invaze / šíře myometria: tumor zastižen pouze v polypu
+invaze do hrdla (pouze epitel / stroma / hloubka stromální invaze / šíře hrdla): ne
+MELF: nepřítomno (omezene hodnotitelné)
+LVSI nepřítomná
+lymfatické uzliny - celkový počet: 2 SNL levá/pravá, bez metastáz
+
+Ca mammae l.dx. NST G2, in situ komp., G1-2, pT1b duplex (10x8,5 mm) pN0 (3/0) sn, G2
+St.p. tumorektomii, SLNB
+St.p. RT
+TMX od 10/2022
+
+Onkogynekologické konzilium 9.9.2026 
+Přítomni: prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák
+Doporučení: Pacientku předáváme ke sledování do onkogynekologické ambulance, první kontrola za 3-4 měsíce. Prosíme doplnit testování MSI z HSK (extramurálně provedeno). Informována dr. Emingrem. 
+
+<jméno>
+<číslo pojištěnce>
+<kód zdravotní pojišťovny>
+<adresa>
+<telefon>
+
+
+36 let, 168 cm, 85 kg, ECOG PS 0
+
+NO: pacientka s endometroidním karcinomem přichází ke zvážení fertilitu záchovného postupu. 
+
+Anamnéza:
+OA: epilepsie
+Operace: 0
+AA: na léky a dezinfekci neguje
+GA: nuligravida 
+
+Stagingová vyšetření 
+CT hrudníku, břicha a pánve (18.8.2026): Známý tumor endometria bez známek generalizace v CT obraze.
+
+Onko UZ (dr. Frühauf, dne 5.8.2026): Dle UZ objemný tumor vyplňující děložní dutinu rostoucí z přední stěny, jedná se o polypovitou lézi s invazí do myometria - T1a (pod 50 %), dle sonomorfologie a perfúze (CS 4) je suspekce na high grade EC, není známek lymfadenopatie v pánvi a dutině břišní
+
+Dg.: ca endometrii (endometroidní G3) pT1a pN0 (5sn/0) cM0 FIGO IA ER 80%, p53wt (I.dg. 8/2026)
+St.p. HSK 11.8.2026
+Histologie: Nález hodnotíme jako endometroidní adenokarcinom grade 2-3. T84, M8380/3 G2-3
+
+St.p. TLH cum SE bilat. + SLND bilat. (ICG) 24.8.2026
+In situ: špatně mobilní děloha rvf, povrchově ložiska perit. ETRS. Ovária bilat. volná, nezvětšená, též tuby volné a bpn. Obě exkavace volné. M. pánev difúzně peritoneální ETRS. Oblast caeka a sigmoidea klidná bez známek zánětu. Játra a celé subfrenium orient. bpn. 
+Histologie: Typ nádoru: endometroidní karcinom, grading: G3
+Velikost nádoru: KK 35 x AP 15 x LL 30 mm
+nejhlubší invaze měřená v 3H+I: 4 mm / šíře myometria: 18 mm
+lokalizace nejhlubší invaze: fundus, ventrálně 
+vzdálenost tumoru od serózy: 14 mm
+invaze do hrdla: neprokazujeme
+MELF: nebyl pozorován, LVSI nepřítomná
+lymfatické uzliny - celkový počet: 5 SLN / počet postižených 0
+Závěr zkrácený: Endometroidní karcinom grade 3 omezen na tělo děložní, s infiltrací pouze v úrovni vnitřní poloviny myometria, všech 5 sentinelových uzlin negativních.
+T 82 M 8380/3   UICC TNM 8. edice pT1a
+
+Onkogynekologické konzilium 9.9.2026 
+Přítomni: prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák
+Doporučení: Bude doplněno testování somatických prediktorů MSI a POLE (žádanku odešle p.as. Drahovzalová). Genetické testování germinálních mutací je indikováno nezávisle na výsledku. Pacientka je předána ke sledování do onkogynekologické ambulance, první kontrola za 3-4 měsíce, dále včetně onkoUZ (preservována ovaria). Konzultace v CAR VFN ke zvážení kryopreservace. Pacientka bude informována dr. Frühaufem.
+<jméno>
+<číslo pojištěnce>
+<kód zdravotní pojišťovny>
+<adresa>
+<telefon>
+
+
+53 let, 162 cm, 73 kg, ECOG PS 0
+
+NO: pacientka přichází po konizaci s nálezem spinocel. ca cervixu – strom. invaze 6 mm, ale s dosahem do okraje, bez LVSI. 
+
+Anamnéza: 
+OA: vážněji nestonala
+Operace: konizace, LPSK dg.
+AA: na léky a dezinfekci neguje
+GA: partus 4x spont.
+
+Stagingová vyšetření 
+Gynekologické vyšetření (prof. Sláma, dne 19.8.2026)
+břicho klidné, měkké, nebolestivé, bez známek peritoneálního dráždění; zevně: zevní rodidla bez patologie
+spec: pochva klidná, bez fluoru, čípek s klidným pokoniz. defektem bez zjevného rezidua nádoru, nekrvácí
+palp: hrdlo přiměř. velikosti, děloha v AVF, nezvětšená, tuhá, volná, taxe nebolestivá, parametria volná, adnexa nehmatná, Douglas volný
+
+Onko UZ (prof. Fischerová, dne 19.8.2026): dle UZ děloha normální velikosti, hrdla zkráceno po konizaci bez viditelných známek perzistujícího nádoru, v pravé interilické bifurkaci zcela nesuspektní normální uzlina LN1, vlevo v obturatorní fosse je přítomna uzlina, která vykazuje známky reaktivní uzliny až suspektní (zatím hodnocena jako inconclusive probably benign, LN3)
+
+Dg.: ca colli uteri (spino) pT1b2 pN0 (3sn/0) cM0 FIGO IB2 (I.dg. 8/2026)
+St.p. LAVH + AE bilat, SLNB 25.8.2026
+Děloha v AVF, oboje adnexa bpn., orgány dutiny břišní bez zjevné patologie. 
+Zřízeny 3 další pracovní porty v obvyklých lokalizacích. Bilaterálně přerušena pomocí bipolární koagulace ligg. infundibulopelvica a nalezeny SLN v bilat v oblasti společných iliik - ad FS - negativní, dále postupováno kaudálně až přerušeno lig. teres uteri a podstřižena vesicouterinní plica. Děloha oddělena od lig. latum a postupováno po krocích po děložní hraně až k cervixu. Následuje vaginální část. Provedena cirkulární incize a proniknuto do dutiny břišní neprve pod vesicouterinní plikou a poté i v Douglasově prostoru. Po krocích ligována a přerušena ligg. scarouterina a děloha postupně uvolněna a extrahována. 
+Histologie: V děložním hrdle invazivní HPV-asociovaný dlaždicobuněčný karcinom, grade 2, velikosti 31 x 26 x 25 mm, s hloubkou invaze 24,8 mm a víceložiskovou lymfangioinvazí. Perineurální šíření v rozsahu vyšetření nepozorujeme. Nádorové struktury nezasahují do těla děložního ani poševní manžety a nedosahují do resekčních okrajů, dosahují však do těsné blízkosti parametrií vlevo ventrálně. Nejblíže je nádor vzdálen od levého laterálního resekčního okraje / fascie 1,44 mm.
+Současně vyšetřeny 3 sentinelové lymfatické uzliny v biopsii B16254/26, bez nádorových metastáz (0/3). V endometriu ložiskově hyperplazie bez atypií. Obě tuby a ovaria bez nádorového postižení.
+T83   M8085/3   pT1b2   pN0 (0/3 sn) 
+STRUKTUROVANÝ ZÁVĚR:
+typ nádoru, grade: HPV-asociovaný dlaždicobuněčný karcinom, grade 2
+velikost hrdla: délka 37 mm, čípek 41 × 36 mm
+velikost nádoru: 31 x 26 x 25 mm, hloubka invaze: 24,8 mm
+postižení hrdla: 50 - 75 %
+vzdálenost od fascie / resekčního okraje:
+    přední (ventrálně): 2,76 mm 
+    zadní (dorzálně): 6,1 mm 
+    postranní vlevo: 1,44 mm 
+   postranní vpravo: 4,46 mm 
+šíření nádoru mimo hrdlo: NE
+    tělo děložní: bez nádorové infiltrace 
+    parametria: bez nádorové infiltrace 
+    poševní manžeta: bez nádorové infiltrace 
+postižení resekčních okrajů: NE, nejblíže levý laterální okraj / fascie 1,44 mm
+LVSI: ANO, víceložiskově
+perineurální šíření: NE
+lymfatické uzliny: celkový počet: 3, všechny SLN (B16254/26) 
+počet postižených / lokalizace: 0
+
+Onkogynekologické konzilium 9.9.2026 
+Přítomni: prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák
+Doporučení: Pacientka je indikována k adjuvantní kombinované RT (EBRT+BRT), dále sledování cestou onkogynekologické ambulance KGPN VFN. Nesplňuje inkluzní kritéria pro studii CERVANTES. Pacientka se dostaví 30.9.2026 v 9.20 na odd. brachyterapie, ÚRO, budova 6, dr. Votavová, tel.č. 266084241. Informována dr. Emingrem.

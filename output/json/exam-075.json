@@ -1,0 +1,12 @@
+{
+  "id": "EXAM-075",
+  "date": "2026-07-01T10:09:00",
+  "rawDate": "01.07.26",
+  "time": "10:09",
+  "sourceFile": "ai-stankova-amb.txt",
+  "sourceType": "amb",
+  "type": "Ambulantní nález",
+  "doctor": "Emingr Michal MUDr.",
+  "title": "Nález ze dne 01.07.26 10:09 Emingr Michal MUDr.:",
+  "content": "Nález ze dne 01.07.26 10:09 Emingr Michal MUDr.:                     \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku"
+}

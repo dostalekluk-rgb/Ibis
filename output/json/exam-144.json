@@ -1,0 +1,11 @@
+{
+  "id": "EXAM-144",
+  "date": "2026-09-02",
+  "rawDate": "02/09/26",
+  "sourceFile": "ai-stankova-hosp-04.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (02/09/26)",
+  "content": "Výsledky z 02/09/26: Minerály+Osmolalita: Na: 142, K: 3,3, Cl: 106,   Krevní \r\nobraz-perifer: Leu: 4,94, Ery: 3,67, HGB: 99, HCT: 0,323, MCV: 88,0, MCH:    \r\n27,0, MCHC: 307, RDW: 17,1, Plt: 281, MPV: 9,2, PCT: 0,260, PDW: 9,5,        \r\nDif.stroj. relativní: Ne: 69,1, Ly: 19,0, Mo: 8,9, Eo: 2,0, Ba: 0,2, Nezralé \r\ngranulocyty %: 0,8,   Dif.stroj. absolutní: Ne abs.: 3,41, Ly abs.: 0,94, Mo \r\nabs.: 0,44, Eo abs.: 0,10, Ba abs.: 0,01, Nezralé granulocyty abs.: 0,04,    \r\nOstatní hematologie-: Normoblasty strojově: 0,00, Normoblasty abs. strojově: \r\n0,00, NLR: 3,7,"
+}

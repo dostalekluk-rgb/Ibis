@@ -1,0 +1,10 @@
+{
+  "id": "EXAM-009",
+  "date": "2025-05-04",
+  "rawDate": "03.09.25",
+  "sourceFile": "ai-wolf-hosp-01.txt",
+  "sourceType": "hosp",
+  "type": "Vstupní dekurs / Anamnéza",
+  "title": "Vstupní status a anamnéza hospitalizace",
+  "content": "Všeobecná fakultní nemocnice v Praze                                       \nWolf Heike                          Č. poj.: 6560227091     Kód poj.:444  \nBydliště: Moravská 666/12, 586 01 Jihlava,tel. +420606777495               \nDat. nar.: 22.10.1965                                  Č. chor.: 004650/25\nDat. přij.: 04.05.25                                               GYN-ONKO\n===========================================================================\nCAVE:                                                                        \nAmoxicilin                                                                   \nPovrch těla (m2) =   1,82 ; BMI=  23,12 ; Výška= 174 ; Váha= 70 ;            \n\nDiagnózy:                                                                    \nZákladní diagnóza: C56   Zhoubný novotvar vaječníku                          \nHlavní operační diagnóza:                                                    \nC56   Zhoubný novotvar vaječníku"
+}

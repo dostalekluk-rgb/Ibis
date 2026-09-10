@@ -1,0 +1,12 @@
+{
+  "id": "EXAM-189",
+  "date": "2026-08-08",
+  "rawDate": "08.08.26",
+  "time": null,
+  "sourceFile": "ai-stankova-amb.txt",
+  "sourceType": "amb",
+  "type": "Ambulantní dokumentace",
+  "doctor": null,
+  "title": "------  Dokumentace ze dne 08.08.26 ---------:",
+  "content": "------  Dokumentace ze dne 08.08.26 ---------:                             \nMedikace:                                                                  \n  0122593 FENTALIS         25MCG/H TDR EMP 5            1 bal. :a 72 hod   \n  0180479 PANTOPRAZOLE ZEN 40MG TBL ENT 28 I            1 bal. 2x1"
+}

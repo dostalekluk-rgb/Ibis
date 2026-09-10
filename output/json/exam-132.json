@@ -1,0 +1,12 @@
+{
+  "id": "EXAM-132",
+  "date": "2026-08-14",
+  "rawDate": "14.08.26",
+  "time": null,
+  "sourceFile": "ai-stankova-amb.txt",
+  "sourceType": "amb",
+  "type": "Ambulantní dokumentace",
+  "doctor": null,
+  "title": "------  Dokumentace ze dne 14.08.26 ---------:",
+  "content": "------  Dokumentace ze dne 14.08.26 ---------:                             \nMedikace:                                                                  \n  0237596 KINITO           50MG TBL FLM 100(5X20)       1 bal. : jak užívá \n  0216736 METAMIZOL STADA  500MG TBL NOB 60             1 bal. : jak užívá \n  0201612 ZALDIAR          37,5MG/325MG TBL FLM 60X1    1 bal. : jak užívá"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "EXAM-023",
+  "date": "2025-07-23",
+  "rawDate": "23/07/25",
+  "sourceFile": "ai-wolf-lab.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (23/07/25)",
+  "content": "Výsledky z 23/07/25: \r\n  Texty hematologie: \r\n      Komentář:\r\nOvěření shody totožnosti pacienta na žádance a na zkumavce.\r\nKO - Měření opakováno !\r\n -\r\n  Krevní obraz-perifer: \r\n      Leu: 5,81 10^9/l\r\n      Ery: 4,46 10^12/l\r\n      HGB: 133 g/l\r\n      HCT: 0,398 1\r\n      MCV: 89,2 fl\r\n      MCH: 29,8 pg\r\n      MCHC: 334 g/l\r\n      RDW: 14,0 %\r\n      Plt: 245 10^9/l\r\n      MPV: 10,0 fl\r\n      PCT: 0,250 %\r\n      PDW: 10,3 fl\r\n  Dif.stroj. relativní: \r\n      Ne: 53,9 %\r\n      Ly: 33,4 %\r\n      Mo: 11,5 %\r\n      Eo: 0,5 %\r\n      Ba: 0,5 %\r\n      Nezralé granulocyty %: 0,2 %\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 3,13 10^9/l\r\n      Ly abs.: 1,94 10^9/l\r\n      Mo abs.: 0,67 10^9/l\r\n      Eo abs.: 0,03 10^9/l\r\n      Ba abs.: 0,03 10^9/l\r\n      Nezralé granulocyty abs.: 0,01 10^9/l\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00 %\r\n      Normoblasty abs. strojově: 0,00 10^9/l\r\n      NLR: 1,6 -"
+}

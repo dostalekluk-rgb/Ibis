@@ -1,0 +1,11 @@
+{
+  "id": "EXAM-170",
+  "date": "2026-07-16",
+  "rawDate": "16/07/26",
+  "sourceFile": "ai-stankova-lab.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (16/07/26)",
+  "content": "Výsledky z 16/07/26: \r\n  Minerály+Osmolalita: \r\n      Na: 136\r\n      K: 4,5\r\n      Cl: 95\r\n  Dusíkové metabolity: \r\n      Urea: 3,8\r\n      Kreat.: 59\r\n      Kys. moč.: 292\r\n  Jaterní testy: \r\n      Bilirubin: 2,4\r\n      ALT: 0,17\r\n      AST: 0,31\r\n      GGT: 2,47\r\n      ALP: 3,58\r\n      FIB-4 index: 0,67\r\n  Bílkoviny: \r\n      Albumin: 38,1\r\n      CB: 71,7\r\n  Moč chemicky: \r\n      pH: 5,5\r\n      Hustota: >1,030\r\n      Bílkovina orient.: 0,50\r\n      Glykosurie: norm\r\n      Ketolátky: neg\r\n      Bilirubin: neg\r\n      Urobilinogen: norm\r\n      Erytrocyty v moči: 150      ; „Nižší počet erythrocytů nalezených mikroskopicky, oproti stanovení testačním proužkem, může být způsobeno jejich rozpadem či přítomností myoglobinu v moči.``\r\n      Leuko: 500\r\n      Nitrity: pos\r\n  Moč - sediment: \r\n      Hlen: poz.\r\n      ERY: 77,0\r\n      LEUKO: 4122,0\r\n      Epit.pl: 13,0\r\n      Epit.k: 9,0\r\n      Válce hyal.: 4,0\r\n      Bakterie: pozitiv.\r\n      Poznámka: \r\nost. neg.\r\n\r\n  Krevní obraz-perifer: \r\n      Leu: 6,93\r\n      Ery: 3,58\r\n      HGB: 101\r\n      HCT: 0,326\r\n      MCV: 91,1\r\n      MCH: 28,2\r\n      MCHC: 310\r\n      RDW: 15,0\r\n      Plt: 549\r\n      MPV: 8,7\r\n      PCT: 0,480\r\n      PDW: 8,5\r\n  Dif.stroj. relativní: \r\n      Ne: 65,3\r\n      Ly: 19,6\r\n      Mo: 12,6\r\n      Eo: 0,4\r\n      Ba: 0,9\r\n      Nezralé granulocyty %: 1,2\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 4,53\r\n      Ly abs.: 1,36\r\n      Mo abs.: 0,87\r\n      Eo abs.: 0,03\r\n      Ba abs.: 0,06\r\n      Nezralé granulocyty abs.: 0,08\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 3,4"
+}

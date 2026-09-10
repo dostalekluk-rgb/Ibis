@@ -1,0 +1,11 @@
+{
+  "id": "EXAM-201",
+  "date": "2026-08-28",
+  "rawDate": "28/08/26",
+  "sourceFile": "ai-stankova-lab.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (28/08/26)",
+  "content": "Výsledky z 28/08/26: \r\n  Minerály+Osmolalita: \r\n      Na: 140\r\n      K: 3,9\r\n      Cl: 99\r\n  Dusíkové metabolity: \r\n      Urea: 6,3\r\n      Kreat.: 53\r\n      Kys. moč.: 394\r\n  Jaterní testy: \r\n      Bilirubin: 4,2\r\n      ALT: 0,12\r\n      AST: 0,26\r\n      ALP: 2,84\r\n      FIB-4 index: 0,73\r\n  Bílkoviny: \r\n      Albumin: 28,7\r\n      CB: 60,7\r\n      CRP: 148,3\r\n      Prealb.: 0,11\r\n  Krevní obraz-perifer: \r\n      Leu: 6,63\r\n      Ery: 3,46\r\n      HGB: 89\r\n      HCT: 0,307\r\n      MCV: 88,7\r\n      MCH: 25,7\r\n      MCHC: 290\r\n      RDW: 17,2\r\n      Plt: 500\r\n      MPV: 9,1\r\n      PCT: 0,450\r\n      PDW: 9,2\r\n  Dif.stroj. relativní: \r\n      Ne: 83,8\r\n      Ly: 9,2\r\n      Mo: 4,8\r\n      Eo: 0,8\r\n      Ba: 0,5\r\n      Nezralé granulocyty %: 0,9\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 5,56\r\n      Ly abs.: 0,61\r\n      Mo abs.: 0,32\r\n      Eo abs.: 0,05\r\n      Ba abs.: 0,03\r\n      Nezralé granulocyty abs.: 0,06\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 9,2"
+}

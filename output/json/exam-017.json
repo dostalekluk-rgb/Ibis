@@ -1,0 +1,11 @@
+{
+  "id": "EXAM-017",
+  "date": "2025-05-06",
+  "rawDate": "06/05/25",
+  "sourceFile": "ai-wolf-lab.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (06/05/25)",
+  "content": "Výsledky z 06/05/25: \r\n  Minerály+Osmolalita: \r\n      Na: 137 mmol/l\r\n      K: 4,0 mmol/l\r\n      Cl: 107 mmol/l\r\n  Diabetický profil: \r\n      Glykemie: 5,3 mmol/l\r\n  Krevní obraz-perifer: \r\n      Leu: 14,39 10^9/l\r\n      Ery: 3,11 10^12/l\r\n      HGB: 97 g/l\r\n      HCT: 0,290 1\r\n      MCV: 93,2 fl\r\n      MCH: 31,2 pg\r\n      MCHC: 334 g/l\r\n      RDW: 18,8 %\r\n      Plt: 133 10^9/l\r\n      MPV: 10,0 fl\r\n      PCT: 0,130 %\r\n      PDW: 10,6 fl\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00 %\r\n      Normoblasty abs. strojově: 0,00 10^9/l"
+}

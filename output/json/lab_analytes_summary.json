@@ -1,0 +1,5601 @@
+{
+  "byTest": {
+    "Závěr": {
+      "testName": "Závěr",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Není známek recidivy nádoru.",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Dop.": {
+      "testName": "Dop.",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Pacientka zahájí terapii Lynparzou dne 4.9.2025 - 11.00 na",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Péče o prsa",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Strana č.": {
+      "testName": "Strana č.",
+      "totalMeasurements": 25,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "37",
+          "numericValue": 37
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "38",
+          "numericValue": 38
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "39",
+          "numericValue": 39
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "40",
+          "numericValue": 40
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "41",
+          "numericValue": 41
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "42",
+          "numericValue": 42
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "43",
+          "numericValue": 43
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "44",
+          "numericValue": 44
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "45",
+          "numericValue": 45
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "46",
+          "numericValue": 46
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "47",
+          "numericValue": 47
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "48",
+          "numericValue": 48
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "49",
+          "numericValue": 49
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "50",
+          "numericValue": 50
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "51",
+          "numericValue": 51
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "52",
+          "numericValue": 52
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "53",
+          "numericValue": 53
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "54",
+          "numericValue": 54
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "55",
+          "numericValue": 55
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "56",
+          "numericValue": 56
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "57",
+          "numericValue": 57
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "58",
+          "numericValue": 58
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "59",
+          "numericValue": 59
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "60",
+          "numericValue": 60
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "61",
+          "numericValue": 61
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "[ANONYMIZOVÁNO] [ANONYMIZOVÁNO]                                Poj.": {
+      "testName": "[ANONYMIZOVÁNO] [ANONYMIZOVÁNO]                                Poj.",
+      "totalMeasurements": 24,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "444   Č. poj.:[ANON-RČ]",
+          "numericValue": 444
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Nález ze dne 13.08.25 16": {
+      "testName": "Nález ze dne 13.08.25 16",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "04 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 4
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "NO": {
+      "testName": "NO",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "při kontrole u gynekologa elevace Ca 15-3. Pacientka odeslána na CT a",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "při kontrole u gynekologa elevace Ca 15-3. Pacientka odeslána na CT a",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "pokračuje olaparib",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "pokračuje olaparib",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "olaparib jako maintenenace terapie",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "olaparib jako maintenenace terapie",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "OA": {
+      "testName": "OA",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "běžná dětská onemocnění",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "běžná dětská onemocnění",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "běžná dětská onemocnění",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "běžná dětská onemocnění",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "běžná dětská onemocnění",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "běžná dětská onemocnění",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "RA": {
+      "testName": "RA",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "matka otce ca gyn.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "matka otce ca gyn.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "matka otce ca gyn.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "matka otce ca gyn.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "matka otce ca gyn.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "matka otce ca gyn.",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "AA": {
+      "testName": "AA",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Amoxycilin",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Amoxycilin",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Amoxycilin",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Amoxycilin",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Amoxycilin",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Amoxycilin",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Operace": {
+      "testName": "Operace",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ca prsu – T2 N1 – segmentektomie, SLN, disekce axily – adjuv.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ca prsu – T2 N1 – segmentektomie, SLN, disekce axily – adjuv.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ca prsu – T2 N1 – segmentektomie, SLN, disekce axily – adjuv.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ca prsu – T2 N1 – segmentektomie, SLN, disekce axily – adjuv.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ca prsu – T2 N1 – segmentektomie, SLN, disekce axily – adjuv.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ca prsu – T2 N1 – segmentektomie, SLN, disekce axily – adjuv.",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Onko UZ (13.8.2025)": {
+      "testName": "Onko UZ (13.8.2025)",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Není známek persistence nádoru. Obraz kompletní",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Není známek persistence nádoru. Obraz kompletní",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Není známek persistence nádoru. Obraz kompletní",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Není známek persistence nádoru. Obraz kompletní",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Není známek persistence nádoru. Obraz kompletní",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Není známek persistence nádoru. Obraz kompletní",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Onko UZ (dr. Frühauf, dne 16.4.2025)": {
+      "testName": "Onko UZ (dr. Frühauf, dne 16.4.2025)",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Dle UZ \u000evýznamná regrese onemocnění",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Dle UZ \u000evýznamná regrese onemocnění",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Dle UZ \u000evýznamná regrese onemocnění",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Dle UZ \u000evýznamná regrese onemocnění",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Dle UZ \u000evýznamná regrese onemocnění",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Dle UZ \u000evýznamná regrese onemocnění",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Onko UZ (dr. Frühauf, dne 29.1.2025)": {
+      "testName": "Onko UZ (dr. Frühauf, dne 29.1.2025)",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Dle UZ v pánvi rozsáhlé postižení -",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Dle UZ v pánvi rozsáhlé postižení -",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Dle UZ v pánvi rozsáhlé postižení -",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Dle UZ v pánvi rozsáhlé postižení -",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Dle UZ v pánvi rozsáhlé postižení -",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Dle UZ v pánvi rozsáhlé postižení -",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "CT hrudníku a břicha (21.11.2024, Německo)": {
+      "testName": "CT hrudníku a břicha (21.11.2024, Německo)",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "II. čtení (prof. Burgetová):",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "II. čtení (prof. Burgetová):",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "II. čtení (prof. Burgetová):",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "II. čtení (prof. Burgetová):",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "II. čtení (prof. Burgetová):",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "II. čtení (prof. Burgetová):",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "CA 125": {
+      "testName": "CA 125",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "866.. 15/04/25 20,3; 13/08/25 7,1",
+          "numericValue": 866
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "866.. 15/04/25 20,3; 13/08/25 7,1",
+          "numericValue": 866
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "866.. 15/04/25 20,3; 13/08/25 7,1",
+          "numericValue": 866
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "866.. 15/04/25 20,3; 13/08/25 7,1",
+          "numericValue": 866
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "866.. 15/04/25 20,3; 13/08/25 7,1",
+          "numericValue": 866
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "866.. 15/04/25 20,3; 13/08/25 7,1",
+          "numericValue": 866
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Dg.": {
+      "testName": "Dg.",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "g/s BRCA 1 poz.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "g/s BRCA 1 poz.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "g/s BRCA 1 poz.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "g/s BRCA 1 poz.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "g/s BRCA 1 poz.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "g/s BRCA 1 poz.",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Histologie": {
+      "testName": "Histologie",
+      "totalMeasurements": 12,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "HGSC",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "High grade serózní karcinom s postižením obou ovarií a",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "HGSC",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "High grade serózní karcinom s postižením obou ovarií a",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "HGSC",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "High grade serózní karcinom s postižením obou ovarií a",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "HGSC",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "High grade serózní karcinom s postižením obou ovarií a",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "HGSC",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "High grade serózní karcinom s postižením obou ovarií a",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "HGSC",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "High grade serózní karcinom s postižením obou ovarií a",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "II. čtení (dr. Jakša)": {
+      "testName": "II. čtení (dr. Jakša)",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "High grade serózní karcinom (HGSC) původem z",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "High grade serózní karcinom (HGSC) původem z",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "High grade serózní karcinom (HGSC) původem z",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "High grade serózní karcinom (HGSC) původem z",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "High grade serózní karcinom (HGSC) původem z",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "High grade serózní karcinom (HGSC) původem z",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "In situ": {
+      "testName": "In situ",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "děloha normálního vzhledu, volná, adnexa bpn, v Douglasově",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "děloha normálního vzhledu, volná, adnexa bpn, v Douglasově",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "děloha normálního vzhledu, volná, adnexa bpn, v Douglasově",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "děloha normálního vzhledu, volná, adnexa bpn, v Douglasově",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "děloha normálního vzhledu, volná, adnexa bpn, v Douglasově",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "děloha normálního vzhledu, volná, adnexa bpn, v Douglasově",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Hodnoceni odpovídá po chemoterapií": {
+      "testName": "Hodnoceni odpovídá po chemoterapií",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "CRS2, zřetelné regresivní změny s",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "CRS2, zřetelné regresivní změny s",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "CRS2, zřetelné regresivní změny s",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "CRS2, zřetelné regresivní změny s",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "CRS2, zřetelné regresivní změny s",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "CRS2, zřetelné regresivní změny s",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Klasifikace": {
+      "testName": "Klasifikace",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ypT3c pNX pMX                 IIIC (FIGO)",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ypT3c pNX pMX                 IIIC (FIGO)",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ypT3c pNX pMX                 IIIC (FIGO)",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ypT3c pNX pMX                 IIIC (FIGO)",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ypT3c pNX pMX                 IIIC (FIGO)",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ypT3c pNX pMX                 IIIC (FIGO)",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Pozn.": {
+      "testName": "Pozn.",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Náhodným nálezem v hrdle krátké úseky bazofilnějšího epitelu, kde v",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Náhodným nálezem v hrdle krátké úseky bazofilnějšího epitelu, kde v",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Náhodným nálezem v hrdle krátké úseky bazofilnějšího epitelu, kde v",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Náhodným nálezem v hrdle krátké úseky bazofilnějšího epitelu, kde v",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Náhodným nálezem v hrdle krátké úseky bazofilnějšího epitelu, kde v",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Náhodným nálezem v hrdle krátké úseky bazofilnějšího epitelu, kde v",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "primární lokalita": {
+      "testName": "primární lokalita",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ovarium",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ovarium",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ovarium",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ovarium",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ovarium",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ovarium",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "typ nádoru": {
+      "testName": "typ nádoru",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "serózní karcinom",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "serózní karcinom",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "serózní karcinom",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "serózní karcinom",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "serózní karcinom",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "serózní karcinom",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "grade": {
+      "testName": "grade",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "high grade",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "high grade",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "high grade",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "high grade",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "high grade",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "high grade",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "STIC": {
+      "testName": "STIC",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ne",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ne",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ne",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ne",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ne",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ne",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "peritoneální cytologie": {
+      "testName": "peritoneální cytologie",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "nevyšetřeno",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "nevyšetřeno",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "nevyšetřeno",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "nevyšetřeno",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "nevyšetřeno",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "nevyšetřeno",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "LVSI": {
+      "testName": "LVSI",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ano",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ano",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ano",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ano",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ano",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ano",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "lymfatické uzliny": {
+      "testName": "lymfatické uzliny",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "nevyšetřeny",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "nevyšetřeny",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "nevyšetřeny",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "nevyšetřeny",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "nevyšetřeny",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "nevyšetřeny",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "omentum": {
+      "testName": "omentum",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "velikost 300 x 115 x 5-20 mm, postiženo",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "velikost 300 x 115 x 5-20 mm, postiženo",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "velikost 300 x 115 x 5-20 mm, postiženo",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "velikost 300 x 115 x 5-20 mm, postiženo",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "velikost 300 x 115 x 5-20 mm, postiženo",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "velikost 300 x 115 x 5-20 mm, postiženo",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "regrese (v omentu)": {
+      "testName": "regrese (v omentu)",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ano",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ano",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ano",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ano",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ano",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "ano",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "další metastázy": {
+      "testName": "další metastázy",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "neznámé",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "neznámé",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "neznámé",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "neznámé",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "neznámé",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "neznámé",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Doplnění k závěru": {
+      "testName": "Doplnění k závěru",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "V hrdle děložním téměř cirkulárně high grade dysplazie",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "V hrdle děložním téměř cirkulárně high grade dysplazie",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "V hrdle děložním téměř cirkulárně high grade dysplazie",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "V hrdle děložním téměř cirkulárně high grade dysplazie",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "V hrdle děložním téměř cirkulárně high grade dysplazie",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "V hrdle děložním téměř cirkulárně high grade dysplazie",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Přítomni": {
+      "testName": "Přítomni",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "prof. MUDr. Sláma, Ph.D., prof. MUDr. Fischerová, Ph.D., MUDr.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "prof. MUDr. Sláma, Ph.D., prof. MUDr. Fischerová, Ph.D., MUDr.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "prof. MUDr. Sláma, Ph.D., prof. MUDr. Fischerová, Ph.D., MUDr.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "prof. MUDr. Sláma, Ph.D., prof. MUDr. Fischerová, Ph.D., MUDr.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "prof. MUDr. Sláma, Ph.D., prof. MUDr. Fischerová, Ph.D., MUDr.",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "prof. MUDr. Sláma, Ph.D., prof. MUDr. Fischerová, Ph.D., MUDr.",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Doporučení": {
+      "testName": "Doporučení",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Pacientka zahájí terapii olaparibem v dávce 300 mg 2xdenně do",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Pacientka zahájí terapii olaparibem v dávce 300 mg 2xdenně do",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Pacientka zahájí terapii olaparibem v dávce 300 mg 2xdenně do",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Pacientka zahájí terapii olaparibem v dávce 300 mg 2xdenně do",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Pacientka zahájí terapii olaparibem v dávce 300 mg 2xdenně do",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Pacientka zahájí terapii olaparibem v dávce 300 mg 2xdenně do",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Nález ze dne 04.09.25 12": {
+      "testName": "Nález ze dne 04.09.25 12",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "41 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 41
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Lab. výsledky": {
+      "testName": "Lab. výsledky",
+      "totalMeasurements": 5,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Leu: 6,15, Ery: 4,20, HGB: 133, HCT: 0,413, MCV: 98,2, MCH:",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "anemie grade 1",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "bez klinicky závažných odchylek",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "bez klinicky závažných odchylek, anemie grade 1",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Krevní obraz-perifer: Leu: 4,78, Ery: 3,52, HGB: 127, HCT:",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "31,6, MCHC": {
+      "testName": "31,6, MCHC",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "322, RDW: 17,6, Plt: 251, MPV: 9,2, Dif.stroj. relativní: Ne:",
+          "numericValue": 322
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "61,9, Ly": {
+      "testName": "61,9, Ly",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "26,0, Mo: 11,0, Eo: 0,8, Ba: 0,2, Nezralé granulocyty %: 0,0,",
+          "numericValue": 26
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Dif.stroj. absolutní": {
+      "testName": "Dif.stroj. absolutní",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Ne abs.: 3,81, Ly abs.: 1,60, Mo abs.: 0,68, Eo",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "abs.": {
+      "testName": "abs.",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "0,05, Ba abs.: 0,02, Nezralé granulocyty abs.: 0,00, Ostatní",
+          "numericValue": 0.05
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "1,31, Mo abs.: 0,69, Eo abs.: 0,06, Ba abs.: 0,03, Nezralé",
+          "numericValue": 1.31
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "0,00, Ostatní hematologie-: Normoblasty strojově: 0,00, Normoblasty",
+          "numericValue": 0
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "hematologie-": {
+      "testName": "hematologie-",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Normoblasty strojově: 0,00, Normoblasty abs. strojově: 0,00,",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "NLR": {
+      "testName": "NLR",
+      "totalMeasurements": 10,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "4,0 -",
+          "numericValue": 4
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "4,0 -",
+          "numericValue": 4
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "2,5 -",
+          "numericValue": 2.5
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "1,6 -",
+          "numericValue": 1.6
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "2,4",
+          "numericValue": 2.4
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "2,4 -",
+          "numericValue": 2.4
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "3,2 -",
+          "numericValue": 3.2
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "3,4 -",
+          "numericValue": 3.4
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "2,7 -",
+          "numericValue": 2.7
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "3,0 -",
+          "numericValue": 3
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "Ca 125": {
+      "testName": "Ca 125",
+      "totalMeasurements": 9,
+      "measurements": [
+        {
+          "date": "2025-04-15",
+          "rawDate": "15/04/25",
+          "value": "20,3 kIU/l",
+          "numericValue": 20.3
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "13/08/25 7,1 [0,0..35,0]",
+          "numericValue": 13
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "13/08/25 7,1 [0,0..35,0]",
+          "numericValue": 13
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "13/08/25 7,1 [0,0..35,0]...15/12/25 6,6",
+          "numericValue": 13
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "13/08/25 7,1; 15/12/25 6,6; 09/03/26 6,1",
+          "numericValue": 13
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "13/08/25 7,1; 15/12/25 6,6; 09/03/26 6,1",
+          "numericValue": 13
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "7,1 kIU/l",
+          "numericValue": 7.1
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "6,6 kIU/l",
+          "numericValue": 6.6
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "6,1 kIU/l",
+          "numericValue": 6.1
+        }
+      ],
+      "firstDate": "2025-04-15",
+      "lastDate": "2026-03-09"
+    },
+    "Terapie": {
+      "testName": "Terapie",
+      "totalMeasurements": 5,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "2 tbl. á 150 mg 2xdenně - bude užívat po snídani a po večeři",
+          "numericValue": 2
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "2 tbl. á 150 mg 2xdenně - bude užívat po snídani a po večeři",
+          "numericValue": 2
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "2 tbl. á 150 mg 2xdenně - bude užívat po snídani a po večeři",
+          "numericValue": 2
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "2 tbl. á 150 mg 2xdenně - bude užívat po snídani a po večeři",
+          "numericValue": 2
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "2 tbl. á 150 mg 2xdenně - bude užívat po snídani a po večeři",
+          "numericValue": 2
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "CAVE": {
+      "testName": "CAVE",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "řešení úhrady řešeno s paní ing. Licinberková",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "po dohodě s lékarnou VFN - nutno pro samoplátce vystavovat vždy",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "proběhly konzultace s pojišťovnou - nadále receptožádanky a nebude",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "proběhly konzultace s pojišťovnou - nadále receptožádanky a nebude",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "proběhly konzultace s pojišťovnou - nadále receptožádanky a nebude",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "proběhly konzultace s pojišťovnou - nadále receptožádanky a nebude",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "dodatek ze dne 04.09.25 12": {
+      "testName": "dodatek ze dne 04.09.25 12",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "37 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 37
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "38 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 38
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "42 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 42
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "ordinováno 04.09.2025 v 12": {
+      "testName": "ordinováno 04.09.2025 v 12",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "37 na 04.09.2025 12:37, Kníže Michal MUDr.",
+          "numericValue": 37
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "ordinováno STATIM 04.09.2025 v 12": {
+      "testName": "ordinováno STATIM 04.09.2025 v 12",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "38 na 04.09.2025 12:38, Kníže Michal",
+          "numericValue": 38
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Nález ze dne 04.09.25 16": {
+      "testName": "Nález ze dne 04.09.25 16",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "30 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 30
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Nález ze dne 02.10.25 11": {
+      "testName": "Nález ze dne 02.10.25 11",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "43 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 43
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Krevní obraz-perifer": {
+      "testName": "Krevní obraz-perifer",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Leu: 6,31, Ery: 3,62, HGB: 119, HCT: 0,348, MCV:",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "96,1, MCH": {
+      "testName": "96,1, MCH",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "32,9, MCHC: 342, RDW: 16,1, Plt: 252, MPV: 9,1, PCT: 0,230,",
+          "numericValue": 32.9
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "PDW": {
+      "testName": "PDW",
+      "totalMeasurements": 8,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "11,0 fl",
+          "numericValue": 11
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "10,6 fl",
+          "numericValue": 10.6
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "10,3 fl",
+          "numericValue": 10.3
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "10,3 fl",
+          "numericValue": 10.3
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "9,2, Dif.stroj. relativní: Ne: 66,6, Ly: 20,8, Mo: 10,9, Eo: 1,0, Ba:",
+          "numericValue": 9.2
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "9,2 fl",
+          "numericValue": 9.2
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "9,2 fl",
+          "numericValue": 9.2
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "10,2 fl",
+          "numericValue": 10.2
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-03-09"
+    },
+    "0,5, Nezralé granulocyty %": {
+      "testName": "0,5, Nezralé granulocyty %",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "0,2, Dif.stroj. absolutní: Ne abs.: 4,21, Ly",
+          "numericValue": 0.2
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "granulocyty abs.": {
+      "testName": "granulocyty abs.",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "0,01, Ostatní hematologie-: Normoblasty strojově: 0,20,",
+          "numericValue": 0.01
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Normoblasty abs. strojově": {
+      "testName": "Normoblasty abs. strojově",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,00 10^9/l",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "0,00 10^9/l",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "0,00 10^9/l",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "0,00 10^9/l",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "0,00 10^9/l",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "0,01, NLR: 3,2",
+          "numericValue": 0.01
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "0,00 10^9/l",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "0,01 10^9/l",
+          "numericValue": 0.01
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "0,02 10^9/l",
+          "numericValue": 0.02
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "0,00 10^9/l",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,00 10^9/l",
+          "numericValue": 0
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "dodatek ze dne 02.10.25 11": {
+      "testName": "dodatek ze dne 02.10.25 11",
+      "totalMeasurements": 7,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "39 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 39
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "40 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 40
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "40 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 40
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "40 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 40
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "43 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 43
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "44 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 44
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "46 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 46
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "ordinováno 02.10.2025 v 11": {
+      "testName": "ordinováno 02.10.2025 v 11",
+      "totalMeasurements": 4,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "39 na 02.10.2025 11:39, Fischerová Daniela",
+          "numericValue": 39
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "40 na 02.10.2025 11:40, Fischerová Daniela",
+          "numericValue": 40
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "40 na 02.10.2025 11:41, Fischerová Daniela",
+          "numericValue": 40
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "40 na 02.10.2025 11:43, Fischerová Daniela",
+          "numericValue": 40
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "ordinováno STATIM 02.10.2025 v 11": {
+      "testName": "ordinováno STATIM 02.10.2025 v 11",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "43 na 02.10.2025 11:46, Fischerová",
+          "numericValue": 43
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "44 na 02.10.2025 11:47, Fischerová",
+          "numericValue": 44
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Nález ze dne 15.12.25 12": {
+      "testName": "Nález ze dne 15.12.25 12",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "31 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 31
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Toxicita": {
+      "testName": "Toxicita",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "neguje",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "neguje",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "neguje",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "dodatek ze dne 15.12.25 12": {
+      "testName": "dodatek ze dne 15.12.25 12",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "31 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 31
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "31 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 31
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "ordinováno STATIM 15.12.2025 v 12": {
+      "testName": "ordinováno STATIM 15.12.2025 v 12",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "31 na 15.12.2025 12:31, Valentová Tereza",
+          "numericValue": 31
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "ordinováno 15.12.2025 v 12": {
+      "testName": "ordinováno 15.12.2025 v 12",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "31 na 15.12.2025 12:32, Valentová Tereza MUDr.",
+          "numericValue": 31
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Nález ze dne 09.03.26 11": {
+      "testName": "Nález ze dne 09.03.26 11",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "40 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 40
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Subj.": {
+      "testName": "Subj.",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "cítí se dobře, prodělala lehkou virózu, nyní občšasně ranní",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "cítí se dobře, prodělala lehkou virózu, nyní občasně ranní",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Obj.": {
+      "testName": "Obj.",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Hlava nebolestivá, zornice izokorické, bez  zarudnutí;  jazyk plazí",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Hlava nebolestivá, zornice izokorické, bez  zarudnutí;  jazyk plazí",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Bolest": {
+      "testName": "Bolest",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "t.č. neudává, cítí se dobře, nechlazená není, opar nemá, močení a",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "t.č. neudává, cítí se dobře, nechlazená není, opar nemá, močení a",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "MRI 12/2025": {
+      "testName": "MRI 12/2025",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Závěr: z MR hlediska bez známek malignity. Pooperační změny",
+          "numericValue": null
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Závěr: z MR hlediska bez známek malignity. Pooperační změny",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "dodatek ze dne 09.03.26 11": {
+      "testName": "dodatek ze dne 09.03.26 11",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "28 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 28
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "28 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 28
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "ordinováno 09.03.2026 v 11": {
+      "testName": "ordinováno 09.03.2026 v 11",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "28 na 09.03.2026 11:27, Frühauf Filip MUDr.",
+          "numericValue": 28
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "28 na 09.03.2026 11:28, Frühauf Filip MUDr.",
+          "numericValue": 28
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Nález ze dne 22.06.26 14": {
+      "testName": "Nález ze dne 22.06.26 14",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "56 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 56
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "0,374, MCV": {
+      "testName": "0,374, MCV",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "106,0, MCH: 36,2, MCHC: 340, RDW: 15,2, Plt: 221, MPV: 9,9,",
+          "numericValue": 106
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Dif.stroj. relativní": {
+      "testName": "Dif.stroj. relativní",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Ne: 66,1, Ly: 22,0, Mo: 10,4, Eo: 0,8, Ba: 0,7,",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Nezralé granulocyty %": {
+      "testName": "Nezralé granulocyty %",
+      "totalMeasurements": 10,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,3 %",
+          "numericValue": 0.3
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "0,0 %",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "0,3 %",
+          "numericValue": 0.3
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "0,2 %",
+          "numericValue": 0.2
+        },
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "0,0, Dif.stroj. absolutní: Ne abs.: 3,16, Ly abs.:",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "0,0 %",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "0,2 %",
+          "numericValue": 0.2
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "0,2 %",
+          "numericValue": 0.2
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "0,0 %",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,0 %",
+          "numericValue": 0
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "1,05, Mo abs.": {
+      "testName": "1,05, Mo abs.",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "0,50, Eo abs.: 0,04, Ba abs.: 0,03, Nezralé granulocyty",
+          "numericValue": 0.5
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "abs. strojově": {
+      "testName": "abs. strojově",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "0,00, NLR: 3,0",
+          "numericValue": 0
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "MMG 22/6/2026": {
+      "testName": "MMG 22/6/2026",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "NED",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "22/6/226 CEA": {
+      "testName": "22/6/226 CEA",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "<1,73, Ca19-9: 3,7, Ca 125: 5,8, CA 15-3: 18,7",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "dodatek ze dne 22.06.26 14": {
+      "testName": "dodatek ze dne 22.06.26 14",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "58 Frühauf Filip MUDr., Ph.D.:",
+          "numericValue": 58
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "ordinováno 22.06.2026 v 14": {
+      "testName": "ordinováno 22.06.2026 v 14",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "58 na 22.06.2026 14:58, Frühauf Filip MUDr.",
+          "numericValue": 58
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "od": {
+      "testName": "od",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "29.01.2025 do:",
+          "numericValue": 29.01
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "0215605HELICID                                CPS ETD 28 I     CPS": {
+      "testName": "0215605HELICID                                CPS ETD 28 I     CPS",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "1",
+          "numericValue": 1
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "0220737APREPITANT SANDOZ                      CPS DUR 1+2      CPS": {
+      "testName": "0220737APREPITANT SANDOZ                      CPS DUR 1+2      CPS",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "1",
+          "numericValue": 1
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "0238669PELGRAZ                                INJ SOL PFI 1X0, INJ": {
+      "testName": "0238669PELGRAZ                                INJ SOL PFI 1X0, INJ",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "inj.",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Zpracoval(a)": {
+      "testName": "Zpracoval(a)",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-08-13",
+          "rawDate": "13/08/25",
+          "value": "Vaněk František Ing.                          Dne:09.09.26",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-08-13",
+      "lastDate": "2025-08-13"
+    },
+    "Na": {
+      "testName": "Na",
+      "totalMeasurements": 4,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "136 mmol/l",
+          "numericValue": 136
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "145 mmol/l",
+          "numericValue": 145
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "137 mmol/l",
+          "numericValue": 137
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "137 mmol/l",
+          "numericValue": 137
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-12-15"
+    },
+    "K": {
+      "testName": "K",
+      "totalMeasurements": 4,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "4,8 mmol/l",
+          "numericValue": 4.8
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "4,5 mmol/l",
+          "numericValue": 4.5
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "4,0 mmol/l",
+          "numericValue": 4
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "4,0 mmol/l",
+          "numericValue": 4
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-12-15"
+    },
+    "Cl": {
+      "testName": "Cl",
+      "totalMeasurements": 4,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "95 mmol/l",
+          "numericValue": 95
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "105 mmol/l",
+          "numericValue": 105
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "107 mmol/l",
+          "numericValue": 107
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "103 mmol/l",
+          "numericValue": 103
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-12-15"
+    },
+    "Fe": {
+      "testName": "Fe",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "12,4 µmol/l",
+          "numericValue": 12.4
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-02-03"
+    },
+    "Fe-celk.vazeb.kap.": {
+      "testName": "Fe-celk.vazeb.kap.",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "55,0 µmol/l",
+          "numericValue": 55
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-02-03"
+    },
+    "Fe-saturace": {
+      "testName": "Fe-saturace",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,23 1",
+          "numericValue": 0.23
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-02-03"
+    },
+    "Urea": {
+      "testName": "Urea",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "3,5 mmol/l",
+          "numericValue": 3.5
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "4,1 mmol/l",
+          "numericValue": 4.1
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-12-15"
+    },
+    "Kreat.": {
+      "testName": "Kreat.",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "60 µmol/l",
+          "numericValue": 60
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "57 µmol/l",
+          "numericValue": 57
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "66 µmol/l",
+          "numericValue": 66
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-12-15"
+    },
+    "Bilirubin": {
+      "testName": "Bilirubin",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "7,1 µmol/l",
+          "numericValue": 7.1
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "4,4 µmol/l",
+          "numericValue": 4.4
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "10,5 µmol/l",
+          "numericValue": 10.5
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-12-15"
+    },
+    "ALT": {
+      "testName": "ALT",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,21 µkat/l",
+          "numericValue": 0.21
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "0,33 µkat/l",
+          "numericValue": 0.33
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "0,30 µkat/l",
+          "numericValue": 0.3
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-12-15"
+    },
+    "AST": {
+      "testName": "AST",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,37 µkat/l",
+          "numericValue": 0.37
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "0,37 µkat/l",
+          "numericValue": 0.37
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "0,47 µkat/l",
+          "numericValue": 0.47
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-12-15"
+    },
+    "GGT": {
+      "testName": "GGT",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,39 µkat/l",
+          "numericValue": 0.39
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "0,58 µkat/l",
+          "numericValue": 0.58
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "0,46 µkat/l",
+          "numericValue": 0.46
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-12-15"
+    },
+    "ALP": {
+      "testName": "ALP",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "1,63 µkat/l",
+          "numericValue": 1.63
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "1,51 µkat/l",
+          "numericValue": 1.51
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "1,24 µkat/l",
+          "numericValue": 1.24
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-12-15"
+    },
+    "FIB-4 index": {
+      "testName": "FIB-4 index",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,83 -",
+          "numericValue": 0.83
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "1,44      ; mírné riziko jaterní fibrózy -",
+          "numericValue": 1.44
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "1,82      ; mírné riziko jaterní fibrózy -",
+          "numericValue": 1.82
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-12-15"
+    },
+    "Albumin": {
+      "testName": "Albumin",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "47,5 g/l",
+          "numericValue": 47.5
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "45,2 g/l",
+          "numericValue": 45.2
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "43,5 g/l",
+          "numericValue": 43.5
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-12-15"
+    },
+    "CB": {
+      "testName": "CB",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "73,2 g/l",
+          "numericValue": 73.2
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "71,8 g/l",
+          "numericValue": 71.8
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "76,7 g/l",
+          "numericValue": 76.7
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-12-15"
+    },
+    "Ferritin": {
+      "testName": "Ferritin",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "118,9 µg/l",
+          "numericValue": 118.9
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-02-03"
+    },
+    "Leu": {
+      "testName": "Leu",
+      "totalMeasurements": 10,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "8,80 10^9/l",
+          "numericValue": 8.8
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "6,76 10^9/l",
+          "numericValue": 6.76
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "14,39 10^9/l",
+          "numericValue": 14.39
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "6,20 10^9/l",
+          "numericValue": 6.2
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "5,81 10^9/l",
+          "numericValue": 5.81
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "6,15 10^9/l",
+          "numericValue": 6.15
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "6,31 10^9/l",
+          "numericValue": 6.31
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "4,81 10^9/l",
+          "numericValue": 4.81
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "4,56 10^9/l",
+          "numericValue": 4.56
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "4,78 10^9/l",
+          "numericValue": 4.78
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "Ery": {
+      "testName": "Ery",
+      "totalMeasurements": 10,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "5,10 10^12/l",
+          "numericValue": 5.1
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "3,67 10^12/l",
+          "numericValue": 3.67
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "3,11 10^12/l",
+          "numericValue": 3.11
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "3,11 10^12/l",
+          "numericValue": 3.11
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "4,46 10^12/l",
+          "numericValue": 4.46
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "4,20 10^12/l",
+          "numericValue": 4.2
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "3,62 10^12/l",
+          "numericValue": 3.62
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "3,55 10^12/l",
+          "numericValue": 3.55
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "3,42 10^12/l",
+          "numericValue": 3.42
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "3,52 10^12/l",
+          "numericValue": 3.52
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "HGB": {
+      "testName": "HGB",
+      "totalMeasurements": 10,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "142 g/l",
+          "numericValue": 142
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "108 g/l",
+          "numericValue": 108
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "97 g/l",
+          "numericValue": 97
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "95 g/l",
+          "numericValue": 95
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "133 g/l",
+          "numericValue": 133
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "133 g/l",
+          "numericValue": 133
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "119 g/l",
+          "numericValue": 119
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "122 g/l",
+          "numericValue": 122
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "117 g/l",
+          "numericValue": 117
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "127 g/l",
+          "numericValue": 127
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "HCT": {
+      "testName": "HCT",
+      "totalMeasurements": 10,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,433 1",
+          "numericValue": 0.433
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "0,322 1",
+          "numericValue": 0.322
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "0,290 1",
+          "numericValue": 0.29
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "0,293 1",
+          "numericValue": 0.293
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "0,398 1",
+          "numericValue": 0.398
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "0,413 1",
+          "numericValue": 0.413
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "0,348 1",
+          "numericValue": 0.348
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "0,351 1",
+          "numericValue": 0.351
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "0,349 1",
+          "numericValue": 0.349
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,374 1",
+          "numericValue": 0.374
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "MCV": {
+      "testName": "MCV",
+      "totalMeasurements": 10,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "84,9 fl",
+          "numericValue": 84.9
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "87,7 fl",
+          "numericValue": 87.7
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "93,2 fl",
+          "numericValue": 93.2
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "94,2 fl",
+          "numericValue": 94.2
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "89,2 fl",
+          "numericValue": 89.2
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "98,2 fl",
+          "numericValue": 98.2
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "96,1 fl",
+          "numericValue": 96.1
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "98,9 fl",
+          "numericValue": 98.9
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "102,0 fl",
+          "numericValue": 102
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "106,0 fl",
+          "numericValue": 106
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "MCH": {
+      "testName": "MCH",
+      "totalMeasurements": 10,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "27,8 pg",
+          "numericValue": 27.8
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "29,6 pg",
+          "numericValue": 29.6
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "31,2 pg",
+          "numericValue": 31.2
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "30,5 pg",
+          "numericValue": 30.5
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "29,8 pg",
+          "numericValue": 29.8
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "31,6 pg",
+          "numericValue": 31.6
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "32,9 pg",
+          "numericValue": 32.9
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "34,4 pg",
+          "numericValue": 34.4
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "34,2 pg",
+          "numericValue": 34.2
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "36,2 pg",
+          "numericValue": 36.2
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "MCHC": {
+      "testName": "MCHC",
+      "totalMeasurements": 10,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "328 g/l",
+          "numericValue": 328
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "337 g/l",
+          "numericValue": 337
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "334 g/l",
+          "numericValue": 334
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "324 g/l",
+          "numericValue": 324
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "334 g/l",
+          "numericValue": 334
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "322 g/l",
+          "numericValue": 322
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "342 g/l",
+          "numericValue": 342
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "348 g/l",
+          "numericValue": 348
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "335 g/l",
+          "numericValue": 335
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "340 g/l",
+          "numericValue": 340
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "RDW": {
+      "testName": "RDW",
+      "totalMeasurements": 10,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "13,2 %",
+          "numericValue": 13.2
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "20,3 %",
+          "numericValue": 20.3
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "18,8 %",
+          "numericValue": 18.8
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "17,6 %",
+          "numericValue": 17.6
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "14,0 %",
+          "numericValue": 14
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "17,6 %",
+          "numericValue": 17.6
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "16,1 %",
+          "numericValue": 16.1
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "16,6 %",
+          "numericValue": 16.6
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "15,9 %",
+          "numericValue": 15.9
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "15,2 %",
+          "numericValue": 15.2
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "Plt": {
+      "testName": "Plt",
+      "totalMeasurements": 10,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "446 10^9/l",
+          "numericValue": 446
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "205 10^9/l",
+          "numericValue": 205
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "133 10^9/l",
+          "numericValue": 133
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "131 10^9/l",
+          "numericValue": 131
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "245 10^9/l",
+          "numericValue": 245
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "251 10^9/l",
+          "numericValue": 251
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "252 10^9/l",
+          "numericValue": 252
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "219 10^9/l",
+          "numericValue": 219
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "257 10^9/l",
+          "numericValue": 257
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "221 10^9/l",
+          "numericValue": 221
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "MPV": {
+      "testName": "MPV",
+      "totalMeasurements": 10,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "9,9 fl",
+          "numericValue": 9.9
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "9,4 fl",
+          "numericValue": 9.4
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "10,0 fl",
+          "numericValue": 10
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "9,8 fl",
+          "numericValue": 9.8
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "10,0 fl",
+          "numericValue": 10
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "9,2 fl",
+          "numericValue": 9.2
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "9,1 fl",
+          "numericValue": 9.1
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "9,7 fl",
+          "numericValue": 9.7
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "10,4 fl",
+          "numericValue": 10.4
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "9,9 fl",
+          "numericValue": 9.9
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "PCT": {
+      "testName": "PCT",
+      "totalMeasurements": 7,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,440 %",
+          "numericValue": 0.44
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "0,130 %",
+          "numericValue": 0.13
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "0,130 %",
+          "numericValue": 0.13
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "0,250 %",
+          "numericValue": 0.25
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "0,230 %",
+          "numericValue": 0.23
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "0,210 %",
+          "numericValue": 0.21
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "0,270 %",
+          "numericValue": 0.27
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-03-09"
+    },
+    "Ne": {
+      "testName": "Ne",
+      "totalMeasurements": 9,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "71,8 %",
+          "numericValue": 71.8
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "67,0 %",
+          "numericValue": 67
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "58,3 %",
+          "numericValue": 58.3
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "53,9 %",
+          "numericValue": 53.9
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "61,9 %",
+          "numericValue": 61.9
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "66,6 %",
+          "numericValue": 66.6
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "65,8 %",
+          "numericValue": 65.8
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "63,3 %",
+          "numericValue": 63.3
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "66,1 %",
+          "numericValue": 66.1
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "Ly": {
+      "testName": "Ly",
+      "totalMeasurements": 9,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "18,0 %",
+          "numericValue": 18
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "16,7 %",
+          "numericValue": 16.7
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "23,9 %",
+          "numericValue": 23.9
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "33,4 %",
+          "numericValue": 33.4
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "26,0 %",
+          "numericValue": 26
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "20,8 %",
+          "numericValue": 20.8
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "19,3 %",
+          "numericValue": 19.3
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "23,0 %",
+          "numericValue": 23
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "22,0 %",
+          "numericValue": 22
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "Mo": {
+      "testName": "Mo",
+      "totalMeasurements": 9,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "8,1 %",
+          "numericValue": 8.1
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "15,4 %",
+          "numericValue": 15.4
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "12,1 %",
+          "numericValue": 12.1
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "11,5 %",
+          "numericValue": 11.5
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "11,0 %",
+          "numericValue": 11
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "10,9 %",
+          "numericValue": 10.9
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "13,1 %",
+          "numericValue": 13.1
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "11,8 %",
+          "numericValue": 11.8
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "10,4 %",
+          "numericValue": 10.4
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "Eo": {
+      "testName": "Eo",
+      "totalMeasurements": 9,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "1,1 %",
+          "numericValue": 1.1
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "0,0 %",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "4,8 %",
+          "numericValue": 4.8
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "0,5 %",
+          "numericValue": 0.5
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "0,8 %",
+          "numericValue": 0.8
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "1,0 %",
+          "numericValue": 1
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "1,2 %",
+          "numericValue": 1.2
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "1,5 %",
+          "numericValue": 1.5
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,8 %",
+          "numericValue": 0.8
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "Ba": {
+      "testName": "Ba",
+      "totalMeasurements": 9,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,7 %",
+          "numericValue": 0.7
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "0,9 %",
+          "numericValue": 0.9
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "0,6 %",
+          "numericValue": 0.6
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "0,5 %",
+          "numericValue": 0.5
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "0,2 %",
+          "numericValue": 0.2
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "0,5 %",
+          "numericValue": 0.5
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "0,4 %",
+          "numericValue": 0.4
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "0,4 %",
+          "numericValue": 0.4
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,7 %",
+          "numericValue": 0.7
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "Ne abs.": {
+      "testName": "Ne abs.",
+      "totalMeasurements": 9,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "6,32 10^9/l",
+          "numericValue": 6.32
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "4,52 10^9/l",
+          "numericValue": 4.52
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "3,61 10^9/l",
+          "numericValue": 3.61
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "3,13 10^9/l",
+          "numericValue": 3.13
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "3,81 10^9/l",
+          "numericValue": 3.81
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "4,21 10^9/l",
+          "numericValue": 4.21
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "3,16 10^9/l",
+          "numericValue": 3.16
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "2,88 10^9/l",
+          "numericValue": 2.88
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "3,16 10^9/l",
+          "numericValue": 3.16
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "Ly abs.": {
+      "testName": "Ly abs.",
+      "totalMeasurements": 9,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "1,58 10^9/l",
+          "numericValue": 1.58
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "1,13 10^9/l",
+          "numericValue": 1.13
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "1,48 10^9/l",
+          "numericValue": 1.48
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "1,94 10^9/l",
+          "numericValue": 1.94
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "1,60 10^9/l",
+          "numericValue": 1.6
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "1,31 10^9/l",
+          "numericValue": 1.31
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "0,93 10^9/l",
+          "numericValue": 0.93
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "1,05 10^9/l",
+          "numericValue": 1.05
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "1,05 10^9/l",
+          "numericValue": 1.05
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "Mo abs.": {
+      "testName": "Mo abs.",
+      "totalMeasurements": 9,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,71 10^9/l",
+          "numericValue": 0.71
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "1,04 10^9/l",
+          "numericValue": 1.04
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "0,75 10^9/l",
+          "numericValue": 0.75
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "0,67 10^9/l",
+          "numericValue": 0.67
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "0,68 10^9/l",
+          "numericValue": 0.68
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "0,69 10^9/l",
+          "numericValue": 0.69
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "0,63 10^9/l",
+          "numericValue": 0.63
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "0,54 10^9/l",
+          "numericValue": 0.54
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,50 10^9/l",
+          "numericValue": 0.5
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "Eo abs.": {
+      "testName": "Eo abs.",
+      "totalMeasurements": 9,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,10 10^9/l",
+          "numericValue": 0.1
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "0,00 10^9/l",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "0,30 10^9/l",
+          "numericValue": 0.3
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "0,03 10^9/l",
+          "numericValue": 0.03
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "0,05 10^9/l",
+          "numericValue": 0.05
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "0,06 10^9/l",
+          "numericValue": 0.06
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "0,06 10^9/l",
+          "numericValue": 0.06
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "0,07 10^9/l",
+          "numericValue": 0.07
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,04 10^9/l",
+          "numericValue": 0.04
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "Ba abs.": {
+      "testName": "Ba abs.",
+      "totalMeasurements": 9,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,06 10^9/l",
+          "numericValue": 0.06
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "0,06 10^9/l",
+          "numericValue": 0.06
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "0,04 10^9/l",
+          "numericValue": 0.04
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "0,03 10^9/l",
+          "numericValue": 0.03
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "0,02 10^9/l",
+          "numericValue": 0.02
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "0,03 10^9/l",
+          "numericValue": 0.03
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "0,02 10^9/l",
+          "numericValue": 0.02
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "0,02 10^9/l",
+          "numericValue": 0.02
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,03 10^9/l",
+          "numericValue": 0.03
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "Nezralé granulocyty abs.": {
+      "testName": "Nezralé granulocyty abs.",
+      "totalMeasurements": 9,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,03 10^9/l",
+          "numericValue": 0.03
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "0,00 10^9/l",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "0,02 10^9/l",
+          "numericValue": 0.02
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "0,01 10^9/l",
+          "numericValue": 0.01
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "0,00 10^9/l",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "0,01 10^9/l",
+          "numericValue": 0.01
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "0,01 10^9/l",
+          "numericValue": 0.01
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "0,00 10^9/l",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,00 10^9/l",
+          "numericValue": 0
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "Normoblasty strojově": {
+      "testName": "Normoblasty strojově",
+      "totalMeasurements": 10,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,00 %",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "0,00 %",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "0,00 %",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-05-08",
+          "rawDate": "08/05/25",
+          "value": "0,00 %",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-07-23",
+          "rawDate": "23/07/25",
+          "value": "0,00 %",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-09-04",
+          "rawDate": "04/09/25",
+          "value": "0,00 %",
+          "numericValue": 0
+        },
+        {
+          "date": "2025-10-02",
+          "rawDate": "02/10/25",
+          "value": "0,20 %",
+          "numericValue": 0.2
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "0,40 %",
+          "numericValue": 0.4
+        },
+        {
+          "date": "2026-03-09",
+          "rawDate": "09/03/26",
+          "value": "0,00 %",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,00 %",
+          "numericValue": 0
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2026-06-22"
+    },
+    "Protrombinový test čas": {
+      "testName": "Protrombinový test čas",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "11,90 s",
+          "numericValue": 11.9
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "11,70 s",
+          "numericValue": 11.7
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-04-16"
+    },
+    "INR": {
+      "testName": "INR",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,99 1",
+          "numericValue": 0.99
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "0,97 1",
+          "numericValue": 0.97
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-04-16"
+    },
+    "APTT": {
+      "testName": "APTT",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "25,7 s",
+          "numericValue": 25.7
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "24,6 s",
+          "numericValue": 24.6
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-04-16"
+    },
+    "APTT R": {
+      "testName": "APTT R",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "0,86 .",
+          "numericValue": 0.86
+        },
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "0,82 .",
+          "numericValue": 0.82
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-04-16"
+    },
+    "Trombinový test": {
+      "testName": "Trombinový test",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-02-03",
+          "rawDate": "03/02/25",
+          "value": "17,3 s",
+          "numericValue": 17.3
+        }
+      ],
+      "firstDate": "2025-02-03",
+      "lastDate": "2025-02-03"
+    },
+    "ext-dok.": {
+      "testName": "ext-dok.",
+      "totalMeasurements": 4,
+      "measurements": [
+        {
+          "date": "2025-02-06",
+          "rawDate": "06/02/25",
+          "value": "Pojištěn PDF",
+          "numericValue": null
+        },
+        {
+          "date": "2025-02-27",
+          "rawDate": "27/02/25",
+          "value": "Pojištěn PDF",
+          "numericValue": null
+        },
+        {
+          "date": "2025-07-25",
+          "rawDate": "25/07/25",
+          "value": "Genetika PDF",
+          "numericValue": null
+        },
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "Garance PDF",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-02-06",
+      "lastDate": "2025-12-15"
+    },
+    "CRP": {
+      "testName": "CRP",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "<1,0 mg/l",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-04-16",
+      "lastDate": "2025-04-16"
+    },
+    "Glykemie": {
+      "testName": "Glykemie",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-04-16",
+          "rawDate": "16/04/25",
+          "value": "4,6 mmol/l",
+          "numericValue": 4.6
+        },
+        {
+          "date": "2025-05-06",
+          "rawDate": "06/05/25",
+          "value": "5,3 mmol/l",
+          "numericValue": 5.3
+        }
+      ],
+      "firstDate": "2025-04-16",
+      "lastDate": "2025-05-06"
+    },
+    "Platnost vyšetření": {
+      "testName": "Platnost vyšetření",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-05-04",
+          "rawDate": "04/05/25",
+          "value": "07.05.2025 23:59:00",
+          "numericValue": 7.05
+        },
+        {
+          "date": "2025-05-04",
+          "rawDate": "04/05/25",
+          "value": "07.05.2025 23:59:00",
+          "numericValue": 7.05
+        }
+      ],
+      "firstDate": "2025-05-04",
+      "lastDate": "2025-05-04"
+    },
+    "Expirace": {
+      "testName": "Expirace",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2025-05-04",
+          "rawDate": "04/05/25",
+          "value": "28.05.2025 23:59:00",
+          "numericValue": 28.05
+        },
+        {
+          "date": "2025-05-04",
+          "rawDate": "04/05/25",
+          "value": "28.05.2025 23:59:00",
+          "numericValue": 28.05
+        }
+      ],
+      "firstDate": "2025-05-04",
+      "lastDate": "2025-05-04"
+    },
+    "Krevní skupina": {
+      "testName": "Krevní skupina",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-05-04",
+          "rawDate": "04/05/25",
+          "value": "A poz -",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-05-04",
+      "lastDate": "2025-05-04"
+    },
+    "Screening protilátek": {
+      "testName": "Screening protilátek",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-05-04",
+          "rawDate": "04/05/25",
+          "value": "neg -",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-05-04",
+      "lastDate": "2025-05-04"
+    },
+    "Ca": {
+      "testName": "Ca",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "2,32 mmol/l",
+          "numericValue": 2.32
+        }
+      ],
+      "firstDate": "2025-12-15",
+      "lastDate": "2025-12-15"
+    },
+    "Ca korig. na albumin": {
+      "testName": "Ca korig. na albumin",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "2,35 mmol/l",
+          "numericValue": 2.35
+        }
+      ],
+      "firstDate": "2025-12-15",
+      "lastDate": "2025-12-15"
+    },
+    "Kys. moč.": {
+      "testName": "Kys. moč.",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-12-15",
+          "rawDate": "15/12/25",
+          "value": "233 µmol/l",
+          "numericValue": 233
+        }
+      ],
+      "firstDate": "2025-12-15",
+      "lastDate": "2025-12-15"
+    }
+  },
+  "byDate": {
+    "2025-08-13": {
+      "date": "2025-08-13",
+      "rawDate": "13/08/25",
+      "totalTests": 87,
+      "results": {
+        "Závěr": "Není známek recidivy nádoru.",
+        "Dop.": "Péče o prsa",
+        "Strana č.": "61",
+        "[ANONYMIZOVÁNO] [ANONYMIZOVÁNO]                                Poj.": "444   Č. poj.:[ANON-RČ]",
+        "Nález ze dne 13.08.25 16": "04 Frühauf Filip MUDr., Ph.D.:",
+        "NO": "olaparib jako maintenenace terapie",
+        "OA": "běžná dětská onemocnění",
+        "RA": "matka otce ca gyn.",
+        "AA": "Amoxycilin",
+        "Operace": "ca prsu – T2 N1 – segmentektomie, SLN, disekce axily – adjuv.",
+        "Onko UZ (13.8.2025)": "Není známek persistence nádoru. Obraz kompletní",
+        "Onko UZ (dr. Frühauf, dne 16.4.2025)": "Dle UZ \u000evýznamná regrese onemocnění",
+        "Onko UZ (dr. Frühauf, dne 29.1.2025)": "Dle UZ v pánvi rozsáhlé postižení -",
+        "CT hrudníku a břicha (21.11.2024, Německo)": "II. čtení (prof. Burgetová):",
+        "CA 125": "866.. 15/04/25 20,3; 13/08/25 7,1",
+        "Dg.": "g/s BRCA 1 poz.",
+        "Histologie": "High grade serózní karcinom s postižením obou ovarií a",
+        "II. čtení (dr. Jakša)": "High grade serózní karcinom (HGSC) původem z",
+        "In situ": "děloha normálního vzhledu, volná, adnexa bpn, v Douglasově",
+        "Hodnoceni odpovídá po chemoterapií": "CRS2, zřetelné regresivní změny s",
+        "Klasifikace": "ypT3c pNX pMX                 IIIC (FIGO)",
+        "Pozn.": "Náhodným nálezem v hrdle krátké úseky bazofilnějšího epitelu, kde v",
+        "primární lokalita": "ovarium",
+        "typ nádoru": "serózní karcinom",
+        "grade": "high grade",
+        "STIC": "ne",
+        "peritoneální cytologie": "nevyšetřeno",
+        "LVSI": "ano",
+        "lymfatické uzliny": "nevyšetřeny",
+        "omentum": "velikost 300 x 115 x 5-20 mm, postiženo",
+        "regrese (v omentu)": "ano",
+        "další metastázy": "neznámé",
+        "Doplnění k závěru": "V hrdle děložním téměř cirkulárně high grade dysplazie",
+        "Přítomni": "prof. MUDr. Sláma, Ph.D., prof. MUDr. Fischerová, Ph.D., MUDr.",
+        "Doporučení": "Pacientka zahájí terapii olaparibem v dávce 300 mg 2xdenně do",
+        "Nález ze dne 04.09.25 12": "41 Frühauf Filip MUDr., Ph.D.:",
+        "Lab. výsledky": "Krevní obraz-perifer: Leu: 4,78, Ery: 3,52, HGB: 127, HCT:",
+        "31,6, MCHC": "322, RDW: 17,6, Plt: 251, MPV: 9,2, Dif.stroj. relativní: Ne:",
+        "61,9, Ly": "26,0, Mo: 11,0, Eo: 0,8, Ba: 0,2, Nezralé granulocyty %: 0,0,",
+        "Dif.stroj. absolutní": "Ne abs.: 3,81, Ly abs.: 1,60, Mo abs.: 0,68, Eo",
+        "abs.": "0,00, Ostatní hematologie-: Normoblasty strojově: 0,00, Normoblasty",
+        "hematologie-": "Normoblasty strojově: 0,00, Normoblasty abs. strojově: 0,00,",
+        "NLR": "2,4",
+        "Ca 125": "7,1 kIU/l",
+        "Terapie": "2 tbl. á 150 mg 2xdenně - bude užívat po snídani a po večeři",
+        "CAVE": "proběhly konzultace s pojišťovnou - nadále receptožádanky a nebude",
+        "dodatek ze dne 04.09.25 12": "42 Frühauf Filip MUDr., Ph.D.:",
+        "ordinováno 04.09.2025 v 12": "37 na 04.09.2025 12:37, Kníže Michal MUDr.",
+        "ordinováno STATIM 04.09.2025 v 12": "38 na 04.09.2025 12:38, Kníže Michal",
+        "Nález ze dne 04.09.25 16": "30 Frühauf Filip MUDr., Ph.D.:",
+        "Nález ze dne 02.10.25 11": "43 Frühauf Filip MUDr., Ph.D.:",
+        "Krevní obraz-perifer": "Leu: 6,31, Ery: 3,62, HGB: 119, HCT: 0,348, MCV:",
+        "96,1, MCH": "32,9, MCHC: 342, RDW: 16,1, Plt: 252, MPV: 9,1, PCT: 0,230,",
+        "PDW": "9,2, Dif.stroj. relativní: Ne: 66,6, Ly: 20,8, Mo: 10,9, Eo: 1,0, Ba:",
+        "0,5, Nezralé granulocyty %": "0,2, Dif.stroj. absolutní: Ne abs.: 4,21, Ly",
+        "granulocyty abs.": "0,01, Ostatní hematologie-: Normoblasty strojově: 0,20,",
+        "Normoblasty abs. strojově": "0,01, NLR: 3,2",
+        "dodatek ze dne 02.10.25 11": "46 Frühauf Filip MUDr., Ph.D.:",
+        "ordinováno 02.10.2025 v 11": "40 na 02.10.2025 11:43, Fischerová Daniela",
+        "ordinováno STATIM 02.10.2025 v 11": "44 na 02.10.2025 11:47, Fischerová",
+        "Nález ze dne 15.12.25 12": "31 Frühauf Filip MUDr., Ph.D.:",
+        "Toxicita": "neguje",
+        "dodatek ze dne 15.12.25 12": "31 Frühauf Filip MUDr., Ph.D.:",
+        "ordinováno STATIM 15.12.2025 v 12": "31 na 15.12.2025 12:31, Valentová Tereza",
+        "ordinováno 15.12.2025 v 12": "31 na 15.12.2025 12:32, Valentová Tereza MUDr.",
+        "Nález ze dne 09.03.26 11": "40 Frühauf Filip MUDr., Ph.D.:",
+        "Subj.": "cítí se dobře, prodělala lehkou virózu, nyní občasně ranní",
+        "Obj.": "Hlava nebolestivá, zornice izokorické, bez  zarudnutí;  jazyk plazí",
+        "Bolest": "t.č. neudává, cítí se dobře, nechlazená není, opar nemá, močení a",
+        "MRI 12/2025": "Závěr: z MR hlediska bez známek malignity. Pooperační změny",
+        "dodatek ze dne 09.03.26 11": "28 Frühauf Filip MUDr., Ph.D.:",
+        "ordinováno 09.03.2026 v 11": "28 na 09.03.2026 11:28, Frühauf Filip MUDr.",
+        "Nález ze dne 22.06.26 14": "56 Frühauf Filip MUDr., Ph.D.:",
+        "0,374, MCV": "106,0, MCH: 36,2, MCHC: 340, RDW: 15,2, Plt: 221, MPV: 9,9,",
+        "Dif.stroj. relativní": "Ne: 66,1, Ly: 22,0, Mo: 10,4, Eo: 0,8, Ba: 0,7,",
+        "Nezralé granulocyty %": "0,0, Dif.stroj. absolutní: Ne abs.: 3,16, Ly abs.:",
+        "1,05, Mo abs.": "0,50, Eo abs.: 0,04, Ba abs.: 0,03, Nezralé granulocyty",
+        "abs. strojově": "0,00, NLR: 3,0",
+        "MMG 22/6/2026": "NED",
+        "22/6/226 CEA": "<1,73, Ca19-9: 3,7, Ca 125: 5,8, CA 15-3: 18,7",
+        "dodatek ze dne 22.06.26 14": "58 Frühauf Filip MUDr., Ph.D.:",
+        "ordinováno 22.06.2026 v 14": "58 na 22.06.2026 14:58, Frühauf Filip MUDr.",
+        "od": "29.01.2025 do:",
+        "0215605HELICID                                CPS ETD 28 I     CPS": "1",
+        "0220737APREPITANT SANDOZ                      CPS DUR 1+2      CPS": "1",
+        "0238669PELGRAZ                                INJ SOL PFI 1X0, INJ": "inj.",
+        "Zpracoval(a)": "Vaněk František Ing.                          Dne:09.09.26"
+      }
+    },
+    "2025-02-03": {
+      "date": "2025-02-03",
+      "rawDate": "03/02/25",
+      "totalTests": 49,
+      "results": {
+        "Na": "136 mmol/l",
+        "K": "4,8 mmol/l",
+        "Cl": "95 mmol/l",
+        "Fe": "12,4 µmol/l",
+        "Fe-celk.vazeb.kap.": "55,0 µmol/l",
+        "Fe-saturace": "0,23 1",
+        "Urea": "3,5 mmol/l",
+        "Kreat.": "60 µmol/l",
+        "Bilirubin": "7,1 µmol/l",
+        "ALT": "0,21 µkat/l",
+        "AST": "0,37 µkat/l",
+        "GGT": "0,39 µkat/l",
+        "ALP": "1,63 µkat/l",
+        "FIB-4 index": "0,83 -",
+        "Albumin": "47,5 g/l",
+        "CB": "73,2 g/l",
+        "Ferritin": "118,9 µg/l",
+        "Leu": "8,80 10^9/l",
+        "Ery": "5,10 10^12/l",
+        "HGB": "142 g/l",
+        "HCT": "0,433 1",
+        "MCV": "84,9 fl",
+        "MCH": "27,8 pg",
+        "MCHC": "328 g/l",
+        "RDW": "13,2 %",
+        "Plt": "446 10^9/l",
+        "MPV": "9,9 fl",
+        "PCT": "0,440 %",
+        "PDW": "11,0 fl",
+        "Ne": "71,8 %",
+        "Ly": "18,0 %",
+        "Mo": "8,1 %",
+        "Eo": "1,1 %",
+        "Ba": "0,7 %",
+        "Nezralé granulocyty %": "0,3 %",
+        "Ne abs.": "6,32 10^9/l",
+        "Ly abs.": "1,58 10^9/l",
+        "Mo abs.": "0,71 10^9/l",
+        "Eo abs.": "0,10 10^9/l",
+        "Ba abs.": "0,06 10^9/l",
+        "Nezralé granulocyty abs.": "0,03 10^9/l",
+        "Normoblasty strojově": "0,00 %",
+        "Normoblasty abs. strojově": "0,00 10^9/l",
+        "NLR": "4,0 -",
+        "Protrombinový test čas": "11,90 s",
+        "INR": "0,99 1",
+        "APTT": "25,7 s",
+        "APTT R": "0,86 .",
+        "Trombinový test": "17,3 s"
+      }
+    },
+    "2025-02-06": {
+      "date": "2025-02-06",
+      "rawDate": "06/02/25",
+      "totalTests": 1,
+      "results": {
+        "ext-dok.": "Pojištěn PDF"
+      }
+    },
+    "2025-02-27": {
+      "date": "2025-02-27",
+      "rawDate": "27/02/25",
+      "totalTests": 1,
+      "results": {
+        "ext-dok.": "Pojištěn PDF"
+      }
+    },
+    "2025-04-15": {
+      "date": "2025-04-15",
+      "rawDate": "15/04/25",
+      "totalTests": 1,
+      "results": {
+        "Ca 125": "20,3 kIU/l"
+      }
+    },
+    "2025-04-16": {
+      "date": "2025-04-16",
+      "rawDate": "16/04/25",
+      "totalTests": 43,
+      "results": {
+        "Na": "145 mmol/l",
+        "K": "4,5 mmol/l",
+        "Cl": "105 mmol/l",
+        "Kreat.": "57 µmol/l",
+        "Bilirubin": "4,4 µmol/l",
+        "ALT": "0,33 µkat/l",
+        "AST": "0,37 µkat/l",
+        "GGT": "0,58 µkat/l",
+        "ALP": "1,51 µkat/l",
+        "FIB-4 index": "1,44      ; mírné riziko jaterní fibrózy -",
+        "Albumin": "45,2 g/l",
+        "CB": "71,8 g/l",
+        "CRP": "<1,0 mg/l",
+        "Glykemie": "4,6 mmol/l",
+        "Leu": "6,76 10^9/l",
+        "Ery": "3,67 10^12/l",
+        "HGB": "108 g/l",
+        "HCT": "0,322 1",
+        "MCV": "87,7 fl",
+        "MCH": "29,6 pg",
+        "MCHC": "337 g/l",
+        "RDW": "20,3 %",
+        "Plt": "205 10^9/l",
+        "MPV": "9,4 fl",
+        "Ne": "67,0 %",
+        "Ly": "16,7 %",
+        "Mo": "15,4 %",
+        "Eo": "0,0 %",
+        "Ba": "0,9 %",
+        "Nezralé granulocyty %": "0,0 %",
+        "Ne abs.": "4,52 10^9/l",
+        "Ly abs.": "1,13 10^9/l",
+        "Mo abs.": "1,04 10^9/l",
+        "Eo abs.": "0,00 10^9/l",
+        "Ba abs.": "0,06 10^9/l",
+        "Nezralé granulocyty abs.": "0,00 10^9/l",
+        "Normoblasty strojově": "0,00 %",
+        "Normoblasty abs. strojově": "0,00 10^9/l",
+        "NLR": "4,0 -",
+        "Protrombinový test čas": "11,70 s",
+        "INR": "0,97 1",
+        "APTT": "24,6 s",
+        "APTT R": "0,82 ."
+      }
+    },
+    "2025-05-04": {
+      "date": "2025-05-04",
+      "rawDate": "04/05/25",
+      "totalTests": 4,
+      "results": {
+        "Platnost vyšetření": "07.05.2025 23:59:00",
+        "Expirace": "28.05.2025 23:59:00",
+        "Krevní skupina": "A poz -",
+        "Screening protilátek": "neg -"
+      }
+    },
+    "2025-05-06": {
+      "date": "2025-05-06",
+      "rawDate": "06/05/25",
+      "totalTests": 18,
+      "results": {
+        "Na": "137 mmol/l",
+        "K": "4,0 mmol/l",
+        "Cl": "107 mmol/l",
+        "Glykemie": "5,3 mmol/l",
+        "Leu": "14,39 10^9/l",
+        "Ery": "3,11 10^12/l",
+        "HGB": "97 g/l",
+        "HCT": "0,290 1",
+        "MCV": "93,2 fl",
+        "MCH": "31,2 pg",
+        "MCHC": "334 g/l",
+        "RDW": "18,8 %",
+        "Plt": "133 10^9/l",
+        "MPV": "10,0 fl",
+        "PCT": "0,130 %",
+        "PDW": "10,6 fl",
+        "Normoblasty strojově": "0,00 %",
+        "Normoblasty abs. strojově": "0,00 10^9/l"
+      }
+    },
+    "2025-05-08": {
+      "date": "2025-05-08",
+      "rawDate": "08/05/25",
+      "totalTests": 27,
+      "results": {
+        "Leu": "6,20 10^9/l",
+        "Ery": "3,11 10^12/l",
+        "HGB": "95 g/l",
+        "HCT": "0,293 1",
+        "MCV": "94,2 fl",
+        "MCH": "30,5 pg",
+        "MCHC": "324 g/l",
+        "RDW": "17,6 %",
+        "Plt": "131 10^9/l",
+        "MPV": "9,8 fl",
+        "PCT": "0,130 %",
+        "PDW": "10,3 fl",
+        "Ne": "58,3 %",
+        "Ly": "23,9 %",
+        "Mo": "12,1 %",
+        "Eo": "4,8 %",
+        "Ba": "0,6 %",
+        "Nezralé granulocyty %": "0,3 %",
+        "Ne abs.": "3,61 10^9/l",
+        "Ly abs.": "1,48 10^9/l",
+        "Mo abs.": "0,75 10^9/l",
+        "Eo abs.": "0,30 10^9/l",
+        "Ba abs.": "0,04 10^9/l",
+        "Nezralé granulocyty abs.": "0,02 10^9/l",
+        "Normoblasty strojově": "0,00 %",
+        "Normoblasty abs. strojově": "0,00 10^9/l",
+        "NLR": "2,5 -"
+      }
+    },
+    "2025-07-23": {
+      "date": "2025-07-23",
+      "rawDate": "23/07/25",
+      "totalTests": 27,
+      "results": {
+        "Leu": "5,81 10^9/l",
+        "Ery": "4,46 10^12/l",
+        "HGB": "133 g/l",
+        "HCT": "0,398 1",
+        "MCV": "89,2 fl",
+        "MCH": "29,8 pg",
+        "MCHC": "334 g/l",
+        "RDW": "14,0 %",
+        "Plt": "245 10^9/l",
+        "MPV": "10,0 fl",
+        "PCT": "0,250 %",
+        "PDW": "10,3 fl",
+        "Ne": "53,9 %",
+        "Ly": "33,4 %",
+        "Mo": "11,5 %",
+        "Eo": "0,5 %",
+        "Ba": "0,5 %",
+        "Nezralé granulocyty %": "0,2 %",
+        "Ne abs.": "3,13 10^9/l",
+        "Ly abs.": "1,94 10^9/l",
+        "Mo abs.": "0,67 10^9/l",
+        "Eo abs.": "0,03 10^9/l",
+        "Ba abs.": "0,03 10^9/l",
+        "Nezralé granulocyty abs.": "0,01 10^9/l",
+        "Normoblasty strojově": "0,00 %",
+        "Normoblasty abs. strojově": "0,00 10^9/l",
+        "NLR": "1,6 -"
+      }
+    },
+    "2025-07-25": {
+      "date": "2025-07-25",
+      "rawDate": "25/07/25",
+      "totalTests": 1,
+      "results": {
+        "ext-dok.": "Genetika PDF"
+      }
+    },
+    "2025-09-04": {
+      "date": "2025-09-04",
+      "rawDate": "04/09/25",
+      "totalTests": 25,
+      "results": {
+        "Leu": "6,15 10^9/l",
+        "Ery": "4,20 10^12/l",
+        "HGB": "133 g/l",
+        "HCT": "0,413 1",
+        "MCV": "98,2 fl",
+        "MCH": "31,6 pg",
+        "MCHC": "322 g/l",
+        "RDW": "17,6 %",
+        "Plt": "251 10^9/l",
+        "MPV": "9,2 fl",
+        "Ne": "61,9 %",
+        "Ly": "26,0 %",
+        "Mo": "11,0 %",
+        "Eo": "0,8 %",
+        "Ba": "0,2 %",
+        "Nezralé granulocyty %": "0,0 %",
+        "Ne abs.": "3,81 10^9/l",
+        "Ly abs.": "1,60 10^9/l",
+        "Mo abs.": "0,68 10^9/l",
+        "Eo abs.": "0,05 10^9/l",
+        "Ba abs.": "0,02 10^9/l",
+        "Nezralé granulocyty abs.": "0,00 10^9/l",
+        "Normoblasty strojově": "0,00 %",
+        "Normoblasty abs. strojově": "0,00 10^9/l",
+        "NLR": "2,4 -"
+      }
+    },
+    "2025-10-02": {
+      "date": "2025-10-02",
+      "rawDate": "02/10/25",
+      "totalTests": 27,
+      "results": {
+        "Leu": "6,31 10^9/l",
+        "Ery": "3,62 10^12/l",
+        "HGB": "119 g/l",
+        "HCT": "0,348 1",
+        "MCV": "96,1 fl",
+        "MCH": "32,9 pg",
+        "MCHC": "342 g/l",
+        "RDW": "16,1 %",
+        "Plt": "252 10^9/l",
+        "MPV": "9,1 fl",
+        "PCT": "0,230 %",
+        "PDW": "9,2 fl",
+        "Ne": "66,6 %",
+        "Ly": "20,8 %",
+        "Mo": "10,9 %",
+        "Eo": "1,0 %",
+        "Ba": "0,5 %",
+        "Nezralé granulocyty %": "0,2 %",
+        "Ne abs.": "4,21 10^9/l",
+        "Ly abs.": "1,31 10^9/l",
+        "Mo abs.": "0,69 10^9/l",
+        "Eo abs.": "0,06 10^9/l",
+        "Ba abs.": "0,03 10^9/l",
+        "Nezralé granulocyty abs.": "0,01 10^9/l",
+        "Normoblasty strojově": "0,20 %",
+        "Normoblasty abs. strojově": "0,01 10^9/l",
+        "NLR": "3,2 -"
+      }
+    },
+    "2025-12-15": {
+      "date": "2025-12-15",
+      "rawDate": "15/12/25",
+      "totalTests": 45,
+      "results": {
+        "Na": "137 mmol/l",
+        "K": "4,0 mmol/l",
+        "Cl": "103 mmol/l",
+        "Ca": "2,32 mmol/l",
+        "Ca korig. na albumin": "2,35 mmol/l",
+        "Urea": "4,1 mmol/l",
+        "Kreat.": "66 µmol/l",
+        "Kys. moč.": "233 µmol/l",
+        "Bilirubin": "10,5 µmol/l",
+        "ALT": "0,30 µkat/l",
+        "AST": "0,47 µkat/l",
+        "GGT": "0,46 µkat/l",
+        "ALP": "1,24 µkat/l",
+        "FIB-4 index": "1,82      ; mírné riziko jaterní fibrózy -",
+        "Albumin": "43,5 g/l",
+        "CB": "76,7 g/l",
+        "Ca 125": "6,6 kIU/l",
+        "Leu": "4,81 10^9/l",
+        "Ery": "3,55 10^12/l",
+        "HGB": "122 g/l",
+        "HCT": "0,351 1",
+        "MCV": "98,9 fl",
+        "MCH": "34,4 pg",
+        "MCHC": "348 g/l",
+        "RDW": "16,6 %",
+        "Plt": "219 10^9/l",
+        "MPV": "9,7 fl",
+        "PCT": "0,210 %",
+        "PDW": "9,2 fl",
+        "Ne": "65,8 %",
+        "Ly": "19,3 %",
+        "Mo": "13,1 %",
+        "Eo": "1,2 %",
+        "Ba": "0,4 %",
+        "Nezralé granulocyty %": "0,2 %",
+        "Ne abs.": "3,16 10^9/l",
+        "Ly abs.": "0,93 10^9/l",
+        "Mo abs.": "0,63 10^9/l",
+        "Eo abs.": "0,06 10^9/l",
+        "Ba abs.": "0,02 10^9/l",
+        "Nezralé granulocyty abs.": "0,01 10^9/l",
+        "Normoblasty strojově": "0,40 %",
+        "Normoblasty abs. strojově": "0,02 10^9/l",
+        "NLR": "3,4 -",
+        "ext-dok.": "Garance PDF"
+      }
+    },
+    "2026-03-09": {
+      "date": "2026-03-09",
+      "rawDate": "09/03/26",
+      "totalTests": 28,
+      "results": {
+        "Ca 125": "6,1 kIU/l",
+        "Leu": "4,56 10^9/l",
+        "Ery": "3,42 10^12/l",
+        "HGB": "117 g/l",
+        "HCT": "0,349 1",
+        "MCV": "102,0 fl",
+        "MCH": "34,2 pg",
+        "MCHC": "335 g/l",
+        "RDW": "15,9 %",
+        "Plt": "257 10^9/l",
+        "MPV": "10,4 fl",
+        "PCT": "0,270 %",
+        "PDW": "10,2 fl",
+        "Ne": "63,3 %",
+        "Ly": "23,0 %",
+        "Mo": "11,8 %",
+        "Eo": "1,5 %",
+        "Ba": "0,4 %",
+        "Nezralé granulocyty %": "0,0 %",
+        "Ne abs.": "2,88 10^9/l",
+        "Ly abs.": "1,05 10^9/l",
+        "Mo abs.": "0,54 10^9/l",
+        "Eo abs.": "0,07 10^9/l",
+        "Ba abs.": "0,02 10^9/l",
+        "Nezralé granulocyty abs.": "0,00 10^9/l",
+        "Normoblasty strojově": "0,00 %",
+        "Normoblasty abs. strojově": "0,00 10^9/l",
+        "NLR": "2,7 -"
+      }
+    },
+    "2026-06-22": {
+      "date": "2026-06-22",
+      "rawDate": "22/06/26",
+      "totalTests": 25,
+      "results": {
+        "Leu": "4,78 10^9/l",
+        "Ery": "3,52 10^12/l",
+        "HGB": "127 g/l",
+        "HCT": "0,374 1",
+        "MCV": "106,0 fl",
+        "MCH": "36,2 pg",
+        "MCHC": "340 g/l",
+        "RDW": "15,2 %",
+        "Plt": "221 10^9/l",
+        "MPV": "9,9 fl",
+        "Ne": "66,1 %",
+        "Ly": "22,0 %",
+        "Mo": "10,4 %",
+        "Eo": "0,8 %",
+        "Ba": "0,7 %",
+        "Nezralé granulocyty %": "0,0 %",
+        "Ne abs.": "3,16 10^9/l",
+        "Ly abs.": "1,05 10^9/l",
+        "Mo abs.": "0,50 10^9/l",
+        "Eo abs.": "0,04 10^9/l",
+        "Ba abs.": "0,03 10^9/l",
+        "Nezralé granulocyty abs.": "0,00 10^9/l",
+        "Normoblasty strojově": "0,00 %",
+        "Normoblasty abs. strojově": "0,00 10^9/l",
+        "NLR": "3,0 -"
+      }
+    }
+  },
+  "totalUniqueTests": 142,
+  "totalUniqueDates": 16
+}

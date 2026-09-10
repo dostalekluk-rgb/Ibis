@@ -1,0 +1,11 @@
+{
+  "id": "EXAM-193",
+  "date": "2026-08-17",
+  "rawDate": "17/08/26",
+  "sourceFile": "ai-neumannova-lab.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (17/08/26)",
+  "content": "Výsledky z 17/08/26: \r\n  Texty hematologie: \r\n      Komentář:\r\nKO - Měření opakováno !\r\n -\r\n  Krevní obraz-perifer: \r\n      Leu: 3,41 10^9/l\r\n      Ery: 4,27 10^12/l\r\n      HGB: 126 g/l\r\n      HCT: 0,377 1\r\n      MCV: 88,3 fl\r\n      MCH: 29,5 pg\r\n      MCHC: 334 g/l\r\n      RDW: 19,4 %\r\n      Plt: 255 10^9/l\r\n      MPV: 9,0 fl\r\n      PCT: 0,230 %\r\n      PDW: 9,5 fl\r\n  Dif.stroj. relativní: \r\n      Ne: 30,4 %\r\n      Ly: 43,4 %\r\n      Mo: 22,9 %\r\n      Eo: 1,2 %\r\n      Ba: 1,5 %\r\n      Nezralé granulocyty %: 0,6 %\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 1,04 10^9/l\r\n      Ly abs.: 1,48 10^9/l\r\n      Mo abs.: 0,78 10^9/l\r\n      Eo abs.: 0,04 10^9/l\r\n      Ba abs.: 0,05 10^9/l\r\n      Nezralé granulocyty abs.: 0,02 10^9/l\r\n  Diferenciál manuální: \r\n      SEG: 37,6 %\r\n      Ly: 36,6 %\r\n      LGL: 7,8 %\r\n      Mo: 17,5 %\r\n      Eo: 0,5 %\r\n      B_ANIZ_: + -\r\n      B_MIKR_: + -\r\n      B_ZMEN_: text      ; Misty hypogranularni CP neutrofilu -\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00 %\r\n      Normoblasty abs. strojově: 0,00 10^9/l"
+}

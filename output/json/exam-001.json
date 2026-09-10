@@ -1,0 +1,11 @@
+{
+  "id": "EXAM-001",
+  "date": "2025-02-03",
+  "rawDate": "03/02/25",
+  "sourceFile": "ai-wolf-lab.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (03/02/25)",
+  "content": "Výsledky z 03/02/25: \r\n  Minerály+Osmolalita: \r\n      Na: 136 mmol/l\r\n      K: 4,8 mmol/l\r\n      Cl: 95 mmol/l\r\n      Fe: 12,4 µmol/l\r\n      Fe-celk.vazeb.kap.: 55,0 µmol/l\r\n      Fe-saturace: 0,23 1\r\n  Dusíkové metabolity: \r\n      Urea: 3,5 mmol/l\r\n      Kreat.: 60 µmol/l\r\n  Jaterní testy: \r\n      Bilirubin: 7,1 µmol/l\r\n      ALT: 0,21 µkat/l\r\n      AST: 0,37 µkat/l\r\n      GGT: 0,39 µkat/l\r\n      ALP: 1,63 µkat/l\r\n      FIB-4 index: 0,83 -\r\n  Bílkoviny: \r\n      Albumin: 47,5 g/l\r\n      CB: 73,2 g/l\r\n  Sérum spec.vyšetření: \r\n      Ferritin: 118,9 µg/l\r\n  Krevní obraz-perifer: \r\n      Leu: 8,80 10^9/l\r\n      Ery: 5,10 10^12/l\r\n      HGB: 142 g/l\r\n      HCT: 0,433 1\r\n      MCV: 84,9 fl\r\n      MCH: 27,8 pg\r\n      MCHC: 328 g/l\r\n      RDW: 13,2 %\r\n      Plt: 446 10^9/l\r\n      MPV: 9,9 fl\r\n      PCT: 0,440 %\r\n      PDW: 11,0 fl\r\n  Dif.stroj. relativní: \r\n      Ne: 71,8 %\r\n      Ly: 18,0 %\r\n      Mo: 8,1 %\r\n      Eo: 1,1 %\r\n      Ba: 0,7 %\r\n      Nezralé granulocyty %: 0,3 %\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 6,32 10^9/l\r\n      Ly abs.: 1,58 10^9/l\r\n      Mo abs.: 0,71 10^9/l\r\n      Eo abs.: 0,10 10^9/l\r\n      Ba abs.: 0,06 10^9/l\r\n      Nezralé granulocyty abs.: 0,03 10^9/l\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00 %\r\n      Normoblasty abs. strojově: 0,00 10^9/l\r\n      NLR: 4,0 -\r\n  Koagulační vyšetření: \r\n      Protrombinový test čas: 11,90 s\r\n      INR: 0,99 1\r\n      APTT: 25,7 s\r\n      APTT R: 0,86 .\r\n      Trombinový test: 17,3 s"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "EXAM-011",
+  "date": "2025-05-04",
+  "rawDate": "04/05/25",
+  "sourceFile": "ai-wolf-lab.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (04/05/25)",
+  "content": "Výsledky z 04/05/25: \r\n  Zkouška kompatibility: \r\n      TP č.1: \r\nC20022576099910  Kompatibilní\r\nPlatnost vyšetření: 07.05.2025 23:59:00\r\nExpirace: 28.05.2025 23:59:00\r\n \r\n      TP č.2: \r\nC20022576100410  Kompatibilní\r\nPlatnost vyšetření: 07.05.2025 23:59:00\r\nExpirace: 28.05.2025 23:59:00\r\n \r\n  Imunohematologie: \r\n      Krevní skupina: A poz -\r\n      Screening protilátek: neg -\r\n  Bez funkční skupiny: \r\n      Q_ZkKomp_*: \r\nvyšetřena\r\n -"
+}

@@ -1,0 +1,69 @@
+{
+  "patientId": "PAC-VFN-2026-8472",
+  "summaryDate": "2026-09-04",
+  "primaryDiagnosis": {
+    "icdCode": "C50.4",
+    "description": "Zhoubný novotvar horního vnějšího kvadrantu prsu l.dx.",
+    "stageInitial": "cT2 cN1 cM0 (st. IIB)",
+    "currentStage": "rT0 rN0 rM1 (játra, skelet)",
+    "histologyType": "Invazivní karcinom NST, Grade 2",
+    "biomarkers": {
+      "erStatus": "90% (pozitivní)",
+      "prStatus": "20% (pozitivní)",
+      "her2Status": "negativní (1+)",
+      "ki67Index": "30%",
+      "brcaStatus": "negativní"
+    }
+  },
+  "treatmentHistory": [
+    {
+      "lineType": "adjuvant",
+      "regimen": "4x AC -> 12x Paclitaxel",
+      "period": "05/2024 - 10/2024",
+      "bestResponse": "Dokončeno dle plánu",
+      "toxicityOrNotes": "Dobrá tolerance"
+    },
+    {
+      "lineType": "palliative_line_1",
+      "regimen": "Letrozol 2,5 mg 1-0-0",
+      "period": "11/2024 - 08/2026",
+      "bestResponse": "Progrese (PD) po 21 měsících",
+      "toxicityOrNotes": "Vznik nového postižení jater a skeletu"
+    }
+  ],
+  "surgeriesAndRadiotherapy": [
+    {
+      "date": "2024-04-02",
+      "procedure": "Resekce prsu vpravo + exenterace axily I.+II. etáže",
+      "resultOrOutcome": "pT2 pN1a (2/14), R0"
+    }
+  ],
+  "currentClinicalStatus": {
+    "performanceStatusECOG": 0,
+    "currentSymptoms": ["Mírná bolest v hrudní páteři (Th12)", "Bez žloutenky"],
+    "presentationReason": "Progrese při 1. linii adjuvantní/paliativní hormonální léčby (Letrozol). Nově viscerální postižení (játra 22mm) a skelet (Th12).",
+    "questionForBoard": "Volba 2. linie systémové léčby: Přidání CDK4/6 inhibitoru (Ribociclib/Abemaciclib) + Fulvestrant vs. vyšetření PIK3CA mutace pro Alpelisib vs. Chemoterapie."
+  },
+  "latestImaging": [
+    {
+      "date": "2026-08-20",
+      "modality": "PET/CT",
+      "keyFindings": "Nově 2 ložiska v játrech S4/8 (do 22 mm, SUV 8.4), osteolytické ložisko Th12 (SUV 6.1). Progrese nálezu.",
+      "overallAssessment": "progression"
+    }
+  ],
+  "latestLabMarkers": [
+    {
+      "date": "2026-08-22",
+      "markerName": "CA 15-3",
+      "value": "68 kU/L",
+      "referenceRange": "< 25 kU/L"
+    },
+    {
+      "date": "2026-08-22",
+      "markerName": "CEA",
+      "value": "4.2 ug/L",
+      "referenceRange": "< 3.8 ug/L"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "EXAM-219",
+  "date": "2026-01-01",
+  "rawDate": "15/12/25",
+  "sourceFile": "ai-wolf-lab.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Zobrazovací / Diagnostické vyšetření",
+  "doctor": null,
+  "title": "Ba: 15/12/25 0,4; 09/03/26 0,4; 22/06/26 0,7",
+  "content": "Ba: 15/12/25 0,4; 09/03/26 0,4; 22/06/26 0,7                                     \n      Nezralé granulocyty %: 15/12/25 0,2; 09/03/26 0,0; 22/06/26 0,0                  \nDif.stroj. absolutní:                                                                  \n      Ne abs.: 15/12/25 3,16; 09/03/26 2,88; 22/06/26 3,16                             \n      Ly abs.: 15/12/25 0,93; 09/03/26 1,05; 22/06/26 1,05                             \n      Mo abs.: 15/12/25 0,63; 09/03/26 0,54; 22/06/26 0,50                             \n      Eo abs.: 15/12/25 0,06; 09/03/26 0,07; 22/06/26 0,04                             \n      Ba abs.: 15/12/25 0,02; 09/03/26 0,02; 22/06/26 0,03                             \n      Nezralé granulocyty abs.: 15/12/25 0,01; 09/03/26 0,00; 22/06/26 0,00            \nOstatní hematologie-:                                                                  \n      Normoblasty strojově: 15/12/25 0,40; 09/03/26 0,00; 22/06/26 0,00                \n      Normoblasty abs. strojově: 15/12/25 0,02; 09/03/26 0,00; 22/06/26 0,00"
+}

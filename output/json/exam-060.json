@@ -1,0 +1,11 @@
+{
+  "id": "EXAM-060",
+  "date": "2026-04-29",
+  "rawDate": "29/04/26",
+  "sourceFile": "ai-stankova-lab.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (29/04/26)",
+  "content": "Výsledky z 29/04/26: \r\n  Krevní obraz-perifer: \r\n      Leu: 5,74\r\n      Ery: 3,10\r\n      HGB: 106\r\n      HCT: 0,332\r\n      MCV: 107,1\r\n      MCH: 34,2\r\n      MCHC: 319\r\n      RDW: 14,0\r\n      Plt: 418\r\n      MPV: 9,0\r\n      PCT: 0,380\r\n      PDW: 8,8\r\n  Dif.stroj. relativní: \r\n      Ne: 54,5\r\n      Ly: 25,3\r\n      Mo: 10,8\r\n      Eo: 7,5\r\n      Ba: 0,9\r\n      Nezralé granulocyty %: 1,0\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 3,13\r\n      Ly abs.: 1,45\r\n      Mo abs.: 0,62\r\n      Eo abs.: 0,43\r\n      Ba abs.: 0,05\r\n      Nezralé granulocyty abs.: 0,06\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,20\r\n      Normoblasty abs. strojově: 0,01\r\n      NLR: 2,2"
+}

@@ -1,0 +1,55 @@
+{
+  "patientHeader": {
+    "name": "[ANONYMIZOVÁNO]",
+    "insuranceNumber": "[ANON-RČ]",
+    "insuranceCode": "444",
+    "address": "[ANON-KONTAKT]",
+    "phone": "[ANON-KONTAKT]",
+    "metrics": "60 let, 174 cm, 70 kg, ECOG PS 0"
+  },
+  "presentIllness": "Pacientka s duplicitním onkologickým onemocněním: st.p. ca prsu (2009) a ca ovarii (HGSC, FIGO IIIC, gBRCA1 poz., I.dg. 01/2025). Po neoadjuvantní chemoterapii a intervalové operaci (05/2025) dokončila adjuvantní část 1. linie chemoterapie PTX/CBDCA v 07/2025. Od 09/2025 je na udržovací léčbě olaparibem (Lynparza). Aktuálně přichází k pravidelné kontrole, je zcela asymptomatická, tumor markery jsou v normě (CA 125: 5,8 kIU/l k 22.06.2026), dispenzární vyšetření (MMG a UZ prsů 06/2026) bez známek recidivy či progrese.",
+  "anamnesis": {
+    "oa": "OA: ca prsu v r. 2009, běžná dětská onemocnění.",
+    "operace": "Operace: st.p. segmentektomii levého prsu, SLN, disekci axily (2009), st.p. dg LPSK (01/2025), st.p. IDS (05/2025).",
+    "fa": "FA: Helicid, Aprepitant, Pelgraz (v průběhu CHT), nyní Olaparib (Lynparza) 300 mg 2x denně.",
+    "aa": "AA: Amoxicilin (alergie).",
+    "ga": "GA: neuvedeno."
+  },
+  "stagingExaminations": [],
+  "diagnosisAndTreatment": {
+    "dg": "Dg.: Duplicita: 1) ca ovarii - HGSC tubo-ovariální (ypT3c pNX pMX, FIGO IIIC) (I.dg. 01/2025), 2) ca prsu (I.dg. 2009)",
+    "operations": [
+      {
+        "title": "St.p. segmentektomii levého prsu, SLN, disekci axily",
+        "dateAndPlace": "2009",
+        "histology": "Karcinom prsu T2 N1 M0, blíže nespecifikován."
+      },
+      {
+        "title": "St.p. diagnostické laparoskopii (dg LPSK)",
+        "dateAndPlace": "01/2025, Německo",
+        "histology": "High-grade serózní karcinom (HGSC)."
+      },
+      {
+        "title": "St.p. intervalové debulking operaci (IDS) - hysterectomia abdominalis, AE bilat, exstirpace portů, omentektomie",
+        "dateAndPlace": "5.5.2025, VFN Praha",
+        "histology": "High-grade serózní karcinom s postižením obou ovarií a omenta, ypT3c pNX pMX, FIGO IIIC, CRS 2 (zřetelné regresivní změny po CHT). V hrdle děložním zjištěna high-grade dysplazie."
+      }
+    ],
+    "chemotherapyLines": [
+      {
+        "lineTitle": "St.p. 1. linii neoadjuvantní a adjuvantní chemoterapie v režimu PTX/CBDCA (celkem 6 cyklů, 3 neoadjuvantní + 3 adjuvantní, ukončeno 07/2025)",
+        "toxicityAndDose": "Toxicita: G1 anémie, bez nutnosti redukce dávky."
+      }
+    ],
+    "treatmentsAndHistory": [
+      "gBRCA1 pozitivní (detekována zárodečná mutace BRCA1)",
+      "Udržovací léčba olaparibem (Lynparza) 300 mg 2x denně zahájena 4.9.2025, t.č. bez známek recidivy (poslední kontrola 22.06.2026, CA 125: 5,8 kIU/l)"
+    ]
+  },
+  "recurrences": [],
+  "tumorBoardConclusion": {
+    "date": "Onkogynekologické konzilium 9.9.2026",
+    "attendees": "prof. MUDr. Sláma, Ph.D., prof. MUDr. Fischerová, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malik",
+    "recommendation": "Doporučení: Pacientka s duplicitou ca prsu a ca ovarii, t.č. v kompletní remisi na udržovací terapii olaparibem (Lynparza 300 mg 2x denně), kterou výborně toleruje bez závažné toxicity. Doporučujeme pokračovat v zavedené udržovací terapii olaparibem a v pravidelném onkogynekologickém sledování včetně kontrol tumor markerů a dispenzárních zobrazovacích vyšetření (UZ, MMG). Kontrola v onkogynekologické ambulanci VFN."
+  }
+}

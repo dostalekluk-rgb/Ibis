@@ -1,0 +1,27 @@
+Jméno Příjmení
+Adresa
+Telefon
+Zdravotní pojišťovna
+
+NO: nynější onemocnění. Stručně epikríza (pár vět) a důvod provedení tumor boardu
+
+Anamnéza
+RA: rodinná anamnéza (stručně)
+OA: osobní anamnéza (stručně)
+FA: farmakologická anamnéza (stručně)
+GA: gynekologická anamnéza (stručně)
+
+POSLEDNÍ VYŠETŘENÍ
+
+Dg.: diagnóza (např. ca colli uteri a pod.) TNM a FIGO staging (na začátku, v průběhu léčby už se nemění), I. dg.: (kdy bylo onemocnění diagnostikováno: MM/YYYY)
+1. LÉČBA:
+pokud byla: operace:
+		-histologie:
+pokud byla: chemoterapie
+pokud byla: radioterapie
+
+1. RECIDIVA
+léčba
+
+2. RECIDIVA
+léčba
