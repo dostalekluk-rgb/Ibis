@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { decodeFileBuffer } from '../utils/encoding.js';
-import { ParsedExamination } from '../types/chronology.js';
+import { ParsedExamination, UnparsedTextFragment } from '../types/chronology.js';
 import { parseCzechDateToIso, cleanPageBreakArtifacts } from './parseInput.js';
 
 import { PatientChronologyMetadata } from '../types/chronology.js';
@@ -107,8 +107,13 @@ export function anonymizeLocalText(text: string, metadata?: PatientChronologyMet
  * - Vytřídí ne-laboratorní nálezy (histologie, CT, RTG, MR, UZ, mikrobiologie/kultivace) do samostatných JSON vyšetření.
  * - Kvantitativní laboratorní hodnoty sdruží podle data do vyšetření "Laboratorní panel (datum)".
  * - Zaručí 100% lokální anonymizaci před výstupem.
+ * - Detekuje neparsované části textu (unparsedFragments).
  */
-export function parseLabTextToExaminations(fileName: string, rawText: string): { examinations: ParsedExamination[]; anonymizationSummary: AnonymizationSummary } {
+export function parseLabTextToExaminations(fileName: string, rawText: string): {
+  examinations: ParsedExamination[];
+  unparsedFragments: UnparsedTextFragment[];
+  anonymizationSummary: AnonymizationSummary;
+} {
   // 1. Důsledná lokální anonymizace před jakýmkoliv vyhodnocením
   const { anonymizedText, summary } = anonymizeLocalText(rawText);
   const cleanedText = cleanPageBreakArtifacts(anonymizedText);
@@ -117,13 +122,34 @@ export function parseLabTextToExaminations(fileName: string, rawText: string): {
   const blockRegex = /(?:^|\n)(Výsledky z \d{2}\/\d{2}\/\d{2,4}:[\s\S]*?)(?=(?:\nVýsledky z \d{2}\/\d{2}\/\d{2,4}:)|$)/gi;
   
   const examinations: ParsedExamination[] = [];
+  const unparsedFragments: UnparsedTextFragment[] = [];
   const labLinesByDate: Record<string, { rawDate: string; isoDate: string; textLines: string[] }> = {};
 
   let match: RegExpExecArray | null;
   let examCounter = 1;
+  let unparsedCounter = 1;
+  let lastEnd = 0;
 
   while ((match = blockRegex.exec(cleanedText)) !== null) {
+    const matchStart = match.index;
     const blockText = match[1].trim();
+
+    if (matchStart > lastEnd) {
+      const gapText = cleanedText.substring(lastEnd, matchStart).trim();
+      if (gapText.length > 5) {
+        unparsedFragments.push({
+          id: `${fileName}-unparsed-${unparsedCounter++}`,
+          fileName,
+          sourceType: 'lab',
+          location: lastEnd === 0 ? 'Úvod laboratorního souboru' : `Neparsovaná mezera (znak ${lastEnd}–${matchStart})`,
+          reason: 'Text neobsahuje standardní hlavičku "Výsledky z dd/mm/yy:"',
+          content: gapText,
+          sizeBytes: Buffer.byteLength(gapText, 'utf8')
+        });
+      }
+    }
+    lastEnd = matchStart + match[0].length;
+
     const firstLine = blockText.split('\n')[0].trim();
     const dateMatch = firstLine.match(/Výsledky z (\d{2}\/\d{2}\/\d{2,4}):/i);
     if (!dateMatch) continue;
@@ -183,6 +209,21 @@ export function parseLabTextToExaminations(fileName: string, rawText: string): {
     }
   }
 
+  if (lastEnd < cleanedText.length) {
+    const gapText = cleanedText.substring(lastEnd).trim();
+    if (gapText.length > 5) {
+      unparsedFragments.push({
+        id: `${fileName}-unparsed-${unparsedCounter++}`,
+        fileName,
+        sourceType: 'lab',
+        location: lastEnd === 0 ? 'Celý laboratorní soubor' : `Závěrečný neparsovaný úsek (znak ${lastEnd}–${cleanedText.length})`,
+        reason: 'Text neobsahuje standardní hlavičku "Výsledky z dd/mm/yy:"',
+        content: gapText,
+        sizeBytes: Buffer.byteLength(gapText, 'utf8')
+      });
+    }
+  }
+
   // Sdružení laboratorních hodnot podle data do samostatných vyšetření
   for (const rawDate of Object.keys(labLinesByDate)) {
     const item = labLinesByDate[rawDate];
@@ -209,11 +250,16 @@ export function parseLabTextToExaminations(fileName: string, rawText: string): {
 
   return {
     examinations,
+    unparsedFragments,
     anonymizationSummary: summary
   };
 }
 
-export function parseLabFileToExaminations(filePath: string): { examinations: ParsedExamination[]; anonymizationSummary: AnonymizationSummary } {
+export function parseLabFileToExaminations(filePath: string): {
+  examinations: ParsedExamination[];
+  unparsedFragments: UnparsedTextFragment[];
+  anonymizationSummary: AnonymizationSummary;
+} {
   const fileName = path.basename(filePath);
   const buf = fs.readFileSync(filePath);
   const rawText = decodeFileBuffer(buf);

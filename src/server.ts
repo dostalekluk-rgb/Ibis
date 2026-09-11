@@ -32,7 +32,8 @@ function serveEmptyChronologyPage(res: express.Response) {
       dateRange: { firstDate: '—', lastDate: '—' }
     },
     examinations: [],
-    unparsedFiles: []
+    unparsedFiles: [],
+    unparsedFragments: []
   };
 
   const htmlPath = path.join(outputDir, 'chronology.html');

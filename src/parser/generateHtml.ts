@@ -82,34 +82,43 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
     </div>
   ` : dataset.examinations.map((exam, idx) => renderTimelineBox(exam, idx)).join('\n');
 
-  // Check unparsed files (including lab files in the right panel)
+  // Check unparsed fragments (or files in the right panel)
+  const unparsedFragments = dataset.unparsedFragments && dataset.unparsedFragments.length > 0 
+    ? dataset.unparsedFragments 
+    : (dataset.unparsedFiles || []).map((f, idx) => ({
+        id: `UNPARSED-${idx + 1}`,
+        fileName: f.fileName,
+        location: 'Celý neparsovaný soubor',
+        reason: 'Neparsovaný soubor z adresáře',
+        content: f.content,
+        sizeBytes: f.sizeBytes
+      }));
 
-  const unparsedFiles = dataset.unparsedFiles || [];
   let unparsedContentHtml = '';
 
-  if (unparsedFiles.length === 0) {
+  if (unparsedFragments.length === 0) {
     unparsedContentHtml = `
       <div class="empty-state">
-        <h3 style="font-family: 'Merriweather', serif; font-size: 13px; color: var(--nejm-navy); margin-bottom: 6px;">📄 Neparsované / Ostatní Soubory</h3>
+        <h3 style="font-family: 'Merriweather', serif; font-size: 13px; color: var(--nejm-navy); margin-bottom: 6px;">📄 Neparsované Části Textu</h3>
         <p style="color: var(--text-muted); font-size: 11px; line-height: 1.5;">
-          Žádné další neparsované soubory v adresáři.
+          Všechny části textu ze zpracovávaných souborů byly úspěšně parsovány a zařazeny do vyšetření. Žádný neparsovaný textový úsek nebyl nalezen.
         </p>
       </div>
     `;
   } else {
-    const unparsedTabs = unparsedFiles.map((f, idx) => `
-      <button class="file-tab-btn ${idx === 0 ? 'active' : ''}" onclick="selectUnparsedFile(${idx})">
-        📄 ${escapeHtml(f.fileName)}
+    const unparsedTabs = unparsedFragments.map((f, idx) => `
+      <button class="file-tab-btn ${idx === 0 ? 'active' : ''}" onclick="selectUnparsedFragment(${idx})">
+        📄 ${escapeHtml(f.fileName)} <span style="font-size: 9px; opacity: 0.8; margin-left: 4px;">(${escapeHtml(f.location)})</span>
       </button>
     `).join('');
 
     unparsedContentHtml = `
       <div class="file-tabs">${unparsedTabs}</div>
       <div class="unparsed-toolbar">
-        <div id="fileInfo"><strong>${escapeHtml(unparsedFiles[0].fileName)}</strong> | ${(unparsedFiles[0].sizeBytes / 1024).toFixed(1)} KB</div>
-        <input type="text" id="rightSearch" class="search-input" style="max-width: 200px;" placeholder="Hledat v textu..." oninput="filterUnparsedText()">
+        <div id="fileInfo"><strong>${escapeHtml(unparsedFragments[0].fileName)}</strong> | <span style="color: #64748b;">${escapeHtml(unparsedFragments[0].location)}</span> | ${(unparsedFragments[0].sizeBytes / 1024).toFixed(1)} KB</div>
+        <input type="text" id="rightSearch" class="search-input" style="max-width: 200px;" placeholder="Hledat v neparsovaném textu..." oninput="filterUnparsedText()">
       </div>
-      <div class="unparsed-viewer" id="unparsedViewer">${escapeHtml(unparsedFiles[0].content)}</div>
+      <div class="unparsed-viewer" id="unparsedViewer">${escapeHtml(unparsedFragments[0].content)}</div>
     `;
   }
 
@@ -1172,11 +1181,11 @@ ${timelineBoxesHtml}
       </div>
     </div>
 
-    <!-- Right Column: Unparsed Files & Tumor Board Result -->
+    <!-- Right Column: Unparsed Text Fragments & Tumor Board Result -->
     <div class="column-panel" id="rightPanelColumn">
       <div class="panel-header" style="background: #334155;">
-        <span>📄 Neparsované Soubory & Zbytek</span>
-        <span class="panel-header-badge" id="unparsedCountBadge">${unparsedFiles.length} souborů</span>
+        <span>📄 Neparsované Části Textu & Zbytek</span>
+        <span class="panel-header-badge" id="unparsedCountBadge">${unparsedFragments.length} úseků</span>
       </div>
 
       <div class="unparsed-container">
@@ -1188,8 +1197,16 @@ ${unparsedContentHtml}
   <script>
     let sortAscending = true;
     let isAnonymized = false;
-    const currentMeta = ${JSON.stringify(meta)};
-    const unparsedFilesData = ${JSON.stringify(unparsedFiles.map(f => ({ fileName: f.fileName, sizeBytes: f.sizeBytes, content: f.content })))};
+    const currentMeta = ${JSON.stringify(meta).replace(/</g, '\\u003c')};
+    const unparsedFragmentsData = ${JSON.stringify(unparsedFragments.map(f => ({
+      id: f.id,
+      fileName: f.fileName,
+      location: f.location,
+      reason: f.reason,
+      sizeBytes: f.sizeBytes,
+      content: f.content
+    }))).replace(/</g, '\\u003c')};
+    const unparsedFilesData = unparsedFragmentsData;
 
     // Rock-solid tab switcher
     function switchTab(id, mode) {
@@ -1254,13 +1271,13 @@ ${unparsedContentHtml}
       boxes.forEach(box => container.appendChild(box));
     }
 
-    function selectUnparsedFile(idx) {
-      const file = unparsedFilesData[idx];
-      if (!file) return;
+    function selectUnparsedFragment(idx) {
+      const frag = unparsedFragmentsData[idx];
+      if (!frag) return;
       const viewer = document.getElementById('unparsedViewer');
       const info = document.getElementById('fileInfo');
-      if (viewer) viewer.innerText = file.content;
-      if (info) info.innerHTML = '<strong>' + file.fileName + '</strong> | ' + (file.sizeBytes / 1024).toFixed(1) + ' KB';
+      if (viewer) viewer.innerText = frag.content;
+      if (info) info.innerHTML = '<strong>' + escapeHtml(frag.fileName) + '</strong> | <span style="color: #64748b;">' + escapeHtml(frag.location) + '</span> | ' + (frag.sizeBytes / 1024).toFixed(1) + ' KB';
 
       document.querySelectorAll('.file-tab-btn').forEach((btn, i) => {
         if (i === idx) btn.classList.add('active');
@@ -1268,12 +1285,26 @@ ${unparsedContentHtml}
       });
     }
 
+    function selectUnparsedFile(idx) {
+      selectUnparsedFragment(idx);
+    }
+
     function filterUnparsedText() {
       const input = document.getElementById('rightSearch');
-      const viewer = document.getElementById('unparsedViewer');
-      if (!input || !viewer) return;
-      const query = input.value.toLowerCase();
-      if (!query) return;
+      if (!input) return;
+      const query = input.value.toLowerCase().trim();
+      const tabs = document.querySelectorAll('.file-tab-btn');
+
+      unparsedFragmentsData.forEach((frag, idx) => {
+        const btn = tabs[idx];
+        if (!btn) return;
+        const searchStr = (frag.fileName + ' ' + frag.location + ' ' + frag.content).toLowerCase();
+        if (!query || searchStr.includes(query)) {
+          btn.style.display = 'inline-block';
+        } else {
+          btn.style.display = 'none';
+        }
+      });
     }
 
     function escapeRegExpStr(str) {
@@ -1487,6 +1518,8 @@ ${unparsedContentHtml}
     window.runAnonymization = runAnonymization;
     window.sendToGemini = sendToGemini;
     window.handleFileUpload = handleFileUpload;
+    window.selectUnparsedFragment = selectUnparsedFragment;
+    window.selectUnparsedFile = selectUnparsedFile;
 
     let chatHistory = [];
 

@@ -45,6 +45,16 @@ export interface UnparsedFile {
   content: string;
 }
 
+export interface UnparsedTextFragment {
+  id: string;
+  fileName: string;
+  sourceType?: SourceType;
+  location: string;
+  reason: string;
+  content: string;
+  sizeBytes: number;
+}
+
 export interface LabMeasurement {
   date: string;         // ISO date e.g. "2025-09-22"
   rawDate: string;      // Původní datum e.g. "22/09/25"
@@ -125,6 +135,7 @@ export interface PatientChronologyDataset {
   metadata: PatientChronologyMetadata;
   examinations: ParsedExamination[];
   unparsedFiles: UnparsedFile[];
+  unparsedFragments?: UnparsedTextFragment[];
   labAggregated?: LabAggregatedDataset;
   tumorBoardStructured?: TumorBoardStructuredJson;
 }

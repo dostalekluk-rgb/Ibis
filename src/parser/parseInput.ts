@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { decodeFileBuffer } from '../utils/encoding.js';
-import { ParsedExamination, PatientChronologyDataset, SourceType } from '../types/chronology.js';
+import { ParsedExamination, PatientChronologyDataset, SourceType, UnparsedTextFragment } from '../types/chronology.js';
 
 /**
  * Odstraní exportní hlavičky stran a stránkování v textu
@@ -93,10 +93,16 @@ function extractPatientInfoFromText(text: string): {
 /**
  * Zpracuje jeden textový soubor (ambulantní nebo hospitalizační)
  */
-export function parseInputText(fileName: string, rawText: string): ParsedExamination[] {
+export function parseInputText(fileName: string, rawText: string): {
+  examinations: ParsedExamination[];
+  unparsedFragments: UnparsedTextFragment[];
+} {
   const sourceType: SourceType = fileName.includes('amb') ? 'amb' : 'hosp';
   const text = cleanPageBreakArtifacts(rawText);
   const lines = text.split(/\r?\n/);
+
+  const entries: ParsedExamination[] = [];
+  const unparsedFragments: UnparsedTextFragment[] = [];
 
   // Vyhledání řádků se záhlavím sekcí
   const blockHeaderIndices: number[] = [];
@@ -105,6 +111,21 @@ export function parseInputText(fileName: string, rawText: string): ParsedExamina
     if (line.includes('Dokumentace ze dne') || line.includes('Nález ze dne') || line.includes('DEKURZ ze dne')) {
       blockHeaderIndices.push(i);
     }
+  }
+
+  if (blockHeaderIndices.length === 0) {
+    if (text.trim().length > 0) {
+      unparsedFragments.push({
+        id: `${fileName}-unparsed-full`,
+        fileName,
+        sourceType,
+        location: 'Celý soubor',
+        reason: 'Text neobsahuje rozpoznanou sekční hlavičku (Dokumentace/Nález/DEKURZ ze dne)',
+        content: text.trim(),
+        sizeBytes: Buffer.byteLength(text.trim(), 'utf8')
+      });
+    }
+    return { examinations: entries, unparsedFragments };
   }
 
   // Sloučení sousedních záhlaví patřících ke stejnému vyšetření (do 5 řádků od sebe)
@@ -132,8 +153,6 @@ export function parseInputText(fileName: string, rawText: string): ParsedExamina
     });
   }
 
-  const entries: ParsedExamination[] = [];
-
   // Preamble (úvodní část před prvním záhlavím)
   if (mergedHeaders.length > 0 && mergedHeaders[0].startLineIdx > 0) {
     const preambleContent = lines.slice(0, mergedHeaders[0].startLineIdx).join('\n').trim();
@@ -155,6 +174,16 @@ export function parseInputText(fileName: string, rawText: string): ParsedExamina
         type: sourceType === 'amb' ? 'Vstupní anamnéza / Souhrn' : 'Vstupní dekurs / Anamnéza',
         title: sourceType === 'amb' ? 'Vstupní anamnéza a stagingový souhrn' : 'Vstupní status a anamnéza hospitalizace',
         content: preambleContent
+      });
+    } else if (preambleContent.length > 0) {
+      unparsedFragments.push({
+        id: `${fileName}-unparsed-preamble`,
+        fileName,
+        sourceType,
+        location: `Úvodní část (řádky 1–${mergedHeaders[0].startLineIdx})`,
+        reason: 'Krátký text před první hlavičkou vyšetření (≤ 30 znaků)',
+        content: preambleContent,
+        sizeBytes: Buffer.byteLength(preambleContent, 'utf8')
       });
     }
   }
@@ -210,10 +239,13 @@ export function parseInputText(fileName: string, rawText: string): ParsedExamina
     });
   }
 
-  return entries;
+  return { examinations: entries, unparsedFragments };
 }
 
-export function parseInputFile(filePath: string): ParsedExamination[] {
+export function parseInputFile(filePath: string): {
+  examinations: ParsedExamination[];
+  unparsedFragments: UnparsedTextFragment[];
+} {
   const fileName = path.basename(filePath);
   const buf = fs.readFileSync(filePath);
   const rawText = decodeFileBuffer(buf);
@@ -274,24 +306,38 @@ export function parseUploadedFiles(
 
   let extractedEntries: ParsedExamination[] = [];
   const unparsedFiles: Array<{ fileName: string; sizeBytes: number; content: string }> = [];
+  let unparsedFragments: UnparsedTextFragment[] = [];
   let combinedLabText = '';
 
   for (const pf of processedFiles) {
-    const isLab = pf.fileName.toLowerCase().includes('lab') || pf.rawText.includes('Výsledky z ');
+    const lowerName = pf.fileName.toLowerCase();
+    const isAmbOrHosp = lowerName.includes('amb') || lowerName.includes('hosp');
+    const isLab = lowerName.includes('lab') || (!isAmbOrHosp && /Výsledky z \d{2}\/\d{2}\/\d{2,4}:/i.test(pf.rawText));
     const isTxtOrDoc = pf.fileName.endsWith('.txt') || pf.fileName.endsWith('.json') || pf.fileName.endsWith('.doc') || pf.fileName.endsWith('.docx');
 
     if (isLab) {
       combinedLabText += pf.rawText + '\n';
-      const { examinations } = parseLabTextToExaminations(pf.fileName, pf.rawText);
+      const { examinations, unparsedFragments: labFrags } = parseLabTextToExaminations(pf.fileName, pf.rawText);
       extractedEntries = extractedEntries.concat(examinations);
-    } else if (isTxtOrDoc) {
-      const entries = parseInputText(pf.fileName, pf.rawText);
-      extractedEntries = extractedEntries.concat(entries);
+      unparsedFragments = unparsedFragments.concat(labFrags);
+    } else if (isAmbOrHosp || isTxtOrDoc) {
+      const { examinations, unparsedFragments: textFrags } = parseInputText(pf.fileName, pf.rawText);
+      extractedEntries = extractedEntries.concat(examinations);
+      unparsedFragments = unparsedFragments.concat(textFrags);
     } else {
+      const cleaned = cleanPageBreakArtifacts(pf.rawText);
       unparsedFiles.push({
         fileName: pf.fileName,
         sizeBytes: Buffer.byteLength(pf.rawText, 'utf8'),
-        content: cleanPageBreakArtifacts(pf.rawText)
+        content: cleaned
+      });
+      unparsedFragments.push({
+        id: `${pf.fileName}-unparsed-file`,
+        fileName: pf.fileName,
+        location: 'Celý soubor',
+        reason: 'Nepodporovaný nebo neznámý typ souboru',
+        content: cleaned,
+        sizeBytes: Buffer.byteLength(pf.rawText, 'utf8')
       });
     }
   }
@@ -312,26 +358,46 @@ export function parseUploadedFiles(
   const hospCount = extractedEntries.filter(e => e.sourceType === 'hosp').length;
   const labCount = extractedEntries.filter(e => e.sourceType === 'lab').length;
 
+  const metadata = {
+    patientName: patientInfo.patientName || (extractedEntries.length > 0 ? 'Vyšetřovaná Pacientka' : 'Neznámá Pacientka'),
+    insuranceNumber: patientInfo.insuranceNumber || '[Neznámé RČ]',
+    insuranceCode: patientInfo.insuranceCode || 'VZP (111)',
+    address: patientInfo.address || '[Neznámé bydliště]',
+    phone: patientInfo.phone || '[Neznámý telefon]',
+    dateOfBirth: patientInfo.dateOfBirth || '[Neznámý datum narození]',
+    generatedAt: new Date().toISOString(),
+    totalEvents: extractedEntries.length,
+    ambEventsCount: ambCount,
+    hospEventsCount: hospCount,
+    labEventsCount: labCount,
+    dateRange: {
+      firstDate: extractedEntries[0]?.date ? extractedEntries[0].date.split('T')[0] : '',
+      lastDate: extractedEntries[extractedEntries.length - 1]?.date ? extractedEntries[extractedEntries.length - 1].date.split('T')[0] : ''
+    }
+  };
+
+  // Lokální anonymizace neparsovaných fragmentů
+  unparsedFragments.forEach(frag => {
+    const { anonymizedText } = anonymizeLocalText(frag.content, metadata);
+    frag.content = anonymizedText;
+  });
+
+  // Zajištění zpětné kompatibility unparsedFiles
+  if (unparsedFiles.length === 0 && unparsedFragments.length > 0) {
+    unparsedFragments.forEach(f => {
+      unparsedFiles.push({
+        fileName: f.fileName,
+        sizeBytes: f.sizeBytes,
+        content: f.content
+      });
+    });
+  }
+
   const dataset: PatientChronologyDataset = {
-    metadata: {
-      patientName: patientInfo.patientName || (extractedEntries.length > 0 ? 'Vyšetřovaná Pacientka' : 'Neznámá Pacientka'),
-      insuranceNumber: patientInfo.insuranceNumber || '[Neznámé RČ]',
-      insuranceCode: patientInfo.insuranceCode || 'VZP (111)',
-      address: patientInfo.address || '[Neznámé bydliště]',
-      phone: patientInfo.phone || '[Neznámý telefon]',
-      dateOfBirth: patientInfo.dateOfBirth || '[Neznámý datum narození]',
-      generatedAt: new Date().toISOString(),
-      totalEvents: extractedEntries.length,
-      ambEventsCount: ambCount,
-      hospEventsCount: hospCount,
-      labEventsCount: labCount,
-      dateRange: {
-        firstDate: extractedEntries[0]?.date ? extractedEntries[0].date.split('T')[0] : '',
-        lastDate: extractedEntries[extractedEntries.length - 1]?.date ? extractedEntries[extractedEntries.length - 1].date.split('T')[0] : ''
-      }
-    },
+    metadata,
     examinations: extractedEntries,
     unparsedFiles,
+    unparsedFragments,
     labAggregated
   };
 
@@ -394,6 +460,7 @@ export function parseAllInputs(vstupDir: string, outputDir: string): PatientChro
   });
 
   let extractedEntries: ParsedExamination[] = [];
+  let unparsedFragments: UnparsedTextFragment[] = [];
   let patientInfo: {
     patientName?: string;
     insuranceNumber?: string;
@@ -418,15 +485,17 @@ export function parseAllInputs(vstupDir: string, outputDir: string): PatientChro
 
   targetFiles.forEach(file => {
     const filePath = path.join(vstupDir, file);
-    const entries = parseInputFile(filePath);
-    extractedEntries = extractedEntries.concat(entries);
+    const { examinations, unparsedFragments: textFrags } = parseInputFile(filePath);
+    extractedEntries = extractedEntries.concat(examinations);
+    unparsedFragments = unparsedFragments.concat(textFrags);
   });
 
   // Zpracování laboratorních souborů (*lab*.txt i souborů s "Výsledky z dd/mm/yy:")
   labFiles.forEach(file => {
     const filePath = path.join(vstupDir, file);
-    const { examinations } = parseLabFileToExaminations(filePath);
+    const { examinations, unparsedFragments: labFrags } = parseLabFileToExaminations(filePath);
     extractedEntries = extractedEntries.concat(examinations);
+    unparsedFragments = unparsedFragments.concat(labFrags);
   });
 
   // Agregace jednotlivých laboratorních analytů a časových řad (CRP, CA 125, Na, K, IRI atd.)
@@ -460,28 +529,55 @@ export function parseAllInputs(vstupDir: string, outputDir: string): PatientChro
       sizeBytes: stats.size,
       content: cleanedContent
     });
+    unparsedFragments.push({
+      id: `${file}-unparsed-file`,
+      fileName: file,
+      location: 'Celý soubor',
+      reason: 'Nepodporovaný nebo nezařazený soubor z adresáře /vstup',
+      content: cleanedContent,
+      sizeBytes: stats.size
+    });
   });
 
+  const metadata = {
+    patientName: patientInfo.patientName || (extractedEntries.length > 0 ? 'Vyšetřovaná Pacientka' : 'Neznámá Pacientka'),
+    insuranceNumber: patientInfo.insuranceNumber || '[Neznámé RČ]',
+    insuranceCode: patientInfo.insuranceCode || 'VZP (111)',
+    address: patientInfo.address || '[Neznámé bydliště]',
+    phone: patientInfo.phone || '[Neznámý telefon]',
+    dateOfBirth: patientInfo.dateOfBirth || '[Neznámý datum narození]',
+    generatedAt: new Date().toISOString(),
+    totalEvents: extractedEntries.length,
+    ambEventsCount: ambCount,
+    hospEventsCount: hospCount,
+    labEventsCount: labCount,
+    dateRange: {
+      firstDate: extractedEntries[0]?.date ? extractedEntries[0].date.split('T')[0] : '',
+      lastDate: extractedEntries[extractedEntries.length - 1]?.date ? extractedEntries[extractedEntries.length - 1].date.split('T')[0] : ''
+    }
+  };
+
+  // Lokální anonymizace neparsovaných fragmentů
+  unparsedFragments.forEach(frag => {
+    const { anonymizedText } = anonymizeLocalText(frag.content, metadata);
+    frag.content = anonymizedText;
+  });
+
+  if (unparsedFiles.length === 0 && unparsedFragments.length > 0) {
+    unparsedFragments.forEach(f => {
+      unparsedFiles.push({
+        fileName: f.fileName,
+        sizeBytes: f.sizeBytes,
+        content: f.content
+      });
+    });
+  }
+
   const dataset: PatientChronologyDataset = {
-    metadata: {
-      patientName: patientInfo.patientName || (extractedEntries.length > 0 ? 'Vyšetřovaná Pacientka' : 'Neznámá Pacientka'),
-      insuranceNumber: patientInfo.insuranceNumber || '[Neznámé RČ]',
-      insuranceCode: patientInfo.insuranceCode || 'VZP (111)',
-      address: patientInfo.address || '[Neznámé bydliště]',
-      phone: patientInfo.phone || '[Neznámý telefon]',
-      dateOfBirth: patientInfo.dateOfBirth || '[Neznámý datum narození]',
-      generatedAt: new Date().toISOString(),
-      totalEvents: extractedEntries.length,
-      ambEventsCount: ambCount,
-      hospEventsCount: hospCount,
-      labEventsCount: labCount,
-      dateRange: {
-        firstDate: extractedEntries[0]?.date ? extractedEntries[0].date.split('T')[0] : '',
-        lastDate: extractedEntries[extractedEntries.length - 1]?.date ? extractedEntries[extractedEntries.length - 1].date.split('T')[0] : ''
-      }
-    },
+    metadata,
     examinations: extractedEntries,
     unparsedFiles,
+    unparsedFragments,
     labAggregated
   };
 
