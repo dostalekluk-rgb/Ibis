@@ -1,11 +1,11 @@
 {
   "id": "EXAM-004",
-  "date": "2025-02-06",
-  "rawDate": "06/02/25",
-  "sourceFile": "ai-wolf-lab.txt",
+  "date": "2025-09-04",
+  "rawDate": "04/09/25",
+  "sourceFile": "ai-stankova-lab.txt",
   "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
-  "doctor": null,
-  "title": "Laboratorní panel (06/02/25)",
-  "content": "Výsledky z 06/02/25: \r\n  Nedefinovaná třída: \r\n      ext-dok.: Pojištěn PDF"
+  "type": "Histologie / Biopsie",
+  "doctor": "Prouzová Zuzana MUDr.",
+  "title": "Histologie / Biopsie (04/09/25)",
+  "content": "Výsledky z 04/09/25: \r\n  Nálezy: \r\n      REPT_BIOPVYS_DTP:\r\n\r\nKlinická diagnóza: \r\nLaboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189\r\ned.3:2023. Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle \r\nSOP-PAT-10.\r\n\r\nImunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13.\r\n\r\n\r\nNález: \r\nB 16379/25     1x\r\n\r\nKlinicky dle průvodky: karcinomatosis, HGSC tubae dle UZ, Truth I. fáze\r\n\r\nMakro:\r\nTři válečky délky 13, 10 a 10 mm (A-C). Prokrojeno.\r\nMikro:\r\npruhy vazivové tkáně jsou nepravidelně prostoupeny glandulárními, místy papilárně konfigurovanými (\"slit-like\") formacemi karcinomu s vysokou jadernou polymorfií a vyšší mitotickou aktivitou. Ložiskově je tkáň nekrotická.\r\nImunohistochemické vyšetření (1A):\r\nCK7: nádorové buňky pozitivní \r\nPAX8: nádorové buňky pozitivní \r\np16: nádorové buňky difuzně silně pozitivní \r\nWT1: nádorové buňky z větší části pozitivní \r\nER: 3+ 100 % nádorových buněk\r\nPR: negativní\r\np53: mutovaný (2+ až 3+ jádra, u slabších jader pozitivita cytoplasmy)\r\nMIB1: cca 50 %\r\n\r\nZávěr:\r\nHigh-grade serózní karcinom  - HGSC (dle UZ tuby).\r\n\r\nPoznámka: tkáň je vhodná na další analýzu (nejvíce nádorových buněk je v bloku A, v blocích B a C méně). \r\n\r\nT86? T87?          M8461/3\r\n\r\nDatum potvrzení: 10.9.2025 12:46:00\r\nPotvrzující lékař: Prouzová Zuzana MUDr.\r\n\r\nDodatek 1:\r\nNa základě žádosti MUDr. F. Frühaufa z GPKN kliniky VFN předáváme dne 9.6.2026 parafínový blok B16379/1C/25\r\ndo studie REJOICE. \r\n\r\n\r\n\r\nDatum potvrzení: 12.6.2026 08:30:00\r\nPotvrzující lékař: Véghová Blanka\r\n\r\nDodatek 2:\r\nZapůjčený blok B16379/1C/25 byl navrácen.\r\n\r\nDatum potvrzení: 18.6.2026 12:35:00\r\nPotvrzující lékař: Véghová Blanka"
 }

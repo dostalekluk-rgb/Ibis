@@ -1,12 +1,11 @@
 {
   "id": "EXAM-116",
-  "date": "2026-07-28T12:35:00",
-  "rawDate": "28.07.26",
-  "time": "12:35",
-  "sourceFile": "ai-stankova-amb.txt",
-  "sourceType": "amb",
-  "type": "Ambulantní nález",
-  "doctor": "Valentová Tereza MUDr.",
-  "title": "------  Dokumentace ze dne 28.07.26 ---------:                                    Nález ze dne 28.07.26 12:35 Valentová Tereza MUDr.:",
-  "content": "------  Dokumentace ze dne 28.07.26 ---------:                             \n      Nález ze dne 28.07.26 12:35 Valentová Tereza MUDr.:                  \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n  0140631 GRANEGIS         2MG TBL FLM 5                1 bal. : 1-0-0     \n                                                                           \n\nMedikace:                                                                  \n  0140631 GRANEGIS         2MG TBL FLM 5                1 bal. : 1-0-0"
+  "date": "2026-09-03",
+  "rawDate": "03/09/26",
+  "sourceFile": "ai-stankova-lab.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (03/09/26)",
+  "content": "Výsledky z 03/09/26: \r\n  Minerály+Osmolalita: \r\n      Na: 141\r\n      K: 3,9\r\n      Cl: 106\r\n      P: 0,90\r\n      Mg: 0,64"
 }

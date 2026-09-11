@@ -34,11 +34,12 @@ function renderTimelineBox(exam: ParsedExamination, index: number): string {
   const formattedDate = formatDateDisplay(exam.date, exam.rawDate);
   const jsonFormatted = JSON.stringify(exam, null, 2);
   const examNumber = index + 1;
+  const isoDateOnly = exam.date ? exam.date.split('T')[0] : '';
 
   const searchText = `vyšetření ${examNumber} ${exam.id} ${exam.date} ${exam.rawDate} ${exam.type} ${exam.sourceFile} ${exam.doctor || ''} ${exam.content}`.toLowerCase();
 
   return `
-    <div class="timeline-box" id="box-${exam.id}" data-type="${exam.sourceType}" data-search="${escapeHtml(searchText)}">
+    <div class="timeline-box" id="box-${exam.id}" data-type="${exam.sourceType}" data-date="${isoDateOnly}" data-search="${escapeHtml(searchText)}">
       <div class="box-header">
         <div class="box-title-group">
           <span class="box-number">Vyšetření ${examNumber}</span>
@@ -321,6 +322,15 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
       display: none;
       align-items: center;
       justify-content: space-between;
+    }
+
+    .timeline-box.cutoff-excluded {
+      opacity: 0.5;
+      border: 1.5px dashed var(--nejm-crimson) !important;
+    }
+
+    .timeline-box.cutoff-excluded .box-header {
+      background: #fff1f2;
     }
 
     /* Dual Column Layout */
@@ -1143,6 +1153,10 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
           📁 Přidat Soubor
           <input type="file" multiple accept=".txt,.json,.doc,.docx" style="display:none" onchange="handleFileUpload(event)">
         </label>
+        <div style="display: flex; flex-direction: column; gap: 2px;">
+          <span class="patient-meta-label" style="color: var(--nejm-crimson); font-weight: 700;">📅 Max. datum pro Gemini</span>
+          <input type="date" id="maxDateCutoff" class="date-cutoff-input" style="padding: 4px 8px; border: 1.5px solid var(--nejm-border); border-radius: 4px; font-size: 11px; font-family: 'Inter', sans-serif; background: #ffffff; color: var(--text-dark); cursor: pointer;" onchange="handleDateCutoffChange()">
+        </div>
         <button id="anonymizeBtn" class="btn-anonymize" onclick="handleActionClick()">
           🔒 Anonymizovat Data
         </button>
@@ -1514,12 +1528,41 @@ ${unparsedContentHtml}
       }
     }
 
+    function handleDateCutoffChange() {
+      const input = document.getElementById('maxDateCutoff');
+      if (!input) return;
+      const cutoffIso = input.value;
+      if (!cutoffIso) return;
+
+      const boxes = document.querySelectorAll('.timeline-box');
+
+      boxes.forEach(box => {
+        const boxDate = box.getAttribute('data-date');
+        if (boxDate && boxDate >= cutoffIso) {
+          box.classList.add('cutoff-excluded');
+        } else {
+          box.classList.remove('cutoff-excluded');
+        }
+      });
+    }
+
+    // Inicializace výchozího dnešního data
+    try {
+      const todayStr = new Date().toISOString().split('T')[0];
+      const cutoffInput = document.getElementById('maxDateCutoff');
+      if (cutoffInput && !cutoffInput.value) {
+        cutoffInput.value = todayStr;
+      }
+      handleDateCutoffChange();
+    } catch(e) {}
+
     window.handleActionClick = handleActionClick;
     window.runAnonymization = runAnonymization;
     window.sendToGemini = sendToGemini;
     window.handleFileUpload = handleFileUpload;
     window.selectUnparsedFragment = selectUnparsedFragment;
     window.selectUnparsedFile = selectUnparsedFile;
+    window.handleDateCutoffChange = handleDateCutoffChange;
 
     let chatHistory = [];
 
@@ -1532,6 +1575,8 @@ ${unparsedContentHtml}
         alert('BEZPEČNOSTNÍ POJISTKA: Data MUSÍ být před odesláním do Gemini anonymizována!');
         return;
       }
+
+      const maxDateVal = document.getElementById('maxDateCutoff') ? document.getElementById('maxDateCutoff').value : '';
 
       const btn = document.getElementById('anonymizeBtn');
       if (btn) {
@@ -1553,7 +1598,7 @@ ${unparsedContentHtml}
               <div style="font-size: 36px; margin-bottom: 12px;">⏳</div>\
               <h3 style="font-family: Merriweather, serif; font-size: 14px; color: var(--nejm-navy); margin-bottom: 8px;">Generuji Závěr Tumor Boardu přes Gemini AI...</h3>\
               <p style="color: var(--text-muted); font-size: 11px; max-width: 420px; line-height: 1.5; margin: 0 auto;">\
-                Analytický agent prochází všech 159 vyšetření a časové řady analytů. Vybírá pouze nálezy s klinickým významem pro léčbu.\
+                Analytický agent prochází vyšetření a časové řady analytů (omezeno do data ' + (maxDateVal || 'dneška') + '). Vybírá pouze nálezy s klinickým významem pro léčbu.\
               </p>\
             </div>\
           </div>\
@@ -1563,7 +1608,7 @@ ${unparsedContentHtml}
       fetch('/api/gemini', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ isAnonymized: true })
+        body: JSON.stringify({ isAnonymized: true, maxDate: maxDateVal })
       })
       .then(res => res.json())
       .then(data => {

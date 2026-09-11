@@ -1,11 +1,12 @@
 {
   "id": "EXAM-020",
-  "date": "2025-05-08",
-  "rawDate": "08/05/25",
-  "sourceFile": "ai-wolf-lab.txt",
-  "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
-  "doctor": null,
-  "title": "Laboratorní panel (08/05/25)",
-  "content": "Výsledky z 08/05/25: \r\n  Krevní obraz-perifer: \r\n      Leu: 6,20 10^9/l\r\n      Ery: 3,11 10^12/l\r\n      HGB: 95 g/l\r\n      HCT: 0,293 1\r\n      MCV: 94,2 fl\r\n      MCH: 30,5 pg\r\n      MCHC: 324 g/l\r\n      RDW: 17,6 %\r\n      Plt: 131 10^9/l\r\n      MPV: 9,8 fl\r\n      PCT: 0,130 %\r\n      PDW: 10,3 fl\r\n  Dif.stroj. relativní: \r\n      Ne: 58,3 %\r\n      Ly: 23,9 %\r\n      Mo: 12,1 %\r\n      Eo: 4,8 %\r\n      Ba: 0,6 %\r\n      Nezralé granulocyty %: 0,3 %\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 3,61 10^9/l\r\n      Ly abs.: 1,48 10^9/l\r\n      Mo abs.: 0,75 10^9/l\r\n      Eo abs.: 0,30 10^9/l\r\n      Ba abs.: 0,04 10^9/l\r\n      Nezralé granulocyty abs.: 0,02 10^9/l\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00 %\r\n      Normoblasty abs. strojově: 0,00 10^9/l\r\n      NLR: 2,5 -"
+  "date": "2025-11-24T12:16:00",
+  "rawDate": "24.11.25",
+  "time": "12:16",
+  "sourceFile": "ai-stankova-amb.txt",
+  "sourceType": "amb",
+  "type": "Ambulantní nález",
+  "doctor": "Poľanová Tereza Bc.",
+  "title": "------  Dokumentace ze dne 24.11.25 ---------:                                    Nález ze dne 24.11.25 12:16 Poľanová Tereza Bc.:",
+  "content": "------  Dokumentace ze dne 24.11.25 ---------:                             \n      Nález ze dne 24.11.25 12:16 Poľanová Tereza Bc.:                     \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n---------------------------------------------------------                  \nLaboratorní vyšetření:                                                     \nCHL                                                                        \nKrevní obraz -  KO + diff. strojový, Retikulocyty FP (SYS)                 \nKIA                                                                        \nIMUNO -  Rozšířený panel                                                   \nBiochemie                                                                  \nBiochemie rutinní -  Železo-vaz.kap.volná, Cholesterol LDL, ALT, AST, GGT, \nALP, AMS-pankreatický iz.                                                  \n  LD, Cholesterol, Triacylglycerol, Cholesterol HDL, Na, K, Cl, Ca, Urea   \n  Fosfor, Hořčík, Kreatinin, Albumin, Močová kyselina, Glukóza, Bilirubin  \ncelkový                                                                    \nSpeciální -  CA 125                                                        \nordinováno 24.11.2025 v 12:16 na 24.11.2025 12:14, Frühauf Filip MUDr.     \n---------------------------------------------------------"
 }

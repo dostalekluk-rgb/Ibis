@@ -1,11 +1,10 @@
 {
   "id": "EXAM-031",
-  "date": "2026-03-09",
-  "rawDate": "09/03/26",
-  "sourceFile": "ai-wolf-lab.txt",
-  "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
-  "doctor": null,
-  "title": "Laboratorní panel (09/03/26)",
-  "content": "Výsledky z 09/03/26: \r\n  Krev-tumor.markery: \r\n      Ca 125: 6,1 kIU/l\r\n  Krevní obraz-perifer: \r\n      Leu: 4,56 10^9/l\r\n      Ery: 3,42 10^12/l\r\n      HGB: 117 g/l\r\n      HCT: 0,349 1\r\n      MCV: 102,0 fl\r\n      MCH: 34,2 pg\r\n      MCHC: 335 g/l\r\n      RDW: 15,9 %\r\n      Plt: 257 10^9/l\r\n      MPV: 10,4 fl\r\n      PCT: 0,270 %\r\n      PDW: 10,2 fl\r\n  Dif.stroj. relativní: \r\n      Ne: 63,3 %\r\n      Ly: 23,0 %\r\n      Mo: 11,8 %\r\n      Eo: 1,5 %\r\n      Ba: 0,4 %\r\n      Nezralé granulocyty %: 0,0 %\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 2,88 10^9/l\r\n      Ly abs.: 1,05 10^9/l\r\n      Mo abs.: 0,54 10^9/l\r\n      Eo abs.: 0,07 10^9/l\r\n      Ba abs.: 0,02 10^9/l\r\n      Nezralé granulocyty abs.: 0,00 10^9/l\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00 %\r\n      Normoblasty abs. strojově: 0,00 10^9/l\r\n      NLR: 2,7 -"
+  "date": "2026-02-10",
+  "rawDate": "03.09.25",
+  "sourceFile": "ai-stankova-hosp-01.txt",
+  "sourceType": "hosp",
+  "type": "Vstupní dekurs / Anamnéza",
+  "title": "Vstupní status a anamnéza hospitalizace",
+  "content": "Všeobecná fakultní nemocnice v Praze                                       \nStaňková Šárka, Mgr.                Č. poj.: 6351056382     Kód poj.:111  \nBydliště: U Hostavického  potoka 735/27, 198 00 Praha 98,tel. +42073794702 \nDat. nar.: 05.01.1963                                  Č. chor.: 001573/26\nDat. přij.: 10.02.26                                               GYN-ONKO\n===========================================================================\nAnamnéza CR:                                                                 \nAnamnéza:                                                                    \nSociální anamnéza:                                                           \nNynější onemocnění:                                                          \nObjektivní nález:                                                            \nZávěr při přijetí:                                                           \nCAVE:                                                                        \nBiseptol, Klacid, náplast může jen papírovou,                                \npo DEGANU bolesti žadludku, netoleruje ...                                   \nchem. čistící prostředky                                                     \nPovrch těla (m2) =   1,91 ; BMI=  29,76 ; Výška= 167 ; Váha= 83,000 ;        \n\nDiagnózy:                                                                    \nZákladní diagnóza: C56   Zhoubný novotvar vaječníku"
 }

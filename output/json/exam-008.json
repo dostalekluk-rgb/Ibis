@@ -1,11 +1,11 @@
 {
   "id": "EXAM-008",
-  "date": "2025-04-16",
-  "rawDate": "16/04/25",
-  "sourceFile": "ai-wolf-lab.txt",
+  "date": "2025-09-18",
+  "rawDate": "18/09/25",
+  "sourceFile": "ai-stankova-lab.txt",
   "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
-  "doctor": null,
-  "title": "Laboratorní panel (16/04/25)",
-  "content": "Výsledky z 16/04/25: \r\n  Minerály+Osmolalita: \r\n      Na: 145 mmol/l\r\n      K: 4,5 mmol/l\r\n      Cl: 105 mmol/l\r\n  Dusíkové metabolity: \r\n      Kreat.: 57 µmol/l\r\n  Jaterní testy: \r\n      Bilirubin: 4,4 µmol/l\r\n      ALT: 0,33 µkat/l\r\n      AST: 0,37 µkat/l\r\n      GGT: 0,58 µkat/l\r\n      ALP: 1,51 µkat/l\r\n      FIB-4 index: 1,44      ; mírné riziko jaterní fibrózy -\r\n  Bílkoviny: \r\n      Albumin: 45,2 g/l\r\n      CB: 71,8 g/l\r\n      CRP: <1,0 mg/l\r\n  Diabetický profil: \r\n      Glykemie: 4,6 mmol/l\r\n  Krevní obraz-perifer: \r\n      Leu: 6,76 10^9/l\r\n      Ery: 3,67 10^12/l\r\n      HGB: 108 g/l\r\n      HCT: 0,322 1\r\n      MCV: 87,7 fl\r\n      MCH: 29,6 pg\r\n      MCHC: 337 g/l\r\n      RDW: 20,3 %\r\n      Plt: 205 10^9/l\r\n      MPV: 9,4 fl\r\n  Dif.stroj. relativní: \r\n      Ne: 67,0 %\r\n      Ly: 16,7 %\r\n      Mo: 15,4 %\r\n      Eo: 0,0 %\r\n      Ba: 0,9 %\r\n      Nezralé granulocyty %: 0,0 %\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 4,52 10^9/l\r\n      Ly abs.: 1,13 10^9/l\r\n      Mo abs.: 1,04 10^9/l\r\n      Eo abs.: 0,00 10^9/l\r\n      Ba abs.: 0,06 10^9/l\r\n      Nezralé granulocyty abs.: 0,00 10^9/l\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00 %\r\n      Normoblasty abs. strojově: 0,00 10^9/l\r\n      NLR: 4,0 -\r\n  Koagulační vyšetření: \r\n      Protrombinový test čas: 11,70 s\r\n      INR: 0,97 1\r\n      APTT: 24,6 s\r\n      APTT R: 0,82 ."
+  "type": "CT Vyšetření",
+  "doctor": "MUDr. Macová Iva",
+  "title": "CT Vyšetření (18/09/25)",
+  "content": "Výsledky z 18/09/25: \r\n  Nálezy: \r\n      RTGVYS:\r\n\r\nNález: \r\nPřístroj Agfa DR 600, v. č. 2023\r\n\r\nRTG hrudníku a levého hemithoraxu\r\n\r\nSériová fraktura 5.-7. žebra vlevo ventrálně, bez posunů, zpětně vysledovatelné i na CT z 11.9.\r\nPleurální dutina bez volného plynu i tekutiny, v parenchymu bez kontuzí.\r\nVpravo segmentovaná bránice, oboustranně v parenchymu bez infiltrativních a ložiskových změn, pleurální dutiny bez výpotku. Srdeční stín není rozšířen a malý oběh neměstná.\r\n\r\nPotvrzující lékař: MUDr. Macová Iva"
 }

@@ -1,12 +1,11 @@
 {
   "id": "EXAM-129",
-  "date": "2026-08-08",
-  "rawDate": "08.08.26",
-  "time": null,
-  "sourceFile": "ai-stankova-amb.txt",
-  "sourceType": "amb",
-  "type": "Ambulantní dokumentace",
+  "date": "2026-09-03",
+  "rawDate": "03/09/26",
+  "sourceFile": "ai-stankova-lab.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
   "doctor": null,
-  "title": "------  Dokumentace ze dne 08.08.26 ---------:",
-  "content": "------  Dokumentace ze dne 08.08.26 ---------:                             \nMedikace:                                                                  \n  0122593 FENTALIS         25MCG/H TDR EMP 5            1 bal. :a 72 hod   \n  0180479 PANTOPRAZOLE ZEN 40MG TBL ENT 28 I            1 bal. 2x1"
+  "title": "Laboratorní panel (03/09/26)",
+  "content": "Výsledky z 03/09/26: \r\n  Minerály+Osmolalita: \r\n      Na: 141\r\n      K: 3,9\r\n      Cl: 106\r\n      P: 0,90\r\n      Mg: 0,64"
 }

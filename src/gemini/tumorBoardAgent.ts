@@ -454,11 +454,89 @@ export function renderStructuredJsonToHtml(
 }
 
 /**
+ * Vyfiltruje dataset podle maximální hranice data.
+ * Vyřazuje všechna vyšetření a laboratorní záznamy datované OD (včetně) zadaného data maxDate.
+ * Ponechá pouze vyšetření s datem striktně menším než maxDate (examDate < maxDate).
+ */
+export function filterDatasetByMaxDate(dataset: PatientChronologyDataset, maxDate: string): PatientChronologyDataset {
+  if (!maxDate || !maxDate.trim()) return dataset;
+  const cutoffIso = maxDate.trim().split('T')[0];
+
+  const filteredExams = (dataset.examinations || []).filter(exam => {
+    if (!exam.date || exam.date === '1970-01-01') return true;
+    const examDateIso = exam.date.split('T')[0];
+    return examDateIso < cutoffIso;
+  });
+
+  const totalOriginal = (dataset.examinations || []).length;
+  const totalFiltered = filteredExams.length;
+  const totalExcluded = totalOriginal - totalFiltered;
+
+  console.log(`[Tumor Board Agent] Omezuji vyšetření podle hraničního data maxDate = ${cutoffIso}.`);
+  console.log(`[Tumor Board Agent] Vyřazeno celkem ${totalExcluded} vyšetření datovaných >= ${cutoffIso}. Ponecháno ${totalFiltered} vyšetření.`);
+
+  const ambCount = filteredExams.filter(e => e.sourceType === 'amb').length;
+  const hospCount = filteredExams.filter(e => e.sourceType === 'hosp').length;
+  const labCount = filteredExams.filter(e => e.sourceType === 'lab').length;
+
+  let filteredLabAggregated = dataset.labAggregated;
+  if (dataset.labAggregated) {
+    const newByDate: Record<string, any> = {};
+    for (const d of Object.keys(dataset.labAggregated.byDate || {})) {
+      if (d < cutoffIso) {
+        newByDate[d] = dataset.labAggregated.byDate[d];
+      }
+    }
+
+    const newByTest: Record<string, any> = {};
+    for (const testName of Object.keys(dataset.labAggregated.byTest || {})) {
+      const group = dataset.labAggregated.byTest[testName];
+      const validMeasurements = (group.measurements || []).filter((m: any) => {
+        const mDate = m.date.split('T')[0];
+        return mDate < cutoffIso;
+      });
+      if (validMeasurements.length > 0) {
+        newByTest[testName] = {
+          ...group,
+          totalMeasurements: validMeasurements.length,
+          measurements: validMeasurements
+        };
+      }
+    }
+
+    filteredLabAggregated = {
+      byTest: newByTest,
+      byDate: newByDate,
+      totalUniqueTests: Object.keys(newByTest).length,
+      totalUniqueDates: Object.keys(newByDate).length
+    };
+  }
+
+  return {
+    ...dataset,
+    metadata: {
+      ...dataset.metadata,
+      totalEvents: filteredExams.length,
+      ambEventsCount: ambCount,
+      hospEventsCount: hospCount,
+      labEventsCount: labCount,
+      dateRange: {
+        firstDate: filteredExams[0]?.date ? filteredExams[0].date.split('T')[0] : '',
+        lastDate: filteredExams[filteredExams.length - 1]?.date ? filteredExams[filteredExams.length - 1].date.split('T')[0] : ''
+      }
+    },
+    examinations: filteredExams,
+    labAggregated: filteredLabAggregated
+  };
+}
+
+/**
  * Hlavní agent pro generování Závěru Tumor Boardu ve formátu JSON podle vzoru konsilium.docx
  */
 export async function generateTumorBoardSummary(
   dataset?: PatientChronologyDataset,
-  userApiKey?: string
+  userApiKey?: string,
+  maxDate?: string
 ): Promise<TumorBoardResult> {
   const apiKey = userApiKey || process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
 
@@ -485,6 +563,11 @@ export async function generateTumorBoardSummary(
 
   if (!targetDataset) {
     throw new Error('Chronology dataset nelze načíst.');
+  }
+
+  // Omezení vyšetření podle hraničního data maxDate, je-li zadáno
+  if (maxDate && maxDate.trim()) {
+    targetDataset = filterDatasetByMaxDate(targetDataset, maxDate);
   }
 
   // 1. BEZPEČNOSTNÍ POJISTKA: 100% Lokální anonymizace všech textů před odesláním do AI

@@ -53,7 +53,7 @@ app.use(express.static(path.resolve(process.cwd(), 'output')));
 // Endpoint pro odeslání anonymizovaných dat do Gemini
 app.post('/api/gemini', async (req, res) => {
   try {
-    const { isAnonymized, userApiKey } = req.body;
+    const { isAnonymized, userApiKey, maxDate } = req.body;
 
     if (!isAnonymized) {
       return res.status(400).json({
@@ -62,8 +62,8 @@ app.post('/api/gemini', async (req, res) => {
       });
     }
 
-    console.log('[Express Server] Přijat požadavek na generování Závěru Tumor Boardu...');
-    const result = await generateTumorBoardSummary(undefined, userApiKey);
+    console.log(`[Express Server] Přijat požadavek na generování Závěru Tumor Boardu${maxDate ? ` (maxDate: ${maxDate})` : ''}...`);
+    const result = await generateTumorBoardSummary(undefined, userApiKey, maxDate);
 
     res.json(result);
   } catch (err: any) {

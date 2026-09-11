@@ -1,11 +1,12 @@
 {
   "id": "EXAM-017",
-  "date": "2025-05-06",
-  "rawDate": "06/05/25",
-  "sourceFile": "ai-wolf-lab.txt",
-  "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
-  "doctor": null,
-  "title": "Laboratorní panel (06/05/25)",
-  "content": "Výsledky z 06/05/25: \r\n  Minerály+Osmolalita: \r\n      Na: 137 mmol/l\r\n      K: 4,0 mmol/l\r\n      Cl: 107 mmol/l\r\n  Diabetický profil: \r\n      Glykemie: 5,3 mmol/l\r\n  Krevní obraz-perifer: \r\n      Leu: 14,39 10^9/l\r\n      Ery: 3,11 10^12/l\r\n      HGB: 97 g/l\r\n      HCT: 0,290 1\r\n      MCV: 93,2 fl\r\n      MCH: 31,2 pg\r\n      MCHC: 334 g/l\r\n      RDW: 18,8 %\r\n      Plt: 133 10^9/l\r\n      MPV: 10,0 fl\r\n      PCT: 0,130 %\r\n      PDW: 10,6 fl\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00 %\r\n      Normoblasty abs. strojově: 0,00 10^9/l"
+  "date": "2025-10-27T11:25:00",
+  "rawDate": "27.10.25",
+  "time": "11:25",
+  "sourceFile": "ai-stankova-amb.txt",
+  "sourceType": "amb",
+  "type": "Ambulantní nález",
+  "doctor": "Křížanová Lenka",
+  "title": "------  Dokumentace ze dne 27.10.25 ---------:                                    Nález ze dne 27.10.25 11:25 Křížanová Lenka :",
+  "content": "------  Dokumentace ze dne 27.10.25 ---------:                             \n      Nález ze dne 27.10.25 11:25 Křížanová Lenka :                        \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n06411 Vyšetření a zhodnocení nutričního stavu                              \n\nPacientka:          Staňková Šárka, Mgr.                                   \n62   let                                                                   \nIndikace k vyšetření: předoperační indikace.                               \nVýška:   167  cm     Váha:  83    kg     BMI: 30                           \n\nZávěr: Pacientka před operací bez rizika malnutrice. Doporučila jsem preOp \npřed výkonem a suplementaci vit.C a D před operací                         \n\nNutriční potřeba:  8500 kJ (120kJ/kg/d)   90gB (1,2g B kg/d)-výpočet denní \npotřeby dle doporučené hmotnosti                                           \nDieta: vegetarián                                                          \nAlergie, intolerance: neuvádí                                              \nStolice:  zácpovitá                                                        \n\n\n06415 Edukace NT                                                           \nNutriční anamnéza + doporučení ohledně stravování: Pacientka neudává za    \nposlední tři měsíce hmotnostní úbytek. Váha je stabilní. Zvracení i        \nnevolnosti neguje. Chuť k jídlu po CHT horší. Alergie ani intoleranci      \nneuvádí, ale omezuje ml. výrovbky, což jsem pac. nedoporučila vzhledem k   \nveg. dietět a zácpě.  Ve stravě kladu důraz na navýšení množství           \nkvalitních bílkovin. Doporučeno zařadit vajíčka, mléčné výrobky. Dbát na   \ndostatečný pitný režim 1,5 l/den. Pacientka poučena i o vhodném pohybu pro \nnavyšování svalové hmoty. Sippingem vybavena.                              \nDietní opatření: Není vhodná kořeněná, ostrá nadýmavá strava. Omezit       \nsmažená jídla. Před operací omezit hrubou vlákninu.                        \nIndividuální doporučení: Pacientka edukována o sippingu, který je součástí \nperioperační realimentace per os. Poučena o jeho možnostech, využití,      \npříchutích a druzích.                                                      \nPísemné materiály: Pacientce předány edukační materiály do domácího        \nprostředí „Výživa před operačním výkonem“ , \"Sipping\" \n\n06421 Indikace sippingu NT                                                 \nStanovení nutriční potřeby a reálného příjmu:  viz. nutriční potřeba       \nDoporučení, druh, doplňková či úplná DEV: Pacientka edukována o sippingu,  \nkterý je součástí perioperační realimentace per os. Poučena o jeho         \nmožnostech, využití, příchutích a druzích."
 }

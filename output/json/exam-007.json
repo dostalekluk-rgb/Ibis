@@ -1,11 +1,12 @@
 {
   "id": "EXAM-007",
-  "date": "2025-04-15",
-  "rawDate": "15/04/25",
-  "sourceFile": "ai-wolf-lab.txt",
-  "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
-  "doctor": null,
-  "title": "Laboratorní panel (15/04/25)",
-  "content": "Výsledky z 15/04/25: \r\n  Krev-tumor.markery: \r\n      Ca 125: 20,3 kIU/l"
+  "date": "2025-09-15T12:48:00",
+  "rawDate": "15.09.25",
+  "time": "12:48",
+  "sourceFile": "ai-stankova-amb.txt",
+  "sourceType": "amb",
+  "type": "Ambulantní nález",
+  "doctor": "Poľanová Tereza Bc.",
+  "title": "------  Dokumentace ze dne 15.09.25 ---------:                                    Nález ze dne 15.09.25 12:48 Poľanová Tereza Bc.:",
+  "content": "------  Dokumentace ze dne 15.09.25 ---------:                             \n      Nález ze dne 15.09.25 12:48 Poľanová Tereza Bc.:                     \nDiagnózy:                                                                  \nD399 Novotvar NNCH - ženský pohlavní orgán NS                              \n\n---------------------------------------------------------                  \nLaboratorní vyšetření:                                                     \nCHL                                                                        \nKrevní obraz -  KO + diff. strojový, Retikulocyty FP (SYS)                 \nKoagulace -  Protrombinový test INR, APTT, Trombinový test                 \nKIA                                                                        \nIMUNO -  Rozšířený panel                                                   \nBiochemie                                                                  \nBiochemie rutinní -  Železo-vaz.kap.volná, Cholesterol LDL, ALT, AST, GGT, \nALP, AMS-pankreatický iz.                                                  \n  LD, Cholesterol, Triacylglycerol, Cholesterol HDL, Na, K, Cl, Ca, Urea   \n  Fosfor, Železo, Hořčík, Kreatinin, Bílkovina celková, Albumin, Ferritin  \n(CLIA)                                                                     \n  Močová kyselina, Glukóza, Bilirubin celkový                              \nSpeciální -  CA 125                                                        \nordinováno 15.09.2025 v 12:48 na 15.09.2025 12:46, Frühauf Filip MUDr.     \n---------------------------------------------------------"
 }

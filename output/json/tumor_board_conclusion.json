@@ -2,54 +2,50 @@
   "patientHeader": {
     "name": "[ANONYMIZOVÁNO]",
     "insuranceNumber": "[ANON-RČ]",
-    "insuranceCode": "444",
+    "insuranceCode": "VZP (111)",
     "address": "[ANON-KONTAKT]",
     "phone": "[ANON-KONTAKT]",
-    "metrics": "60 let, 174 cm, 70 kg, ECOG PS 0"
+    "metrics": "62 let, 167 cm, 84 kg, ECOG PS 0"
   },
-  "presentIllness": "Pacientka s duplicitním onkologickým onemocněním: st.p. ca prsu (2009) a ca ovarii (HGSC, FIGO IIIC, gBRCA1 poz., I.dg. 01/2025). Po neoadjuvantní chemoterapii a intervalové operaci (05/2025) dokončila adjuvantní část 1. linie chemoterapie PTX/CBDCA v 07/2025. Od 09/2025 je na udržovací léčbě olaparibem (Lynparza). Aktuálně přichází k pravidelné kontrole, je zcela asymptomatická, tumor markery jsou v normě (CA 125: 5,8 kIU/l k 22.06.2026), dispenzární vyšetření (MMG a UZ prsů 06/2026) bez známek recidivy či progrese.",
+  "presentIllness": "NO: Pacientka s pokročilým tubo-ovariálním karcinomem přichází po 3. cyklu NACT v režimu PTX/CBDCA k přešetření a posouzení indikace k intervalové debulkingové operaci (IDS). Vzhledem k perzistující rozsáhlé karcinomatóze (frozen pelvis, postižení střeva) operace neindikována, pokračuje v chemoterapii s redukcí dávky.",
   "anamnesis": {
-    "oa": "OA: ca prsu v r. 2009, běžná dětská onemocnění.",
-    "operace": "Operace: st.p. segmentektomii levého prsu, SLN, disekci axily (2009), st.p. dg LPSK (01/2025), st.p. IDS (05/2025).",
-    "fa": "FA: Helicid, Aprepitant, Pelgraz (v průběhu CHT), nyní Olaparib (Lynparza) 300 mg 2x denně.",
-    "aa": "AA: Amoxicilin (alergie).",
-    "ga": "GA: neuvedeno."
+    "oa": "OA: Běžná dětská onemocnění, thyreopatie, cervikální dystonie.",
+    "operace": "Operace: 2012 kyretáž",
+    "fa": "FA: Euthyrox 50 ug 1-0-0, Rivotril 0,5 mg 1-1-1",
+    "aa": "AA: Biseptol, Klacid (otok jazyka)",
+    "ga": "GA: Nuligravida"
   },
-  "stagingExaminations": [],
+  "stagingExaminations": [
+    {
+      "title": "Onkologický ultrazvuk (03.12.2025):",
+      "fullText": "Dle UZ velmi závažná frozen pelvis na podkladě rozsáhlé karcinomatózy pokrývající Douglasův i vesiko-uterinní prostor, nádorová masa zcela obliteruje Douglasův prostor a infiltruje SU vazy a rektovaginální ligamenta ventrálně a celý průběh tlustého střeva vč. muscularis propria dorzálně, přetrvávají fokální nodularity na kličkách ilea - dobře viditelné v pánvi, v břišní dutině omentální plotna těsně obklopující celé transversum a descendens vč. levého parakolického prostoru, karcinomatosa v pravém parakolickém prostoru, fluidothorax vlevo, není žádná volná tekutina v břišní dutině. Pokles CA 125 během NACT (CA 125 09/2025: 2031,5 -> 02/12/2025: 242,0 U/ml)."
+    }
+  ],
   "diagnosisAndTreatment": {
-    "dg": "Dg.: Duplicita: 1) ca ovarii - HGSC tubo-ovariální (ypT3c pNX pMX, FIGO IIIC) (I.dg. 01/2025), 2) ca prsu (I.dg. 2009)",
+    "dg": "Dg.: ca ovarii - HGSC tubo-ovariální (cT3c N1 M1b, FIGO IVB) (I.dg. 09/2025)",
     "operations": [
       {
-        "title": "St.p. segmentektomii levého prsu, SLN, disekci axily",
-        "dateAndPlace": "2009",
-        "histology": "Karcinom prsu T2 N1 M0, blíže nespecifikován."
-      },
-      {
-        "title": "St.p. diagnostické laparoskopii (dg LPSK)",
-        "dateAndPlace": "01/2025, Německo",
-        "histology": "High-grade serózní karcinom (HGSC)."
-      },
-      {
-        "title": "St.p. intervalové debulking operaci (IDS) - hysterectomia abdominalis, AE bilat, exstirpace portů, omentektomie",
-        "dateAndPlace": "5.5.2025, VFN Praha",
-        "histology": "High-grade serózní karcinom s postižením obou ovarií a omenta, ypT3c pNX pMX, FIGO IIIC, CRS 2 (zřetelné regresivní změny po CHT). V hrdle děložním zjištěna high-grade dysplazie."
+        "title": "St.p. core needle biopsii",
+        "dateAndPlace": "3.9.2025, VFN Praha",
+        "histology": "High-grade serózní karcinom (HGSC) - IHC: CK7+, PAX8+, p16 difuzně silně +, WT1+, ER 3+ 100 %, PR-, p53 mutovaný (2+ až 3+), MIB1 cca 50 %."
       }
     ],
     "chemotherapyLines": [
       {
-        "lineTitle": "St.p. 1. linii neoadjuvantní a adjuvantní chemoterapie v režimu PTX/CBDCA (celkem 6 cyklů, 3 neoadjuvantní + 3 adjuvantní, ukončeno 07/2025)",
-        "toxicityAndDose": "Toxicita: G1 anémie, bez nutnosti redukce dávky."
+        "lineTitle": "St.p. 1. linii neoadjuvantní chemoterapie v režimu PTX/CBDCA (zahájeno 09/2025, podány 4 cykly, 4. cyklus 11.12.2025)",
+        "toxicityAndDose": "Toxicita: G1 neuropatie, G1 anémie, G2 trombocytopenie. Od 4. cyklu redukce dávky paclitaxelu na 135 mg/m2 (75 %)."
       }
     ],
     "treatmentsAndHistory": [
-      "gBRCA1 pozitivní (detekována zárodečná mutace BRCA1)",
-      "Udržovací léčba olaparibem (Lynparza) 300 mg 2x denně zahájena 4.9.2025, t.č. bez známek recidivy (poslední kontrola 22.06.2026, CA 125: 5,8 kIU/l)"
+      "Zavedení venózního portu (30.09.2025)",
+      "sBRCA1/2 negativní, somatic BRCA1/2 negativní (vyšetřeno z biopsie 22.09.2025)",
+      "Podpůrná léčba anémie: Bonocrit s.c., Ferrlecit i.v."
     ]
   },
   "recurrences": [],
   "tumorBoardConclusion": {
-    "date": "Onkogynekologické konzilium 9.9.2026",
-    "attendees": "prof. MUDr. Sláma, Ph.D., prof. MUDr. Fischerová, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malik",
-    "recommendation": "Doporučení: Pacientka s duplicitou ca prsu a ca ovarii, t.č. v kompletní remisi na udržovací terapii olaparibem (Lynparza 300 mg 2x denně), kterou výborně toleruje bez závažné toxicity. Doporučujeme pokračovat v zavedené udržovací terapii olaparibem a v pravidelném onkogynekologickém sledování včetně kontrol tumor markerů a dispenzárních zobrazovacích vyšetření (UZ, MMG). Kontrola v onkogynekologické ambulanci VFN."
+    "date": "Onkogynekologické konzilium 11.12.2025",
+    "attendees": "prof. MUDr. Cibula, CSc., prof. MUDr. Fischerová, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Brynda, MUDr. Emingr",
+    "recommendation": "Doporučení: Vzhledem k rozsáhlému nálezu při re-stagingovém ultrazvuku (frozen pelvis, celostěnná infiltrace tlustého střeva, rozsev na tenkém střevě) není stav vhodný k intervalové debulkingové operaci (IDS). Doporučeno pokračovat v chemoterapii do celkově 6.-9. cyklů (s redukcí dávky PTX na 135 mg/m2 či přechodem na monoterapii CBDCA dle tolerance). Od 5. cyklu zvážit přídavek bevacizumabu (7,5 mg/kg á 21 dní) s navazující udržovací léčbou. Pokračovat v podpůrné terapii anémie (erytropoetin) a sledování na onkogynekologickém stacionáři."
   }
 }
