@@ -1,11 +1,11 @@
 {
   "id": "EXAM-122",
-  "date": "2026-09-01",
-  "rawDate": "01/09/26",
-  "sourceFile": "ai-stankova-hosp-04.txt",
+  "date": "2026-06-22",
+  "rawDate": "22/06/26",
+  "sourceFile": "Hukkelová-lab.txt",
   "sourceType": "lab",
   "type": "Laboratoř / Laboratorní panel",
   "doctor": null,
-  "title": "Laboratorní panel (01/09/26)",
-  "content": "Výsledky z 01/09/26: Minerály+Osmolalita: Na: 140, K: 3,8, Cl: 104, Ca:      \r\n2,07, Ca korig. na albumin: 2,40,   Bílkoviny: Albumin: 25,0,"
+  "title": "Laboratorní panel (22/06/26)",
+  "content": "Výsledky z 22/06/26: \r\n  Texty laboratoř: \r\n      Komentář:\r\nFIB-4 skóre:\r\nvysoké riziko jaterní fibrózy\r\nSpecificita FIB-4 pro pokročilou fibrózu klesá s rostoucím věkem. K nadhodnocení FIB-4 skóre dochází u trombocytopenií jiné etiologie než je plicní hypertenze a u stavů s náhle vzniklou elevací ALT, AST (hypoxie, hypertenze, trauma, infekce …). Vysoké riziko fibrózy by po zvážení klinických souvislostí mělo vést k úvaze o provedení jaterní elastografie a vyšetření hepatogastroenterologem.\r\n\r\n  Minerály+Osmolalita: \r\n      Na: 145\r\n      K: 3,8\r\n      Cl: 105\r\n  Dusíkové metabolity: \r\n      Urea: 4,1\r\n      Kreat.: 66\r\n      Kys. moč.: 213\r\n  Jaterní testy: \r\n      Bilirubin: 5,7\r\n      ALT: 0,20\r\n      AST: 0,37\r\n      GGT: 0,25\r\n      ALP: 1,54\r\n      FIB-4 index: 3,50      ; Text k metodě přesáhl povolených 255 znaků. Text je uveden v souhrném textu k celé žádance.\r\n  Bílkoviny: \r\n      Albumin: 43,6\r\n      CB: 69,8\r\n  Krev-tumor.markery: \r\n      Ca 125: 10,0\r\n  Moč chemicky: \r\n      pH: 6,0\r\n      Hustota: 1,005\r\n      Bílkovina orient.: neg\r\n      Glykosurie: neg\r\n      Ketolátky: neg\r\n      Bilirubin: neg\r\n      Urobilinogen: neg\r\n      Erytrocyty v moči: neg\r\n      Leuko: 15\r\n      Nitrity: neg\r\n  Moč - sediment: \r\n      ERY: 1,0\r\n      LEUKO: 0,0\r\n      Epit.pl: 12,0\r\n      Epit.k: 2,0\r\n      Bakterie: negativ.\r\n      Poznámka: \r\nost. neg.\r\n\r\n  Krevní obraz-perifer: \r\n      Leu: 7,80\r\n      Ery: 3,77\r\n      HGB: 117\r\n      HCT: 0,346\r\n      MCV: 91,8\r\n      MCH: 31,1\r\n      MCHC: 338\r\n      RDW: 15,9\r\n      Plt: 119\r\n      MPV: 8,9\r\n  Dif.stroj. relativní: \r\n      Ne: 47,0\r\n      Ly: 40,2\r\n      Mo: 11,8\r\n      Eo: 0,7\r\n      Ba: 0,3\r\n      Nezralé granulocyty %: 0,0\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 3,67\r\n      Ly abs.: 3,14\r\n      Mo abs.: 0,92\r\n      Eo abs.: 0,05\r\n      Ba abs.: 0,02\r\n      Nezralé granulocyty abs.: 0,00\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 1,2"
 }

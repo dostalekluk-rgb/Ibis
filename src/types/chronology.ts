@@ -84,6 +84,34 @@ export interface LabAggregatedDataset {
   totalUniqueDates: number;
 }
 
+export interface RecurrenceBlock {
+  header: string;            // např. "1. recidiva / progrese (02/2024, TFI 8 let):"
+  description: string;       // Popis zobrazení / klinického nálezu recidivy
+  operations?: Array<{
+    title: string;            // např. "St.p. resekci recidivy pánevního tumoru..."
+    dateAndPlace: string;     // např. "1.2.2024, VFN Praha"
+    histology?: string;       // Popis histologie na novém řádku s "-histol: "
+  }>;
+  treatmentsAndHistory?: string[]; // např. ["St.p. zavedení ureterálního stentu..."]
+  chemotherapyLine?: string; // např. "1. linie CHT Abraxane/cDDP..."
+  chemotherapyToxicity?: string; // např. "Toxicita: G1 hypothyreóza..."
+}
+
+export interface DiagnosisAndTreatmentBlock {
+  dg: string;                 // Dg.: ca ovarii... nebo 1) ca colli uteri..., 2) ca thyroidey...
+  operations?: Array<{
+    title: string;            // např. "St.p. core needle biopsii"
+    dateAndPlace: string;     // např. "3.9.2025, VFN"
+    histology?: string;       // Popis histologie na novém řádku s "-histol: " kurzívou
+  }>;
+  chemotherapyLines?: Array<{
+    lineTitle: string;        // např. "St.p. 1. linii chemoterapie v režimu PTX/CBDCA (ukončeno 12.3.2026)"
+    toxicityAndDose: string;  // např. "Toxicita: G2 neutropenie, bez redukce dávky."
+  }>;
+  treatmentsAndHistory?: string[];
+  recurrences?: RecurrenceBlock[];
+}
+
 export interface TumorBoardStructuredJson {
   patientHeader: {
     name: string;             // [ANONYMIZOVÁNO]
@@ -105,25 +133,8 @@ export interface TumorBoardStructuredJson {
     title: string;            // např. "CT hrudníku, břicha a pánve (28.5.2026):"
     fullText: string;         // Exaktní celý popis vyšetření
   }> | string[];
-  diagnosisAndTreatment: {
-    dg: string;                 // Dg.: ca ovarii - HGSC tubo-ovariální (cT3c N1 M1b, FIGO IVB) (I.dg. 09/2025)
-    operations?: Array<{
-      title: string;            // např. "St.p. core needle biopsii"
-      dateAndPlace: string;     // např. "3.9.2025, VFN"
-      histology?: string;       // Popis histologie na novém řádku s "-histol: " kurzívou
-    }>;
-    chemotherapyLines?: Array<{
-      lineTitle: string;        // např. "St.p. 1. linii chemoterapie v režimu PTX/CBDCA (ukončeno 12.3.2026)"
-      toxicityAndDose: string;  // např. "Toxicita: G2 neutropenie, bez redukce dávky."
-    }>;
-    treatmentsAndHistory?: string[];
-  };
-  recurrences?: Array<{
-    header: string;            // např. "1. recidiva / progrese (05/2026, PFI 3 měsíce):"
-    description: string;       // Popis recidivy v běžném textu
-    chemotherapyLine?: string; // např. "II. linie CHT Caelyx (podány 3 cykly, poslední 18.08.2026)"
-    chemotherapyToxicity?: string; // např. "Toxicita: bez závažné toxicity, bez redukce dávky."
-  }>;
+  diagnosisAndTreatment: DiagnosisAndTreatmentBlock[] | DiagnosisAndTreatmentBlock;
+  recurrences?: RecurrenceBlock[];
   tumorBoardConclusion: {
     date: string;               // např. "Onkogynekologické konzilium 9.9.2026"
     attendees: string;          // prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., ...

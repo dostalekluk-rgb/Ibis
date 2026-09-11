@@ -1,11 +1,11 @@
 {
   "id": "EXAM-072",
-  "date": "2026-06-30",
-  "rawDate": "30/06/26",
-  "sourceFile": "ai-stankova-lab.txt",
+  "date": "2025-08-12",
+  "rawDate": "12/08/25",
+  "sourceFile": "Lysiuk-lab.txt",
   "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
-  "doctor": null,
-  "title": "Laboratorní panel (30/06/26)",
-  "content": "Výsledky z 30/06/26: \r\n  Minerály+Osmolalita: \r\n      Na: 134\r\n      K: 4,2\r\n      Cl: 96\r\n      Ca: 2,22\r\n      Ca korig. na albumin: 2,38\r\n  Dusíkové metabolity: \r\n      Urea: 3,4\r\n      Kreat.: 63\r\n      Kys. moč.: 394\r\n  Jaterní testy: \r\n      Bilirubin: 4,5\r\n      ALT: 0,18\r\n      AST: 0,38\r\n      GGT: 1,48\r\n      ALP: 2,97\r\n      FIB-4 index: 1,28\r\n  Bílkoviny: \r\n      Albumin: 33,1\r\n      CRP: 157,1\r\n      Prealb.: 0,09\r\n  Krevní obraz-perifer: \r\n      Leu: 6,32\r\n      Ery: 3,29\r\n      HGB: 97\r\n      HCT: 0,302\r\n      MCV: 91,8\r\n      MCH: 29,5\r\n      MCHC: 321\r\n      RDW: 14,3\r\n      Plt: 342\r\n      MPV: 8,9\r\n      PCT: 0,300\r\n      PDW: 8,6\r\n  Dif.stroj. relativní: \r\n      Ne: 80,9\r\n      Ly: 11,9\r\n      Mo: 5,5\r\n      Eo: 0,6\r\n      Ba: 0,3\r\n      Nezralé granulocyty %: 0,8\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 5,11\r\n      Ly abs.: 0,75\r\n      Mo abs.: 0,35\r\n      Eo abs.: 0,04\r\n      Ba abs.: 0,02\r\n      Nezralé granulocyty abs.: 0,05\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 6,9"
+  "type": "CT Vyšetření",
+  "doctor": "Chroustová Daniela MUDr. Ph.D.",
+  "title": "CT Vyšetření (12/08/25)",
+  "content": "Výsledky z 12/08/25: \r\n  Nálezy: \r\n      REPP_NM_DTP:\r\n\r\nNález: \r\nStatická scintigrafie ledvin s výpočtem relativní funkce dne 12.8.2025\r\nPacientka byla řádně informována o vyšetření a podepsala informovaný souhlas. \r\nIndikace: stent v pravém ureteru  \r\n\r\nPacientce bylo i.v. aplikováno 157 MBq 99mTc-DMSA a po 2 hodinách byly provedeny statické obrazy ledvin na gamakameře MB 9200 včetně kvantifikace a SPECT vyšetření ledvin na kameře  GE NM830  č.830C60548. \r\n\r\n\r\nDobře je vykreslena levá ledvina, která je obvyklé velikosti, tvaru a uložení, Distribuce její funkční tkáně je  vcelku homogenní. Pravá ledvina je významně malá v obvyklé lokalizaci s jen lehce naznačenou funkční tkání, jak je patrné na SPECT vyšetření. \r\n\r\n\r\nKvantifikace. \r\nPodíl ledvin s korekcí na hloubku uložení sin : dx ledviny je 93 : 7%\r\n\r\nZávěr: \r\nLevá ledvina bez prokazatelných ložiskových změn\r\nPravá ledvina významně malá s obrazem reziduální funkce\r\n Podíl ledvin na globální tubulární funkci je významně asymetrický. \r\n\r\n\r\n                                                            MUDr. Daniela Chroustová  Ph.D.                                          \r\n\r\nÚdaje o indikacích, přípravě nemocných, a další informace o vyšetřeních: http://unm.lf1.cuni.cz\r\n\r\n\r\nDatum potvrzení: 13.8.2025 08:55:00\r\nPotvrzující lékař: Chroustová Daniela MUDr. Ph.D."
 }

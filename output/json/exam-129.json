@@ -1,11 +1,11 @@
 {
   "id": "EXAM-129",
-  "date": "2026-09-03",
-  "rawDate": "03/09/26",
-  "sourceFile": "ai-stankova-lab.txt",
+  "date": "2026-08-10",
+  "rawDate": "10/08/26",
+  "sourceFile": "Hukkelová-lab.txt",
   "sourceType": "lab",
   "type": "Laboratoř / Laboratorní panel",
   "doctor": null,
-  "title": "Laboratorní panel (03/09/26)",
-  "content": "Výsledky z 03/09/26: \r\n  Minerály+Osmolalita: \r\n      Na: 141\r\n      K: 3,9\r\n      Cl: 106\r\n      P: 0,90\r\n      Mg: 0,64"
+  "title": "Laboratorní panel (10/08/26)",
+  "content": "Výsledky z 10/08/26: \r\n  Minerály+Osmolalita: \r\n      Na: 143\r\n      K: 4,3\r\n      Cl: 105\r\n  Dusíkové metabolity: \r\n      Urea: 7,4\r\n      Kreat.: 65\r\n      Kys. moč.: 197\r\n  Jaterní testy: \r\n      Bilirubin: 6,9\r\n      ALT: 0,36\r\n      AST: 0,38\r\n      GGT: 0,26\r\n      ALP: 1,62\r\n      FIB-4 index: 2,34      ; mírné riziko jaterní fibrózy\r\n  Bílkoviny: \r\n      Albumin: 45,1\r\n      CB: 73,5\r\n  Moč chemicky: \r\n      pH: 6,0\r\n      Hustota: 1,019\r\n      Bílkovina orient.: neg\r\n      Glykosurie: neg\r\n      Ketolátky: neg\r\n      Bilirubin: neg\r\n      Urobilinogen: neg\r\n      Erytrocyty v moči: neg\r\n      Leuko: 125\r\n      Nitrity: neg\r\n  Moč - sediment: \r\n      Hlen: poz.\r\n      ERY: 6,0\r\n      LEUKO: 8,0\r\n      Epit.pl: 29,0\r\n      Epit.k: 1,0\r\n      Bakterie: negativ.\r\n      Poznámka: \r\nost. neg.\r\n\r\n  Krevní obraz-perifer: \r\n      Leu: 5,95\r\n      Ery: 3,33\r\n      HGB: 105\r\n      HCT: 0,329\r\n      MCV: 98,6\r\n      MCH: 31,6\r\n      MCHC: 320\r\n      RDW: 17,7\r\n      Plt: 136\r\n      MPV: 9,3\r\n  Dif.stroj. relativní: \r\n      Ne: 43,0\r\n      Ly: 43,1\r\n      Mo: 12,3\r\n      Eo: 0,9\r\n      Ba: 0,7\r\n      Nezralé granulocyty %: 0,0\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 2,56\r\n      Ly abs.: 2,57\r\n      Mo abs.: 0,73\r\n      Eo abs.: 0,06\r\n      Ba abs.: 0,04\r\n      Nezralé granulocyty abs.: 0,00\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 1,0"
 }

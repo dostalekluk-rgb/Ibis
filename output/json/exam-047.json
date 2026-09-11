@@ -1,12 +1,11 @@
 {
   "id": "EXAM-047",
-  "date": "2026-02-18T08:49:00",
-  "rawDate": "18.02.26",
-  "time": "08:49",
-  "sourceFile": "ai-stankova-amb.txt",
-  "sourceType": "amb",
-  "type": "Ambulantní nález",
-  "doctor": "Kocián Roman doc. MUDr., Ph.D.",
-  "title": "------  Dokumentace ze dne 18.02.26 ---------:                                    Nález ze dne 18.02.26 08:49 Kocián Roman doc. MUDr., Ph.D.:",
-  "content": "------  Dokumentace ze dne 18.02.26 ---------:                             \n      Nález ze dne 18.02.26 08:49 Kocián Roman doc. MUDr., Ph.D.:          \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\nPlicní meboli oboustranná                                                  \n\nAd interní ambulance statim                                                \n\npoučuji , vyráží                                                           \n\nDnes v plánu kozília a dále dle nich.                                      \n\nKocián"
+  "date": "2024-08-12",
+  "rawDate": "12/08/24",
+  "sourceFile": "Lysiuk-lab.txt",
+  "sourceType": "lab",
+  "type": "Mikrobiologie / Kultivace",
+  "doctor": "prim. MUDr. Václava Adámková, Ph.D.",
+  "title": "Mikrobiologie / Kultivace (12/08/24)",
+  "content": "Výsledky z 12/08/24: \r\n  Nálezy: \r\n      REP_MRUT_DTP:\r\n\r\nLaboratoř bakteriologie, tel.224967665,7725\r\n----------------------------------------------------------------------------------------------\r\nPacient               DURSIENIEVA MARYNA                       Rodné číslo 7859524365 Poj. 111\r\n\r\nBiologický materiál   MOČ SPONTÁNNÍ\r\nLaboratorní číslo     B0440276                                 Dg.         C539\r\nZdravotnické zařízení VFN                                      NS          22330\r\nOddělení              Klin. gyn., porod. a neonat. - Onkologický stacionář\r\nLékař                 Frühauf                                  IČP/odb.    02004541  / 402\r\nDatum a doba příjmu   12.08.2024 09:00\r\nDatum a doba odběru   12.08.2024\r\nDatum a doba ukončení 13.08.2024 07:11\r\n----------------------------------------------------------------------------------------------\r\nKULTIVACE A VYŠETŘENÍ\r\nPrimokultura\r\n negativní\r\n\r\nUVOLNIL:  prim. MUDr. Václava Adámková, Ph.D."
 }

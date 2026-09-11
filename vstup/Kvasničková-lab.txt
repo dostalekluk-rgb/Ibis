@@ -1,0 +1,174 @@
+Výsledky z 30/01/17: 
+  Texty laboratoř: 
+      Komentář:
+Homocystein celk.:
+serum
+
+  Minerály+Osmolalita: 
+      Na: 141
+      K: 4,2
+      Cl: 97
+  Dusíkové metabolity: 
+      Urea: 5,3
+      Kreat.: 63
+      Kys. moč.: 228
+  Jaterní testy: 
+      Bilirubin: 13,8
+      ALT: 0,45
+      AST: 0,54
+      GGT: 0,75
+      ALP: 1,15
+  Enzymy: 
+      LD: 4,2
+  Bílkoviny: 
+      CB: 71,5
+      CRP: <1,0
+  Diabetický profil: 
+      Glykemie: 4,5
+  Plazma: 
+      Homocystein celk.: 8,0      ; serum
+
+Výsledky z 28/07/26: 
+  Krev-tumor.markery: 
+      Ca 125: 18,6
+
+Výsledky z 24/08/26: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189
+ed.3:2023. Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle 
+SOP-PAT-10.
+
+
+Nález: 
+B16129/26
+
+Oboustranná adnexa odstraněná v endobagu.
+Klinicky: Cystis ovarialis l.sin. susp. 
+
+Ve společné nádobě dodána v nativním stavu odběru tkáně pro potřeby biobanky oboustranná, částečně fragmentovaná děložní adnexa. Vzhledem k nejednoznačnému UZ nálezu preferujeme zachovat tkáň pro diagnostiku. Odběr proveden nebyl. 
+
+Pravostranná adnexa (blok 1A-G): 
+Pravá děložní tuba ve 2 částech, délky 50 mm o průměru 3-5 mm, s jemnými edematózními fimbriemi, s hladkou lesklou serózou s ojedinělými paratubárními cystami, jinak bez pozoruhodností. 
+Pravé ovarium velikosti 22 x 20 x 13 mm, s hladkým hrbolatým povrchem, multicystické, centrálně s kolabovanou cystou cca průměru 20 mm, s hladkým vnitřním povrchem, ostatní cysty do průměru 5 mm. 
+
+Levostranná adnexa (blok 1H-Q): 
+Levá děložní tuba délky 55 mm o průměru 3-5 mm, s jemnými edematózními fimbriemi, obdobného vzhledu jako vpravo. 
+Levé ovarium multicystické, fokálně s porušenou kontinuitou některých cyst, cca velikosti 55 x 35 x 25 mm, s hladkým vnitřním i vnějším povrchem. 
+
+Pozn.: Adnexa byla zpracována kompletně dohromady do 17 bloků.
+
+Mikroskopicky:
+Obě děložní tuby mají přiměřenou histologickou strukturou vzhledem k věku, bez významnějších pozoruhodností.
+V pravém ovariu je multilokulární benigní serózní cystadenom a v atrofickém kortexu víceložiskově drobné inkluzní Walthardovy cysty.
+V levém ovariu je multilokulární benigní serózní cystadenofibrom s nepravidelně širokými vazivovými septy a v některých lokalitách fokálně s brdéčkovitými výchlipkami s širokým stromatem. V okolním atrofickém ovariálním kortexu jsou sporadické inkluzní Walthardovy cysty.
+
+Závěr: V pravém ovariu je multilokulární benigní serózní cyst adenom a v levém ovariu je multilokulární benigní serózní cystadenofibrom. V obou děložních tubách histologický nález přiměřený věku. 
+Další nález viz souběžně vyšetřovaná cytologie č. C02131/26.
+
+T87  M8441/0  M9014/0
+T86  M01000
+
+Datum potvrzení: 4.9.2026 08:37:00
+Potvrzující lékař: Planičková Lenka MUDr.
+
+
+      REPT_CYTOVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189
+ed.3:2023. Cytologické vyšetření a diagnostika bylo provedeno metodou v rozsahu akreditace dle SOP PAT-12.
+
+
+Nález: 
+C 2131/26
+
+Na cytologické vyšetření bylo dodáno 10 ml bezbarvé čiré tekutiny (lavage), která byla zpracována cytocentrifugou a do cytobloku.
+
+Mikroskopicky:
+Cytospinové preparáty barveny - HE, 2x MGG, PAP. 
+Řídké krevní pozadí s rozptýlenými malými lymfocyty a monocyty a sporadickými neutrofily, dále řídce rozptýlenými mezoteliemi. Buňky podezřelé z maligního nádorového původu jednoznačně nenacházíme.
+
+Cytoblok: Nález obdobný jako v otiskových preparátech. Buňky suspektně nádorové v rozsahu vyšetření nenacházíme.
+
+Závěr: Negativní laváž.
+Další nález viz souběžně vyšetřovaná biopsie č. B16129/26.
+
+T6X94  M01000
+
+Datum potvrzení: 4.9.2026 08:36:00
+Potvrzující lékař: Planičková Lenka MUDr.
+
+
+
+Výsledky z 07/09/26: 
+  Nálezy: 
+      REPT_MRVYS_DTP:
+Vyšetření: MR vyšetření - MR pánve
+Datum vyšetření: 07.09.2026
+Přístroj: 202100002|PO 1057/S/20| 46 117 466,89 Kč|dotace
+Kontrastní látka i.v.: 0224133 - 14 ml  - CLARISCAN bez komplikací
+
+Nález:
+MRI pánve: 
+Vyšetření nativně a postkontrastně, použité sekvence: T1 DIXON, T2 MV, TSE, SPIR a SSh, DWI/ADC, e-Thrive
+
+Indikace: pacientka po laparoskopické adnexektomii bilat dne 21.8.2026 (dle histologie cystadenom/fibrom), t.č. dovyšetření cystické léze na spodině močového měchýře (dle USG z 28.7.2026 vel. 11 mm)
+
+Děloha v AVF, ve stěně jsou vícečetné myomy od drobných po velikost 17 mm, bez známek adenomyozy. 
+St.p. AE bilat. Stopa tekutiny v pánvi.  
+Na spodní stěně močového měchýře je intraluminálně přisedlé okrouhlé ložisko velikosti do 11x10 mm, T1 nativně hyperintenzní, T2 prakticky asignální, s restrikcí difuze, postkontrastně se dle perfuzní křivky postupně sytí. 
+V ostatním rozsahu je stěna měchýře nezesílená, bez jiných ložisek. 
+Uretery štíhlé, ledviny bez městnání, ojedinělé v.s. drobné cysty pravé ledviny.  
+Bez lymfadenopatie v zachyceném rozsahu. 
+Rektosigmoideum bez ložisek. 
+Drobná tuková umbilikální hernie. 
+Malá hernie 23 mm mezi postranními svaly břišní stěny levého hypogastria s brankou 16 mm, obsahem jen tuk. 
+Degenerativní změny L páteře, stac. jako na předchozí MR páteře. Skelet bez ložisek. 
+Degenerativní změny P kyčle se známkami synovitidy. 
+
+Závěr: Malé ložisko vyrůstající ze spodiny močového měchýře intraluminálně - v dif. dg. polyp? leiomyom? spíše benigního vzhledu - k cystoskopickému dovyšetření. 
+
+konzult. MUDr. Wagnerová
+
+Potvrzujíci lékař: Brandejs Tomáš MUDr.
+
+      REPT_MRVYS_DTP:    MR vyšetření - MR pánvezaloženo: 07.09.2026 07:30 - Mahútová Eliškaposlední změna: 07.09.2026 15:19 - Brandejs Tomáš MUDr.Přístroje:Magnetická rezonance (3T a více), 45265Metody:MR_57_C - MR pánveVýkony:0224133 0,028x - CLARISCAN0243197 0,2x - BUSCOPAN89715 1x - MR ZOBRAZENÍ KRKU, HRUDNÍKU, BŘICHA, PÁNVE (VČETNĚ SCROTA A MAMMY)89725 1x - OPAKOVANÉ ČI DOPLŇUJÍCÍ VYŠETŘENÍ MRNález:MRI pánve: Vyšetření nativně a postkontrastně, použité sekvence: T1 DIXON, T2 MV, TSE, SPIR a SSh, DWI/ADC, e-ThriveIndikace: pacientka po laparoskopické adnexektomii bilat dne 21.8.2026 (dle histologie cystadenom/fibrom), t.č. dovyšetření cystické léze na spodině močového měchýře (dle USG z 28.7.2026 vel. 11 mm)Děloha v AVF, ve stěně jsou vícečetné myomy od drobných po velikost 17 mm, bez známek adenomyozy. St.p. AE bilat. Stopa tekutiny v pánvi.  Na spodní stěně močového měchýře je intraluminálně přisedlé okrouhlé ložisko velikosti do 11x10 mm, T1 nativně hyperintenzní, T2 prakticky asignální, s restrikcí difuze, postkontrastně se dle perfuzní křivky postupně sytí. V ostatním rozsahu je stěna měchýře nezesílená, bez jiných ložisek. Uretery štíhlé, ledviny bez městnání, ojedinělé v.s. drobné cysty pravé ledviny.  Bez lymfadenopatie v zachyceném rozsahu. Rektosigmoideum bez ložisek. Drobná tuková umbilikální hernie. Malá hernie 23 mm mezi postranními svaly břišní stěny levého hypogastria s brankou 16 mm, obsahem jen tuk. Degenerativní změny L páteře, stac. jako na předchozí MR páteře. Skelet bez ložisek. Degenerativní změny P kyčle se známkami synovitidy. Závěr: Malé ložisko vyrůstající ze spodiny močového měchýře intraluminálně - v dif. dg. polyp? leiomyom? spíše benigního vzhledu - k cystoskopickému dovyšetření. konzult. MUDr. WagnerováPopisující lékař:Brandejs Tomáš MUDr.      ; MR vyšetření - MR pánve
+založeno: 07.09.2026 07:30 - Mahútová Eliška
+poslední změna: 07.09.2026 15:19 - Brandejs Tomáš MUDr.
+Přístroje:
+Magnetická rezonance (3T a více), 45265
+Metody:
+MR_57_C - MR pánve
+Výkony:
+0224133 0,028x - CLARISCAN
+0243197 0,2x - BUSCOPAN
+89715 1x - MR ZOBRAZENÍ KRKU, HRUDNÍKU, BŘICHA, PÁNVE (VČETNĚ SCROTA A MAMMY)
+89725 1x - OPAKOVANÉ ČI DOPLŇUJÍCÍ VYŠETŘENÍ MR
+
+Nález:
+MRI pánve: 
+Vyšetření nativně a postkontrastně, použité sekvence: T1 DIXON, T2 MV, TSE, SPIR a SSh, DWI/ADC, e-Thrive
+
+Indikace: pacientka po laparoskopické adnexektomii bilat dne 21.8.2026 (dle histologie cystadenom/fibrom), t.č. dovyšetření cystické léze na spodině močového měchýře (dle USG z 28.7.2026 vel. 11 mm)
+
+Děloha v AVF, ve stěně jsou vícečetné myomy od drobných po velikost 17 mm, bez známek adenomyozy. 
+St.p. AE bilat. Stopa tekutiny v pánvi.  
+Na spodní stěně močového měchýře je intraluminálně přisedlé okrouhlé ložisko velikosti do 11x10 mm, T1 nativně hyperintenzní, T2 prakticky asignální, s restrikcí difuze, postkontrastně se dle perfuzní křivky postupně sytí. 
+V ostatním rozsahu je stěna měchýře nezesílená, bez jiných ložisek. 
+Uretery štíhlé, ledviny bez městnání, ojedinělé v.s. drobné cysty pravé ledviny.  
+Bez lymfadenopatie v zachyceném rozsahu. 
+Rektosigmoideum bez ložisek. 
+Drobná tuková umbilikální hernie. 
+Malá hernie 23 mm mezi postranními svaly břišní stěny levého hypogastria s brankou 16 mm, obsahem jen tuk. 
+Degenerativní změny L páteře, stac. jako na předchozí MR páteře. Skelet bez ložisek. 
+Degenerativní změny P kyčle se známkami synovitidy. 
+
+Závěr: Malé ložisko vyrůstající ze spodiny močového měchýře intraluminálně - v dif. dg. polyp? leiomyom? spíše benigního vzhledu - k cystoskopickému dovyšetření. 
+
+konzult. MUDr. Wagnerová
+
+Popisující lékař:
+Brandejs Tomáš MUDr.

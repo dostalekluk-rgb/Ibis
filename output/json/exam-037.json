@@ -1,11 +1,11 @@
 {
   "id": "EXAM-037",
-  "date": "2026-02-12",
-  "rawDate": "12/02/26",
-  "sourceFile": "ai-stankova-lab.txt",
+  "date": "2024-06-06",
+  "rawDate": "06/06/24",
+  "sourceFile": "Lysiuk-lab.txt",
   "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
-  "doctor": null,
-  "title": "Laboratorní panel (12/02/26)",
-  "content": "Výsledky z 12/02/26: \r\n  Koagulační vyšetření: \r\n      D-Dimer: 4739"
+  "type": "Histologie / Biopsie",
+  "doctor": "MUDr. Pagáč Jiří",
+  "title": "Histologie / Biopsie (06/06/24)",
+  "content": "Výsledky z 06/06/24: \r\n  Nálezy: \r\n      REPT_CTVYS_DTP:\r\n\r\nNález: \r\nPřístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736\r\nVýrobce SIEMENS Healthcare GmbH\r\n\r\nInjektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002\r\nKontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s\r\ni.v. aplikoval:Panyová\r\n\r\nCT hrudníku, břicha a pánve:\r\n\r\nPostkontrastní vyšetření. MPR.\r\nIndikace: Ca hrdla děložního, stav po HYE 2016, recentně stav po resekci lokální recidivy 1.2.2024 \r\n1. vyšetření.\r\n\r\nPlicní parenchym bez ložiskových a infiltrativních změn.\r\nBez tekutiny v pleurální dutině. \r\nMediastinum bez lymfadenopatie.  \r\nSt.p. totální thyreoidektomi.\r\nPortkatetr zprava s koncem v oblasti kavoatriální junkce.\r\n\r\nJátra nezvětšena, přiměřené struktury, bez ložiskových změn. \r\nŽlučník homogenní náplně, stěna nerozšířena. Žlučové cesty nedilatovány. \r\nPankreas bez ložiska, nezvětšen. \r\nSlezina nezvětšena, homogenní. \r\nNadledviny bez expanze. \r\nLedviny bez městnání, pravá ledvina atrofická (parenchym 10 mm), stent v pravém ureteru in situ.\r\nMočový měchýř homogenní náplně, stěna nerozšířena.\r\nV pánvi volná tekutina s cípatý vybíhajícími okraji, mírně zastřený pánevní tuk, v oblasti lůžka po HYE a resekci recidivy tekutina a konvolut kliček, velmi nepřehledný terén v CT obraze, bez zjevné solidní formace, peritoneum bez zjevných nodularit.\r\nVpravo parailicky hypodnezní kolekce s bublinami plynu vel, 18 x 20 mm, bez zjevné lymfadenopatie, v ostatních oblastech bez lymfadenopatie.\r\nŽaludek a přehledný střevní kličky obvyklého vzhledu, bez strukturálních změn.\r\nSkelet bez ložiskových změn. Ostechondróza L5/S1.\r\nPostaplikační změny v podkoží.\r\n\r\n\r\nZávěr: Stav po HYE 2016 pro ca colli uteri, stav po extirpaci lokální recidivy 2/2024 a část. parailické lymfadenopatie, v pánvi pooperační změny a volná tekutina, lokální recidiva či ev. pánevní karcinomatóza jsou těžko hodnotitelné, vpravo parailicky kolekce s bublinami charakteru abscesu či infikované lymfocysty, v ostatních oblastech bez známek generalizace. \r\nPravá ledvina bez známek městnání, ureterální stent in situ.\r\n\r\nKonz. MUDr. Altmanová\r\n\r\nPotvrzující lékař: MUDr. Pagáč Jiří"
 }

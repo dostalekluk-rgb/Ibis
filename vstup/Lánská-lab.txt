@@ -1,0 +1,1508 @@
+Výsledky z 31/05/23: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189:2013. 
+Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle SOP-PAT-10.               
+
+Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13. Vyšetření s uplatněním flexibility jsou uvedeny v příloze č. 2 SM-PAT-02 Laboratorní příručka.
+
+
+Nález: 
+B 10410/23
+
+Čtyři nitkovité tkáňové částice biopsie karcinomatózy pánve délky 7 mm a 6 mm (blok A) a 12 x 8 mm a 8 mm (P). Klinicky pacientka s extramurálně dg. endometroidním karcinomem G2.
+
+Mikro: Tkáně infiltrované solidně a solidně glandulárně uspořádaným karcinomem, nádorové buňky kubocylindrické či kubické, se středním, ojeidněle až vysokým stupněm jaderných atypií, v glandulárních formací s pseudostratifikací jadee. Cytoplazma světel eozinofilní, místy světlá. V okolí nádoru dezmoplastické stroma s iregulární řídkou smíšenou zánětlivou celulizací.
+
+Imunohistochemický nález (blok 1B):
+
+PAX8: jaderné 3+ pozitivity v nádor. buňkách difúzně.
+vimentin: cytoplazmatické 3+ pozitivity v nádor. buňkách a v mezenchym. tkáních difúzně.
+PAX2: negativní.
+ER (Zytomed, klon SP1): jaderné 3+ pozitivity v nádor. buňkách difúzně.
+PR (NCL, klon 16): jaderné 1-3+ pozitivity v 60-70 % nádor. buněk, převažují pozitivity 3+.
+PTEN: negativní.
+ARID1: negativní.
+PAX2: negativní.
+p53: "wild-tyep" exprese.
+WT-1: negativní.
+
+ZÁVĚR:  V tru-cut biopsii karcinomatózy pánve karcinom, jehož morfologie a imunofenotyp odpovídají dříve extramurálně dg. endometroidnímu karcinomu (EC), v rozsahu možného posouzení G2.
+
+T 1X000   M 8380/6    M 8380/9   G2    MKN10 C54.1
+
+
+
+Datum potvrzení: 12.6.2023 11:22:00
+Potvrzující lékař: Jakša Radek prim. MUDr. Ph.D.
+
+Dodatek 1:
+Na základě žádosti MUDr. F. Frűhaufa z GynPor kliniky VFN předáváme parafínový blok dne 20.6.2023
+B10410/23/1A do studie ENGO-en15, GOG3064.
+
+
+Datum potvrzení: 20.6.2023 10:48:00
+Potvrzující lékař: Véghová Blanka
+
+Dodatek 2:
+Na základě žádosti MUDr. F. Frühaufa z Gyn-por kliniky VFN zapůjčujeme dne 8.12.2023 parafínový blok
+B10410/23/1B za účelem testování proteinu P53 v klinickém hodnocení XPORT-EC.
+
+
+Datum potvrzení: 13.12.2023 15:21:00
+Potvrzující lékař: Véghová Blanka
+
+Dodatek 3:
+24.1.2024 vráceny 2 bloky.
+
+Datum potvrzení: 24.1.2024 09:33:00
+Potvrzující lékař: Veselá Brigita
+
+
+
+Výsledky z 20/06/23: 
+  Nálezy: 
+      REPT_CTVYS_DTP:
+
+Nález: 
+Přístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736
+Výrobce SIEMENS Healthcare GmbH
+
+Injektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002
+Kontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s
+i.v. aplikoval:Panyová
+
+CT hrudníku, břicha a pánve:
+
+Bylo provedeno spirální dvoufázové postkontrastní CT od jugul po dno pánevní s následnými MPR.
+
+Plíce bez ložisek, mediastinum bez lymfadenopatie, pleurál. dutiny jsou volné.
+Játra jsou obvyklé velikosti, struktury, intrahepatické žlučovody nejsou dilatovány, hepatocholedochus je štíhlý, žlučník bez kontrastní litiázy. Pankreas je v celém rozsahu obvyklé struktury, ohraničený, bez ložiskových změn, pankreatický vývod je jemný. Slezina je norm.velikosti,tvaru. Nadledviny jsou obvyklé struktury a tvaru. Sklerozující mesenteritida. Ledviny jsou obvyklé velikosti, tvar, parenchym je bez strukturálních změn, dutý systém ledvin není dilatován. Evid, zvětšené uzliny v retroperitoneu neprokazujeme.
+
+Karcinomatosa pánevního peritonea, centrálně v pánvi je dominantní solidní léze cípatých okrajů vel. 35x20x20 mm, karcinomatosa přechází na povrch rektosigmoidea, které se vine doprava a na povrch sigmoidea vlevo a rovněž na pahýl poševní. Nejsou známky infiltrace stěny tračníku. Měchýř intaktní. Bez lymfadenopatie v pánvi.
+
+Závěr: Karcinomatosa pánevního peritonea.
+
+
+
+
+
+Potvrzující lékař: MUDr. Burgetová Andrea Ph.D.
+
+
+
+Výsledky z 12/07/23: 
+  Minerály+Osmolalita: 
+      Na: 140
+      K: 4,5
+      Cl: 101
+      Ca: 2,41
+      P: 0,87
+      Mg: 0,90
+  Dusíkové metabolity: 
+      Urea: 5,1
+      Kreat.: 77
+  Jaterní testy: 
+      Bilirubin: 7,4
+      Bili př.: 4,2
+      ALT: 0,45
+      AST: 0,30
+      ALP: 1,10
+  Bílkoviny: 
+      Albumin: 51,4
+      CB: 72,7
+  Štítná žláza: 
+      T3 - celkový: 1,77
+      FT4: 16,4
+      TSH: 2,039
+  Diabetický profil: 
+      Glykemie: 6,8
+  ABR - krev: 
+      pH: 7,341
+      pCO2: 7,27
+      Akt.bikarbonát: 28,7
+      Stand.bikarbonát: 24,5
+      Base excess aktuální: 2,0
+      pO2: 3,3
+      sat.O2: 35,7
+      tot.CO2: 25,6
+      Typ odběru: véna; véna
+      Typ přístroje Astrup: 
+ABL 815 FLEX, výr.č. 902-754R2741N0017
+
+  ABR přepočty: 
+      pO2: 3,3
+  Krev-tumor.markery: 
+      Ca 125: 17,7
+  Moč chemicky: 
+      pH: 5,5
+      Hustota: 1,007
+      Bílkovina orient.: neg
+      Glykosurie: neg
+      Ketolátky: neg
+      Bilirubin: neg
+      Urobilinogen: neg
+      Erytrocyty v moči: neg
+      Leuko: neg
+      Nitrity: neg
+  Moč - sediment: 
+      ERY: 0,0
+      LEUKO: 0,0
+      Epit.pl: 1,0
+      Bakterie: negativ.
+      Poznámka: 
+ost. neg.
+
+  HIV krev-sérum: 
+      Anti HIV1,2+p24: negativ.
+  Hepatitidy krev-séru: 
+      HBsAg: negativ.
+      Anti HCV: negativ.
+  Krevní obraz-perifer: 
+      Leu: 9,12
+      Ery: 5,14
+      HGB: 149
+      HCT: 0,457
+      MCV: 88,9
+      MCH: 29,0
+      MCHC: 327
+      RDW: 13,1
+      Plt: 262
+      MPV: 10,8
+  Dif.stroj. relativní: 
+      Ne: 60,1
+      Ly: 29,5
+      Mo: 8,2
+      Eo: 1,0
+      Ba: 0,7
+      Nezralé granulocyty %: 0,6
+  Dif.stroj. absolutní: 
+      Ne abs.: 5,48
+      Ly abs.: 2,69
+      Mo abs.: 0,75
+      Eo abs.: 0,09
+      Ba abs.: 0,06
+      Nezralé granulocyty abs.: 0,05
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 2,1
+  Koagulační vyšetření: 
+      Protrombinový test čas: 11,50
+      INR: 0,96
+      APTT: 30,4
+      APTT R: 1,01
+
+Výsledky z 01/08/23: 
+  Nálezy: 
+      RTGVYS:
+
+Nález: 
+Přístroj CPI CMP200DR COVATOR, v.č. CPD 18843G14
+
+RTG hrudníku:
+
+Portkatetr zprava cestou v. subclavia l. dx. koncem do oblasti HDŽ. Plicní křídla jsou rozvinutá, bez známek PNO. Plicní parenchym přiměřené transparence, bez ložiskových či infiltrativních změn. Srdeční stín nerozšířen. Horní mediastinum bez přesunu. Bez známek městnání v malém oběhu. Bránice hladká, klenutá. Zevní kostofrenické úhly jsou volné, ostré. Def. spondyloza. 1. snímek ve VFN.
+
+Potvrzující lékař: MUDr. Pivarči Ján
+
+
+
+Výsledky z 03/08/23: 
+  Krevní obraz-perifer: 
+      Leu: 11,01
+      Ery: 4,80
+      HGB: 140
+      HCT: 0,420
+      MCV: 87,5
+      MCH: 29,2
+      MCHC: 333
+      RDW: 13,5
+      Plt: 172
+      MPV: 8,8
+      PCT: 0,150
+      PDW: 8,8
+  Dif.stroj. relativní: 
+      Ne: 64,8
+      Ly: 25,8
+      Mo: 7,5
+      Eo: 0,8
+      Ba: 0,6
+      Nezralé granulocyty %: 0,5
+  Dif.stroj. absolutní: 
+      Ne abs.: 7,13
+      Ly abs.: 2,84
+      Mo abs.: 0,83
+      Eo abs.: 0,09
+      Ba abs.: 0,07
+      Nezralé granulocyty abs.: 0,05
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 2,5
+
+Výsledky z 14/09/23: 
+  Minerály+Osmolalita: 
+      Fe: 18,8
+      Fe-celk.vazeb.kap.: 51,6
+      Fe-saturace: 0,36
+  Bílkoviny: 
+      Transferrin: 2,39
+      Saturace transferrinu: 34,6
+
+Výsledky z 05/10/23: 
+  Nálezy: 
+      REPT_CTVYS_DTP:
+
+Nález: 
+Přístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736
+Výrobce SIEMENS Healthcare GmbH
+
+Injektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002
+Kontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s
+i.v. aplikoval: Panyová
+
+CT hrudníku, břicha a pánve:
+
+Bylo provedeno spirální dvoufázové postkontrastní CT od jugul po dno pánevní s následnými MPR. Srovnání s vyš. 20.6.2023.
+
+Plíce bez ložisek, mediastinum bez lymfadenopatie, pleurál. dutiny jsou volné. Portkatetr vpravo.
+Játra jsou obvyklé velikosti, struktury, intrahepatické žlučovody nejsou dilatovány, hepatocholedochus je štíhlý, žlučník bez kontrastní litiázy. Pankreas je v celém rozsahu obvyklé struktury, ohraničený, bez ložiskových změn, pankreatický vývod je jemný. Slezina je norm.velikosti,tvaru. Nadledviny jsou obvyklé struktury a tvaru. Sklerozující mesenteritida. Ledviny jsou obvyklé velikosti, tvar, parenchym je bez strukturálních změn, dutý systém ledvin není dilatován. Evid. zvětšené uzliny v retroperitoneu neprokazujeme.
+
+Karcinomatosa pánevního peritonea významně regredovala, patrné je jen reziduum ve smyslu fokál. rozšíření peritonea na 15x 4 mm v místě minule popisované léze centrálně v pánvi. Nejsou známky infiltrace stěny tračníku. Měchýř intaktní. Bez lymfadenopatie v pánvi.
+
+Závěr: Karcinomatosa pánevního peritonea v porovnání s min. vyš. ve významné regresi.
+
+RECIST 1.1
+TL: Karcinomatosa pánevního peritonea 15 mm
+NTL: 0
+
+
+
+
+
+
+Potvrzující lékař: MUDr. Burgetová Andrea Ph.D.
+
+
+  Minerály+Osmolalita: 
+      Na: 138
+      K: 4,1
+      Cl: 101
+      Osmolalita: 291
+  Dusíkové metabolity: 
+      Urea: 7,4
+      Kreat.: 77
+      Kys. moč.: 383
+  Jaterní testy: 
+      Bilirubin: 6,1
+      ALT: 0,55
+      AST: 0,40
+      GGT: 0,38
+      ALP: 0,99
+  Bílkoviny: 
+      Albumin: 44,6
+      CB: 66,8
+  Moč chemicky: 
+      pH: 5,5
+      Hustota: 1,009
+      Bílkovina orient.: neg
+      Glykosurie: neg
+      Ketolátky: neg
+      Bilirubin: neg
+      Urobilinogen: neg
+      Erytrocyty v moči: neg
+      Leuko: neg
+      Nitrity: neg
+  Moč - sediment: 
+      ERY: 0,0
+      LEUKO: 0,0
+      Epit.pl: 1,0
+      Bakterie: negativ.
+      Poznámka: 
+ost. neg.
+
+  Krevní obraz-perifer: 
+      Leu: 4,38
+      Ery: 2,81
+      HGB: 89
+      HCT: 0,257
+      MCV: 91,6
+      MCH: 31,9
+      MCHC: 348
+      RDW: 19,0
+      Plt: 138
+      MPV: 9,5
+  Dif.stroj. relativní: 
+      Ne: 55,6
+      Ly: 37,1
+      Mo: 6,7
+      Eo: 0,3
+      Ba: 0,3
+      Nezralé granulocyty %: 0,0
+  Dif.stroj. absolutní: 
+      Ne abs.: 2,43
+      Ly abs.: 1,62
+      Mo abs.: 0,29
+      Eo abs.: 0,01
+      Ba abs.: 0,01
+      Nezralé granulocyty abs.: 0,00
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 1,5
+
+Výsledky z 12/10/23: 
+  Krevní obraz-perifer: 
+      Leu: 4,71
+      Ery: 3,02
+      HGB: 101
+      HCT: 0,288
+      MCV: 95,4
+      MCH: 33,4
+      MCHC: 351
+      RDW: 21,9
+      Plt: 319
+      MPV: 9,5
+      PCT: 0,300
+      PDW: 9,7
+  Dif.stroj. relativní: 
+      Ne: 41,6
+      Ly: 40,8
+      Mo: 14,2
+      Eo: 1,5
+      Ba: 0,4
+      Nezralé granulocyty %: 1,5
+  Dif.stroj. absolutní: 
+      Ne abs.: 1,96
+      Ly abs.: 1,92
+      Mo abs.: 0,67
+      Eo abs.: 0,07
+      Ba abs.: 0,02
+      Nezralé granulocyty abs.: 0,07
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,40
+      Normoblasty abs. strojově: 0,02
+      NLR: 1,1
+
+Výsledky z 25/10/23: 
+  Minerály+Osmolalita: 
+      Na: 140
+      K: 3,9
+      Cl: 103
+      Osmolalita: 293
+  Dusíkové metabolity: 
+      Urea: 4,7
+      Kreat.: 58
+      Kys. moč.: 407
+  Jaterní testy: 
+      Bilirubin: 4,4
+      ALT: 0,53
+      AST: 0,40
+      GGT: 0,46
+      ALP: 1,22
+  Bílkoviny: 
+      Albumin: 42,8
+      CB: 63,1
+  Moč chemicky: 
+      pH: 5,0
+      Hustota: 1,012
+      Bílkovina orient.: neg
+      Glykosurie: neg
+      Ketolátky: neg
+      Bilirubin: neg
+      Urobilinogen: neg
+      Erytrocyty v moči: neg
+      Leuko: neg
+      Nitrity: neg
+  Moč - sediment: 
+      Hlen: poz.
+      ERY: 2,0
+      LEUKO: 0,0
+      Epit.pl: 4,0
+      Bakterie: negativ.
+      Poznámka: 
+ost. neg.
+
+
+Výsledky z 02/11/23: 
+  Krevní obraz-perifer: 
+      Leu: 5,87
+      Ery: 2,64
+      HGB: 94
+      HCT: 0,271
+      MCV: 102,7
+      MCH: 35,6
+      MCHC: 347
+      RDW: 22,5
+      Plt: 119
+      MPV: 10,0
+      PCT: 0,120
+      PDW: 10,0
+  Dif.stroj. relativní: 
+      Ne: 54,9
+      Ly: 30,7
+      Mo: 12,9
+      Eo: 0,5
+      Ba: 0,5
+      Nezralé granulocyty %: 0,5
+  Dif.stroj. absolutní: 
+      Ne abs.: 3,22
+      Ly abs.: 1,80
+      Mo abs.: 0,76
+      Eo abs.: 0,03
+      Ba abs.: 0,03
+      Nezralé granulocyty abs.: 0,03
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 1,8
+
+Výsledky z 05/12/23: 
+  Nálezy: 
+      REPT_CTVYS_DTP:
+
+Nález: 
+Přístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736
+Výrobce SIEMENS Healthcare GmbH
+Injektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002
+Kontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s
+i.v. aplikoval: Hostaša
+
+CT hrudníku, břicha a pánve:
+
+Provedeno spirální postkontrastní CT od jugula po dno pánevní s následnými MPR. Srovnání s vyš. z 5.10.2023.
+
+Plíce bez suspektních ložisek, pleurální dutiny bez volné tekutiny. Portkatetr vpravo.
+V zachyceném rozsahu bez zvětšených uzlin. 
+Játra nezvětšena, žlučové cesty nerozšířeny, žlučník bez kontrastní litiázy. Pankreas, slezina, nadledviny bez patrných odchylek. Ledviny obvyklé velikosti, bez dilatace KPS, vlevo malá parenchymová cysta a malé parapelvické cysty. Stacionární sklerozující mesenteritida. Močový měchýř málo naplněn. 
+Skelet bez ložisek charakteru meta, degenerativní změny páteře. 
+
+Na pánevním peritoneu před rektosigmatem mírně vlevo (kousek nad dělohou, v úrovni posledního sakrálního obratle) je dnes jen zcela nepatrné reziduální fokální zesílení peritonea po předchozím ložisku karcinomatozy, dnes vel. do 10x2 mm (minule 15x4 mm), bez nových karcinomatozních ložisek.
+Bez volné tekutiny v dutině břišní. 
+
+Závěr: Reziduální peritoneální karcinomatoza ve formě fokálního zesílené pánevního peritonea se zmenšila, trvá jen zcela diskrétní zesílení, bez nových ložisek. Ostatní je stejné.
+
+vidí MUDr. Altmanová
+
+Potvrzující lékař: MUDr. Brandejs Tomáš
+
+Dodatek 1:
+RECIST 1.1
+TL1: diskrétní zesílení pánevního peritonea 10 mm
+NTL: 0
+
+Potvrzující lékař: MUDr. Burgetová Andrea Ph.D.
+
+
+
+Výsledky z 16/05/24: 
+  Nálezy: 
+      REPT_CTVYS_DTP:
+
+Nález: 
+Přístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736
+Výrobce SIEMENS Healthcare GmbH
+
+Injektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002
+Kontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s
+i.v. aplikoval: Walterová Olga, Bc.
+
+CT hrudníku, břicha a pánve:
+
+Provedeno spirální postkontrastní CT od jugula po dno pánevní s následnými MPR. Srovnání s vyš. z 5.12.2023.
+
+Plíce bez suspektních ložisek, pleurální dutiny bez volné tekutiny. Portkatetr vpravo.
+V zachyceném rozsahu bez zvětšených uzlin. 
+Játra nezvětšena, žlučové cesty nerozšířeny, žlučník bez kontrastní litiázy. Pankreas, slezina, nadledviny bez patrných odchylek. Ledviny obvyklé velikosti, bez dilatace KPS, vlevo malá parenchymová cysta a malé parapelvické cysty. Stacionární sklerozující mesenteritida. Močový měchýř málo naplněn. 
+Skelet bez ložisek charakteru meta, degenerativní změny páteře. 
+
+Na pánevním peritoneu před rektosigmatem mírně vlevo (kousek nad dělohou, v úrovni posledního sakrálního obratle) je dnes jen zcela nepatrné reziduální fokální zesílení peritonea po předchozím ložisku karcinomatozy, dnes vel. do 10x2 mm (minule 15x4 mm), bez nových karcinomatozních ložisek.
+Bez volné tekutiny v dutině břišní. 
+
+Závěr: Reziduální peritoneální karcinomatoza ve formě fokálního zesílené pánevního peritonea se zmenšila, trvá jen zcela diskrétní zesílení, bez nových ložisek. Ostatní je stejné.
+
+
+RECIST 1.1
+TL1: diskrétní zesílení pánevního peritonea 10 mm
+SOD: 10, minule 10 SD
+NTL: 0
+Nová ložiska nejsou.
+Celkově SD
+
+
+
+Potvrzující lékař: MUDr. Burgetová Andrea Ph.D.
+
+
+
+Výsledky z 28/11/24: 
+  Nálezy: 
+      REPT_CTVYS_DTP:
+
+Nález: 
+Přístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736
+Výrobce SIEMENS Healthcare GmbH
+
+Injektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002
+Kontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s
+i.v. aplikoval: Panyová
+
+CT hrudníku, břicha a pánve:
+
+Provedeno spirální postkontrastní CT od jugula po dno pánevní s následnými MPR. Srovnání s vyš. z16.5.2024.
+
+Plíce bez suspektních ložisek, pleurální dutiny bez volné tekutiny. Portkatetr vpravo.
+V zachyceném rozsahu bez zvětšených uzlin. 
+Játra nezvětšena, žlučové cesty nerozšířeny, žlučník bez kontrastní litiázy. Pankreas, slezina, nadledviny bez patrných odchylek. Ledviny obvyklé velikosti, bez dilatace KPS, vlevo malá parenchymová cysta a malé parapelvické cysty. Stacionární sklerozující mesenteritida. Močový měchýř málo naplněn. 
+Skelet bez ložisek charakteru meta, degenerativní změny páteře. 
+
+Na pánevním peritoneu dnes fokální zesílení peritonea  nevidím. bez nových karcinomatozních ložisek.
+Bez volné tekutiny v dutině břišní. 
+
+Závěr: Bez známek reziduální peritoneální karcinomatozy . Ostatní je stejné.
+
+
+RECIST 1.1
+TL1: diskrétní zesílení pánevního peritonea 0 mm
+SOD: 0, minule 10 CR
+NTL: 0
+Nová ložiska nejsou.
+Celkově CR
+
+
+
+
+Potvrzující lékař: prof. MUDr. Burgetová Andrea Ph.D.
+
+
+
+Výsledky z 06/01/26: 
+  Nálezy: 
+      REPT_CTVYS_DTP:
+
+Nález: 
+Přístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736
+Výrobce SIEMENS Healthcare GmbH
+
+Injektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002
+Kontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s
+i.v. aplikoval: Štenclová, Bc.
+
+CT hrudníku, břicha a pánve:
+
+Provedeno spirální postkontrastní CT od jugula po dno pánevní s následnými MPR. Srovnání s vyš. z 28.11. 2024.
+
+Plíce bez suspektních ložisek, pleurální dutiny bez volné tekutiny. Portkatetr vpravo.
+V zachyceném rozsahu bez zvětšených uzlin. 
+Játra nezvětšena, žlučové cesty nerozšířeny, žlučník bez kontrastní litiázy. Pankreas, slezina, nadledviny bez patrných odchylek. Ledviny obvyklé velikosti, bez dilatace KPS, vlevo malá parenchymová cysta a malé parapelvické cysty. Stacionární sklerozující mesenteritida. Močový měchýř málo naplněn. 
+Dnes nově na vrchol pahýlu poševního ve stř. čáře nasedá solidní ložisko 19x18x15 mm charakteru recidivy.
+Skelet bez ložisek charakteru meta, degenerativní změny páteře. 
+Bez volné tekutiny v dutině břišní. 
+
+Závěr: Recidiva ve vrcholu pahýlu poševního ve stř. čáře.
+
+
+
+Potvrzující lékař: prof. MUDr. Burgetová Andrea Ph.D.
+
+
+
+Výsledky z 26/01/26: 
+  Zkouška kompatibility: 
+      TP č.1: 
+C20022600013510  Kompatibilní
+Platnost vyšetření: 29.01.2026 23:59:00
+Expirace: 24.02.2026 23:59:00
+
+      TP č.2: 
+C20022620000610  INKOMPATIBILNÍ
+Platnost vyšetření: 29.01.2026 23:59:00
+Expirace: 24.02.2026 23:59:00
+
+      TP č.3: 
+C20022600012410  Kompatibilní
+Platnost vyšetření: 29.01.2026 23:59:00
+Expirace: 24.02.2026 23:59:00
+
+  Imunohematologie: 
+      Krevní skupina: B poz
+      Screening protilátek: neg
+  Bez funkční skupiny: 
+      Q_ZkKomp_*: 
+vyšetřena
+
+      Výsl ZK: 
+Kompatibilní
+
+
+Výsledky z 27/01/26: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189
+ed.3:2023. Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle 
+SOP-PAT-10.
+
+Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13.
+
+
+Nález: 
+B1935/26
+
+1-2
+
+1. Tumor pánve z proximální pochvy: 3 nepravidelné potrhané částice velikosti 43 x 18 x 17 mm, 26 x 5-10 x 4 mm a průměru 5 mm, největší ložiskově s hladkou sliznicí. Materiál zpracován celý v 9 blocích.
+2. Tumory z rekta: Vícečetné tukové částky celkem 70 x 60 x 15-25 mm, ložiskově s tužšími prokrvácenými oblastmi. Materiál vyšetřen v 5 blocích.
+
+Mikro: V tukovém a kolagenním vazivu (č. 1) a na seróze (č. 2) je infiltrace karcinomem, který roste minoritně v tubulárních a kribriformních formacích, povětšinou tvoří solidní čepy, pruhy a větší plochy s mapovitými nekrózami, místy je výrazně zhmožděný či termicky poškozený. V glandulárních oblastech nádorové buňky vykazují střední stupeň jaderných atypií, cytoplazma je amfofilní či špatně barvitelná. V solidních oblastech jsou nádorové buňky bazaloidního vzhledu s high grade jadernými atypiemi, bohatou mitotickou aktivitou a ložiskovou dlaždicovou diferenciací. Stroma desmoplastické. V č. 1 fokálně zastižena stěna pochvy. Kvůli fragmentaci materiálu se k úplnosti odstranění nelze vyjádřit.
+
+Imunohistochemické vyšetření (blok 2C):
+Glandulární komponenta je CKAE1/3 +, CK8/18 +, PAX8 +, SOX17 +, ER + (100 %, středně silně až silně), PR -/+ (do 10 %, středně silně až silně), p40 -/+ (fokálně), p16 -/+ (místy disperzně), p53 wt.
+Solidní komponenta je CKAE1/3 +, CK8/18 +, PAX8 -, SOX17 -, ER -, PR -, p40 -/+ (fokálně), p16 -/+ (místy disperzně), p53 wt.
+
+Závěr: V resekátech proximální pochvy a z povrchu rekta je recidiva dříve diagnostikovaného endometroidního karcinomu endometria, v aktuálním odběru grade 3. Kvůli fragmentaci materiálu se k úplnosti odstranění nelze vyjádřit.
+T81, TY44   M8380/3 G3
+
+Datum potvrzení: 3.2.2026 10:54:00
+Potvrzující lékař: Galko Jan MUDr.
+
+
+  ABR - krev: 
+      Hb: 124
+      Typ přístroje Astrup: ABL835
+      Typ odběru: 
+Not specifie
+
+  Plná krev: 
+      Na: 135
+      K: 4,3
+      Cl: 110
+      iCa: 1,15
+
+Výsledky z 28/01/26: 
+  Minerály+Osmolalita: 
+      Na: 136
+      K: 4,7
+      Cl: 106
+      Ca: 2,32
+  Diabetický profil: 
+      Glykemie: 7,4
+  Krevní obraz-perifer: 
+      Leu: 12,84
+      Ery: 3,55
+      HGB: 109
+      HCT: 0,327
+      MCV: 92,1
+      MCH: 30,7
+      MCHC: 333
+      RDW: 13,2
+      Plt: 249
+      MPV: 9,7
+      PCT: 0,240
+      PDW: 10,0
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+
+Výsledky z 17/02/26: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189
+ed.3:2023. Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu 
+akreditace dle SOP-PAT-13.
+
+
+Nález: 
+B3506/26
+
+Na žádost kliničky MUDr. Terezy Valentové z Kliniky gynekologie, porodnictví a neonatologie VFN bylo provedeno dodatečné vyšetření exprese MMR proteinů z B1935/26/2C (endometroidní karcinom endometria grade 3).
+
+Na průvodce uveden též požadavek na vyšetření exprese ER a p53, to však již bylo provedeno v původní biopsii. Opis nálezu:
+
+Glandulární komponenta je ER + (100 %, středně silně až silně), p53 wt.
+Solidní komponenta je ER -, p53 wt.
+
+Imunohistochemické vyšetření exprese MMR (mismatch repair) proteinů:
+MLH1: zachovalá exprese
+PMS2: zachovalá exprese
+MSH2: zachovalá exprese
+MSH6: zachovalá exprese
+
+Závěr: Exprese vyšetřených MMR proteinů v nádorové tkáni je zachovaná. Pravděpodobnost nestability mikrosatelitů (MSI) je tedy nízká.
+
+Potvrzující lékař: Galko Jan MUDr.
+
+
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189
+ed.3:2023. Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu 
+akreditace dle SOP-PAT-13.
+
+
+Nález: 
+B3506/26
+
+Na žádost kliničky MUDr. Terezy Valentové z Kliniky gynekologie, porodnictví a neonatologie VFN bylo provedeno dodatečné vyšetření exprese MMR proteinů z B1935/26/2C (endometroidní karcinom endometria grade 3).
+
+Na průvodce uveden též požadavek na vyšetření exprese ER a p53, to však již bylo provedeno v původní biopsii. Opis nálezu:
+
+Glandulární komponenta je ER + (100 %, středně silně až silně), p53 wt.
+Solidní komponenta je ER -, p53 wt.
+
+Imunohistochemické vyšetření exprese MMR (mismatch repair) proteinů:
+MLH1: zachovalá exprese
+PMS2: zachovalá exprese
+MSH2: zachovalá exprese
+MSH6: zachovalá exprese
+
+Závěr: Exprese vyšetřených MMR proteinů v nádorové tkáni je zachovaná. Pravděpodobnost nestability mikrosatelitů (MSI) je tedy nízká.
+
+Potvrzující lékař: Galko Jan MUDr.
+
+
+
+Výsledky z 03/03/26: 
+  Minerály+Osmolalita: 
+      Na: 138
+      K: 4,2
+      Cl: 96
+      Fe: 4,7
+      Fe-celk.vazeb.kap.: 34,2
+      Fe-saturace: 0,14
+  Dusíkové metabolity: 
+      Urea: 8,0
+      Kreat.: 91
+      Kys. moč.: 570
+  Jaterní testy: 
+      Bilirubin: 9,7
+      ALT: 0,75
+      AST: 1,36
+      GGT: 8,27
+      ALP: 4,61
+      FIB-4 index: 2,00      ; mírné riziko jaterní fibrózy
+  Bílkoviny: 
+      Albumin: 43,3
+      CB: 68,3
+      Transferrin: 1,56
+      Saturace transferrinu: 13,3
+  Texty hematologie: 
+      Komentář:
+Ověření shody totožnosti pacienta na žádance a na zkumavce.
+
+  Krevní obraz-perifer: 
+      Leu: 12,00
+      Ery: 4,05
+      HGB: 122
+      HCT: 0,362
+      MCV: 89,4
+      MCH: 30,1
+      MCHC: 337
+      RDW: 12,8
+      Plt: 432
+      MPV: 9,7
+  Dif.stroj. relativní: 
+      Ne: 74,6
+      Ly: 15,2
+      Mo: 9,0
+      Eo: 0,5
+      Ba: 0,4
+      Nezralé granulocyty %: 0,3
+  Dif.stroj. absolutní: 
+      Ne abs.: 8,93
+      Ly abs.: 1,82
+      Mo abs.: 1,08
+      Eo abs.: 0,06
+      Ba abs.: 0,04
+      Nezralé granulocyty abs.: 0,03
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 4,9
+
+Výsledky z 09/03/26: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189
+ed.3:2023. Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle 
+SOP-PAT-10.
+
+Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13.
+
+
+Nález: 
+B05063/26
+
+Dle průvodky punch biopsie z poševního pahýlu - vs časná progrese onemocnění - karcinom endometria. Dodány vícečetné vzorky celkově 8 x 5 x 3 mm, zpracované celé v 1 bloku.
+Mikro: Vzorky jsou tvořené málo diferencovaným solidně uspořádaným karcinomem, s rozsáhlými nekrózami. Nádorové buňky mají střední až větší množství amfofilní cytoplazmy a nepravidelná, často vezikulární jádra se zřetelnými jadérky. Při části vzorku na povrchu nerohovějící dlaždicový epitel s chronickou zánětlivou celulizací. 
+Imunohistochemický nález:
+P40 je v nádorových buňkách negativní, v povrchovém epitelu pozitivní
+CK 8/18 je v nádorových buňkách difuzně pozitivní
+SOX17 je v nádorových buňkách negativní
+Morfologie a imunofenotyp připouští solidní komponentu dříve diagnostikovaného karcinomu endometria.
+
+Závěr: Punch biopsii z poševního pahýlu nález připouští recidivu karcinomu endometria grade 3,. Předchozí vyšetření nádoru viz. B01935/26 a B10410/23
+T81    M8380/3 G3
+
+Pozn.: Morfologie a imunofenotyp odpovídá solidní komponentě nádoru
+
+
+Datum potvrzení: 13.3.2026 08:58:00
+Potvrzující lékař: Němejcová Kristýna doc. MUDr. Ph.D.
+
+
+
+Výsledky z 12/03/26: 
+  Nálezy: 
+      REPT_CTVYS_DTP:
+
+Nález: 
+Přístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736
+Výrobce SIEMENS Healthcare GmbH
+
+Injektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002
+Kontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s
+i.v. aplikoval: Šupa Petr
+
+CT hrudníku, břicha a pánve:
+Provedeno spirální postkontrastní CT od jugula po dno pánevní s následnými MPR. 
+Srovnání s vyš. z 1/2026.
+
+Indikace: pacientka s recidivujícím Ca dělohy, st.p. reoperaci pro lokální recidivu poševního pahýlu a karcinomatózu v pánvi 1/2026. Nyní (nejspíše) na ChIT od 2/2026. 
+
+Nově mnohočetná (10+) ložiska disperzně v obou plicích do vel. 15 mm, pleurální dutiny bez volné tekutiny. Portkatetr vpravo.
+Mediastinum a axily bezz zvětšených uzlin. Malé noduly štítné žlázy. 
+
+Játra s mnohočetnými hypodenzními ložisky (10+) do vel. 20 mm, žlučové cesty nerozšířeny, žlučník bez kontrastní litiázy. Pankreas, slezina, nadledviny bez patrných odchylek. Ledviny obvyklé velikosti, bez dilatace KPS, vlevo malá parenchymová cysta a malé parapelvické cysty. Malrotovaná pravé ledvina. 
+Stacionární sklerozující mesenteritida. Močový měchýř málo naplněn. 
+Ložisko přední stěny pochvy vel. 42 x 20 mm naléhající a nejspíše infiltrující uretru. Další ložiska jsou v oblasti poševního pahýlu vel. do 17 mm, s přitažením dvou úseků sigmatu a pooperační fibrózou. Menší ložiska karcinomatózy před pánevním svazkem vlevo, susp. i na Gerotově fascii vpravo a kolem jater, nově. 
+Zvětšená uzlina parailicky vpravo vel. 17 mm. 
+Skelet bez ložisek charakteru meta, degenerativní změny páteře. 
+Bez volné tekutiny v dutině břišní. 
+
+Závěr: 
+Nově vícečetné meta postižení plic a jater, ložiska pochvy a poševního pahýlu, progrese karcinózy peritonea.
+
+Potvrzující lékař: MUDr. Hrdlička Jan
+
+
+  Minerály+Osmolalita: 
+      Na: 131
+      K: 4,4
+      Cl: 93
+  Dusíkové metabolity: 
+      Urea: 6,3
+      Kreat.: 85
+      Kys. moč.: 529
+  Jaterní testy: 
+      Bilirubin: 8,8
+      ALT: 2,00
+      AST: 3,18
+      GGT: 20,14
+      ALP: 11,93
+  Bílkoviny: 
+      Albumin: 39,3
+      CB: 68,4
+  Endokrinologie: 
+      Kortizol ranní: 1169
+  Štítná žláza: 
+      FT4: 19,4
+      TSH: 1,699
+
+Výsledky z 20/03/26: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189 ed.3:2023. 
+
+Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13.
+
+
+
+Nález: 
+B6056/26
+
+Na žádost klinika MUDr. Frühaufa, Ph.D. z Kliniky GPN VFN provádíme dodatečné vyšetření NGS a IHC z biopsie č. 5063/26/1A (recidiva karcinomu endometria grade 3).
+
+Imunohistochemický nález HER2:
+HER2/neu (certifikovaný kit Ventana HER2/neu, klon 4B5) negativní (skóre 0). 
+
+PD-L1 (clone 22C3)  Exprese PD-L1 zastižena v < 1 % nádorových buněk  (TPS=  0,85 %)
+(Pozn.: Místy zastižena pozitivita v nenádorovém epitelu pochvy)
+
+Komplexní molekulárně biologické vyšetření (DNA a RNA NGS):
+Genomová DNA a celková RNA byla izolována z celých řezů parafinového bločku č. 5063/26/1A (40% nádorových buněk).
+Výsledek vyšetření mutačního stavu vybraných genů provedené metodou NGS v rozsahu akreditace dle SOP-PAT-23. Spektrum vyšetřovaných genů je uvedeno v příloze č. 2 SM-PAT-02 Laboratorní příručka: https://www.vfn.cz/pacienti/kliniky-ustavy/ustav-patologie/laboratore/
+
+Podstatou metody je masivní paralelní sekvenování nabohacených vybraných oblastí genomu na úrovni DNA a RNA na platformě NextSeq 2000 (Illumina, který je umístěn ve smluvní laboratoři ULBLD, Laboratoř pro komplexní výzkum nových biomarkerů). Metodou lze detekovat somatické varianty zastoupené alespoň u 5 % buněčné populace ve vzorku, kdy pro zachování robustnosti detekce genových variant je vhodný vzorek obsahující >20 % nádorových buněk. Stanovení TMB a CNV je obvykle možné u vzorků s >40 % nádorových buněk. Vyšetření rozsáhlých přestaveb >40 bp a CNV je u parafinových vzorků limitováno a takovéto varianty nemusí být detekovány. Mutace hluboko v intronových a regulačních sekvencích nejsou zachyceny. Reportovány jsou pouze pravděpodobně patogenní či patogenní varianty (class 4-5), dle aktuálních kritérií v době vydání této zprávy.
+Vzorek DNA byl analyzován pomocí sequence capture NGS. Metoda umožňuje vyšetření mikrosatelitové instability (MSI), tumor mutační nálože (TMB), změny počtu kopií (CNV) a somatických variant vybraných oblastí (358 genů), zahrnující geny:
+AKT1, ALK, ARAF, ARID1A, ARID1B, ATM, ATR, BRAF, BRCA1, BRCA2, CDK12, CDKN2A, DDR2, EGFR, ERBB2, ESR1, FGFR1, FGFR2, FGFR3, CHEK1, IDH1, IDH2, KEAP1, KRAS, MAP2K1, MET, MTOR, NF1, NRAS, NTRK1, NTRK2, NTRK3, PALB2, PIK3CA, PIK3R1, PTEN, RB1, RET, STK11, TP53; amplif. CCND1, EGFR, ERBB2, FGFR1-3, MDM2, MET, MYC.
+
+Průměrné pokrytí cílových oblastí v NGS runu 539x.
+Analýza mikrosatelitové instability: Hodnoceno 17 vybraných mikrosatelitových oblastí přítomných v NGS panelu.
+TMB: TMB - High (>=10 mut/Mb dle databáze OncoKB) je prediktivní biomarker k imunoléčbě. 
+CNV: Identifikuje genové/chromozomální duplikace či delece. Vzhledem k charakteru analýzy nelze rozlišit mezi amplifikací a duplikací.
+
+Vzorek RNA byl analyzován metodou sequence capture NGS. Spektrum vyšetřovaných transkripčních variant a fúzí zahrnuje 29 genových cílů, včetně ALK, BRAF, CCND1, EGFR, ERBB2, FGFR1, FGFR2, FGFR3, FGFR4, JAK2, KRAS, MDM2, MET, MYC, NRAS, NRG1, NTRK1, NTRK2, NTRK3, NUTM1, PDGFB, PDGFRA, PDGFRB, PTEN, RET, ROS1.
+
+Potencionální cílená léčba asociována s nalezenými variantami je reportována na základě databáze OncoKB a to pouze v rozsahu level of evidence 1-3 a R1 (1 - FDA-recognized biomarker predictive of response to an FDA-approved drug in this indication; 2 - Standard care biomarker recommended by the NCCN or other expert panels predictive of response to an FDA-approved drug in this indication; 3A - Compelling clinical evidence supports the biomarker as being predictive of response to a drug in this indication, 3B - Standard care or investigational biomarker predictive of response to an FDA-approved or investigational drug in another indication; R1 - Standard care biomarker predictive of resistance to an FDA-approved drug in this indication).
+
+Výsledky:
+DNA capture NGS:
+Ve vzorku BYLY nalezeny pravděpodobně patogenní či patogenní varianty (class 4-5) v genech:
+PTEN, NM_000314.7:c.395G>A, p.(Gly132Asp), frekvence mutované alely 69 % (1076x).
+Dle databáze OncoKB je mutace v genu PTEN asociována s cílenou léčbou pomocí Capivasertib + Fulvestrant u karcinomu endometria v rozsahu level of evidence 3B.
+ARID1A, NM_006015.6:c.6754dup, p.(Thr2252fs), frekvence mutované alely 35 % (644x)
+ARID1A, NM_006015.6:c.5164C>T, p.(Arg1722Ter), frekvence mutované alely 34 % (658x)
+PIK3R1, NM_181523.3:c.1336_1377del, p.(Gly446_Lys459del), frekvence mutované alely 22 % (950x)
+
+Dále NEBYLA nalezena žádná varianta class 4-5 ve vybraných genech: AKT1, ALK, ARAF, ARID1B, ATM, ATR, BRAF, BRCA1, BRCA2, CDK12, CDKN2A, DDR2, EGFR, ERBB2, ESR1, FGFR1, FGFR2, FGFR3, CHEK1, IDH1, IDH2, KEAP1, KRAS, MAP2K1, MET, MTOR, NF1, NRAS, NTRK1, NTRK2, NTRK3, PALB2, PIK3CA, RB1, RET, STK11, TP53.
+
+Nad rámec vybraných genů BYLY ve vyšetřovaném panelu identifikovány další varianty (class 4-5):
+CTNNB1, NM_001904.4:c.110C>G, p.(Ser37Cys), tzv. S37C, frekvence mutované alely 28 % (498x)
+
+CNV analýza nelze u tohoto vzorku spolehlivě vyhodnotit.
+
+TMB = 5 mut/Mb
+Analýza mikrosatelitové instability: mikrosatelitně stabilní (MSS) 
+
+RNA capture NGS:
+Ve vzorku NEBYL detekován fúzní transkript v rámci panelu vyšetřovaných genů (ALK, BRAF, CCND1, EGFR, ERBB2, FGFR1, FGFR2, FGFR3, FGFR4, JAK2, KRAS, MDM2, MET, MYC, NRAS, NRG1, NTRK1, NTRK2, NTRK3, NUTM1, PDGFB, PDGFRA, PDGFRB, PTEN, RET, ROS1).
+
+Shrnutí - Potencionální cílená terapie - level of evidence dle OncoKB: 
+1: - 
+2: - 
+3A: -  
+3B: PTEN mutace (Capivasertib + Fulvestrant; ca endometria)
+R1: -
+Vyšetření vyhodnotil: Mgr. Nikola Kudrnová, Ph.D.
+
+
+
+Datum potvrzení: 31.3.2026 10:42:00
+Potvrzující lékař: Němejcová Kristýna doc. MUDr. Ph.D.
+
+
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189 ed.3:2023. 
+
+Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13.
+
+
+
+Nález: 
+B6056/26
+
+Na žádost klinika MUDr. Frühaufa, Ph.D. z Kliniky GPN VFN provádíme dodatečné vyšetření NGS a IHC z biopsie č. 5063/26/1A (recidiva karcinomu endometria grade 3).
+
+Imunohistochemický nález HER2:
+HER2/neu (certifikovaný kit Ventana HER2/neu, klon 4B5) negativní (skóre 0). 
+
+PD-L1 (clone 22C3)  Exprese PD-L1 zastižena v < 1 % nádorových buněk  (TPS=  0,85 %)
+(Pozn.: Místy zastižena pozitivita v nenádorovém epitelu pochvy)
+
+Komplexní molekulárně biologické vyšetření (DNA a RNA NGS):
+Genomová DNA a celková RNA byla izolována z celých řezů parafinového bločku č. 5063/26/1A (40% nádorových buněk).
+Výsledek vyšetření mutačního stavu vybraných genů provedené metodou NGS v rozsahu akreditace dle SOP-PAT-23. Spektrum vyšetřovaných genů je uvedeno v příloze č. 2 SM-PAT-02 Laboratorní příručka: https://www.vfn.cz/pacienti/kliniky-ustavy/ustav-patologie/laboratore/
+
+Podstatou metody je masivní paralelní sekvenování nabohacených vybraných oblastí genomu na úrovni DNA a RNA na platformě NextSeq 2000 (Illumina, který je umístěn ve smluvní laboratoři ULBLD, Laboratoř pro komplexní výzkum nových biomarkerů). Metodou lze detekovat somatické varianty zastoupené alespoň u 5 % buněčné populace ve vzorku, kdy pro zachování robustnosti detekce genových variant je vhodný vzorek obsahující >20 % nádorových buněk. Stanovení TMB a CNV je obvykle možné u vzorků s >40 % nádorových buněk. Vyšetření rozsáhlých přestaveb >40 bp a CNV je u parafinových vzorků limitováno a takovéto varianty nemusí být detekovány. Mutace hluboko v intronových a regulačních sekvencích nejsou zachyceny. Reportovány jsou pouze pravděpodobně patogenní či patogenní varianty (class 4-5), dle aktuálních kritérií v době vydání této zprávy.
+Vzorek DNA byl analyzován pomocí sequence capture NGS. Metoda umožňuje vyšetření mikrosatelitové instability (MSI), tumor mutační nálože (TMB), změny počtu kopií (CNV) a somatických variant vybraných oblastí (358 genů), zahrnující geny:
+AKT1, ALK, ARAF, ARID1A, ARID1B, ATM, ATR, BRAF, BRCA1, BRCA2, CDK12, CDKN2A, DDR2, EGFR, ERBB2, ESR1, FGFR1, FGFR2, FGFR3, CHEK1, IDH1, IDH2, KEAP1, KRAS, MAP2K1, MET, MTOR, NF1, NRAS, NTRK1, NTRK2, NTRK3, PALB2, PIK3CA, PIK3R1, PTEN, RB1, RET, STK11, TP53; amplif. CCND1, EGFR, ERBB2, FGFR1-3, MDM2, MET, MYC.
+
+Průměrné pokrytí cílových oblastí v NGS runu 539x.
+Analýza mikrosatelitové instability: Hodnoceno 17 vybraných mikrosatelitových oblastí přítomných v NGS panelu.
+TMB: TMB - High (>=10 mut/Mb dle databáze OncoKB) je prediktivní biomarker k imunoléčbě. 
+CNV: Identifikuje genové/chromozomální duplikace či delece. Vzhledem k charakteru analýzy nelze rozlišit mezi amplifikací a duplikací.
+
+Vzorek RNA byl analyzován metodou sequence capture NGS. Spektrum vyšetřovaných transkripčních variant a fúzí zahrnuje 29 genových cílů, včetně ALK, BRAF, CCND1, EGFR, ERBB2, FGFR1, FGFR2, FGFR3, FGFR4, JAK2, KRAS, MDM2, MET, MYC, NRAS, NRG1, NTRK1, NTRK2, NTRK3, NUTM1, PDGFB, PDGFRA, PDGFRB, PTEN, RET, ROS1.
+
+Potencionální cílená léčba asociována s nalezenými variantami je reportována na základě databáze OncoKB a to pouze v rozsahu level of evidence 1-3 a R1 (1 - FDA-recognized biomarker predictive of response to an FDA-approved drug in this indication; 2 - Standard care biomarker recommended by the NCCN or other expert panels predictive of response to an FDA-approved drug in this indication; 3A - Compelling clinical evidence supports the biomarker as being predictive of response to a drug in this indication, 3B - Standard care or investigational biomarker predictive of response to an FDA-approved or investigational drug in another indication; R1 - Standard care biomarker predictive of resistance to an FDA-approved drug in this indication).
+
+Výsledky:
+DNA capture NGS:
+Ve vzorku BYLY nalezeny pravděpodobně patogenní či patogenní varianty (class 4-5) v genech:
+PTEN, NM_000314.7:c.395G>A, p.(Gly132Asp), frekvence mutované alely 69 % (1076x).
+Dle databáze OncoKB je mutace v genu PTEN asociována s cílenou léčbou pomocí Capivasertib + Fulvestrant u karcinomu endometria v rozsahu level of evidence 3B.
+ARID1A, NM_006015.6:c.6754dup, p.(Thr2252fs), frekvence mutované alely 35 % (644x)
+ARID1A, NM_006015.6:c.5164C>T, p.(Arg1722Ter), frekvence mutované alely 34 % (658x)
+PIK3R1, NM_181523.3:c.1336_1377del, p.(Gly446_Lys459del), frekvence mutované alely 22 % (950x)
+
+Dále NEBYLA nalezena žádná varianta class 4-5 ve vybraných genech: AKT1, ALK, ARAF, ARID1B, ATM, ATR, BRAF, BRCA1, BRCA2, CDK12, CDKN2A, DDR2, EGFR, ERBB2, ESR1, FGFR1, FGFR2, FGFR3, CHEK1, IDH1, IDH2, KEAP1, KRAS, MAP2K1, MET, MTOR, NF1, NRAS, NTRK1, NTRK2, NTRK3, PALB2, PIK3CA, RB1, RET, STK11, TP53.
+
+Nad rámec vybraných genů BYLY ve vyšetřovaném panelu identifikovány další varianty (class 4-5):
+CTNNB1, NM_001904.4:c.110C>G, p.(Ser37Cys), tzv. S37C, frekvence mutované alely 28 % (498x)
+
+CNV analýza nelze u tohoto vzorku spolehlivě vyhodnotit.
+
+TMB = 5 mut/Mb
+Analýza mikrosatelitové instability: mikrosatelitně stabilní (MSS) 
+
+RNA capture NGS:
+Ve vzorku NEBYL detekován fúzní transkript v rámci panelu vyšetřovaných genů (ALK, BRAF, CCND1, EGFR, ERBB2, FGFR1, FGFR2, FGFR3, FGFR4, JAK2, KRAS, MDM2, MET, MYC, NRAS, NRG1, NTRK1, NTRK2, NTRK3, NUTM1, PDGFB, PDGFRA, PDGFRB, PTEN, RET, ROS1).
+
+Shrnutí - Potencionální cílená terapie - level of evidence dle OncoKB: 
+1: - 
+2: - 
+3A: -  
+3B: PTEN mutace (Capivasertib + Fulvestrant; ca endometria)
+R1: -
+Vyšetření vyhodnotil: Mgr. Nikola Kudrnová, Ph.D.
+
+
+
+Datum potvrzení: 31.3.2026 10:42:00
+Potvrzující lékař: Němejcová Kristýna doc. MUDr. Ph.D.
+
+
+
+Výsledky z 16/04/26: 
+  Nálezy: 
+      REP_MRUT_DTP:
+
+Laboratoř bakteriologie, tel.224967665,7725
+----------------------------------------------------------------------------------------------
+Pacient               LÁNSKÁ JAROSLAVA                         Rodné číslo 5551021696 Poj. 111
+
+Biologický materiál   STĚR Z DUTINY ÚSTNÍ
+Laboratorní číslo     B0468594                                 Dg.         C549
+Zdravotnické zařízení VFN                                      NS          22330
+Oddělení              Klin. gyn., porod. a neonat. - Onkologický stacionář
+Lékař                 Frühauf                                  IČP/odb.    02004541  / 402
+Datum a doba příjmu   16.04.2026 14:00
+Datum a doba odběru   16.04.2026 11:00
+Datum a doba ukončení 18.04.2026 09:00
+----------------------------------------------------------------------------------------------
+KULTIVACE A VYŠETŘENÍ
+Primokultura
+ Běžná flóra horních cest dýchacích
+
+UVOLNIL:  MUDr. Jana Kudláčková
+
+
+Výsledky z 07/05/26: 
+  Krevní obraz-perifer: 
+      Leu: 2,66
+      Ery: 4,55
+      HGB: 131
+      HCT: 0,403
+      MCV: 88,6
+      MCH: 28,8
+      MCHC: 325
+      RDW: 18,0
+      Plt: 148
+      MPV: 9,4
+      PCT: 0,140
+      PDW: 9,4
+  Dif.stroj. relativní: 
+      Ne: 50,4
+      Ly: 26,3
+      Mo: 19,2
+      Eo: 3,0
+      Ba: 1,1
+      Nezralé granulocyty %: 0,0
+  Dif.stroj. absolutní: 
+      Ne abs.: 1,34
+      Ly abs.: 0,70
+      Mo abs.: 0,51
+      Eo abs.: 0,08
+      Ba abs.: 0,03
+      Nezralé granulocyty abs.: 0,00
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 1,9
+
+Výsledky z 11/06/26: 
+  Nálezy: 
+      REPT_CTVYS_DTP:
+
+Nález: 
+Přístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736
+Výrobce SIEMENS Healthcare GmbH
+
+Injektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002
+Kontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s
+i.v. aplikoval: Hostaša
+
+CT hrudníku, břicha a pánve:
+Provedeno spirální postkontrastní CT od jugula po dno pánevní s následnými MPR. 
+Srovnání s vyš. z 3/2026.
+Indikace: pacientka s recidivujícím Ca dělohy, st.p. reoperaci pro lokální recidivu poševního pahýlu a karcinomatózu v pánvi 1/2026
+
+Malé noduly štítné žlázy. 
+Od posledního vyšetření došlo ke zmenšení meta ložisek obou plic - nyní největší vpravo vel. 13 mm v dolním laloku (minule 18 mm), vlevo největší v dolním laloku vel. 10 mm (minule 16 mm). Nová ložiska se neobjevila. 
+Pleurální dutiny bez volné tekutiny. Portkatetr vpravo.
+Játra s mnohočetnými hypodenzními ložisky, nyní do vel. 13 mm (minule 22 mm), bez přesvědčivých nových ložiskových změn. 
+Dnes prostornější d. hepatocholedochus cca 13 mm, žlučník bez kontrastní litiázy, jeho stěna se výrazněji sytí, kolem lůžka tenký lem tekutiny. Edém peripankreatického tuku kolem těla a kaudy, pankreas bez ložisek. Slezina dnes hraniční vel. - podélně 134 mm (minule 117 mm), bez ložisek. 
+Nadledviny bez expanze. Ledviny obvyklé velikosti, bez dilatace KPS, vlevo malá parenchymová cysta a malé parapelvické cysty. Močový měchýř málo naplněn. 
+Ložisko přední stěny pochvy dnes hůře diferencovatelné, špatně měřitelné - nicméně od minule se jeví menší. Další ložiska jsou v oblasti poševního pahýlu vel. do 15 mm (minule do 17 mm), s přitažením či infiltrací sigmatu. Drobná ložiska karcinomatózy v oblasti pánevního peritonea před cévním svazkem vlevo - dnes do vel. 7 mm, minule 10 mm. Uzlík vlevo na mesenteriu stac. vel. 8 mm, lehce je výraznější jemné zastření tuku v jeho blízkosti. Bez volné tekutiny v dutině břišní. 
+Nehomogenní uzlina v pravém plicním hilu vel. 13 x 10 mm (minule drobná cca 6 mm), další podobná uzlina v jaterním hilu dnes 10 x 10 mm (minule 11 x 8 mm). Uzlina parailicky vpravo dnes vel. 12 x 8 mm (minule 18 x 15  mm). 
+Skelet bez ložisek charakteru meta, degenerativní změny páteře. 
+
+Závěr: 
+Od posledního vyšetření došlo ke zmenšení meta ložisek skeletu a plic, karcinomatózy peritonea a lymfadenopatie vpravo parailicky. Nově patrné nehomogenní uzliny v pravém plicním hilu a v jaterním hilu, od minule jsou lehce větší - může to být však i na vrub nekrózy. 
+Obraz suspektní z akutní pankreatitidy, možné zánětlivé změny žlučnéíku.
+
+
+
+Potvrzující lékař: MUDr. Drobná Karolína
+
+
+
+Výsledky z 25/06/26: 
+  Enzymy: 
+      AMS-P: 0,15
+  Bílkoviny: 
+      CRP: 39,1
+  Štítná žláza: 
+      FT4: 14,6
+      TSH: 4,632
+
+Výsledky z 28/07/26: 
+  Minerály+Osmolalita: 
+      Na: 138
+      K: 4,4
+      Cl: 99
+  Dusíkové metabolity: 
+      Urea: 5,0
+      Kreat.: 78
+      Kys. moč.: 449
+  Jaterní testy: 
+      Bilirubin: 11,4
+      ALT: 0,48
+      AST: 0,46
+      GGT: 1,95
+      ALP: 1,53
+      FIB-4 index: 1,09
+  Bílkoviny: 
+      Albumin: 36,1
+      CB: 59,2
+  Štítná žláza: 
+      FT4: 24,5
+      TSH: 4,294
+  Krevní obraz-perifer: 
+      Leu: 4,92
+      Ery: 3,92
+      HGB: 118
+      HCT: 0,362
+      MCV: 92,4
+      MCH: 30,2
+      MCHC: 327
+      RDW: 16,8
+      Plt: 336
+      MPV: 9,3
+  Dif.stroj. relativní: 
+      Ne: 73,3
+      Ly: 17,2
+      Mo: 7,3
+      Eo: 0,6
+      Ba: 0,5
+      Nezralé granulocyty %: 1,1
+  Dif.stroj. absolutní: 
+      Ne abs.: 3,60
+      Ly abs.: 0,84
+      Mo abs.: 0,36
+      Eo abs.: 0,03
+      Ba abs.: 0,03
+      Nezralé granulocyty abs.: 0,05
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 4,3
+
+Výsledky z 20/08/26: 
+  Enzymy: 
+      AMS-P: 0,14
+  Štítná žláza: 
+      FT4: 20,4
+      TSH: 2,436
+
+Výsledky z 01/09/26: 
+  Texty laboratoř: 
+      Komentář:
+FIB-4 skóre:
+vysoké riziko jaterní fibrózy
+Specificita FIB-4 pro pokročilou fibrózu klesá s rostoucím věkem. K nadhodnocení FIB-4 skóre dochází u trombocytopenií jiné etiologie než je plicní hypertenze a u stavů s náhle vzniklou elevací ALT, AST (hypoxie, hypertenze, trauma, infekce …). Vysoké riziko fibrózy by po zvážení klinických souvislostí mělo vést k úvaze o provedení jaterní elastografie a vyšetření hepatogastroenterologem.
+
+  Minerály+Osmolalita: 
+      Na: 132
+      K: 4,3
+      Cl: 97
+  Dusíkové metabolity: 
+      Urea: 6,3
+      Kreat.: 71
+      Kys. moč.: 571
+  Jaterní testy: 
+      Bilirubin: 18,9
+      ALT: 0,80
+      AST: 3,45
+      GGT: 10,94
+      ALP: 8,51
+      FIB-4 index: 6,63      ; Text k metodě přesáhl povolených 255 znaků. Text je uveden v souhrném textu k celé žádance.
+  Enzymy: 
+      AMS-P: 0,13
+  Bílkoviny: 
+      Albumin: 33,6
+      CB: 64,6
+      CRP: 188,3
+  Krevní obraz-perifer: 
+      Leu: 12,35
+      Ery: 4,42
+      HGB: 120
+      HCT: 0,384
+      MCV: 86,9
+      MCH: 27,1
+      MCHC: 313
+      RDW: 16,2
+      Plt: 320
+      MPV: 9,3
+      PCT: 0,300
+      PDW: 9,9
+  Dif.stroj. relativní: 
+      Ne: 84,7
+      Ly: 7,7
+      Mo: 6,4
+      Eo: 0,0
+      Ba: 0,3
+      Nezralé granulocyty %: 0,9
+  Dif.stroj. absolutní: 
+      Ne abs.: 10,46
+      Ly abs.: 0,95
+      Mo abs.: 0,79
+      Eo abs.: 0,00
+      Ba abs.: 0,04
+      Nezralé granulocyty abs.: 0,11
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 11,1
+      ICIS skóre: 4,00
+      Retikulocyty strojově: 18,9
+      Retikulocyty abs. strojově: 0,084
+      Konc. hemogl. v RET: 27,6
+
+Výsledky z 02/09/26: 
+  Nálezy: 
+      REP_MRUT_DTP:
+
+Laboratoř bakteriologie, tel.224967665,7725
+----------------------------------------------------------------------------------------------
+Pacient               LÁNSKÁ JAROSLAVA                         Rodné číslo 5551021696 Poj. 111
+
+Biologický materiál   MOČ Z PERMAN.KATETRU
+Laboratorní číslo     B0474521                                 Dg.         E86
+Zdravotnické zařízení VFN                                      NS          22332
+Oddělení              Klin. gyn., porod. a neonat. - Onkogynekologie -  oddělení
+Lékař                 -                                        IČP/odb.    02004063  / 4F2
+Datum a doba příjmu   02.09.2026 13:00
+Datum a doba odběru   02.09.2026 10:00
+Datum a doba ukončení 04.09.2026 07:02
+----------------------------------------------------------------------------------------------
+KULTIVACE A VYŠETŘENÍ
+Primokultura
+ 1.Proteus mirabilis, širokospektrá betalaktamáza negativní 10^6 CFU/1 ml
+----------------------------------------------------------------------------------------------
+CITLIVOST - diskový difuzní test / MIC
+------------------------------
+ Účinná látka                1
+------------------------------
+ amoxicilin klavulanát       C
+ ampicilin                   C
+ ciprofloxacin               C
+ kotrimoxazol                C
+ cefuroxim                   Q
+ furantoin                   R
+ gentamicin                  C
+----------------------------------------------------------------------------------------------
+LEGENDA: C-citlivý, R-resistentní, I-hraničně citlivý, X-výsledek k dispozici po konzultaci
+         *-test citlivosti nebyl proveden, N-bez interpretace, Q-prípravek lze použít za
+         zvýšené expozice, vhodná konzultace ATB centra
+
+UVOLNIL:  MUDr.Lenka Kupidlovská
+
+
+Výsledky z 03/09/26: 
+  Nálezy: 
+      REPT_MRVYS_DTP:
+Vyšetření: MR - Mozek v onkologickém protokolu + KL
+Datum vyšetření: 03.09.2026
+Přístroj: Magnetická rezonance výrobce Philips MR 7700, s.n.: 94009
+Kontrastní látka i.v.: 0207733 - 10 ml  - GADOVIST bez komplikací
+
+Nález:
+MRI mozku 
+Vyšetření provedeno nativně a postkontrastně v onkologickém protokolu.
+Indikace: ca endometria, k vyl. postižení CNS, ev. autoimunitní encefalitidy
+
+Vícečetná drobná ložiska v bíle hmotě T2/FLAIR hyperintenzní - v.s. vaskulárně postischemické etiologie. 
+Fazekas II. 
+V oblasti centrum semiovale vpravo ložisko vel. 3 mm - T1, T2 a SWI hypointenzní, postkontrastně s ring-like enhancementem, s mírnou restrikcí difuze- v.s. prokrvácená meta. 
+Mozek bez dalších susp. ložisek. 
+Oba bulby v normálním postavení, okohybné svaly symetrické. Retrobulbární prostor bez patologických změn. 
+Optické nervy bilat. centrálně uložené v orbitě, sym. šířky. 
+Komorový systém je ve střední čáře, obvyklé konfigurace, symetrický, středové struktury bez posunu. Subarachnoidální prostory supratentoriálně nerozšířeny, symetrické, bazální cisterny obvyklé šíře, symetrické.  
+V ZJ lební kmen mozkový i 4. komora bez patologických změn.  
+Turecké sedlo nezvětšeno, vnitřní zvukovody symetrické, nerozšířeny.  
+Skelet neurokrania bez zjevných signálových změn   
+Slizniční změny maxil. sinů. 
+
+Závěr: Vpravo v oblasti centrum semiovale ložisko - v.s. prokrvácená meta. 
+Bez dalších susp. ložisek. 
+Bez známek encefalitidy. 
+
+
+konz. MUDr. Hanuš
+
+Potvrzujíci lékař: Hron Samuel MUDr.
+
+      REPT_MRVYS_DTP:    MR - Mozek v onkologickém protokolu + KLzaloženo: 03.09.2026 08:24 - Kováčová Kamila Bc.poslední změna: 03.09.2026 11:52 - Hron Samuel MUDr.Metody:RDG_MR-13-20 - Mozek v onkologickém protokolu + KLRDG_MRKL02 - GADOVIST 15mlVýkony:0207733 0,667x - GADOVIST89713 2x - MR ZOBRAZENÍ HLAVY, KONČETIN, KLOUBU, JEDNOHO ÚSEKU PÁTEŘE (C, TH, NEBO L)89725 1x - OPAKOVANÉ ČI DOPLŇUJÍCÍ VYŠETŘENÍ MRMRI mozku Vyšetření provedeno nativně a postkontrastně v onkologickém protokolu.Indikace: ca endometria, k vyl. postižení CNS, ev. autoimunitní encefalitidyVícečetná drobná ložiska v bíle hmotě T2/FLAIR hyperintenzní - v.s. vaskulárně postischemické etiologie. Fazekas II. V oblasti centrum semiovale vpravo ložisko vel. 3 mm - T1, T2 a SWI hypointenzní, postkontrastně s ring-like enhancementem, s mírnou restrikcí difuze- v.s. prokrvácená meta. Mozek bez dalších susp. ložisek. Oba bulby v normálním postavení, okohybné svaly symetrické. Retrobulbární prostor bez patologických změn. Optické nervy bilat. centrálně uložené v orbitě, sym. šířky. Komorový systém je ve střední čáře, obvyklé konfigurace, symetrický, středové struktury bez posunu. Subarachnoidální prostory supratentoriálně nerozšířeny, symetrické, bazální cisterny obvyklé šíře, symetrické.  V ZJ lební kmen mozkový i 4. komora bez patologických změn.  Turecké sedlo nezvětšeno, vnitřní zvukovody symetrické, nerozšířeny.  Skelet neurokrania bez zjevných signálových změn   Slizniční změny maxil. sinů. Závěr: Vpravo v oblasti centrum semiovale ložisko - v.s. prokrvácená meta. Bez dalších susp. ložisek. Bez známek encefalitidy. konz. MUDr. HanušPřístroje:MR 7700, Magnetická rezonance 3      ; MR - Mozek v onkologickém protokolu + KL
+založeno: 03.09.2026 08:24 - Kováčová Kamila Bc.
+poslední změna: 03.09.2026 11:52 - Hron Samuel MUDr.
+
+Metody:
+RDG_MR-13-20 - Mozek v onkologickém protokolu + KL
+RDG_MRKL02 - GADOVIST 15ml
+
+Výkony:
+0207733 0,667x - GADOVIST
+89713 2x - MR ZOBRAZENÍ HLAVY, KONČETIN, KLOUBU, JEDNOHO ÚSEKU PÁTEŘE (C, TH, NEBO L)
+89725 1x - OPAKOVANÉ ČI DOPLŇUJÍCÍ VYŠETŘENÍ MR
+
+MRI mozku 
+Vyšetření provedeno nativně a postkontrastně v onkologickém protokolu.
+Indikace: ca endometria, k vyl. postižení CNS, ev. autoimunitní encefalitidy
+
+Vícečetná drobná ložiska v bíle hmotě T2/FLAIR hyperintenzní - v.s. vaskulárně postischemické etiologie. 
+Fazekas II. 
+V oblasti centrum semiovale vpravo ložisko vel. 3 mm - T1, T2 a SWI hypointenzní, postkontrastně s ring-like enhancementem, s mírnou restrikcí difuze- v.s. prokrvácená meta. 
+Mozek bez dalších susp. ložisek. 
+Oba bulby v normálním postavení, okohybné svaly symetrické. Retrobulbární prostor bez patologických změn. 
+Optické nervy bilat. centrálně uložené v orbitě, sym. šířky. 
+Komorový systém je ve střední čáře, obvyklé konfigurace, symetrický, středové struktury bez posunu. Subarachnoidální prostory supratentoriálně nerozšířeny, symetrické, bazální cisterny obvyklé šíře, symetrické.  
+V ZJ lební kmen mozkový i 4. komora bez patologických změn.  
+Turecké sedlo nezvětšeno, vnitřní zvukovody symetrické, nerozšířeny.  
+Skelet neurokrania bez zjevných signálových změn   
+Slizniční změny maxil. sinů. 
+
+Závěr: Vpravo v oblasti centrum semiovale ložisko - v.s. prokrvácená meta. 
+Bez dalších susp. ložisek. 
+Bez známek encefalitidy. 
+
+
+konz. MUDr. Hanuš
+
+Přístroje:
+MR 7700, Magnetická rezonance 3
+  Texty laboratoř: 
+      Komentář:
+ACTH nedodáno.
+
+  Minerály+Osmolalita: 
+      Na: 131
+      K: 4,0
+      Cl: 93
+      Ca: 2,79
+      P: 0,37
+      Mg: 0,70
+  Endokrinologie: 
+      LH: 0,40
+      FSH: 2,47
+      Prolaktin: 18,59
+      Kortizol ranní: 889
+  Štítná žláza: 
+      FT4: 16,8
+      TSH: 4,680
+
+Výsledky z 04/09/26: 
+  Nálezy: 
+      REPT_CTVYS_DTP:
+
+Nález: 
+Přístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736
+Výrobce SIEMENS Healthcare GmbH
+
+Injektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002
+Kontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s
+i.v. aplikoval:Stará
+
+CT hrudníku, břicha a pánve:
+Byly zhotoveny postkontrastní skeny od plicních vrcholů po symfýzu, zhotoveny MPR.
+Epigastrium vyšetřeno ve 2 fázích. Srovnání s CT z 6/2026.
+
+Plicní parenchym s četnými ložisky, proti minule jsou některá menší či stacionární, ale objevila se nová, celkově do vel. 11 mm, pleurální výpotek vpravo do 11 mm, vlevo do 6 mm, dorsální nevzdušnosti. 
+Lymfadenopatie v pravém hilu do 28x21 mm(minule 15x10 mm), v levém hilu do 29x18 mm(minule drobné), uzliny jsou centrálně nekrotické. V horním mediastinu vlevo při oblouku aorty patol.uzlina 17x12 mm, vpravo parakardiálně uzlina 13x11 mm. Kmen plicnice 32 mm. 
+Katetr zprava do oblasti kavoatriální junkce. 
+
+Játra s výraznou progresí ložiskových změn, největší ložisková masa ventrálně cca 124x88 mm(minule jednotlivá ložiska do 13 mm). Žlučové cesty nerozšířeny, nadále lem tekutiny mezi žlučníkem a játry(do šíře 8 mm, minule 6 mm). Pankreas zůstává prosáklý v oblasti kaudy v.s. při zánětu, ve zbylých částech minule patrné prosáknutí téměř vymizelo, na přechodu hlavy a těla na něj nasedá ložisko vel. 24x18 mm. Ledviny bez městnání, bez strukturálních odchylek. Nadledviny nezvětšeny. Slezina nezvětšena, ventrálně v ní nové ložisko 21x6 mm. 
+Podbráničně vlevo od aorty uzlina 15 mm(minule drobná). Vpravo parailicky uzlina 33x17 mm(minule 11x5 mm), v P třísle uzliny do 17x11 mm, v L třísle uzliny do 24x18 mm(minule nezvětšené). 
+V P m.psoas nově ložisko 10 mm. 
+Ložisko nasedající na rektum ventrálně vel. 48x35 mm, ventrálně od něj ložisko 16 mm. Močový měchýř s balonkem, objemné ložisko v oblasti pochvy vel. 62x44 mm s infiltrací rekta a močové trubice. Trvá zastření mesenteria, noduly karcinosy vlevo v mesogastriu do17 mm(minule cca do 8 mm). 
+Přibyla vícečetná ložiska v podkoží- při pravé lopatce do 11 mm, na zádech vlevo do 2 cm, v levém hypogastriu do 10 mm, gluteálně do 17 mm. 
+V těle obratle L1 nově ložisko 13 mm, vpravo při symfyse ložisko cca 1 cm.
+
+Závěr: výrazná progrese generalizace - v játrech, plicních hilech, na peritoneu, v podkoží, v pochvě, lymfadenopatie, ložiska ve skeletu, intramuskulárně, více v textu. 
+
+
+Potvrzující lékař: MUDr. Šedivý Ondřej
+
+
+  Texty laboratoř: 
+      Komentář:
+FIB-4 skóre:
+vysoké riziko jaterní fibrózy
+Specificita FIB-4 pro pokročilou fibrózu klesá s rostoucím věkem. K nadhodnocení FIB-4 skóre dochází u trombocytopenií jiné etiologie než je plicní hypertenze a u stavů s náhle vzniklou elevací ALT, AST (hypoxie, hypertenze, trauma, infekce …). Vysoké riziko fibrózy by po zvážení klinických souvislostí mělo vést k úvaze o provedení jaterní elastografie a vyšetření hepatogastroenterologem.
+
+  Minerály+Osmolalita: 
+      Na: 133
+      K: 4,7
+      Cl: 98
+  Dusíkové metabolity: 
+      Kreat.: 49
+      Kys. moč.: 431
+  Jaterní testy: 
+      ALT: 0,66
+      AST: 2,88
+      GGT: 9,68
+      ALP: 6,95
+      FIB-4 index: 7,30      ; Text k metodě přesáhl povolených 255 znaků. Text je uveden v souhrném textu k celé žádance.
+  Krevní obraz-perifer: 
+      Leu: 8,26
+      Ery: 3,66
+      HGB: 102
+      HCT: 0,325
+      MCV: 88,8
+      MCH: 27,9
+      MCHC: 314
+      RDW: 16,0
+      Plt: 267
+      MPV: 9,5
+      PCT: 0,250
+      PDW: 9,7
+  Dif.stroj. relativní: 
+      Ne: 85,2
+      Ly: 8,2
+      Mo: 5,4
+      Eo: 0,0
+      Ba: 0,1
+      Nezralé granulocyty %: 1,1
+  Dif.stroj. absolutní: 
+      Ne abs.: 7,03
+      Ly abs.: 0,68
+      Mo abs.: 0,45
+      Eo abs.: 0,00
+      Ba abs.: 0,01
+      Nezralé granulocyty abs.: 0,09
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,10
+      Normoblasty abs. strojově: 0,01
+      NLR: 10,5

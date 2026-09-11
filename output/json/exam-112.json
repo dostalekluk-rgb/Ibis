@@ -1,11 +1,11 @@
 {
   "id": "EXAM-112",
-  "date": "2026-09-02",
-  "rawDate": "02/09/26",
-  "sourceFile": "ai-stankova-lab.txt",
+  "date": "2026-04-17",
+  "rawDate": "17/04/26",
+  "sourceFile": "Hukkelová-lab.txt",
   "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
-  "doctor": null,
-  "title": "Laboratorní panel (02/09/26)",
-  "content": "Výsledky z 02/09/26: \r\n  Minerály+Osmolalita: \r\n      Na: 142\r\n      K: 3,3\r\n      Cl: 106\r\n  Krevní obraz-perifer: \r\n      Leu: 4,94\r\n      Ery: 3,67\r\n      HGB: 99\r\n      HCT: 0,323\r\n      MCV: 88,0\r\n      MCH: 27,0\r\n      MCHC: 307\r\n      RDW: 17,1\r\n      Plt: 281\r\n      MPV: 9,2\r\n      PCT: 0,260\r\n      PDW: 9,5\r\n  Dif.stroj. relativní: \r\n      Ne: 69,1\r\n      Ly: 19,0\r\n      Mo: 8,9\r\n      Eo: 2,0\r\n      Ba: 0,2\r\n      Nezralé granulocyty %: 0,8\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 3,41\r\n      Ly abs.: 0,94\r\n      Mo abs.: 0,44\r\n      Eo abs.: 0,10\r\n      Ba abs.: 0,01\r\n      Nezralé granulocyty abs.: 0,04\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 3,7"
+  "type": "CT Vyšetření",
+  "doctor": "prof. MUDr. Burgetová Andrea Ph.D.",
+  "title": "CT Vyšetření (17/04/26)",
+  "content": "Výsledky z 17/04/26: \r\n  Nálezy: \r\n      REPT_CTVYS_DTP:\r\n\r\nNález: \r\nPřístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736\r\nVýrobce SIEMENS Healthcare GmbH\r\n\r\nInjektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002\r\nKontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s\r\ni.v. aplikoval:\r\n\r\n\r\nSt.p. Rad hyst lat. dex, AE, OE, APE, PLND 17.3.2026, reziduum: R0\r\n\r\n\r\nCT hrudníku, břicha a pánve:\r\n\r\nBylo provedeno spirální CT od jugl po dno pánevní postkontrastně vícefázově s následnými MPR.\r\nV S3 vpravo je hladce ohraničené ložisko 8 mm se skořápkovitou kacifikace charakteru chodnrohamartomu. Jinak bez evid. ložiskových změn, bez lymfadenopatie v mediastinu. \r\nJátra jsou obvyklé velikosti, struktury, intrahepatické žlučovody nejsou dilatovány, hepatocholedochus je štíhlý, žlučník jemných stěn. Pankreas je v celém rozsahu obvyklé struktury, ohraničený, bez ložiskových změn, pankreatický vývod je jemný. Slezina je norm.velikosti,tvaru. Nadledviny jsou obvyklé struktury a tvaru. Ledviny jsou obvyklé velikosti, tvar, parenchym je bez strukturálních změn, dutý systém ledvin není dilatován. Evid.  zvětšené uzliny v retroperitoneu paraaortálně ani v pánvi neprokazujeme. V pávni je kolekce tekutiny a prosáknutí tuku, pravd. pooperačně, v suprakolickém omentu je zastření tuku, pravd. také pooperačně.\r\nMoč. měchýř jemných stěn.\r\nOsteochondrosa L1/2 a L3/4.\r\n\r\nZávěr: Ložisko v pravé plíci charakteru chondrohamartomu. Zastření tuku v pánvi a v suprakolickém omentu, zřejmě pooperačně.\r\n\r\nRECIST 1.1\r\nTL:0\r\nNTL:0\r\n\r\n\r\n\r\nPotvrzující lékař: prof. MUDr. Burgetová Andrea Ph.D."
 }

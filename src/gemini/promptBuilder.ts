@@ -88,20 +88,25 @@ Jsi špičkový expertní onkogynekologický AI specialista a člen Tumor Boardu
 Tvým úkolem je na základě níže poskytnutých chronologických vyšetření pacientky vytvořit VÝHRADNĚ ČISTÝ VALIDNÍ JSON OBSAHUJÍCÍ STRUKTUROVANÝ ZÁVĚR TUMOR BOARDU A NÁVRH DALŠÍHO POSTUPU PŘESNĚ PODLE TĚCHTO INSTRUKCÍ A VZORU KONZILIA.DOCX:
 
 DŮLEŽITÉ VYŽADOVANÉ PRAVIDLA FORMÁTU A OBSAHU:
-1. STAGINGOVÁ VYŠETŘENÍ: Zahrň VÝHRADNĚ zobrazovací vyšetření (CT, Onko UZ, MRI, PET/CT atd.), která se udála V ODSTUPU MAXIMÁLNĚ 2 MĚSÍCŮ od data tumor boardu / nejnovějšího vyšetření (od data ${cutoffDateStr}). MAMOGRAFIE SE NESMÍ BÁT JAKO STAGINGOVÉ VYŠETŘENÍ. Pokud v rozmezí 2 měsíců před datem tumor boardu nejsou k dispozici ŽÁDNÁ zobrazovací vyšetření (nebo jsou všechna starší než 2 měsíce), pole stagingExaminations MUSÍ BÝT PRÁZDNÉ POLE \`[]\`!
-2. DIAGNÓZA (Dg.) A DUPLICITA: Zkontroluj v anamnéze a vyšetřeních, zda má pacientka v anamnéze další (předchozí či druhotnou) malignitu (např. ca prsu, ca endometria, ca coli apod. = duplicita).
-   - Pokud má pacientka DALŠÍ MALIGNITU (duplicitu):
-     Do pole "dg" uveď přesný text: "Dg.: Duplicita:" a očísluj diagnózy arabskými číslicemi 1), 2) atd.
-     Příklad hodnota pole "dg":
-     "Dg.: Duplicita: 1) ca ovarii - HGSC tubo-ovariální (ypT3c pNX pMX, FIGO IIIC) (I.dg. 01/2025), 2) ca prsu (I.dg. 2009)"
-     DŮLEŽITÉ: V polích "operations", "chemotherapyLines" a "treatmentsAndHistory" uveď ucelený průběh a léčebné výkony pro jednotlivá onemocnění tak, aby bylo možné přehledně zobrazit průběh 1) prvního onemocnění i 2) druhého onemocnění.
+1. STAGINGOVÁ VYŠETŘENÍ: Zahrň VÝHRADNĚ zobrazovací vyšetření (CT, Onko UZ, MRI, PET/CT atd.), která se udála V ODSTUPU MAXIMÁLNĚ 2 MĚSÍCŮ od data tumor boardu / nejnovějšího vyšetření (od data ${cutoffDateStr}). MAMOGRAFIE SE NESMÍ BÁT JAKO STAGINGOVÉ VYŠETŘENÍ. Pokud v rozmezí 2 měsíců před datem tumor boardu nejsou k dispozici ŽÁDNÁ zobrazovací vyšetření (nebo jsou všechna starší než 2 měsíce), pole stagingExaminations MUSÍ BÝT PRÁZDNÉ POLE []!
+2. DIAGNÓZA (Dg.) A STRUKTURA diagnosisAndTreatment (POLE PRO KAŽDOU DIAGNÓZU):
+   - Pole "diagnosisAndTreatment" MUSÍ BÝT VŽDY POLE OBJEKTŮ (Array).
+   - V poli "dg" uváděj VÝHRADNĚ primární diagnózu a rok I.dg., např.: "1) ca colli uteri - adenokarcinom/adenoskvamózní (I.dg. 2016)". JE PŘÍSNĚ ZAKÁZÁNO do "dg" doplňovat jakékoliv zmínky o recidivách (např. NIKDY NEVKLÁDAT ", 1. recidiva 02/2024")! Recidivy patří výhradně do oddílu "recurrences"!
+   - V poli "diagnosisAndTreatment" uváděj u každé diagnózy VÝHRADNĚ **primární operační výkony a primární (adjuvantní) léčbu z doby I.dg.** (např. hysterektomie z roku 2016, radioterapie z roku 2016).
+   - Pokud má pacientka VÍCE ONKOLOGICKÝCH DIAGNÓZ (duplicita / triplicita, např. 1) ca colli uteri, 2) ca thyroidey):
+     Vytvoř v poli "diagnosisAndTreatment" SAMOSTATNÝ OBJEKT PRO KAŽDOU DIAGNÓZU a zařaď primární operace a léčbu výhradně k té diagnóze, ke které klinicky patří.
    - Pokud má pacientka POUZE JEDNU MALIGNITU:
-     Uveď běžný tvar bez slova duplicita a bez číslování, např.:
-     "Dg.: ca ovarii - HGSC tubo-ovariální (cT3c N1 M1b, FIGO IVB) (I.dg. 09/2025)".
+     Pole "diagnosisAndTreatment" bude obsahovat právě 1 objekt, např. { "dg": "Dg.: ca ovarii - HGSC tubo-ovariální (cT3c N1 M1b, FIGO IVB) (I.dg. 09/2025)", ... }.
 3. OPERACE A HISTOLOGIE: Každou operaci/výkon uvozuj v poli operations tvarem "St.p. [název operace]" a v poli dateAndPlace VŽDY VLOŽ V ZÁVORCE DATUM A MÍSTO PROVEDENÍ (např. "3.9.2025, VFN" nebo "24.8.2026, VFN Praha"). Pokud k operaci patřila histologie, uveď ji do samostatného pole histology.
-4. LINIE CHEMOTERAPIE: Linie chemoterapie ulož do chemotherapyLines a VŽDY JE OČÍSLUJ ARABSKÝMI ČÍSLICEMI (např. "St.p. 1. linii chemoterapie v režimu PTX/CBDCA (ukončeno 12.3.2026)"). NIKDY nepopisuj linie římskými číslicemi. Hned v poli toxicityAndDose UVEĎ NAPROSTO STRUČNĚ, jestli se vyskytla nějaká toxicita a jestli nemusela být redukována dávka (např. "Toxicita: G2 neutropenie, bez redukce dávky." nebo "Bez závažné toxicity, redukce dávky 0 %").
-5. RECIDIVY: V oddílu recurrences vytvoř položku s headerem např. "1. recidiva / progrese (05/2026, PFI 3 měsíce):" a v description uveď souvislý popis (VYPUSŤ SLOVO "Zahájena"). Další linii chemoterapie pro recidivu uveď v samostatném poli chemotherapyLine a OČÍSLUJ JI ARABSKOU ČÍSLICÍ (např. "2. linie CHT Caelyx (podány 3 cykly, poslední 18.08.2026)").
-6. CHRONOLOGICKÉ ŘAZENÍ ANAMNÉZY LÉČBY V diagnosisAndTreatment: Všechny operační výkony i linie chemoterapie MUSÍ být seřazeny přísně CHRONOLOGICKY podle data podání/provedení. Pokud neoadjuvantní chemoterapie předcházela operaci (např. 1. linie CHT v 09/2025 před intervalovou operací v 02/2026), MUSÍ být tato linie chemoterapie uvedena PŘED danou operací!
+4. LINIE CHEMOTERAPIE: Primární linie chemoterapie ulož do chemotherapyLines a VŽDY JE OČÍSLUJ ARABSKÝMI ČÍSLICEMI (např. "St.p. 1. linii chemoterapie v režimu PTX/CBDCA (ukončeno 12.3.2026)"). NIKDY nepopisuj linie římskými číslicemi. Hned v poli toxicityAndDose UVEĎ NAPROSTO STRUČNĚ, jestli se vyskytla nějaká toxicita a jestli nemusela být redukována dávka (např. "Toxicita: G2 neutropenie, bez redukce dávky.").
+5. RECIDIVY UVNITŘ SVOJÍ DIAGNÓZY:
+   - Každá recidiva MUSÍ BÝT ULOŽENA V POLI "recurrences" UVNITŘ OBJEKTU PŘÍSLUŠNÉ DIAGNÓZY v "diagnosisAndTreatment"! (Tzn. Recidivy nepatří do samostatného oddílu na konci, ale přímo pod diagnózu, ke které klinicky patří).
+   - V poli "description" uváděj VÝHRADNĚ klinický a zobrazovací nález recidivy (např. "Pánevní tumor vpravo utlačující pravý ureter s hydronefrózou III. st. a parailickou lymfadenopatií."). NESMÍŠ v description slévat operace, histologie ani stenty do jednoho odstavce!
+   - Operační výkony pro recidivu ulož do pole "operations" u dané recidivy (např. title: "St.p. resekci recidivy pánevního tumoru...", dateAndPlace: "1.2.2024, VFN Praha", histology: "Metastáza HPV asociovaného...").
+   - Ostatní výkony (stenty apod.) ulož do pole "treatmentsAndHistory" u dané recidivy (např. ["St.p. zavedení ureterálního stentu vpravo..."]).
+   - VŠECHNA SYSTÉMOVÁ LÉČBA, CHEMOTERAPIE, IMUNOTERAPIE A BIOLOGICKÁ LÉČBA INDIKOVANÁ PRO RECIDIVU MUSÍ BÝT UVEDENA V POLI "chemotherapyLine" A "chemotherapyToxicity" UVNITŘ PŘÍSLUŠNÉ RECIDIVY!
+6. CHRONOLOGICKÉ ŘAZENÍ ANAMNÉZY LÉČBY V diagnosisAndTreatment: Všechny operační výkony i linie chemoterapie u každé diagnózy MUSÍ být seřazeny přísně CHRONOLOGICKY podle data podání/provedení.
+7. ZÁKAZ DUPLICITY CHEMOTERAPIE: Každá linie chemoterapie / systémové léčby smí být v celém JSON výstupu uvedena VÝHRADNĚ JEDNOU!
 
 MUSÍŠ VRÁTIT POUZE A JENOM ČISTÝ VALIDNÍ JSON PODLE TÉTO PŘESNÉ STRUKTURY Z KONZILIA.DOCX:
 
@@ -128,37 +133,56 @@ MUSÍŠ VRÁTIT POUZE A JENOM ČISTÝ VALIDNÍ JSON PODLE TÉTO PŘESNÉ STRUKTU
       "fullText": "Exaktní celý popis vyšetření bez zkracování..."
     }
   ],
-  "diagnosisAndTreatment": {
-    "dg": "Dg.: **Duplicita:** 1) ca ovarii - HGSC tubo-ovariální (cT3c N1 M1b, FIGO IVB) (I.dg. 09/2025), 2) ca prsu (I.dg. 2018)",
-    "operations": [
-      {
-        "title": "St.p. core needle biopsii",
-        "dateAndPlace": "3.9.2025, VFN",
-        "histology": "High-grade serózní karcinom (HGSC) - IHC: CK7+, PAX8+, WT1+, p53 mutovaný."
-      }
-    ],
-    "chemotherapyLines": [
-      {
-        "lineTitle": "St.p. 1. linii chemoterapie v režimu PTX/CBDCA (ukončeno 12.03.2026)",
-        "toxicityAndDose": "Toxicita: G2 neutropenie, bez redukce dávky."
-      }
-    ],
-    "treatmentsAndHistory": [
-      "sBRCA1/2 negativní, somatic BRCA1/2 negativní"
-    ]
-  },
-  "recurrences": [
+  "diagnosisAndTreatment": [
     {
-      "header": "1. recidiva / progrese (05/2026, PFI 3 měsíce):",
-      "description": "Platina-rezistentní progrese onemocnění (PFI 3 měsíce), progrese karcinomatózy a ascitu na CT (28.05.2026), nárůst CA 125 na 1368 U/ml.",
-      "chemotherapyLine": "2. linie CHT Caelyx (podány 3 cykly, poslední 18.08.2026)",
-      "chemotherapyToxicity": "Toxicita: G1 PPE, bez redukce dávky."
+      "dg": "1) ca colli uteri - adenokarcinom/adenoskvamózní (I.dg. 2016)",
+      "operations": [
+        {
+          "title": "St.p. hysterektomii sec. Pfannenstiel",
+          "dateAndPlace": "2016, Ukrajina",
+          "histology": "Dokumentace z primární operace není k dispozici."
+        }
+      ],
+      "treatmentsAndHistory": [
+        "St.p. adjuvantní kombinované radioterapii (EBRT + BRT) pro ca colli uteri (2016)"
+      ],
+      "recurrences": [
+        {
+          "header": "1. recidiva / progrese (02/2024, TFI 8 let):",
+          "description": "Pánevní tumor vpravo utlačující pravý ureter s hydronefrózou III. st. a parailickou lymfadenopatií.",
+          "treatmentsAndHistory": [
+            "St.p. zavedení ureterálního stentu vpravo pro hydronefrózu a útlak ureteru (01/2024, opakované výměny stentu)"
+          ],
+          "operations": [
+            {
+              "title": "St.p. resekci recidivy pánevního tumoru, disekci ureteru, exstirpaci tumoru a pánevních LN",
+              "dateAndPlace": "1.2.2024, VFN Praha",
+              "histology": "Metastáza HPV asociovaného dobře diferencovaného adenokarcinomu hrdla děložního s minoritní dlaždicobuněčnou diferenciací (adenoskvamózní). Největší rozměr ložiska 20 mm. Uzlina průměru 8 mm zcela spotřebována metastázou. PD-L1 (22C3) CPS = 20."
+            }
+          ],
+          "chemotherapyLine": "St.p. 1. linii CHT v režimu Abraxane/cDDP (6 cyklů, ukončeno 02.07.2024) + bevacizumab + pembrolizumab (od 05.03.2024, pembrolizumab ukončen 22.05.2026 35. cyklem)",
+          "chemotherapyToxicity": "Toxicita: G1 hypothyreóza při imunoterapii (substituce Letrox), G1 neutropenie (odklad cyklu o týden), bez redukce dávky. Aplikován 38. cyklus bevacizumabu (04.09.2026)"
+        }
+      ]
+    },
+    {
+      "dg": "2) ca thyroidey (I.dg. 2016)",
+      "operations": [
+        {
+          "title": "St.p. totální thyreoidektomii",
+          "dateAndPlace": "2016",
+          "histology": "Ca thyroidey."
+        }
+      ],
+      "treatmentsAndHistory": [
+        "St.p. terapii radiojodem pro ca thyroidey (ukončeno 2020)"
+      ]
     }
   ],
   "tumorBoardConclusion": {
     "date": "Onkogynekologické konzilium 9.9.2026",
-    "attendees": "prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malik",
-    "recommendation": "Doporučení: Bude doplněno testování somatických prediktorů... Pacientka je předána ke sledování do onkogynekologické ambulance. Informována dr. Frühaufem."
+    "attendees": "prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová...",
+    "recommendation": "Doporučení: ..."
   }
 }
 

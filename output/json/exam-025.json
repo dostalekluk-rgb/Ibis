@@ -1,11 +1,11 @@
 {
   "id": "EXAM-025",
-  "date": "2025-12-10",
-  "rawDate": "10/12/25",
-  "sourceFile": "ai-stankova-lab.txt",
+  "date": "2026-09-04",
+  "rawDate": "04/09/26",
+  "sourceFile": "Brejšová-lab.txt",
   "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
-  "doctor": null,
-  "title": "Laboratorní panel (10/12/25)",
-  "content": "Výsledky z 10/12/25: \r\n  Krevní obraz-perifer: \r\n      Leu: 4,36\r\n      Ery: 3,33\r\n      HGB: 101\r\n      HCT: 0,324\r\n      MCV: 97,3\r\n      MCH: 30,3\r\n      MCHC: 312\r\n      RDW: 24,7\r\n      Plt: 369\r\n      MPV: 9,3\r\n      PCT: 0,340\r\n      PDW: 9,5\r\n  Dif.stroj. relativní: \r\n      Ne: 47,0\r\n      Ly: 31,0\r\n      Mo: 19,7\r\n      Eo: 0,7\r\n      Ba: 0,2\r\n      Nezralé granulocyty %: 1,4\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 2,05\r\n      Ly abs.: 1,35\r\n      Mo abs.: 0,86\r\n      Eo abs.: 0,03\r\n      Ba abs.: 0,01\r\n      Nezralé granulocyty abs.: 0,06\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 2,10\r\n      Normoblasty abs. strojově: 0,09\r\n      NLR: 1,6"
+  "type": "Histologie / Biopsie",
+  "doctor": "MUDr. Hanuš Petr",
+  "title": "Histologie / Biopsie (04/09/26)",
+  "content": "Výsledky z 04/09/26: \r\n  Nálezy: \r\n      REPT_CTVYS_DTP:\r\n\r\nNález: \r\nPřístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736\r\nVýrobce SIEMENS Healthcare GmbH\r\nInjektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002\r\nKontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s\r\ni.v. aplikoval: Hostaša\r\n\r\nCT hrudníku, břicha a pánve:\r\n\r\nProvedeno MDCT vyš. od jugula po dno pánevní, s aplikací kontrastní látky i.v. s následnými MPR.\r\n\r\nVpravo paramediálně mezi pochvou přímého břišního svalu a pochvou m. transversus abdominis herniace nitrobřišního tuku o vel. 70x13mm ax., bez propagace do podkoží. Branka šíře 27mm. \r\n\r\nV P plíci nodulus 3mm. \r\nV dutině hrudní a břišní bez volné tekutiny.\r\nJátra nezvětšena, s přiměřenou denzitou bez ložisek. St.p. CHCE. Žlučové cesty kompenzatorně širší. V.portae bez dilatace. \r\nPankreas je norm. velikosti, s přiměřenou denzitou, bez ložiskových změn.\r\nSlezina je norm. velikosti s přiměřenou denzitou bez ložiskových změn.\r\nNadledviny nezvětšeny.\r\nLedviny jsou bilat. norm. velikosti a uložení, bez dilatace DS, bez konkrementů, bez ložiskových změn, uretery bilat. bez dilatace.\r\nLipom v lumen c. ascendens. Divertikulosa. \r\nV zachycené oblasti bez patologicky zvětšených lymphatických uzlin, bez ložiskových změn skeletu.\r\nSt.p. HYE cum AE bilat. \r\n\r\nZ: Bez známek generalisace, bez lymfadenopatie. St.p. HYE cum AE bilat., pro Ca endometrii.\r\n\r\nPotvrzující lékař: MUDr. Hanuš Petr"
 }

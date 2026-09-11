@@ -1,11 +1,12 @@
 {
   "id": "EXAM-012",
-  "date": "2025-09-30",
-  "rawDate": "30/09/25",
-  "sourceFile": "ai-stankova-lab.txt",
-  "sourceType": "lab",
-  "type": "RTG Vyšetření",
-  "doctor": "MUDr. Leščinskij Artem",
-  "title": "RTG Vyšetření (30/09/25)",
-  "content": "Výsledky z 30/09/25: \r\n  Nálezy: \r\n      RTGVYS:\r\n\r\nNález: \r\nPřístroj DR 600, výr. číslo 2024, výrobce Agfa\r\n\r\n\r\nRTG hrudníku:\r\nPleurální dutina bez volného plynu i tekutiny, v parenchymu bez kontuzí. Bez patrného PNO. \r\nVpravo segmentovaná bránice, oboustranně v parenchymu bez infiltrativních a ložiskových změn, pleurální dutiny bez výpotku. Srdeční stín není rozšířen a malý oběh neměstná. Potzkatétr zprava do VCS.\r\n\r\n\r\nPotvrzující lékař: MUDr. Leščinskij Artem\r\n\r\n\r\n  Minerály+Osmolalita: \r\n      Na: 140\r\n      K: 4,4\r\n      Cl: 100\r\n  Dusíkové metabolity: \r\n      Urea: 5,7\r\n      Kreat.: 51\r\n      Kys. moč.: 280\r\n  Jaterní testy: \r\n      Bilirubin: 2,2\r\n      ALT: 0,37\r\n      AST: 0,45\r\n      GGT: 1,23\r\n      ALP: 2,75\r\n      FIB-4 index: 0,42\r\n  Bílkoviny: \r\n      Albumin: 41,0\r\n      CB: 67,3\r\n  Moč chemicky: \r\n      pH: 5,5\r\n      Hustota: 1,018\r\n      Bílkovina orient.: 0,10\r\n      Glykosurie: neg\r\n      Ketolátky: neg\r\n      Bilirubin: 17\r\n      Urobilinogen: neg\r\n      Erytrocyty v moči: 25      ; „Nižší počet erythrocytů nalezených mikroskopicky, oproti stanovení testačním proužkem, může být způsobeno jejich rozpadem či přítomností myoglobinu v moči.``\r\n      Leuko: 70\r\n      Nitrity: neg\r\n  Moč - sediment: \r\n      Hlen: poz.\r\n      ERY: 26,0\r\n      LEUKO: 8,0\r\n      Epit.pl: 4,0\r\n      Válce hyal.: 1,0\r\n      Bakterie: negativ.\r\n      Poznámka: \r\nost. neg.\r\n\r\n  Krevní obraz-perifer: \r\n      Leu: 8,76\r\n      Ery: 4,18\r\n      HGB: 119\r\n      HCT: 0,371\r\n      MCV: 88,8\r\n      MCH: 28,5\r\n      MCHC: 322\r\n      RDW: 13,0\r\n      Plt: 836\r\n      MPV: 9,4\r\n  Dif.stroj. relativní: \r\n      Ne: 73,2\r\n      Ly: 14,6\r\n      Mo: 9,5\r\n      Eo: 1,6\r\n      Ba: 1,1\r\n      Nezralé granulocyty %: 0,0\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 6,41\r\n      Ly abs.: 1,28\r\n      Mo abs.: 0,83\r\n      Eo abs.: 0,14\r\n      Ba abs.: 0,09\r\n      Nezralé granulocyty abs.: 0,00\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 5,0"
+  "date": "2021-11-23T08:06:00",
+  "rawDate": "23.11.21",
+  "time": "08:06",
+  "sourceFile": "Brejšová-amb.txt",
+  "sourceType": "amb",
+  "type": "Ambulantní nález",
+  "doctor": "Vosecký Martin MUDr.",
+  "title": "------  Dokumentace ze dne 23.11.21 ---------:                                    Nález ze dne 23.11.21 08:06 Vosecký Martin MUDr.:",
+  "content": "------  Dokumentace ze dne 23.11.21 ---------:                             \n      Nález ze dne 23.11.21 08:06 Vosecký Martin MUDr.:                    \nDiagnózy:                                                                  \nC549 ZN - tělo děložní [corpus uteri] NS                                   \n\nvýsledky testování somatických prediktivních markerů                       \n\np53wt                                                                      \npMMR                                                                       \n\ncelkově - NSMP                                                             \n\ndop.: platí kontrola v onkogyn. ambulanci dle plánu, není indikace ke      \ngenetickému testování"
 }

@@ -1,11 +1,11 @@
 {
   "id": "EXAM-056",
-  "date": "2026-04-08",
-  "rawDate": "08/04/26",
-  "sourceFile": "ai-stankova-lab.txt",
+  "date": "2024-12-27",
+  "rawDate": "27/12/24",
+  "sourceFile": "Lysiuk-lab.txt",
   "sourceType": "lab",
   "type": "Laboratoř / Laboratorní panel",
   "doctor": null,
-  "title": "Laboratorní panel (08/04/26)",
-  "content": "Výsledky z 08/04/26: \r\n  Krevní obraz-perifer: \r\n      Leu: 4,72\r\n      Ery: 3,03\r\n      HGB: 103\r\n      HCT: 0,319\r\n      MCV: 105,0\r\n      MCH: 33,9\r\n      MCHC: 322\r\n      RDW: 16,1\r\n      Plt: 180\r\n      MPV: 9,1\r\n  Dif.stroj. relativní: \r\n      Ne: 44,1\r\n      Ly: 38,1\r\n      Mo: 13,3\r\n      Eo: 2,6\r\n      Ba: 0,4\r\n      Nezralé granulocyty %: 1,6\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 2,08\r\n      Ly abs.: 1,80\r\n      Mo abs.: 0,63\r\n      Eo abs.: 0,12\r\n      Ba abs.: 0,02\r\n      Nezralé granulocyty abs.: 0,07\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 1,2"
+  "title": "Laboratorní panel (27/12/24)",
+  "content": "Výsledky z 27/12/24: \r\n  Minerály+Osmolalita: \r\n      Na: 142\r\n      K: 4,3\r\n      Cl: 103\r\n  Dusíkové metabolity: \r\n      Urea: 6,2\r\n      Kreat.: 106\r\n      Kys. moč.: 314\r\n  Jaterní testy: \r\n      Bilirubin: 5,9\r\n      ALT: 0,14\r\n      AST: 0,34\r\n      GGT: 0,17\r\n      ALP: 1,15\r\n  Bílkoviny: \r\n      Albumin: 41,5\r\n      CB: 70,1\r\n  Moč chemicky: \r\n      pH: 5,0\r\n      Hustota: 1,012\r\n      Bílkovina orient.: neg\r\n      Glykosurie: neg\r\n      Ketolátky: neg\r\n      Bilirubin: neg\r\n      Urobilinogen: neg\r\n      Erytrocyty v moči: 25\r\n      Leuko: 500\r\n      Nitrity: neg\r\n  Moč - sediment: \r\n      Hlen: poz.\r\n      ERY: 19,0\r\n      LEUKO: 385,0\r\n      Epit.pl: 2,0\r\n      Epit.k: 1,0\r\n      Bakterie: negativ.\r\n      Poznámka: \r\nost. neg.\r\n\r\n  Krevní obraz-perifer: \r\n      Leu: 5,17\r\n      Ery: 4,71\r\n      HGB: 137\r\n      HCT: 0,419\r\n      MCV: 89,0\r\n      MCH: 29,1\r\n      MCHC: 327\r\n      RDW: 14,8\r\n      Plt: 258\r\n      MPV: 9,7\r\n      PCT: 0,250\r\n      PDW: 10,8\r\n  Dif.stroj. relativní: \r\n      Ne: 57,7\r\n      Ly: 22,2\r\n      Mo: 10,6\r\n      Eo: 8,1\r\n      Ba: 1,0\r\n      Nezralé granulocyty %: 0,4\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 2,98\r\n      Ly abs.: 1,15\r\n      Mo abs.: 0,55\r\n      Eo abs.: 0,42\r\n      Ba abs.: 0,05\r\n      Nezralé granulocyty abs.: 0,02\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 2,6"
 }

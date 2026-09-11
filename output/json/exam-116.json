@@ -1,11 +1,11 @@
 {
   "id": "EXAM-116",
-  "date": "2026-09-03",
-  "rawDate": "03/09/26",
-  "sourceFile": "ai-stankova-lab.txt",
+  "date": "2026-05-11",
+  "rawDate": "11/05/26",
+  "sourceFile": "Hukkelová-lab.txt",
   "sourceType": "lab",
   "type": "Laboratoř / Laboratorní panel",
   "doctor": null,
-  "title": "Laboratorní panel (03/09/26)",
-  "content": "Výsledky z 03/09/26: \r\n  Minerály+Osmolalita: \r\n      Na: 141\r\n      K: 3,9\r\n      Cl: 106\r\n      P: 0,90\r\n      Mg: 0,64"
+  "title": "Laboratorní panel (11/05/26)",
+  "content": "Výsledky z 11/05/26: \r\n  Texty laboratoř: \r\n      Komentář:\r\nNebyly dodrženy podmínky preanalytické fáze a požadavky na transport vzorků do laboratoře. Možné ovlivnění výsledků. Bližší viz. webové stránky VFN - Přehled laboratorních vyšetření - http://laboratore.vfn.cz\r\n\r\n  Minerály+Osmolalita: \r\n      Na: 147\r\n      K: 4,2\r\n      Cl: 102\r\n      Osmolalita: 296\r\n  Dusíkové metabolity: \r\n      Urea: 5,3\r\n      Kreat.: 66\r\n      Kys. moč.: 209\r\n  Jaterní testy: \r\n      Bilirubin: 7,2\r\n      ALT: 0,33\r\n      AST: 0,40\r\n      GGT: 0,24\r\n      ALP: 1,68\r\n      FIB-4 index: 2,37      ; mírné riziko jaterní fibrózy\r\n  Enzymy: \r\n      LD: 3,7\r\n  Bílkoviny: \r\n      Albumin: 43,9\r\n      CB: 72,8\r\n  Diabetický profil: \r\n      Glykemie: 4,9\r\n  Moč chemicky: \r\n      pH: 6,0\r\n      Hustota: 1,008\r\n      Bílkovina orient.: neg\r\n      Glykosurie: neg\r\n      Ketolátky: neg\r\n      Bilirubin: neg\r\n      Urobilinogen: neg\r\n      Erytrocyty v moči: 10      ; „Nižší počet erythrocytů nalezených mikroskopicky, oproti stanovení testačním proužkem, může být způsobeno jejich rozpadem či přítomností myoglobinu v moči.``\r\n      Leuko: 500\r\n      Nitrity: neg\r\n  Moč - sediment: \r\n      ERY: 3,0\r\n      LEUKO: 9,0\r\n      Epit.pl: 6,0\r\n      Epit.k: 6,0\r\n      Bakterie: negativ.\r\n      Poznámka: \r\nost. neg.\r\n\r\n  Krevní obraz-perifer: \r\n      Leu: 7,67\r\n      Ery: 4,29\r\n      HGB: 127\r\n      HCT: 0,391\r\n      MCV: 91,2\r\n      MCH: 29,6\r\n      MCHC: 325\r\n      RDW: 13,7\r\n      Plt: 148\r\n      MPV: 9,5\r\n  Dif.stroj. relativní: \r\n      Ne: 48,8\r\n      Ly: 39,5\r\n      Mo: 9,5\r\n      Eo: 1,6\r\n      Ba: 0,3\r\n      Nezralé granulocyty %: 0,4\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 3,74\r\n      Ly abs.: 3,03\r\n      Mo abs.: 0,73\r\n      Eo abs.: 0,12\r\n      Ba abs.: 0,02\r\n      Nezralé granulocyty abs.: 0,03\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 1,2"
 }

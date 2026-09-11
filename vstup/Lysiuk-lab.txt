@@ -1,0 +1,1045 @@
+Výsledky z 08/01/24: 
+  Nálezy: 
+      REPP_MRVYS_DTP:
+Datum vyšetření: 08.01.2024 10:18
+
+Nález: 
+Přístroj - MR Ingenia Elition X 3T, výrobce: Philips S/N 45265
+
+MR pánve:
+
+Vyšetření v T2, T2 SPIR, T1, DWI, nativně a postkontrastně ve 3 rovinách a 3D.
+
+Indikace: pánevní nádor - pravé ovarium.
+
+St.p. hysterektomii, normální obraz poševního pahýlu. 
+V oblasti pravého ovaria se zobrazuje solidně cystická formace velikosti 51 x 40 mm, která je ohraničená, obsahuje solidní intracystickou papilární komponentou velikosti 22 x 14 mm s restrikcí difuze, postkontrastně se postupně sytí. Další papilární prominence ve stěně cysty jsou menší.
+
+Formace v kontaktu s pravým zevním ilickým svazkem, bez evidentního prorůstání, ale dochází k útlaku pravé zevní ilické žíly. 
+
+Uzlina při společné ilice vpravo velikosti 14 x 8 mm, nehomogenní sycení, ale bez restrikce difuze. Reaktivní uzliny v tříslech.
+
+Pravostranná hydronefróza III.st., dilatovaný ureter, v pánvi je komprimovaný uváděnou formací.
+Močový měchýř má stěnu normální šíře. 
+Přiměřený obraz jater, sleziny, nadledvin, levé ledviny.
+
+Závěr: 
+Solidně cystická nádorová formace vycházející z pravého ovaria, komprimuje pravou zevní ilickou žílu, pravý ureter s hydronefrózou III.st. vpravo. Nejasná uzlina při společné ilice vpravo. MRI O-RADS 4.
+
+Potvrzující lékař: doc. MUDr. Ing. Lambert Lukáš Ph.D.
+
+
+      REP_MRUT_DTP:
+
+Laboratoř bakteriologie, tel.224967663,7662
+----------------------------------------------------------------------------------------------
+Pacient               DURSIENIEVA MARYNA                       Rodné číslo 7859524363 Poj. 111
+
+Biologický materiál   MOČ SPONTÁNNÍ
+Laboratorní číslo     G0302937                                 Dg.         N300
+Zdravotnické zařízení VFN                                      NS          22711
+Oddělení              Urologická klinika - Ambulance příjmová
+Lékař                 Fiala                                    IČP/odb.    02004220  / 706
+Datum a doba příjmu   08.01.2024 14:00
+Datum a doba odběru   08.01.2024 13:30
+Datum a doba ukončení 09.01.2024 06:46
+----------------------------------------------------------------------------------------------
+KULTIVACE A VYŠETŘENÍ
+Primokultura
+ negativní
+
+UVOLNIL:  Ing. Gabriela Kroneislová
+
+  Minerály+Osmolalita: 
+      Na: 142
+      K: 4,5
+      Cl: 103
+  Dusíkové metabolity: 
+      Urea: 6,4
+      Kreat.: 111
+  Jaterní testy: 
+      Bilirubin: 3,5
+      ALT: 0,82
+      AST: 0,51
+      GGT: 0,24
+      ALP: 0,91
+  Krevní obraz-perifer: 
+      Leu: 4,52
+      Ery: 4,48
+      HGB: 132
+      HCT: 0,383
+      MCV: 85,5
+      MCH: 29,4
+      MCHC: 344
+      RDW: 13,0
+      Plt: 232
+      MPV: 10,2
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+  Koagulační vyšetření: 
+      Protrombinový test čas: 10,90
+      INR: 0,96
+      APTT: 32,6
+      APTT R: 1,09
+
+Výsledky z 11/01/24: 
+  Krev-tumor.markery: 
+      Ca 125: 21,6
+
+Výsledky z 14/01/24: 
+  Koagulace speciál.-: 
+      Anti Xa: 0,86; 0,88
+
+Výsledky z 15/01/24: 
+  Nálezy: 
+      RTGVYS:
+
+Nález: 
+Přístroj: Dornier - Opus II, výr.č.122
+
+Zavedení stentu vpravo - výkon na 5.sále.
+
+Potvrzující lékař: MUDr. Chocholová Simona
+
+
+  Koagulace speciál.-: 
+      Anti Xa: 0,31
+
+Výsledky z 31/01/24: 
+  Texty hematologie: 
+      Komentář:
+Clexane 0,6 ml á 12 h.- včera večer podán naposledy
+
+  Koagulace speciál.-: 
+      Anti Xa: 0,35
+  Zkouška kompatibility: 
+      TP č.1: 
+C20022420017110  Kompatibilní
+Platnost vyšetření: 03.02.2024 23:59:00
+Expirace: 05.03.2024 23:59:00
+
+      TP č.2: 
+C20022476019910  Kompatibilní
+Platnost vyšetření: 03.02.2024 23:59:00
+Expirace: 05.03.2024 23:59:00
+
+  Imunohematologie: 
+      Krevní skupina: A neg
+      Screening protilátek: neg
+  Bez funkční skupiny: 
+      Q_ZkKomp_*: 
+vyšetřena
+
+
+Výsledky z 01/02/24: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189:2013. 
+Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle SOP-PAT-10.
+
+Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13. Vyšetření s uplatněním flexibility jsou uvedeny v příloze č. 2 SM-PAT-02 Laboratorní příručka.
+
+
+Nález: 
+B02211/24
+
+1-3.
+
+1. Resekovaná stěna tumoru: v nádobě 2 částky,  jedná plochá,  20 x 24-35 x 3-5 mm. Druhá částka uzlovitá bělavě žlutá, kulovitá, rozměrů 20 x 17 x 10 mm. V ploché částce je mělké prohloubení o průměru  cca 15 mm, které velikosti může odpovídat místu odloučené kulovité částky. 
+Mikro: plochá částka tvořena vazivem a méně okrsky tukové tkáně. Ve vazivu při povrchu ložiskově kulatobuněčná celulizace s malou příměsí neutrofilů, drobně hemoragie. Na jedné stráně, která je více zánětlivá, samostatné  ojedinělé útržky kribriformních struktur adenokarcinomu,  fokálně v souvislosti s povrchem částky. Samostatná částka celá tvořená nádorovým uzlem s desmoplastickým stromatem, ve kterém jsou struktury adenokarcinomu s ložiskovou dlaždicovou metaplazii, které jsou mikroglandulární, někde tubulární a kribriformní, ložiskově s drobně uzlovitou hyalinózou stromatu. Některé povrchové oblasti  jsou mikropapilárně uspořádané. 
+Imunohistochemické vyšetření ( blok 1 A): 
+p16, CK7: difúzně pozitivní.
+PAX8: ložisková nepravidelná pozitivita jak ve žlázových strukturách, tak i  v oblastech se skvamózní diferenciací,  ložiskově minoritně v obojích komponentách negativní.
+WT-1: negativní
+
+2. 4 nepřehledné bělavé, místy nahnědlé částky celkem 12 x 20 x 8 mm, zpracované v 1 bloku celé.
+Mikro: ve větší z částek prům. cca 8 mm zcela hyalinizovaná uzlina pouze s rezidui lymfatické tkáně periferii, jinak spotřebována metastázou  stejného adenokarcinomu, ostatní menší částky tukově vazivové  s ložiskovou kulatobuněčnou celulizaci.
+
+3. Appendix: délky 60 mm, průměru 5-6 mm.
+Mikro: ve hrotu vazivová obliterace lumen se sekundární lipomatózou, v ostatním appendixu zastižen obraz chronické katarální appendicitis bez nádorových  změn.
+
+Závěr: metastáza HPV asociováného dobře diferencovaného adenokarcinomu hrdla děložního s minoritní dlaždicobuněčnou diferenciací (adenoskvamózní?, bez znalosti primárního histologického nálezu nelze spolehlivě posoudit). Největší rozměr ložiska 20 mm. V materiálu č. 2  jedná uzlina prům. cca 8 mm zcela spotřebována metastázou  stejného adenokarcinomu. Appendix bez nádorových struktur.
+
+TY44, T08   M8140/6 ( M8560/6? )
+T66 M43000
+
+
+Datum potvrzení: 15.2.2024 17:28:00
+Potvrzující lékař: Maňáková Tatjana MUDr.
+
+
+
+Výsledky z 02/02/24: 
+  Koagulace speciál.-: 
+      Anti Xa: 0,54
+
+Výsledky z 03/02/24: 
+  Minerály+Osmolalita: 
+      Na: 140
+      K: 4,0
+      Cl: 106
+  Dusíkové metabolity: 
+      Urea: 4,3
+      Kreat.: 86
+      Kys. moč.: 255
+  Bílkoviny: 
+      CRP: 28,8
+  Krevní obraz-perifer: 
+      Leu: 6,05
+      Ery: 3,75
+      HGB: 107
+      HCT: 0,328
+      MCV: 87,5
+      MCH: 28,6
+      MCHC: 327
+      RDW: 13,8
+      Plt: 207
+      MPV: 10,2
+  Dif.stroj. relativní: 
+      Ne: 71,0
+      Ly: 18,6
+      Mo: 8,5
+      Eo: 1,4
+      Ba: 0,5
+      Nezralé granulocyty %: 0,0
+  Dif.stroj. absolutní: 
+      Ne abs.: 4,29
+      Ly abs.: 1,13
+      Mo abs.: 0,51
+      Eo abs.: 0,09
+      Ba abs.: 0,03
+      Nezralé granulocyty abs.: 0,00
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 3,8
+
+Výsledky z 26/02/24: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189:2013. 
+
+Histologické vyšetření tkání a diagnostika bylo provedeno akreditovanou metodou dle SOP-PAT-10. Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13. Vyšetření s uplatněním flexibility jsou uvedeny v příloze č. 2 SM-PAT-02 Laboratorní příručka.
+
+
+Nález: 
+B03840/24
+
+Na žádost MUDr. F. Frühaufa, Ph.D z GPK 1. LF UK a VFN v Praze  bylo provedeno dodatečné imunohistochemické vyšetření exprese PD-L1 z biopsie B02211/24/1A (adenokarcinom se skvamózní diferenciací) zhotoveného na Ústavu patologie 1. LF UK a VFN v Praze.
+
+Výsledek vyšetření: PD-L1 (klon 22C3):  CPS = 20 
+
+
+
+Potvrzující lékař: Maňáková Tatjana MUDr.
+
+
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189:2013. 
+
+Histologické vyšetření tkání a diagnostika bylo provedeno akreditovanou metodou dle SOP-PAT-10. Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13. Vyšetření s uplatněním flexibility jsou uvedeny v příloze č. 2 SM-PAT-02 Laboratorní příručka.
+
+
+Nález: 
+B03840/24
+
+Na žádost MUDr. F. Frühaufa, Ph.D z GPK 1. LF UK a VFN v Praze  bylo provedeno dodatečné imunohistochemické vyšetření exprese PD-L1 z biopsie B02211/24/1A (adenokarcinom se skvamózní diferenciací) zhotoveného na Ústavu patologie 1. LF UK a VFN v Praze.
+
+Výsledek vyšetření: PD-L1 (klon 22C3):  CPS = 20 
+
+
+
+Potvrzující lékař: Maňáková Tatjana MUDr.
+
+
+
+Výsledky z 22/03/24: 
+  Nálezy: 
+      RTGVYS:
+
+Nález: 
+Skiagrafická jednotka INDICO 100, výrobní číslo - CE0366, výrobce CPI Kanada
+
+Plíce:
+
+Stav po zavedení portkatetru  zprava do HDŽ, bez známek PNO.
+
+
+Potvrzující lékař: MUDr. Jakubcová Irena
+
+
+
+Výsledky z 26/03/24: 
+  Krevní obraz-perifer: 
+      Leu: 3,28
+      Ery: 4,16
+      HGB: 121
+      HCT: 0,372
+      MCV: 89,4
+      MCH: 29,1
+      MCHC: 325
+      RDW: 15,1
+      Plt: 268
+      MPV: 9,1
+      PCT: 0,240
+      PDW: 9,3
+  Dif.stroj. relativní: 
+      Ne: 50,3
+      Ly: 30,5
+      Mo: 12,8
+      Eo: 4,3
+      Ba: 0,6
+      Nezralé granulocyty %: 1,5
+  Dif.stroj. absolutní: 
+      Ne abs.: 1,65
+      Ly abs.: 1,00
+      Mo abs.: 0,42
+      Eo abs.: 0,14
+      Ba abs.: 0,02
+      Nezralé granulocyty abs.: 0,05
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 1,7
+
+Výsledky z 22/04/24: 
+  Krevní obraz-perifer: 
+      Leu: 16,84
+      Ery: 4,59
+      HGB: 134
+      HCT: 0,413
+      MCV: 90,0
+      MCH: 29,2
+      MCHC: 324
+      RDW: 15,8
+      Plt: 235
+      MPV: 10,1
+      PCT: 0,240
+      PDW: 10,7
+  Dif.stroj. relativní: 
+      Ne: 75,6
+      Ly: 13,3
+      Mo: 6,9
+      Eo: 1,3
+      Ba: 0,8
+      Nezralé granulocyty %: 2,1
+  Dif.stroj. absolutní: 
+      Ne abs.: 12,73
+      Ly abs.: 2,24
+      Mo abs.: 1,17
+      Eo abs.: 0,22
+      Ba abs.: 0,13
+      Nezralé granulocyty abs.: 0,35
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 5,8
+
+Výsledky z 04/06/24: 
+  Nálezy: 
+      REP_MRUT_DTP:
+
+Laboratoř bakteriologie, tel.224967665,7725
+----------------------------------------------------------------------------------------------
+Pacient               DURSIENIEVA MARYNA                       Rodné číslo 7859524365 Poj. 111
+
+Biologický materiál   MOČ SPONTÁNNÍ
+Laboratorní číslo     B0437438                                 Dg.         C538
+Zdravotnické zařízení VFN                                      NS          22332
+Oddělení              Klin. gyn., porod. a neonat. - Onkogynekologie -  oddělení
+Lékař                 Kníže                                    IČP/odb.    02004063  / 4F2
+Datum a doba příjmu   04.06.2024 14:15
+Datum a doba odběru   04.06.2024 11:00
+Datum a doba ukončení 06.06.2024 07:23
+----------------------------------------------------------------------------------------------
+KULTIVACE A VYŠETŘENÍ
+Primokultura
+ 1.Enterococcus faecalis                 10^6 CFU/1 ml
+----------------------------------------------------------------------------------------------
+CITLIVOST - diskový difuzní test / MIC
+------------------------------
+ Účinná látka                1
+------------------------------
+ ampicilin                   C
+ ciprofloxacin               C
+ furantoin                   C
+----------------------------------------------------------------------------------------------
+LEGENDA: C-citlivý, R-resistentní, I-hraničně citlivý, X-výsledek k dispozici po konzultaci
+         *-test citlivosti nebyl proveden, N-bez interpretace, Q-prípravek lze použít za
+         zvýšené expozice, vhodná konzultace ATB centra
+
+UVOLNIL:  MUDr. Jana Kudláčková
+
+
+Výsledky z 06/06/24: 
+  Nálezy: 
+      REPT_CTVYS_DTP:
+
+Nález: 
+Přístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736
+Výrobce SIEMENS Healthcare GmbH
+
+Injektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002
+Kontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s
+i.v. aplikoval:Panyová
+
+CT hrudníku, břicha a pánve:
+
+Postkontrastní vyšetření. MPR.
+Indikace: Ca hrdla děložního, stav po HYE 2016, recentně stav po resekci lokální recidivy 1.2.2024 
+1. vyšetření.
+
+Plicní parenchym bez ložiskových a infiltrativních změn.
+Bez tekutiny v pleurální dutině. 
+Mediastinum bez lymfadenopatie.  
+St.p. totální thyreoidektomi.
+Portkatetr zprava s koncem v oblasti kavoatriální junkce.
+
+Játra nezvětšena, přiměřené struktury, bez ložiskových změn. 
+Žlučník homogenní náplně, stěna nerozšířena. Žlučové cesty nedilatovány. 
+Pankreas bez ložiska, nezvětšen. 
+Slezina nezvětšena, homogenní. 
+Nadledviny bez expanze. 
+Ledviny bez městnání, pravá ledvina atrofická (parenchym 10 mm), stent v pravém ureteru in situ.
+Močový měchýř homogenní náplně, stěna nerozšířena.
+V pánvi volná tekutina s cípatý vybíhajícími okraji, mírně zastřený pánevní tuk, v oblasti lůžka po HYE a resekci recidivy tekutina a konvolut kliček, velmi nepřehledný terén v CT obraze, bez zjevné solidní formace, peritoneum bez zjevných nodularit.
+Vpravo parailicky hypodnezní kolekce s bublinami plynu vel, 18 x 20 mm, bez zjevné lymfadenopatie, v ostatních oblastech bez lymfadenopatie.
+Žaludek a přehledný střevní kličky obvyklého vzhledu, bez strukturálních změn.
+Skelet bez ložiskových změn. Ostechondróza L5/S1.
+Postaplikační změny v podkoží.
+
+
+Závěr: Stav po HYE 2016 pro ca colli uteri, stav po extirpaci lokální recidivy 2/2024 a část. parailické lymfadenopatie, v pánvi pooperační změny a volná tekutina, lokální recidiva či ev. pánevní karcinomatóza jsou těžko hodnotitelné, vpravo parailicky kolekce s bublinami charakteru abscesu či infikované lymfocysty, v ostatních oblastech bez známek generalizace. 
+Pravá ledvina bez známek městnání, ureterální stent in situ.
+
+Konz. MUDr. Altmanová
+
+Potvrzující lékař: MUDr. Pagáč Jiří
+
+
+
+Výsledky z 20/06/24: 
+  Nálezy: 
+      RTGVYS:
+
+Nález: 
+Klinická vizita CT 6/2024
+
+Anamnesticky Ca coli uteru,  stav po HYE 2016, recentně stav po resekci lokální recidivy 2/2024 
+levá ledvina je morfologicky bez změn, systém štíhlý, pravá ledvina svrášťujíicí se , systém štíhlý se zavedeným stentem, tento těsně naléhá na drobnou kolekci tekutiny s bublinami plynu- drobná infikovaná lymfokela?
+
+Potvrzující lékař: MUDr. Chocholová Simona
+
+
+
+Výsledky z 02/07/24: 
+  Nálezy: 
+      REP_MRUT_DTP:
+
+Laboratoř bakteriologie, tel.224967665,7725
+----------------------------------------------------------------------------------------------
+Pacient               DURSIENIEVA MARYNA                       Rodné číslo 7859524365 Poj. 111
+
+Biologický materiál   MOČ SPONTÁNNÍ
+Laboratorní číslo     B0438585                                 Dg.         C539
+Zdravotnické zařízení VFN                                      NS          22332
+Oddělení              Klin. gyn., porod. a neonat. - Onkogynekologie -  oddělení
+Lékař                 -                                        IČP/odb.    02004063  / 4F2
+Datum a doba příjmu   02.07.2024 14:10
+Datum a doba odběru   02.07.2024
+Datum a doba ukončení 03.07.2024 07:39
+----------------------------------------------------------------------------------------------
+KULTIVACE A VYŠETŘENÍ
+Primokultura
+ 1.Enterococcus faecalis                 10^4 CFU/1 ml
+
+UVOLNIL:  MUDr. Jana Kudláčková
+
+
+Výsledky z 22/07/24: 
+  Nálezy: 
+      REP_MRUT_DTP:
+
+Laboratoř bakteriologie, tel.224967663,7662
+----------------------------------------------------------------------------------------------
+Pacient               DURSIENIEVA MARYNA                       Rodné číslo 7859524365 Poj. 111
+
+Biologický materiál   MOČ SPONTÁNNÍ
+Laboratorní číslo     G0318139                                 Dg.         N133
+Zdravotnické zařízení VFN                                      NS          22711
+Oddělení              Urologická klinika - Ambulance příjmová
+Lékař                 Poláček                                  IČP/odb.    02004220  / 706
+Datum a doba příjmu   22.07.2024 17:20
+Datum a doba odběru   22.07.2024 14:45
+Datum a doba ukončení 24.07.2024 07:15
+----------------------------------------------------------------------------------------------
+KULTIVACE A VYŠETŘENÍ
+Primokultura
+ 1.Enterococcus faecalis                 10^4 CFU/1 ml
+
+UVOLNIL:  MUDr. Jan Závora
+
+  Krevní obraz-perifer: 
+      Leu: 2,95
+      Ery: 3,56
+      HGB: 106
+      HCT: 0,318
+      MCV: 89,3
+      MCH: 29,8
+      MCHC: 333
+      RDW: 14,8
+      Plt: 175
+      MPV: 9,3
+      PCT: 0,160
+      PDW: 9,0
+  Dif.stroj. relativní: 
+      Ne: 55,2
+      Ly: 22,7
+      Mo: 17,6
+      Eo: 2,4
+      Ba: 0,7
+      Nezralé granulocyty %: 1,4
+  Dif.stroj. absolutní: 
+      Ne abs.: 1,63
+      Ly abs.: 0,67
+      Mo abs.: 0,52
+      Eo abs.: 0,07
+      Ba abs.: 0,02
+      Nezralé granulocyty abs.: 0,04
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 2,5
+
+Výsledky z 12/08/24: 
+  Nálezy: 
+      REP_MRUT_DTP:
+
+Laboratoř bakteriologie, tel.224967665,7725
+----------------------------------------------------------------------------------------------
+Pacient               DURSIENIEVA MARYNA                       Rodné číslo 7859524365 Poj. 111
+
+Biologický materiál   MOČ SPONTÁNNÍ
+Laboratorní číslo     B0440276                                 Dg.         C539
+Zdravotnické zařízení VFN                                      NS          22330
+Oddělení              Klin. gyn., porod. a neonat. - Onkologický stacionář
+Lékař                 Frühauf                                  IČP/odb.    02004541  / 402
+Datum a doba příjmu   12.08.2024 09:00
+Datum a doba odběru   12.08.2024
+Datum a doba ukončení 13.08.2024 07:11
+----------------------------------------------------------------------------------------------
+KULTIVACE A VYŠETŘENÍ
+Primokultura
+ negativní
+
+UVOLNIL:  prim. MUDr. Václava Adámková, Ph.D.
+
+
+Výsledky z 25/11/24: 
+  Nálezy: 
+      REP_MRUT_DTP:
+
+Laboratoř bakteriologie, tel.224967663,7662
+----------------------------------------------------------------------------------------------
+Pacient               DURSIENIEVA MARYNA                       Rodné číslo 7859524365 Poj. 111
+
+Biologický materiál   MOČ SPONTÁNNÍ
+Laboratorní číslo     G0326997                                 Dg.         N133
+Zdravotnické zařízení VFN                                      NS          22711
+Oddělení              Urologická klinika - Ambulance příjmová
+Lékař                 Krausová                                 IČP/odb.    02004220  / 706
+Datum a doba příjmu   25.11.2024 12:40
+Datum a doba odběru   25.11.2024 11:30
+Datum a doba ukončení 26.11.2024 06:52
+----------------------------------------------------------------------------------------------
+KULTIVACE A VYŠETŘENÍ
+Primokultura
+ negativní
+
+UVOLNIL:  Ing. Gabriela Kroneislová
+
+
+Výsledky z 27/12/24: 
+  Minerály+Osmolalita: 
+      Na: 142
+      K: 4,3
+      Cl: 103
+  Dusíkové metabolity: 
+      Urea: 6,2
+      Kreat.: 106
+      Kys. moč.: 314
+  Jaterní testy: 
+      Bilirubin: 5,9
+      ALT: 0,14
+      AST: 0,34
+      GGT: 0,17
+      ALP: 1,15
+  Bílkoviny: 
+      Albumin: 41,5
+      CB: 70,1
+  Moč chemicky: 
+      pH: 5,0
+      Hustota: 1,012
+      Bílkovina orient.: neg
+      Glykosurie: neg
+      Ketolátky: neg
+      Bilirubin: neg
+      Urobilinogen: neg
+      Erytrocyty v moči: 25
+      Leuko: 500
+      Nitrity: neg
+  Moč - sediment: 
+      Hlen: poz.
+      ERY: 19,0
+      LEUKO: 385,0
+      Epit.pl: 2,0
+      Epit.k: 1,0
+      Bakterie: negativ.
+      Poznámka: 
+ost. neg.
+
+  Krevní obraz-perifer: 
+      Leu: 5,17
+      Ery: 4,71
+      HGB: 137
+      HCT: 0,419
+      MCV: 89,0
+      MCH: 29,1
+      MCHC: 327
+      RDW: 14,8
+      Plt: 258
+      MPV: 9,7
+      PCT: 0,250
+      PDW: 10,8
+  Dif.stroj. relativní: 
+      Ne: 57,7
+      Ly: 22,2
+      Mo: 10,6
+      Eo: 8,1
+      Ba: 1,0
+      Nezralé granulocyty %: 0,4
+  Dif.stroj. absolutní: 
+      Ne abs.: 2,98
+      Ly abs.: 1,15
+      Mo abs.: 0,55
+      Eo abs.: 0,42
+      Ba abs.: 0,05
+      Nezralé granulocyty abs.: 0,02
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 2,6
+
+Výsledky z 27/01/25: 
+  Nálezy: 
+      REP_MRUT_DTP:
+
+Laboratoř bakteriologie, tel.224967663,7662
+----------------------------------------------------------------------------------------------
+Pacient               DURSIENIEVA MARYNA                       Rodné číslo 7859524365 Poj. 111
+
+Biologický materiál   MOČ CÉVKOVANÁ
+Laboratorní číslo     G0331410                                 Dg.         N133
+Zdravotnické zařízení VFN                                      NS          22711
+Oddělení              Urologická klinika - Ambulance příjmová
+Lékař                 Řezáč                                    IČP/odb.    02004220  / 706
+Datum a doba příjmu   27.01.2025 17:00
+Datum a doba odběru   27.01.2025 14:50
+Datum a doba ukončení 28.01.2025 07:30
+----------------------------------------------------------------------------------------------
+KULTIVACE A VYŠETŘENÍ
+Primokultura
+ negativní
+
+UVOLNIL:  Ing. Gabriela Kroneislová, Ph.D
+
+
+Výsledky z 03/02/25: 
+  Nálezy: 
+      RTGVYS:
+
+Nález: 
+Přístroj: OSCAR Prime, v.č. ZEN- 107001-10822
+
+APG l dx.+ zavedení stentu l dx. Podáno 30ml Optiray 350. Výkon na 5 sále
+
+Potvrzující lékař: MUDr. Jurka Martin
+
+
+
+Výsledky z 04/02/25: 
+  Nálezy: 
+      REP_MRUT_DTP:
+
+Laboratoř bakteriologie, tel.224967663,7662
+----------------------------------------------------------------------------------------------
+Pacient               DURSIENIEVA MARYNA                       Rodné číslo 7859524365 Poj. 111
+
+Biologický materiál   MOČ CÉVKOVANÁ
+Laboratorní číslo     G0332039                                 Dg.         N133
+Zdravotnické zařízení VFN                                      NS          22731
+Oddělení              Urologická klinika - Lůž. oddělení A
+Lékař                 Nečitelné                                IČP/odb.    02004215  / 7F6
+Datum a doba příjmu   04.02.2025 17:30
+Datum a doba odběru   04.02.2025
+Datum a doba ukončení 05.02.2025 07:32
+----------------------------------------------------------------------------------------------
+KULTIVACE A VYŠETŘENÍ
+Primokultura
+ negativní
+
+UVOLNIL:  MUDr. Jan Závora
+
+  Texty laboratoř: 
+      Rozpory a hodnocení:
+Vzhledem k tomu, že čas odběru není uveden, upozorňujeme na možné nedodržení preanalytické fáze a možné ovlivnění výsledků.
+
+  Minerály+Osmolalita: 
+      Na: 138
+      K: 3,9
+      Cl: 103
+  Dusíkové metabolity: 
+      Urea: 4,6
+      Kreat.: 113
+  Bílkoviny: 
+      CRP: 100,7
+      Prokalcitonin: 0,20
+  Krevní obraz-perifer: 
+      Leu: 8,03
+      Ery: 4,36
+      HGB: 126
+      HCT: 0,382
+      MCV: 87,6
+      MCH: 28,9
+      MCHC: 330
+      RDW: 15,2
+      Plt: 221
+      MPV: 9,9
+      PCT: 0,220
+      PDW: 10,9
+  Dif.stroj. relativní: 
+      Ne: 76,5
+      Ly: 12,2
+      Mo: 9,8
+      Eo: 0,9
+      Ba: 0,2
+      Nezralé granulocyty %: 0,4
+  Dif.stroj. absolutní: 
+      Ne abs.: 6,14
+      Ly abs.: 0,98
+      Mo abs.: 0,79
+      Eo abs.: 0,07
+      Ba abs.: 0,02
+      Nezralé granulocyty abs.: 0,03
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 6,3
+
+Výsledky z 13/06/25: 
+  Nálezy: 
+      REP_MRUT_DTP:
+
+Laboratoř bakteriologie, tel.224967663,7662
+----------------------------------------------------------------------------------------------
+Pacient               LYSIUK MARYNA                            Rodné číslo 7859524365 Poj. 111
+
+Biologický materiál   MOČ SPONTÁNNÍ
+Laboratorní číslo     G0341251                                 Dg.         N133
+Zdravotnické zařízení VFN                                      NS          22711
+Oddělení              Urologická klinika - Ambulance příjmová
+Lékař                 Purmová                                  IČP/odb.    02004220  / 706
+Datum a doba příjmu   13.06.2025 14:20
+Datum a doba odběru   13.06.2025 13:00
+Datum a doba ukončení 15.06.2025 10:12
+----------------------------------------------------------------------------------------------
+KULTIVACE A VYŠETŘENÍ
+Primokultura
+ 1.Enterococcus faecalis                 10^5 CFU/1 ml
+----------------------------------------------------------------------------------------------
+CITLIVOST - diskový difuzní test / MIC
+------------------------------
+ Účinná látka                1
+------------------------------
+ ampicilin                   C
+ ciprofloxacin               C
+ furantoin                   C
+----------------------------------------------------------------------------------------------
+LEGENDA: C-citlivý, R-resistentní, I-hraničně citlivý, X-výsledek k dispozici po konzultaci
+         *-test citlivosti nebyl proveden, N-bez interpretace, Q-prípravek lze použít za
+         zvýšené expozice, vhodná konzultace ATB centra
+
+UVOLNIL:  MUDr. Jana Kudláčková
+
+
+Výsledky z 12/08/25: 
+  Nálezy: 
+      REPP_NM_DTP:
+
+Nález: 
+Statická scintigrafie ledvin s výpočtem relativní funkce dne 12.8.2025
+Pacientka byla řádně informována o vyšetření a podepsala informovaný souhlas. 
+Indikace: stent v pravém ureteru  
+
+Pacientce bylo i.v. aplikováno 157 MBq 99mTc-DMSA a po 2 hodinách byly provedeny statické obrazy ledvin na gamakameře MB 9200 včetně kvantifikace a SPECT vyšetření ledvin na kameře  GE NM830  č.830C60548. 
+
+
+Dobře je vykreslena levá ledvina, která je obvyklé velikosti, tvaru a uložení, Distribuce její funkční tkáně je  vcelku homogenní. Pravá ledvina je významně malá v obvyklé lokalizaci s jen lehce naznačenou funkční tkání, jak je patrné na SPECT vyšetření. 
+
+
+Kvantifikace. 
+Podíl ledvin s korekcí na hloubku uložení sin : dx ledviny je 93 : 7%
+
+Závěr: 
+Levá ledvina bez prokazatelných ložiskových změn
+Pravá ledvina významně malá s obrazem reziduální funkce
+ Podíl ledvin na globální tubulární funkci je významně asymetrický. 
+
+
+                                                            MUDr. Daniela Chroustová  Ph.D.                                          
+
+Údaje o indikacích, přípravě nemocných, a další informace o vyšetřeních: http://unm.lf1.cuni.cz
+
+
+Datum potvrzení: 13.8.2025 08:55:00
+Potvrzující lékař: Chroustová Daniela MUDr. Ph.D.
+
+
+
+Výsledky z 23/01/26: 
+  Nálezy: 
+      REP_MRUT_DTP:
+
+Laboratoř bakteriologie, tel.224967665,7725
+----------------------------------------------------------------------------------------------
+Pacient               LYSIUK MARYNA                            Rodné číslo 7859524365 Poj. 111
+
+Biologický materiál   MOČ SPONTÁNNÍ  PC
+Laboratorní číslo     B0464781                                 Dg.         C539
+Zdravotnické zařízení VFN                                      NS          22330
+Oddělení              Klin. gyn., porod. a neonat. - Onkologický stacionář
+Lékař                 Kocián                                   IČP/odb.    02004541  / 402
+Datum a doba příjmu   23.01.2026 15:00
+Datum a doba odběru   23.01.2026 12:10
+Datum a doba ukončení 24.01.2026 11:50
+----------------------------------------------------------------------------------------------
+KULTIVACE A VYŠETŘENÍ
+Primokultura
+ 1.Klebsiella pneumoniae, širokospektrá betalaktamáza negativní 10^6 CFU/1 ml
+----------------------------------------------------------------------------------------------
+CITLIVOST - diskový difuzní test / MIC
+------------------------------
+ Účinná látka                1
+------------------------------
+ amoxicilin klavulanát       C
+ amikacin                    C
+ ampicilin                   R
+ ciprofloxacin               C
+ kotrimoxazol                R
+ cefuroxim                   Q
+ ceftazidim                  C
+ ertapenem                   C
+ furantoin                   R
+ gentamicin                  C
+ pivmecilinam                C
+----------------------------------------------------------------------------------------------
+LEGENDA: C-citlivý, R-resistentní, I-hraničně citlivý, X-výsledek k dispozici po konzultaci
+         *-test citlivosti nebyl proveden, N-bez interpretace, Q-prípravek lze použít za
+         zvýšené expozice, vhodná konzultace ATB centra
+
+UVOLNIL:  MUDr.Lenka Kupidlovská
+
+
+Laboratoř bakteriologie, tel.224967663,7662
+----------------------------------------------------------------------------------------------
+Pacient               LYSIUK MARYNA                            Rodné číslo 7859524365 Poj. 111
+
+Biologický materiál   MOČ CÉVKOVANÁ
+Laboratorní číslo     G0356839                                 Dg.         N133
+Zdravotnické zařízení VFN                                      NS          22711
+Oddělení              Urologická klinika - Ambulance příjmová
+Lékař                 Poláček                                  IČP/odb.    02004220  / 706
+Datum a doba příjmu   23.01.2026 17:00
+Datum a doba odběru   23.01.2026 14:30
+Datum a doba ukončení 25.01.2026 10:03
+----------------------------------------------------------------------------------------------
+KULTIVACE A VYŠETŘENÍ
+Primokultura
+ 1.Klebsiella pneumoniae, širokospektrá betalaktamáza negativní 10^6 CFU/1 ml
+----------------------------------------------------------------------------------------------
+CITLIVOST - diskový difuzní test / MIC
+------------------------------
+ Účinná látka                1
+------------------------------
+ amoxicilin klavulanát       R
+ amikacin                    C
+ ampicilin                   R
+ ciprofloxacin               R
+ kotrimoxazol                R
+ cefuroxim                   R
+ ceftazidim                  C
+ ertapenem                   C
+ fosfomycin                  R
+ furantoin                   R
+ gentamicin                  C
+ pivmecilinam                C
+----------------------------------------------------------------------------------------------
+LEGENDA: C-citlivý, R-resistentní, I-hraničně citlivý, X-výsledek k dispozici po konzultaci
+         *-test citlivosti nebyl proveden, N-bez interpretace, Q-prípravek lze použít za
+         zvýšené expozice, vhodná konzultace ATB centra
+
+UVOLNIL:  MUDr.Lenka Kupidlovská
+
+
+Výsledky z 17/02/26: 
+  Nálezy: 
+      RTGVYS:
+
+Nález: 
+Přístroj: Ziehm Vision, v.č. 25066
+
+výměna stentu vpravo; výkon na sále urologie
+
+Potvrzující lékař: MUDr. Chocholová Simona
+
+
+
+Výsledky z 06/03/26: 
+  Nálezy: 
+      REP_MRUT_DTP:
+
+Laboratoř bakteriologie, tel.224967663,7662
+----------------------------------------------------------------------------------------------
+Pacient               LYSIUK MARYNA                            Rodné číslo 7859524365 Poj. 111
+
+Biologický materiál   MOČ SPONTÁNNÍ
+Laboratorní číslo     G0360102                                 Dg.         N133
+Zdravotnické zařízení VFN                                      NS          22711
+Oddělení              Urologická klinika - Ambulance příjmová
+Lékař                 Malý                                     IČP/odb.    02004220  / 706
+Datum a doba příjmu   06.03.2026 17:00
+Datum a doba odběru   06.03.2026
+Datum a doba ukončení 07.03.2026 10:40
+----------------------------------------------------------------------------------------------
+KULTIVACE A VYŠETŘENÍ
+Primokultura
+ negativní
+
+UVOLNIL:  MUDr. Jan Závora
+
+
+Výsledky z 17/04/26: 
+  Nálezy: 
+      REP_MRUT_DTP:
+
+Laboratoř bakteriologie, tel.224967663,7662
+----------------------------------------------------------------------------------------------
+Pacient               LYSIUK MARYNA                            Rodné číslo 7859524365 Poj. 111
+
+Biologický materiál   MOČ SPONTÁNNÍ
+Laboratorní číslo     G0363146                                 Dg.         N133
+Zdravotnické zařízení VFN                                      NS          22711
+Oddělení              Urologická klinika - Ambulance příjmová
+Lékař                 Zámečník                                 IČP/odb.    02004220  / 706
+Datum a doba příjmu   17.04.2026 12:40
+Datum a doba odběru   17.04.2026 11:00
+Datum a doba ukončení 19.04.2026 10:38
+----------------------------------------------------------------------------------------------
+KULTIVACE A VYŠETŘENÍ
+Primokultura
+ 1.Klebsiella pneumoniae, širokospektrá betalaktamáza negativní 10^4 CFU/1 ml
+----------------------------------------------------------------------------------------------
+CITLIVOST - diskový difuzní test / MIC
+------------------------------
+ Účinná látka                1
+------------------------------
+ amoxicilin klavulanát       C
+ amikacin                    C
+ ampicilin                   R
+ ciprofloxacin               R
+ kotrimoxazol                C
+ cefuroxim                   Q
+ furantoin                   R
+ gentamicin                  C
+ pivmecilinam                C
+----------------------------------------------------------------------------------------------
+LEGENDA: C-citlivý, R-resistentní, I-hraničně citlivý, X-výsledek k dispozici po konzultaci
+         *-test citlivosti nebyl proveden, N-bez interpretace, Q-prípravek lze použít za
+         zvýšené expozice, vhodná konzultace ATB centra
+
+UVOLNIL:  MUDr. Jana Kudláčková
+
+  Krevní obraz-perifer: 
+      Leu: 5,05
+      Ery: 4,56
+      HGB: 134
+      HCT: 0,400
+      MCV: 87,7
+      MCH: 29,4
+      MCHC: 335
+      RDW: 14,0
+      Plt: 227
+      MPV: 10,3
+      PCT: 0,230
+      PDW: 11,7
+  Dif.stroj. relativní: 
+      Ne: 64,9
+      Ly: 20,0
+      Mo: 10,1
+      Eo: 3,8
+      Ba: 0,8
+      Nezralé granulocyty %: 0,4
+  Dif.stroj. absolutní: 
+      Ne abs.: 3,28
+      Ly abs.: 1,01
+      Mo abs.: 0,51
+      Eo abs.: 0,19
+      Ba abs.: 0,04
+      Nezralé granulocyty abs.: 0,02
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 3,3
+
+Výsledky z 14/05/26: 
+  Nálezy: 
+      REPT_CTVYS_DTP:
+
+Nález: 
+Přístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736
+Výrobce SIEMENS Healthcare GmbH
+Injektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002
+Kontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s  i.v. aplikoval: Posejpalová
+
+CT trupu:
+
+Kontrola, předchozí vyš. v červnu 2024.
+Indikace: ca hrdla děložního, stav po HYE 2016, stav po resekci lokální recidivy 2/2024 
+
+
+Plicní parenchym bez ložiskových a infiltrativních změn, ojedinělý nodulus na pleuře dolního laloku vlevo.
+Bez tekutiny v pleurální dutině. Mediastinum bez lymfadenopatie.  St.p. totální thyreoidektomi.
+Portkatetr zprava.
+Játra nezvětšena, přiměřené struktury, bez ložiskových změn. 
+Žlučník homogenní náplně, stěna nerozšířena. Žlučové cesty nedilatovány. 
+Pankreas bez ložiska, nezvětšen. Slezina nezvětšena, homogenní. Nadledviny bez expanze. 
+Ledvina vlevo bez městnání, normální velikosti. Pravá ledvina nefropaticky zmenšená- minule v dl. ose 80 mm, 67 mm v koron. řezum, nyní  s dilatovanější pánvičkou při zavedeném stentu.  Močový měchýř homogenní náplně, stěna nerozšířena.
+V pánvi vpravo lymfocysta 24 x 31 x 27 mm zevně od stentu při bifurkaci pravé společní iliky.
+Vymizela volná volná tekutina v pánvi. 
+Bez lymfadenopatie.
+Žaludek a přehledný střevní kličky obvyklého vzhledu, bez strukturálních změn.
+Skelet bez ložiskových změn. Ostechondrosa L4/5, L5/S1.
+
+
+
+Závěr: Kontrola, předchozí vyš. v červnu 2024. Nadále bez jasných známek lokál. recidivy či generalizace. Lymfocysta v pánvi vpravo. Progrese nefropatických změn pravé ledviny při zavedeném stentu.
+
+Potvrzující lékař: MUDr. Mašek Martin, Ph.D.
+
+

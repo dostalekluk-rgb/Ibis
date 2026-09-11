@@ -1,12 +1,12 @@
 {
   "id": "EXAM-132",
-  "date": "2026-08-14",
+  "date": "2026-08-14T09:52:00",
   "rawDate": "14.08.26",
-  "time": null,
-  "sourceFile": "ai-stankova-amb.txt",
+  "time": "09:52",
+  "sourceFile": "Hukkelová-amb.txt",
   "sourceType": "amb",
-  "type": "Ambulantní dokumentace",
-  "doctor": null,
-  "title": "------  Dokumentace ze dne 14.08.26 ---------:",
-  "content": "------  Dokumentace ze dne 14.08.26 ---------:                             \nMedikace:                                                                  \n  0237596 KINITO           50MG TBL FLM 100(5X20)       1 bal. : jak užívá \n  0216736 METAMIZOL STADA  500MG TBL NOB 60             1 bal. : jak užívá \n  0201612 ZALDIAR          37,5MG/325MG TBL FLM 60X1    1 bal. : jak užívá"
+  "type": "Ambulantní nález",
+  "doctor": "Valentová Tereza MUDr.",
+  "title": "------  Dokumentace ze dne 14.08.26 ---------:                                    Nález ze dne 14.08.26 09:52 Valentová Tereza MUDr.:",
+  "content": "------  Dokumentace ze dne 14.08.26 ---------:                             \n      Nález ze dne 14.08.26 09:52 Valentová Tereza MUDr.:                  \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n  0207229 CITRAFLEET       10MG/3,5G/10,97G POR PLV SOL 1 bal. : příprava  \ndle rozp                                                                   \n\n      dodatek ze dne 14.08.26 09:52 Valentová Tereza MUDr.:                \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n---------------------------------------------------------                  \nLaboratorní vyšetření:                                                     \nCHL                                                                        \nKoagulace -  Protrombinový test INR, APTT                                  \nordinováno 14.08.2026 v 09:52 na 14.08.2026 09:49, Kocián Roman MUDr.      \n---------------------------------------------------------                  \nMedikace:                                                                  \n  0207229 CITRAFLEET       10MG/3,5G/10,97G POR PLV SOL 1 bal. : příprava  \ndle rozp"
 }

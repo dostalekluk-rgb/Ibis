@@ -1,0 +1,1132 @@
+Výsledky z 27/10/05: 
+  Texty laboratoř: 
+      Komentář:
+Protilátky APA IgG a IgM neprokázány
+
+Faktor V Leiden (1691 G>A) : G/A - Byla prokázána mutace v heterozygotní
+konstituci.
+Faktor II - protrombin (20210 G>A) : G/G - Nebyla prokázána mutace. 
+MTHFR (677 C>T) : C/C - Nebyla prokázána mutace. 
+MTHFR (1298 A>C) : A/C - Byla prokázána mutace v heterozygotníkonstituci.
+
+
+bm,kw
+
+
+  Krevní obraz-perifer: 
+      Leu: 7,9
+      Ery: 4,07
+      HGB: 113
+      HCT: 0,34
+      MCV: 83,4
+      MCH: 27,8
+      MCHC: 333
+      RDW: 14,8
+      Plt: 292
+      MPV: 7,8
+      PCT: 0,229
+      PDW: 17,4
+  Dif.stroj. relativní: 
+      Ne: 58,7
+      Ly: 30,8
+      Mo: 8
+      Eo: 2
+      Ba: 0,5
+  Dif.stroj. absolutní: 
+      Ne abs.: 4,7
+      Ly abs.: 2,4
+      Mo abs.: 0,6
+      Eo abs.: 0,2
+      Ba abs.: 0
+  Speciální metody: 
+      Homocystein celk.: 7,9
+  Koagulační vyšetření: 
+      INR: 1,01
+      APTT: 37,3
+      Trombinový test: 16,4
+      Fibrinogen koagul.: 2,58
+      Etanol gelifik.test: negativ.
+      Antitrombin: 97
+      D-Dimer: >6000
+  Koagulace speciál.-: 
+      Lupus antikoagulans: 4,2
+      Protein C: 128
+      Protein S: 60
+      APC rezistence: 2,6
+  Spec.metody ELISA-pl: 
+      APA_IgG: 0,1
+      APA_IgM: 14,42
+  Koagulační faktory-: 
+      Faktor VIII: 67
+  Proteiny akutní fáze: 
+      A1antitrypsin: 1,51
+      Transferin: 3,76
+      Prealbumin: 0,17
+      A2 makroglobulin: 1,66
+      Orosomukoid: 0,55
+      CRP: 0,3
+  Bez funkční skupiny: 
+      PDW: 17,4
+  Nedefinovaná třída: 
+      REPI_OTHERA09_DTP:
+   _Zhotovil(a)            KM    -         |   | |   |           
+
+
+Výsledky z 03/11/05: 
+  Koagulační vyšetření: 
+      D-Dimer: 50
+
+Výsledky z 31/01/06: 
+  Texty laboratoř: 
+      Komentář:
+Protilátky APA IgG a IgM neprokázány
+
+  Minerály+Osmolalita: 
+      Fe: 17,5
+  Bílkoviny: 
+      Transferrin: 3,43
+      Saturace transferrinu: 22,4
+  Sérum spec.vyšetření: 
+      Vitamín B12: 257
+      Kys.listová: 12,1
+      Ferritin: 38
+  Krevní obraz-perifer: 
+      Leu: 7,4
+      Ery: 4,87
+      HGB: 137
+      HCT: 0,413
+      MCV: 84,7
+      MCH: 28
+      MCHC: 331
+      RDW: 15,9
+      Plt: 246
+      MPV: 8,4
+      PCT: 0,206
+      PDW: 16,5
+  Dif.stroj. relativní: 
+      Ne: 51
+      Ly: 36,4
+      Mo: 8,8
+      Eo: 3,4
+      Ba: 0,4
+  Dif.stroj. absolutní: 
+      Ne abs.: 3,7
+      Ly abs.: 2,7
+      Mo abs.: 0,7
+      Eo abs.: 0,3
+      Ba abs.: 0
+  Speciální metody: 
+      Homocystein celk.: 8
+  Koagulační vyšetření: 
+      INR: 0,97
+      APTT: 39,8
+      Trombinový test: 14,1
+      Fibrinogen koagul.: 2,96
+      Etanol gelifik.test: negativ.
+      Antitrombin: 103
+      D-Dimer: 59
+  Koagulace speciál.-: 
+      Lupus antikoagulans: negativ.
+      Protein S: 95
+  Spec.metody ELISA-pl: 
+      APA_IgG: 1,64
+      APA_IgM: 1,29
+  Proteiny akutní fáze: 
+      A1antitrypsin: 1,32
+      Transferin: 2,88
+      Prealbumin: 0,19
+      A2 makroglobulin: 1,76
+      Orosomukoid: 0,7
+      CRP: 0,32
+  Bez funkční skupiny: 
+      PDW: 16,5
+  Nedefinovaná třída: 
+      REPI_OTHERA09_DTP:
+   _Zhotovil(a)            ls    -         |   | |   |           
+
+
+Výsledky z 29/08/06: 
+  Minerály+Osmolalita: 
+      Fe: 18,1
+      Fe-celk.vazeb.kap.: 58,2
+      Fe-saturace: 31
+  Bílkoviny: 
+      CB: 81,8
+      CRP: 3,9
+      Transferrin: 3,05
+      Saturace transferrinu: 26,1
+  Sérum spec.vyšetření: 
+      Vitamín B12: 213
+      Kys.listová: 11,8
+      Ferritin: 29,8
+  Krevní obraz-perifer: 
+      Leu: 7,8
+      Ery: 4,49
+      HGB: 136
+      HCT: 0,401
+      MCV: 89,4
+      MCH: 30,3
+      MCHC: 338
+      RDW: 13,7
+      Plt: 272
+      MPV: 8,4
+      PCT: 0,227
+      PDW: 16,5
+  Dif.stroj. relativní: 
+      Ne: 56,2
+      Ly: 32,3
+      Mo: 7,9
+      Eo: 3,2
+      Ba: 0,4
+  Dif.stroj. absolutní: 
+      Ne abs.: 4,4
+      Ly abs.: 2,5
+      Mo abs.: 0,6
+      Eo abs.: 0,3
+      Ba abs.: 0
+  Speciální metody: 
+      Homocystein celk.: 7,6
+  Koagulační vyšetření: 
+      INR: 1,01
+      APTT: 40,5
+      Trombinový test: 14,4
+      Fibrinogen koagul.: 2,8
+      Etanol gelifik.test: negativ.
+      Antitrombin: 96
+      D-Dimer: 53
+  Proteiny akutní fáze: 
+      A1antitrypsin: 1,25
+      Transferin: 2,43
+      Prealbumin: 0,21
+      A2 makroglobulin: 1,92
+      Orosomukoid: 0,71
+      CRP: 0,32
+  Bez funkční skupiny: 
+      PDW: 16,5
+  Nedefinovaná třída: 
+      REPI_OTHERA09_DTP:
+   _Zhotovil(a)            KM    -         |   | |   |           
+
+
+Výsledky z 18/05/07: 
+  Texty laboratoř: 
+      Komentář:
+Protilátky APA IgG a IgM neprokázány
+Lupusový inhibitor koagulace neprokázán.
+
+      Rozpory a hodnocení:
+Od 16.5.2007 nové jednotky u metody CRP - mg/l!!!
+
+  Minerály+Osmolalita: 
+      Fe: 8,2
+  Bílkoviny: 
+      Transferrin: 2,95
+      Saturace transferrinu: 12,2
+  Sérum spec.vyšetření: 
+      Vitamín B12: 247
+      Kys.listová: 12,9
+      Ferritin: 22,6
+  Krevní obraz-perifer: 
+      Leu: 7,6
+      Ery: 4,23
+      HGB: 126
+      HCT: 0,371
+      MCV: 87,8
+      MCH: 29,7
+      MCHC: 338
+      RDW: 13,7
+      Plt: 256
+      MPV: 8
+      PCT: 0,204
+      PDW: 16,6
+  Dif.stroj. relativní: 
+      Ne: 54,5
+      Ly: 33,7
+      Mo: 8,2
+      Eo: 3,2
+      Ba: 0,4
+  Dif.stroj. absolutní: 
+      Ne abs.: 4,2
+      Ly abs.: 2,6
+      Mo abs.: 0,6
+      Eo abs.: 0,2
+      Ba abs.: 0
+  Koagulační vyšetření: 
+      INR: 0,94
+      APTT: 36,1
+      Trombinový test: 14,1
+      Fibrinogen koagul.: 2,9
+      Etanol gelifik.test: negativ.
+      Antitrombin: 91
+      D-Dimer: 170
+  Koagulace speciál.-: 
+      Lupus antikoagulans: negativ.
+  Spec.metody ELISA-pl: 
+      APA_IgG: 3,42
+      APA_IgM: 0,87
+  Proteiny akutní fáze: 
+      A1antitrypsin: 1,37
+      Transferin: 3,01
+      Prealbumin: 0,2
+      A2 makroglobulin: 1,88
+      Orosomukoid: 0,69
+      CRP: 3,16
+  Bez funkční skupiny: 
+      PDW: 16,6
+
+Výsledky z 03/07/07: 
+  Koagulační vyšetření: 
+      INR: 0,9
+      APTT: 34,3
+
+Výsledky z 28/08/08: 
+  Krevní obraz-perifer: 
+      Leu: 6,6
+      Ery: 4,62
+      HGB: 136
+      HCT: 0,403
+      MCV: 87,3
+      MCH: 29,5
+      MCHC: 338
+      RDW: 14,2
+      Plt: 250
+      MPV: 8,2
+      PCT: 0,204
+      PDW: 16,7
+  Dif.stroj. relativní: 
+      Ne: 50,3
+      Ly: 36,4
+      Mo: 8,8
+      Eo: 4,1
+      Ba: 0,4
+  Dif.stroj. absolutní: 
+      Ne abs.: 3,3
+      Ly abs.: 2,4
+      Mo abs.: 0,6
+      Eo abs.: 0,3
+      Ba abs.: 0
+  Koagulační vyšetření: 
+      INR: 0,89
+      APTT: 34,9
+      Trombinový test: 14,7
+      Fibrinogen koagul.: 2,78
+      Etanol gelifik.test: negativ.
+      Antitrombin: 111
+      D-Dimer: 62
+  Proteiny akutní fáze: 
+      A1antitrypsin: 1,42
+      Transferin: 2,1
+      Prealbumin: 0,18
+      A2 makroglobulin: 1,95
+      Orosomukoid: 0,57
+      CRP: <3,16
+  Bez funkční skupiny: 
+      PDW: 16,7
+
+Výsledky z 10/12/25: 
+  Texty laboratoř: 
+      Komentář: PREVEDIG
+  Krev-tumor.markery: 
+      HE4: 38
+
+Výsledky z 04/02/26: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189
+ed.3:2023. Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle 
+SOP-PAT-10.
+
+
+Nález: 
+B 2540/26
+
+Klinická diagnóza: polyp cervixu
+
+Nepatrná částka z děložního čípku o průměru 1 mm, prokrájena.
+Mikro: Topograficky nepřehledný fragment stromatu s okrajem žlázky lemovaným zhmožděným endocervikálním epitelem, jehož několik buněk nacházíme i na povrchu sliznice. Dlaždicový epitel zastižen nebyl.
+
+Závěr: Materiál je málo reprezentativní.
+T83, M09000
+
+
+Datum potvrzení: 9.2.2026 12:56:00
+Potvrzující lékař: Skálová Helena MUDr., Ph.D.
+
+
+
+Výsledky z 06/03/26: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189
+ed.3:2023. Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle 
+SOP-PAT-10
+
+Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13.
+
+
+Nález: 
+B 4981/26
+
+Celkem 3 částečně fragmentované punkční vzorky délky 6-8 mm označené jako core needle biopsie bez přesného určení místa odběru.
+Mikro: Materiál tvoří fragmenty málo diferencovaného karcinomu solidní, papilární a kribriformní úpravy. Nádorové buňky mají nepravidelná jádra s četnými mitózami a středně objemnou eozinofilní či amfofilní cytoplazmu. Okrajově dále zastiženy fragmenty tkáně tvořené vazivovou tkání a hladkou svalovinou místy s patrnou stěnou cystického útvaru vystlaného oploštělou kubickou výstelkou. Fokálně je ve stěně infiltrace skupinami výše popsaných nádorových buněk. V jedné částce je sliznice krytá dlaždicovým epitelem obvyklé struktury.
+
+Imunohistochemický nález (blok C):
+WT-1: Difuzně pozitivní.
+Estrogenové receptory: Pozitivní (variabilně intenzivní jaderná pozitivita asi v 80 % nádorových buněk).
+Progesteronové receptory: Negativní.
+P53: Variabilně intenzivní jaderná pozitivita většiny nádorových buněk, silně intenzivní pozitivita asi ve 30 % buněk - hodnotíme jako typ exprese wild type.
+
+Předběžný závěr: Nález má zastoupenými znaky charakter high grade serózního karcinomu, jehož primární zdroj v oblasti děložní tuby, ovaria či pánevního peritonea je pravděpodobný. Na imunohistochemické úrovni zastižen typ exprese p53 wild type, tento typ exprese se však u minority high grade serózních karcinomů může vyskytovat. Budeme ještě provádět dodatečná imunohistochemická vyšetření, definitivní závěr sdělíme v dodatku.
+T87 M8461/3
+
+Datum potvrzení: 11.3.2026 10:13:00
+Potvrzující lékař: Dundr Pavel prof. MUDr. Ph.D.
+
+Dodatek 1:
+Imunohistochemický nález:
+PAX8: Difuzně pozitivní.
+P16: Mozaikovitý typ exprese.
+PTEN: Úplná ztráta exprese.
+Ki-67 (MiB-1): Celkově asi 70 % buněk.
+
+Imunohistochemický nález:
+PMS2, MSH6: silně intenzivní jaderná pozitivita většiny nádorových buněk.
+Závěr: Exprese vyšetřených MMR proteinů v nádorové tkáni je zachovaná. Pravděpodobnost nestability mikrosatelitů (MSI) je tedy nízká.
+
+Závěr: Předběžný diagnostický nález zůstává nezměněn, v diferenciální dg. na prvém místě připadá v úvahu high grade serózní karcinom, odlišení od méně pravděpodobné možnosti high grade endometroidního karcinomu je však v daném případě obtížné. Jednoznačné hodnocení bude možné až z případného definitivního resekátu, eventuálně by v rámci uvedené diferenciální dg. mohlo být přínosné molekulární vyšetření metodou NGS - toto vyšetření doplníme dodatečně v případě požadavku ze strany klinika.
+T87 M8461/3 susp.
+
+
+Datum potvrzení: 12.3.2026 11:55:00
+Potvrzující lékař: Dundr Pavel prof. MUDr. Ph.D.
+
+
+
+Výsledky z 11/03/26: 
+  Koagulační vyšetření: 
+      Protrombinový test čas: 10,90
+      INR: 0,90
+      APTT: 27,0
+      APTT R: 0,90
+
+Výsledky z 16/03/26: 
+  Zkouška kompatibility: 
+      TP č.1: 
+C20022600136710  Kompatibilní
+Platnost vyšetření: 19.03.2026 23:59:00
+Expirace: 20.04.2026 23:59:00
+
+      TP č.2: 
+C20022600136210  Kompatibilní
+Platnost vyšetření: 19.03.2026 23:59:00
+Expirace: 20.04.2026 23:59:00
+
+  Imunohematologie: 
+      Krevní skupina: 0 poz
+      Screening protilátek: neg
+  Bez funkční skupiny: 
+      Q_ZkKomp_*: 
+vyšetřena
+
+  Nedefinovaná třída: 
+      Výsl ZK: 
+Kompatibilní
+
+
+Výsledky z 18/03/26: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189
+ed.3:2023. Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle 
+SOP-PAT-10.
+
+Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13.
+
+
+Nález: 
+B 5806/26
+1-5
+Klin.: HGC 1: děloha + adnexa + appendix, 2: omentum, 3: lymfatika P, 4: lymfatika L, 5: tumory z pánve 
+
+1:
+Děloha 75 x 50 x 20 mm s hrdlem délky 25 mm, průměru 30 mm. Levá tuba délky 53 mm s ovariem 15 x 13 x 5 mm, pravá tuba délky minimálně 60 mm, v oblasti fimbrií nepřehledná, zavzatá ve srůstech s vs nádorově změněným ovariem velikosti 30 x 20 x 15 mm. Na řezu děložním tělem zastihujeme nízké endometrium, v myometriu je patrný uzel průměru 10 mm. V oblasti pravých adnex na řezu zastihujeme tumor 39 x 28 x 25 mm, makroskopicky postihující zejména tubu s prorůstáním do ovaria. Odběr pro účely biobanky nebyl proveden. Materiál byl vyšetřen v 15 blocích.
+
+Mikroskopicky zastihujeme tkáň děložního čípku krytou přiměřeným dlaždicobuněčným epitelem bez dysplazií, který přechází v cylindrický endocervikální žlazový epitel přiměřeného vzhledu. Endometrium je klidové, bez atypií, v myometriu zastihujeme drobné okrsky adenomyózy a benigní leiomyom běžného vzhledu s hyalinizovaným stromatem. 
+Při levé tubě zastihujeme vícečetné benigní paratubární cysty levé ovarium je s věku přiměřeným nálezem. 
+Ve druhostranné tubě a přilehlém ovariu zastihujeme struktury high grade nádoru rostoucího solidně, kribriformně či viloglandulárně, nádorové buňky mají vezikulární jádra s dobře patrnými jadérky a s patrnou hojnou mitotickou aktivitou, buňky jsou pleomorfní, místy s výraznou variabilitou velikosti. Místy nádor propadá nekróze. Disperzně jsou přítomná psamomatózní tělíska. Fokálně je zastižena lymfangioinvaze nádorových struktur, perineurální šíření nepozorujeme. 
+
+2:
+Omentum 290 x 160 x 20 mm s vícečetnými tuhými bělavými ložisky průměru 18 mm, 15 mm a 12 mm. Omentum vyšetřeno v 5 blocích.
+Mikroskopicky zastihujeme tukovou tkáň omenta se strukturami high grade karcinomu obdobné morfologie jako v č.1.
+
+3:
+Částice 80 x 40 x 10 mm, na řezu s lymfatickými uzlinami. Materiál vyšetřen v 7 blocích.
+Mikroskopicky zastihujeme tkáň 7 lymfatických uzlin s lipomatózní atrofií, okrsky hyalinizací a lehkou sinusovou histiocytózou, bez maligních nádorových struktur.
+
+4:
+Čtyři částice průměru 20 mm, průměru 40 mm, průměru 35 mm a průměru 30 mm, na řezu s lymfatickými uzlinami. Materiál vyšetřen v 9 blocích.
+Mikroskopicky zastihujeme tkáň 10 lymfatických uzlin s lipomatózní atrofií, okrsky hyalinizací a lehkou sinusovou histiocytózou, bez maligních nádorových struktur.
+
+5:
+Částice průměru 15 mm (A), velikosti 45 x 20 x 20 mm (B) a 40 x 25 x 10 mm (C,D), na řezu se žlutobělavými ložisky. Materiál vyšetřen ve 4 blocích.
+Mikroskopicky jedna z částic (průměru 15 mm) odpovídá strukturám lymfatické uzliny infiltrované karcinomem obdobného vzhledu jako výše. Zbylé částice odpovídají tukově vazivové tkáni s ložisky totožného nádoru, místy rozsáhle propadajícími nekróze. V nádoru jsou zastiženy početné atypické mitózy.
+
+Předběžný závěr:
+Nález má charakter high grade karcinomu tuby/ovaria, zastoupenými morfologickými znaky se na prvním místě jedná o high grade serózní karcinom (místy s tzv. SET rysy). Vzhledem k výsledkům předchozího vyšetření doplníme imunohistochemické vyšetření za účelem přesné typizace tumoru, výsledek a definitivní závěr sdělíme v dodatku této biopsie. 
+- s postižením omenta (rozměr největšího nádorového ložiska 18 mm)
+- s postižením pánevního peritonea
+18 lymfatických uzlin, z toho v 1 metastáza (velikosti 11 mm).
+
+T86 M8461/3vs pT3b pN1 (1/18)
+
+Vhodné bloky pro případná další vyšetření: 1N, 2C, 5C
+
+
+Datum potvrzení: 31.3.2026 16:22:00
+Potvrzující lékař: Manethová Monika MUDr. Ph.D.
+
+Dodatek 1:
+Dodatečně bylo provedeno imunohistochemické vyšetření (1N):
+p53 - wild type
+WT1 - difuzně pozitivní
+ER - pozitivní v části nádorových buněk, převážně slabě a středně silně
+PR - zcela fokální pozitivita, většina nádoru negativní
+p16 - místy mozaikovitá pozitivita
+TTF1 - negativní
+GATA3 - většina nádoru negativní, pozitivita malého množství rozptýlených jader.
+
+Závěr:
+Nález má charakter high grade karcinomu tuby/ovaria, zastoupenými morfologickými znaky se na prvním místě jedná o high grade serózní karcinom (místy s tzv. SET rysy).
+- s postižením omenta (rozměr největšího nádorového ložiska 18 mm)
+- s postižením pánevního peritonea
+18 lymfatických uzlin, z toho v 1 metastáza (velikosti 11 mm).
+
+T86 M8461/3vs pT3b pN1 (1/18)
+
+Vhodné bloky pro případná další vyšetření: 1N, 2C, 5C
+
+Datum potvrzení: 3.4.2026 18:51:00
+Potvrzující lékař: Manethová Monika MUDr. Ph.D.
+
+Dodatek 2:
+Na základě žádosti MUDr. R. Kociána, Ph.D. z Gyn-por kliniky VFN zapůjčujeme dne 9.4.2026 parafínový blok
+B05806/1M/26 do studie N-Plus k centrálnímu testování HRD statusu. 
+
+
+Datum potvrzení: 15.4.2026 09:57:00
+Potvrzující lékař: Véghová Blanka
+
+Dodatek 3:
+Na základě žádosti MUDr. R. Kociána z KGPN VFN zapůjčujeme dne 3.8.2026 parafínový blok B05806/2C/26 pro účely klinické studie MK-2870-021.
+
+
+Datum potvrzení: 5.8.2026 15:13:00
+Potvrzující lékař: Véghová Blanka
+
+
+  ABR - krev: 
+      Hb: 109
+      Typ přístroje Astrup: ABL835; ABL835
+      Typ odběru: 
+Capillary
+; 
+Not specifie
+
+  Plná krev: 
+      Na: 140; 136
+      K: 6,0; 4,1
+      Cl: 110; 107
+      iCa: 1,28; 1,23
+
+Výsledky z 19/03/26: 
+  ABR - krev: 
+      Hb: 106
+      Typ přístroje Astrup: ABL835
+      Typ odběru: 
+Capillary
+
+  Plná krev: 
+      Na: 141
+      K: 3,9
+      Cl: 107
+      iCa: 1,22
+
+Výsledky z 07/04/26: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189 ed.3:2023. 
+
+
+
+Nález: 
+B7086/26
+
+Na žádost klinika MUDr. Valentové z Kliniky GPN VFN provádíme dodatečné vyšetření BRCA1 a BRCA2 z biopsie č. 5806/26/1N, 2C, 5C (tubo-ovariální HGSC).
+
+Molekulárně biologické vyšetření genů BRCA1 a BRCA2 v nádorové tkáni (DNA NGS):
+Genomová DNA byla izolována z celých řezů parafinového bločku č. 5806/26/1N (80 % nádorových buněk).
+
+Výsledek vyšetření mutačního stavu genů BRCA1 a BRCA2 provedeného metodou NGS v rozsahu akreditace dle SOP-PAT-23. Spektrum vyšetřovaných genů je uvedeno v příloze č. 2 SM-PAT-02 Laboratorní příručka: https://www.vfn.cz/pacienti/kliniky-ustavy/ustav-patologie/laboratore/
+Podstatou metody je masivní paralelní sekvenování nabohacených vybraných oblastí genomu (tzv. capture NGS) na platformě NextSeq 2000 (Illumina, který je umístěn ve smluvní laboratoři ULBLD, Laboratoř pro komplexní výzkum nových biomarkerů). Metoda umožňuje vyšetření somatických variant (bodové mutace, krátké delece/inzerce apod.) ve všech exonech a přilehlých intronových oblastech genů BRCA1 a BRCA2. Metodou lze detekovat somatické varianty zastoupené alespoň u 5 % buněčné populace ve vyšetřeném vzorku, kdy pro zachování robustnosti detekce genových variant je vhodný vzorek obsahující >40 % nádorových buněk. Limitace metody: Vyšetření rozsáhlých přestaveb >40 bp a CNV může být u parafinových vzorků s nižší kvalitou limitováno a takovéto varianty nemusí být detekovány. Mutace hluboko v intronových a regulačních sekvencích nejsou zachyceny.
+Vyšetření umožňuje stanovení HRD skóre na základě detekce Loss of Heterozygosity (LOH), Large-scale State Transitions (LST) a Telomeric Allelic Imbalance (TAI) pomocí software CLC Genomic Workbench (modul Calculate HRD Score). HRD skóre >=52 je hodnoceno jako pozitivní; HRD skóre <=51 je hodnoceno jako negativní. U HGSC pacientů se statusem HRD pozitivní byla prokázána vyšší citlivost na léčbu PARP inhibitory.
+
+Nomenklatura vychází z referenční sekvence NM_007294.3 a NP_009225.1 pro BRCA1 a NM_000059.3 a NP_000050.2 pro BRCA2. Reportovány budou pouze klinicky relevantní mutace (class 4-5; pravděpodobně patogenní varianty - patogenní varianty), dle aktuálních kritérií v době vydání této zprávy. 
+
+Průměrné pokrytí cílových oblastí ve vzorku 759x.
+
+Závěr a interpretace:
+V nádoru NEBYLA prokázána patogenní varianta nebo rozsáhlá přestavba genů BRCA1 nebo BRCA2 ve vyšetřovaných oblastech.
+
+HRD = 27. Vzorek je HRD negativní.
+
+Vyšetření vyhodnotil: RNDr. Jan Hojný, Ph.D.
+
+
+Datum potvrzení: 20.4.2026 10:48:00
+Potvrzující lékař: Bui Quang Hiep MUDr.
+
+
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189 ed.3:2023. 
+
+
+
+Nález: 
+B7086/26
+
+Na žádost klinika MUDr. Valentové z Kliniky GPN VFN provádíme dodatečné vyšetření BRCA1 a BRCA2 z biopsie č. 5806/26/1N, 2C, 5C (tubo-ovariální HGSC).
+
+Molekulárně biologické vyšetření genů BRCA1 a BRCA2 v nádorové tkáni (DNA NGS):
+Genomová DNA byla izolována z celých řezů parafinového bločku č. 5806/26/1N (80 % nádorových buněk).
+
+Výsledek vyšetření mutačního stavu genů BRCA1 a BRCA2 provedeného metodou NGS v rozsahu akreditace dle SOP-PAT-23. Spektrum vyšetřovaných genů je uvedeno v příloze č. 2 SM-PAT-02 Laboratorní příručka: https://www.vfn.cz/pacienti/kliniky-ustavy/ustav-patologie/laboratore/
+Podstatou metody je masivní paralelní sekvenování nabohacených vybraných oblastí genomu (tzv. capture NGS) na platformě NextSeq 2000 (Illumina, který je umístěn ve smluvní laboratoři ULBLD, Laboratoř pro komplexní výzkum nových biomarkerů). Metoda umožňuje vyšetření somatických variant (bodové mutace, krátké delece/inzerce apod.) ve všech exonech a přilehlých intronových oblastech genů BRCA1 a BRCA2. Metodou lze detekovat somatické varianty zastoupené alespoň u 5 % buněčné populace ve vyšetřeném vzorku, kdy pro zachování robustnosti detekce genových variant je vhodný vzorek obsahující >40 % nádorových buněk. Limitace metody: Vyšetření rozsáhlých přestaveb >40 bp a CNV může být u parafinových vzorků s nižší kvalitou limitováno a takovéto varianty nemusí být detekovány. Mutace hluboko v intronových a regulačních sekvencích nejsou zachyceny.
+Vyšetření umožňuje stanovení HRD skóre na základě detekce Loss of Heterozygosity (LOH), Large-scale State Transitions (LST) a Telomeric Allelic Imbalance (TAI) pomocí software CLC Genomic Workbench (modul Calculate HRD Score). HRD skóre >=52 je hodnoceno jako pozitivní; HRD skóre <=51 je hodnoceno jako negativní. U HGSC pacientů se statusem HRD pozitivní byla prokázána vyšší citlivost na léčbu PARP inhibitory.
+
+Nomenklatura vychází z referenční sekvence NM_007294.3 a NP_009225.1 pro BRCA1 a NM_000059.3 a NP_000050.2 pro BRCA2. Reportovány budou pouze klinicky relevantní mutace (class 4-5; pravděpodobně patogenní varianty - patogenní varianty), dle aktuálních kritérií v době vydání této zprávy. 
+
+Průměrné pokrytí cílových oblastí ve vzorku 759x.
+
+Závěr a interpretace:
+V nádoru NEBYLA prokázána patogenní varianta nebo rozsáhlá přestavba genů BRCA1 nebo BRCA2 ve vyšetřovaných oblastech.
+
+HRD = 27. Vzorek je HRD negativní.
+
+Vyšetření vyhodnotil: RNDr. Jan Hojný, Ph.D.
+
+
+Datum potvrzení: 20.4.2026 10:48:00
+Potvrzující lékař: Bui Quang Hiep MUDr.
+
+
+
+Výsledky z 16/04/26: 
+  Texty laboratoř: 
+      Komentář:
+Nebyly dodrženy podmínky preanalytické fáze a požadavky na transport vzorků do laboratoře. Možné ovlivnění výsledků. Bližší viz. webové stránky VFN - Přehled laboratorních vyšetření - http://laboratore.vfn.cz
+
+  Minerály+Osmolalita: 
+      Na: 141
+      K: 3,8
+      Cl: 99
+  Dusíkové metabolity: 
+      Urea: 5,0
+      Kreat.: 60
+      Kys. moč.: 164
+  Jaterní testy: 
+      Bilirubin: 8,6
+      ALT: 0,37
+      AST: 0,37
+      GGT: 0,32
+      ALP: 1,46
+  Enzymy: 
+      LD: 3,3
+  Bílkoviny: 
+      Albumin: 45,5
+      CB: 77,3
+  Diabetický profil: 
+      Glykemie: 4,9
+  Krev-tumor.markery: 
+      Ca 125: 89,4
+  Moč chemicky: 
+      pH: 5,5
+      Hustota: 1,016
+      Bílkovina orient.: neg
+      Glykosurie: neg
+      Ketolátky: neg
+      Bilirubin: neg
+      Urobilinogen: neg
+      Erytrocyty v moči: neg
+      Leuko: 70
+      Nitrity: pos
+  Moč - sediment: 
+      ERY: 1,0
+      LEUKO: 57,0
+      Epit.pl: 6,0
+      Epit.k: 2,0
+      Bakterie: pozitiv.
+      Poznámka: 
+ost. neg.
+
+  Krevní obraz-perifer: 
+      Leu: 9,73
+      Ery: 4,38
+      HGB: 133
+      HCT: 0,404
+      MCV: 92,3
+      MCH: 30,3
+      MCHC: 328
+      RDW: 13,5
+      Plt: 264
+      MPV: 10,1
+  Dif.stroj. relativní: 
+      Ne: 51,7
+      Ly: 35,2
+      Mo: 8,0
+      Eo: 3,3
+      Ba: 1,2
+      Nezralé granulocyty %: 0,6
+  Dif.stroj. absolutní: 
+      Ne abs.: 5,03
+      Ly abs.: 3,43
+      Mo abs.: 0,77
+      Eo abs.: 0,32
+      Ba abs.: 0,12
+      Nezralé granulocyty abs.: 0,06
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 1,5
+  Koagulační vyšetření: 
+      Protrombinový test čas: 10,80
+      INR: 0,89
+      APTT: 30,3
+      APTT R: 1,01
+
+Výsledky z 17/04/26: 
+  Nálezy: 
+      REPT_CTVYS_DTP:
+
+Nález: 
+Přístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736
+Výrobce SIEMENS Healthcare GmbH
+
+Injektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002
+Kontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s
+i.v. aplikoval:
+
+
+St.p. Rad hyst lat. dex, AE, OE, APE, PLND 17.3.2026, reziduum: R0
+
+
+CT hrudníku, břicha a pánve:
+
+Bylo provedeno spirální CT od jugl po dno pánevní postkontrastně vícefázově s následnými MPR.
+V S3 vpravo je hladce ohraničené ložisko 8 mm se skořápkovitou kacifikace charakteru chodnrohamartomu. Jinak bez evid. ložiskových změn, bez lymfadenopatie v mediastinu. 
+Játra jsou obvyklé velikosti, struktury, intrahepatické žlučovody nejsou dilatovány, hepatocholedochus je štíhlý, žlučník jemných stěn. Pankreas je v celém rozsahu obvyklé struktury, ohraničený, bez ložiskových změn, pankreatický vývod je jemný. Slezina je norm.velikosti,tvaru. Nadledviny jsou obvyklé struktury a tvaru. Ledviny jsou obvyklé velikosti, tvar, parenchym je bez strukturálních změn, dutý systém ledvin není dilatován. Evid.  zvětšené uzliny v retroperitoneu paraaortálně ani v pánvi neprokazujeme. V pávni je kolekce tekutiny a prosáknutí tuku, pravd. pooperačně, v suprakolickém omentu je zastření tuku, pravd. také pooperačně.
+Moč. měchýř jemných stěn.
+Osteochondrosa L1/2 a L3/4.
+
+Závěr: Ložisko v pravé plíci charakteru chondrohamartomu. Zastření tuku v pánvi a v suprakolickém omentu, zřejmě pooperačně.
+
+RECIST 1.1
+TL:0
+NTL:0
+
+
+
+Potvrzující lékař: prof. MUDr. Burgetová Andrea Ph.D.
+
+
+
+Výsledky z 20/04/26: 
+  Nálezy: 
+      RTGVYS:
+
+Nález: 
+Přístroj DR 600, výr. číslo 2024, výrobce Agfa
+
+RTG hrudníku:
+
+První snímek u nás.
+Portkatetr zprava s koncem v oblasti kavoatriální junkce. Bez známek PNO. 
+Bránice klenutá, hladká. Kostofrenické úhly volné, ostré. V průběhu dorzální části VII. žebra oválný stín vel. 10 mm, v.s. na CT popisovaný chondrohamartom, jinak v přehledném plicním parenchymu bez viditelných ložisek a infiltrací. Stíny mamill. Mediastinum nerozšířeno. Srdeční stín nezvětšen. Bez známek městnání v malém oběhu. Skleróza oblouku aorty.
+
+
+Potvrzující lékař: MUDr. Voldánová Michaela
+
+
+
+Výsledky z 11/05/26: 
+  Texty laboratoř: 
+      Komentář:
+Nebyly dodrženy podmínky preanalytické fáze a požadavky na transport vzorků do laboratoře. Možné ovlivnění výsledků. Bližší viz. webové stránky VFN - Přehled laboratorních vyšetření - http://laboratore.vfn.cz
+
+  Minerály+Osmolalita: 
+      Na: 147
+      K: 4,2
+      Cl: 102
+      Osmolalita: 296
+  Dusíkové metabolity: 
+      Urea: 5,3
+      Kreat.: 66
+      Kys. moč.: 209
+  Jaterní testy: 
+      Bilirubin: 7,2
+      ALT: 0,33
+      AST: 0,40
+      GGT: 0,24
+      ALP: 1,68
+      FIB-4 index: 2,37      ; mírné riziko jaterní fibrózy
+  Enzymy: 
+      LD: 3,7
+  Bílkoviny: 
+      Albumin: 43,9
+      CB: 72,8
+  Diabetický profil: 
+      Glykemie: 4,9
+  Moč chemicky: 
+      pH: 6,0
+      Hustota: 1,008
+      Bílkovina orient.: neg
+      Glykosurie: neg
+      Ketolátky: neg
+      Bilirubin: neg
+      Urobilinogen: neg
+      Erytrocyty v moči: 10      ; „Nižší počet erythrocytů nalezených mikroskopicky, oproti stanovení testačním proužkem, může být způsobeno jejich rozpadem či přítomností myoglobinu v moči.``
+      Leuko: 500
+      Nitrity: neg
+  Moč - sediment: 
+      ERY: 3,0
+      LEUKO: 9,0
+      Epit.pl: 6,0
+      Epit.k: 6,0
+      Bakterie: negativ.
+      Poznámka: 
+ost. neg.
+
+  Krevní obraz-perifer: 
+      Leu: 7,67
+      Ery: 4,29
+      HGB: 127
+      HCT: 0,391
+      MCV: 91,2
+      MCH: 29,6
+      MCHC: 325
+      RDW: 13,7
+      Plt: 148
+      MPV: 9,5
+  Dif.stroj. relativní: 
+      Ne: 48,8
+      Ly: 39,5
+      Mo: 9,5
+      Eo: 1,6
+      Ba: 0,3
+      Nezralé granulocyty %: 0,4
+  Dif.stroj. absolutní: 
+      Ne abs.: 3,74
+      Ly abs.: 3,03
+      Mo abs.: 0,73
+      Eo abs.: 0,12
+      Ba abs.: 0,02
+      Nezralé granulocyty abs.: 0,03
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 1,2
+
+Výsledky z 01/06/26: 
+  Minerály+Osmolalita: 
+      Na: 142
+      K: 4,2
+      Cl: 103
+  Dusíkové metabolity: 
+      Urea: 4,8
+      Kreat.: 62
+      Kys. moč.: 195
+  Jaterní testy: 
+      Bilirubin: 5,9
+      ALT: 0,33
+      AST: 0,37
+      GGT: 0,26
+      ALP: 1,62
+      FIB-4 index: 1,49      ; mírné riziko jaterní fibrózy
+  Bílkoviny: 
+      Albumin: 45,3
+      CB: 72,5
+  Moč chemicky: 
+      pH: 6,5
+      Hustota: 1,003
+      Bílkovina orient.: neg
+      Glykosurie: neg
+      Ketolátky: neg
+      Bilirubin: neg
+      Urobilinogen: neg
+      Erytrocyty v moči: neg
+      Leuko: 70
+      Nitrity: neg
+  Moč - sediment: 
+      ERY: 0,0
+      LEUKO: 2,0
+      Epit.pl: 11,0
+      Epit.k: 2,0
+      Bakterie: negativ.
+      Poznámka: 
+ost. neg.
+
+  Krevní obraz-perifer: 
+      Leu: 5,75
+      Ery: 3,85
+      HGB: 113
+      HCT: 0,351
+      MCV: 91,2
+      MCH: 29,4
+      MCHC: 322
+      RDW: 14,3
+      Plt: 218
+      MPV: 9,4
+      PCT: 0,200
+      PDW: 9,3
+  Dif.stroj. relativní: 
+      Ne: 42,6
+      Ly: 47,3
+      Mo: 9,0
+      Eo: 0,5
+      Ba: 0,3
+      Nezralé granulocyty %: 0,3
+  Dif.stroj. absolutní: 
+      Ne abs.: 2,44
+      Ly abs.: 2,72
+      Mo abs.: 0,52
+      Eo abs.: 0,03
+      Ba abs.: 0,02
+      Nezralé granulocyty abs.: 0,02
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 0,9
+
+Výsledky z 22/06/26: 
+  Texty laboratoř: 
+      Komentář:
+FIB-4 skóre:
+vysoké riziko jaterní fibrózy
+Specificita FIB-4 pro pokročilou fibrózu klesá s rostoucím věkem. K nadhodnocení FIB-4 skóre dochází u trombocytopenií jiné etiologie než je plicní hypertenze a u stavů s náhle vzniklou elevací ALT, AST (hypoxie, hypertenze, trauma, infekce …). Vysoké riziko fibrózy by po zvážení klinických souvislostí mělo vést k úvaze o provedení jaterní elastografie a vyšetření hepatogastroenterologem.
+
+  Minerály+Osmolalita: 
+      Na: 145
+      K: 3,8
+      Cl: 105
+  Dusíkové metabolity: 
+      Urea: 4,1
+      Kreat.: 66
+      Kys. moč.: 213
+  Jaterní testy: 
+      Bilirubin: 5,7
+      ALT: 0,20
+      AST: 0,37
+      GGT: 0,25
+      ALP: 1,54
+      FIB-4 index: 3,50      ; Text k metodě přesáhl povolených 255 znaků. Text je uveden v souhrném textu k celé žádance.
+  Bílkoviny: 
+      Albumin: 43,6
+      CB: 69,8
+  Krev-tumor.markery: 
+      Ca 125: 10,0
+  Moč chemicky: 
+      pH: 6,0
+      Hustota: 1,005
+      Bílkovina orient.: neg
+      Glykosurie: neg
+      Ketolátky: neg
+      Bilirubin: neg
+      Urobilinogen: neg
+      Erytrocyty v moči: neg
+      Leuko: 15
+      Nitrity: neg
+  Moč - sediment: 
+      ERY: 1,0
+      LEUKO: 0,0
+      Epit.pl: 12,0
+      Epit.k: 2,0
+      Bakterie: negativ.
+      Poznámka: 
+ost. neg.
+
+  Krevní obraz-perifer: 
+      Leu: 7,80
+      Ery: 3,77
+      HGB: 117
+      HCT: 0,346
+      MCV: 91,8
+      MCH: 31,1
+      MCHC: 338
+      RDW: 15,9
+      Plt: 119
+      MPV: 8,9
+  Dif.stroj. relativní: 
+      Ne: 47,0
+      Ly: 40,2
+      Mo: 11,8
+      Eo: 0,7
+      Ba: 0,3
+      Nezralé granulocyty %: 0,0
+  Dif.stroj. absolutní: 
+      Ne abs.: 3,67
+      Ly abs.: 3,14
+      Mo abs.: 0,92
+      Eo abs.: 0,05
+      Ba abs.: 0,02
+      Nezralé granulocyty abs.: 0,00
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 1,2
+
+Výsledky z 13/07/26: 
+  Minerály+Osmolalita: 
+      Na: 144
+      K: 3,9
+      Cl: 104
+  Dusíkové metabolity: 
+      Urea: 4,0
+      Kreat.: 63
+      Kys. moč.: 187
+  Jaterní testy: 
+      Bilirubin: 6,5
+      ALT: 0,28
+      AST: 0,41
+      GGT: 0,26
+      ALP: 1,63
+      FIB-4 index: 1,87      ; mírné riziko jaterní fibrózy
+  Bílkoviny: 
+      Albumin: 45,9
+      CB: 74,3
+  Moč chemicky: 
+      pH: 7,5
+      Hustota: 1,006
+      Bílkovina orient.: neg
+      Glykosurie: neg
+      Ketolátky: neg
+      Bilirubin: neg
+      Urobilinogen: neg
+      Erytrocyty v moči: neg
+      Leuko: 70
+      Nitrity: neg
+  Moč - sediment: 
+      ERY: 2,0
+      LEUKO: 0,0
+      Epit.pl: 4,0
+      Epit.k: 1,0
+      Bakterie: negativ.
+      Poznámka: 
+ost. neg.
+
+  Krevní obraz-perifer: 
+      Leu: 4,82
+      Ery: 3,49
+      HGB: 107
+      HCT: 0,328
+      MCV: 93,8
+      MCH: 30,6
+      MCHC: 326
+      RDW: 17,3
+      Plt: 209
+      MPV: 9,2
+  Dif.stroj. relativní: 
+      Ne: 40,5
+      Ly: 49,2
+      Mo: 9,9
+      Eo: 0,2
+      Ba: 0,2
+      Nezralé granulocyty %: 0,0
+  Dif.stroj. absolutní: 
+      Ne abs.: 1,95
+      Ly abs.: 2,37
+      Mo abs.: 0,48
+      Eo abs.: 0,01
+      Ba abs.: 0,01
+      Nezralé granulocyty abs.: 0,00
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 0,8
+
+Výsledky z 10/08/26: 
+  Minerály+Osmolalita: 
+      Na: 143
+      K: 4,3
+      Cl: 105
+  Dusíkové metabolity: 
+      Urea: 7,4
+      Kreat.: 65
+      Kys. moč.: 197
+  Jaterní testy: 
+      Bilirubin: 6,9
+      ALT: 0,36
+      AST: 0,38
+      GGT: 0,26
+      ALP: 1,62
+      FIB-4 index: 2,34      ; mírné riziko jaterní fibrózy
+  Bílkoviny: 
+      Albumin: 45,1
+      CB: 73,5
+  Moč chemicky: 
+      pH: 6,0
+      Hustota: 1,019
+      Bílkovina orient.: neg
+      Glykosurie: neg
+      Ketolátky: neg
+      Bilirubin: neg
+      Urobilinogen: neg
+      Erytrocyty v moči: neg
+      Leuko: 125
+      Nitrity: neg
+  Moč - sediment: 
+      Hlen: poz.
+      ERY: 6,0
+      LEUKO: 8,0
+      Epit.pl: 29,0
+      Epit.k: 1,0
+      Bakterie: negativ.
+      Poznámka: 
+ost. neg.
+
+  Krevní obraz-perifer: 
+      Leu: 5,95
+      Ery: 3,33
+      HGB: 105
+      HCT: 0,329
+      MCV: 98,6
+      MCH: 31,6
+      MCHC: 320
+      RDW: 17,7
+      Plt: 136
+      MPV: 9,3
+  Dif.stroj. relativní: 
+      Ne: 43,0
+      Ly: 43,1
+      Mo: 12,3
+      Eo: 0,9
+      Ba: 0,7
+      Nezralé granulocyty %: 0,0
+  Dif.stroj. absolutní: 
+      Ne abs.: 2,56
+      Ly abs.: 2,57
+      Mo abs.: 0,73
+      Eo abs.: 0,06
+      Ba abs.: 0,04
+      Nezralé granulocyty abs.: 0,00
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 1,0

@@ -1,11 +1,11 @@
 {
   "id": "EXAM-008",
-  "date": "2025-09-18",
-  "rawDate": "18/09/25",
-  "sourceFile": "ai-stankova-lab.txt",
+  "date": "2021-10-20",
+  "rawDate": "20/10/21",
+  "sourceFile": "Brejšová-lab.txt",
   "sourceType": "lab",
-  "type": "CT Vyšetření",
-  "doctor": "MUDr. Macová Iva",
-  "title": "CT Vyšetření (18/09/25)",
-  "content": "Výsledky z 18/09/25: \r\n  Nálezy: \r\n      RTGVYS:\r\n\r\nNález: \r\nPřístroj Agfa DR 600, v. č. 2023\r\n\r\nRTG hrudníku a levého hemithoraxu\r\n\r\nSériová fraktura 5.-7. žebra vlevo ventrálně, bez posunů, zpětně vysledovatelné i na CT z 11.9.\r\nPleurální dutina bez volného plynu i tekutiny, v parenchymu bez kontuzí.\r\nVpravo segmentovaná bránice, oboustranně v parenchymu bez infiltrativních a ložiskových změn, pleurální dutiny bez výpotku. Srdeční stín není rozšířen a malý oběh neměstná.\r\n\r\nPotvrzující lékař: MUDr. Macová Iva"
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (20/10/21)",
+  "content": "Výsledky z 20/10/21: \r\n  Diabetický profil: \r\n      Glukóza-glukometr: 6,5; 10,1"
 }

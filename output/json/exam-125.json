@@ -1,11 +1,11 @@
 {
   "id": "EXAM-125",
-  "date": "2026-09-02",
-  "rawDate": "02/09/26",
-  "sourceFile": "ai-stankova-lab.txt",
+  "date": "2026-07-13",
+  "rawDate": "13/07/26",
+  "sourceFile": "Hukkelová-lab.txt",
   "sourceType": "lab",
   "type": "Laboratoř / Laboratorní panel",
   "doctor": null,
-  "title": "Laboratorní panel (02/09/26)",
-  "content": "Výsledky z 02/09/26: \r\n  Minerály+Osmolalita: \r\n      Na: 142\r\n      K: 3,3\r\n      Cl: 106\r\n  Krevní obraz-perifer: \r\n      Leu: 4,94\r\n      Ery: 3,67\r\n      HGB: 99\r\n      HCT: 0,323\r\n      MCV: 88,0\r\n      MCH: 27,0\r\n      MCHC: 307\r\n      RDW: 17,1\r\n      Plt: 281\r\n      MPV: 9,2\r\n      PCT: 0,260\r\n      PDW: 9,5\r\n  Dif.stroj. relativní: \r\n      Ne: 69,1\r\n      Ly: 19,0\r\n      Mo: 8,9\r\n      Eo: 2,0\r\n      Ba: 0,2\r\n      Nezralé granulocyty %: 0,8\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 3,41\r\n      Ly abs.: 0,94\r\n      Mo abs.: 0,44\r\n      Eo abs.: 0,10\r\n      Ba abs.: 0,01\r\n      Nezralé granulocyty abs.: 0,04\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 3,7"
+  "title": "Laboratorní panel (13/07/26)",
+  "content": "Výsledky z 13/07/26: \r\n  Minerály+Osmolalita: \r\n      Na: 144\r\n      K: 3,9\r\n      Cl: 104\r\n  Dusíkové metabolity: \r\n      Urea: 4,0\r\n      Kreat.: 63\r\n      Kys. moč.: 187\r\n  Jaterní testy: \r\n      Bilirubin: 6,5\r\n      ALT: 0,28\r\n      AST: 0,41\r\n      GGT: 0,26\r\n      ALP: 1,63\r\n      FIB-4 index: 1,87      ; mírné riziko jaterní fibrózy\r\n  Bílkoviny: \r\n      Albumin: 45,9\r\n      CB: 74,3\r\n  Moč chemicky: \r\n      pH: 7,5\r\n      Hustota: 1,006\r\n      Bílkovina orient.: neg\r\n      Glykosurie: neg\r\n      Ketolátky: neg\r\n      Bilirubin: neg\r\n      Urobilinogen: neg\r\n      Erytrocyty v moči: neg\r\n      Leuko: 70\r\n      Nitrity: neg\r\n  Moč - sediment: \r\n      ERY: 2,0\r\n      LEUKO: 0,0\r\n      Epit.pl: 4,0\r\n      Epit.k: 1,0\r\n      Bakterie: negativ.\r\n      Poznámka: \r\nost. neg.\r\n\r\n  Krevní obraz-perifer: \r\n      Leu: 4,82\r\n      Ery: 3,49\r\n      HGB: 107\r\n      HCT: 0,328\r\n      MCV: 93,8\r\n      MCH: 30,6\r\n      MCHC: 326\r\n      RDW: 17,3\r\n      Plt: 209\r\n      MPV: 9,2\r\n  Dif.stroj. relativní: \r\n      Ne: 40,5\r\n      Ly: 49,2\r\n      Mo: 9,9\r\n      Eo: 0,2\r\n      Ba: 0,2\r\n      Nezralé granulocyty %: 0,0\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 1,95\r\n      Ly abs.: 2,37\r\n      Mo abs.: 0,48\r\n      Eo abs.: 0,01\r\n      Ba abs.: 0,01\r\n      Nezralé granulocyty abs.: 0,00\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 0,8"
 }
