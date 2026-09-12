@@ -38,6 +38,9 @@ export function normalizeAndAuditStructuredJson(input: any): TumorBoardStructure
   blocks.forEach((block: any, blockIdx: number) => {
     // A0. Normalizace GENETICKÉHO TESTOVÁNÍ (BRCA a další)
     let genTesting: string = block.geneticTesting || block.genetic || block.brcaStatus || block.brca || '';
+    if (/neproveden|netestov|nevyšetř|neuveden|není\s*k\s*dispozici|nebylo\s*prov|chýbá|chybí|dosud/i.test(genTesting)) {
+      genTesting = '';
+    }
 
     // A. Normalizace OPERACÍ
     let ops: any[] = [];
@@ -117,6 +120,9 @@ export function normalizeAndAuditStructuredJson(input: any): TumorBoardStructure
     });
 
     block.treatmentsAndHistory = ths.map(t => typeof t === 'string' ? t : (t.text || t.title || JSON.stringify(t)));
+    if (/neproveden|netestov|nevyšetř|neuveden|není\s*k\s*dispozici|nebylo\s*prov|chýbá|chybí|dosud/i.test(genTesting)) {
+      genTesting = '';
+    }
     block.geneticTesting = genTesting;
 
     // D. Normalizace RECIDIV
