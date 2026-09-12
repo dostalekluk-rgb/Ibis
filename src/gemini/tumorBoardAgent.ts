@@ -616,7 +616,13 @@ export function renderStructuredJsonToHtml(
               if (!dgTitle.startsWith('Dg.:') && !/^\d+\)/.test(dgTitle)) {
                 dgTitle = `${idx + 1}) ${dgTitle}`;
               }
-              htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: ${idx === 0 ? '4px' : '12px'};"><strong>${escapeHtml(dgTitle)}</strong></p>`;
+              if (block.geneticTesting) {
+                const genText = block.geneticTesting.startsWith('St.p.') ? block.geneticTesting : `St.p. ${block.geneticTesting}`;
+                htmlOut += `<p class="konzilia-genetic-line" style="margin-top: ${idx === 0 ? '4px' : '12px'}; margin-bottom: 2px;"><strong>${escapeHtml(genText)}</strong></p>`;
+                htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: 2px;"><strong>${escapeHtml(dgTitle)}</strong></p>`;
+              } else {
+                htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: ${idx === 0 ? '4px' : '12px'};"><strong>${escapeHtml(dgTitle)}</strong></p>`;
+              }
               htmlOut += renderBlockItems(block);
             });
             return htmlOut;
@@ -626,6 +632,12 @@ export function renderStructuredJsonToHtml(
             const block = diagBlocks[0];
             const rawDg = block.dg || 'ca ovarii';
             const hasMultipleInSingleStr = /duplicita|triplicita|kvadruplicita|kvintuplicita/i.test(rawDg) || (rawDg.includes('1)') && rawDg.includes('2)'));
+
+            let genHtml = '';
+            if (block.geneticTesting) {
+              const genText = block.geneticTesting.startsWith('St.p.') ? block.geneticTesting : `St.p. ${block.geneticTesting}`;
+              genHtml = `<p class="konzilia-genetic-line" style="margin-bottom: 4px;"><strong>${escapeHtml(genText)}</strong></p>`;
+            }
 
             if (hasMultipleInSingleStr) {
               const subItems: string[] = [];
@@ -650,7 +662,7 @@ export function renderStructuredJsonToHtml(
               }
 
               const label = getMultiplicityLabel(count);
-              let htmlOut = `<p class="konzilia-dg-line" style="margin-bottom: 6px;"><strong>Dg.: ${label}:</strong></p>`;
+              let htmlOut = genHtml + `<p class="konzilia-dg-line" style="margin-bottom: 6px;"><strong>Dg.: ${label}:</strong></p>`;
 
               if (subItems.length > 0) {
                 subItems.forEach((subTitle, idx) => {
@@ -673,7 +685,7 @@ export function renderStructuredJsonToHtml(
             formattedDg = formattedDg.replace(/^(?:Dg\.\:\s*)?1[\)\.]\s*/i, '');
             formattedDg = formattedDg.startsWith('Dg.:') ? formattedDg : `Dg.: ${formattedDg}`;
             formattedDg = formattedDg.replace(/\*\*(Duplicita|Triplicita|Kvadruplicita|Kvintuplicita):\*\*/gi, '<strong>$1:</strong>');
-            const dgHeaderHtml = `<p class="konzilia-dg-line"><strong>${escapeHtml(formattedDg)}</strong></p>`;
+            const dgHeaderHtml = `${genHtml}<p class="konzilia-dg-line"><strong>${escapeHtml(formattedDg)}</strong></p>`;
             return dgHeaderHtml + renderBlockItems(block);
           }
 

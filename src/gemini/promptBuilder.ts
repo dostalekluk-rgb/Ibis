@@ -143,6 +143,7 @@ DŮLEŽITÉ VYŽADOVANÉ PRAVIDLA FORMÁTU A OBSAHU:
      * Antiangiogenní biologická léčba (např. Bevacizumab/Avastin)
 10. STRUČNOST NARRATIVNÍCH POPISŮ: V poli "presentIllness" uveď VÝHRADNĚ 1-2 stručné věty (max 150 znaků), např. "NO: Pacientka s nádorovou triplicitou přichází ke zvážení dalšího postupu.". NIKDY nepopisuj celou anamnézu ani operace do presentIllness! Všechny operace, histologie, chemoterapie a recidivy patři výhradně do strukturovaných polí "diagnosisAndTreatment" a "recurrences"!
 11. ZÁKAZ VYNECHÁNÍ DIAGNÓZ U DUPLICITY/TRIPLICITY: Pokud má pacientka v dokumentaci více zjištěných malignit (např. 1) ca ovarii, 2) ca mammae, 3) adenoca recti), MUSÍŠ VYDOPLNIT VŠECHNY DIAGNÓZY DO "diagnosisAndTreatment"! Je PŘÍSNĚ ZAKÁZÁNO vynechat druhou nebo třetí diagnózu!
+12. GENETICKÉ TESTOVÁNÍ (BRCA a další): Pokud byla pacientka v průběhu léčby geneticky testována (gBRCA, sBRCA, HRD, BRCA1/2, NGS apod.), ulož tento výsledek VÝHRADNĚ do samostatné položky "geneticTesting" u příslušné diagnózy (např. "geneticTesting": "St.p. gBRCA1/2 negativní, sBRCA1/2 negativní" nebo "gBRCAwt, sBRCAmut"). JE PŘÍSNĚ ZAKÁZÁNO genetické testování vypisovat mezi adjuvantní léčbu, v chemotherapyLines nebo v treatmentsAndHistory!
 
 MUSÍŠ VRÁTIT POUZE A JENOM ČISTÝ VALIDNÍ JSON PODLE TÉTO PŘESNÉ STRUKTURY Z KONZILIA.DOCX:
 
@@ -172,6 +173,7 @@ MUSÍŠ VRÁTIT POUZE A JENOM ČISTÝ VALIDNÍ JSON PODLE TÉTO PŘESNÉ STRUKTU
   "diagnosisAndTreatment": [
     {
       "dg": "1) ca ovarii - HGSC ... (I.dg. 2022)",
+      "geneticTesting": "St.p. gBRCA1/2 negativní, sBRCA1/2 negativní",
       "operations": [
         {
           "title": "St.p. ...",

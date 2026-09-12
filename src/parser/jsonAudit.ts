@@ -36,6 +36,9 @@ export function normalizeAndAuditStructuredJson(input: any): TumorBoardStructure
     : (data.recurrences ? [data.recurrences] : []);
 
   blocks.forEach((block: any, blockIdx: number) => {
+    // A0. Normalizace GENETICKÉHO TESTOVÁNÍ (BRCA a další)
+    let genTesting: string = block.geneticTesting || block.genetic || block.brcaStatus || block.brca || '';
+
     // A. Normalizace OPERACÍ
     let ops: any[] = [];
     if (Array.isArray(block.operations)) ops.push(...block.operations);
@@ -66,6 +69,16 @@ export function normalizeAndAuditStructuredJson(input: any): TumorBoardStructure
     if (block.chemoLines && Array.isArray(block.chemoLines)) chts.push(...block.chemoLines);
     if (block.systemicTherapy) chts.push(block.systemicTherapy);
 
+    // Vyřazení vyšetření BRCA z linií CHT (pokud je tam AI omylem vložila)
+    chts = chts.filter(cht => {
+      const text = typeof cht === 'string' ? cht : (cht?.lineTitle || cht?.line || cht?.text || '');
+      if (/gBRCA|sBRCA|BRCA1\/2|BRCA\s*1|BRCA\s*2|BRCA\s*wt|BRCA\s*mut|genetick/i.test(text)) {
+        if (!genTesting) genTesting = text;
+        return false;
+      }
+      return true;
+    });
+
     block.chemotherapyLines = chts.map(cht => {
       if (typeof cht === 'string') {
         return {
@@ -93,7 +106,18 @@ export function normalizeAndAuditStructuredJson(input: any): TumorBoardStructure
     if (block.radiotherapy) ths.push(block.radiotherapy);
     if (block.otherTreatments && Array.isArray(block.otherTreatments)) ths.push(...block.otherTreatments);
 
+    // Vyřazení vyšetření BRCA z anamn. výkonů
+    ths = ths.filter(t => {
+      const text = typeof t === 'string' ? t : (t?.text || t?.title || '');
+      if (/gBRCA|sBRCA|BRCA1\/2|BRCA\s*1|BRCA\s*2|BRCA\s*wt|BRCA\s*mut|genetick/i.test(text)) {
+        if (!genTesting) genTesting = text;
+        return false;
+      }
+      return true;
+    });
+
     block.treatmentsAndHistory = ths.map(t => typeof t === 'string' ? t : (t.text || t.title || JSON.stringify(t)));
+    block.geneticTesting = genTesting;
 
     // D. Normalizace RECIDIV
     let recs: any[] = [];

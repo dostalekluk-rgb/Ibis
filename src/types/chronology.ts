@@ -100,6 +100,7 @@ export interface RecurrenceBlock {
 
 export interface DiagnosisAndTreatmentBlock {
   dg: string;                 // Dg.: ca ovarii... nebo 1) ca colli uteri..., 2) ca thyroidey...
+  geneticTesting?: string;    // např. "St.p. gBRCA1/2 negativní, sBRCA1/2 negativní" nebo "gBRCAwt, sBRCAmut"
   operations?: Array<{
     title: string;            // např. "St.p. core needle biopsii"
     dateAndPlace: string;     // např. "3.9.2025, VFN"

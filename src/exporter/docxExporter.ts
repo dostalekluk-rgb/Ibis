@@ -216,13 +216,24 @@ export async function generateTumorBoardDocx(
       if (!dgTitle.startsWith('Dg.:') && !/^\d+\)/.test(dgTitle)) {
         dgTitle = `${idx + 1}) ${dgTitle}`;
       }
-      addP([new TextRun({ text: dgTitle, font: FONT_NAME, size: FONT_SIZE, bold: true })], 3, idx === 0 ? 2 : 6);
+      if (block.geneticTesting) {
+        const genText = block.geneticTesting.startsWith('St.p.') ? block.geneticTesting : `St.p. ${block.geneticTesting}`;
+        addP([new TextRun({ text: genText, font: FONT_NAME, size: FONT_SIZE, bold: true })], 2, idx === 0 ? 2 : 6);
+        addP([new TextRun({ text: dgTitle, font: FONT_NAME, size: FONT_SIZE, bold: true })], 3, 1);
+      } else {
+        addP([new TextRun({ text: dgTitle, font: FONT_NAME, size: FONT_SIZE, bold: true })], 3, idx === 0 ? 2 : 6);
+      }
       renderBlockToDocx(block, addP, FONT_NAME, FONT_SIZE);
     });
   } else if (diagBlocks.length === 1) {
     const block = diagBlocks[0];
     const rawDg = block.dg || 'ca ovarii';
     const hasMultipleInSingleStr = /duplicita|triplicita|kvadruplicita|kvintuplicita/i.test(rawDg) || (rawDg.includes('1)') && rawDg.includes('2)'));
+
+    if (block.geneticTesting) {
+      const genText = block.geneticTesting.startsWith('St.p.') ? block.geneticTesting : `St.p. ${block.geneticTesting}`;
+      addP([new TextRun({ text: genText, font: FONT_NAME, size: FONT_SIZE, bold: true })], 2, 0);
+    }
 
     if (hasMultipleInSingleStr) {
       const subItems: string[] = [];
