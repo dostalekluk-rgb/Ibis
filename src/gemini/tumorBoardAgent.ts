@@ -981,7 +981,10 @@ export async function generateTumorBoardSummary(
 /**
  * Volání Gemini API pro konverzaci / chat (textový výstup) se samoopravnými opakovanými pokusy
  */
-async function callGeminiRestText(contents: any[], apiKey: string, modelName: string): Promise<string> {
+/**
+ * Volání Gemini API pro konverzaci / chat (textový výstup) se samoopravnými opakovanými pokusy
+ */
+async function callGeminiRestText(systemInstructionText: string, contents: any[], apiKey: string, modelName: string): Promise<string> {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`;
   
   let maxAttempts = 4;
@@ -993,10 +996,11 @@ async function callGeminiRestText(contents: any[], apiKey: string, modelName: st
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
+          systemInstruction: { parts: [{ text: systemInstructionText }] },
           contents,
           generationConfig: {
             temperature: 0.3,
-            maxOutputTokens: 2048
+            maxOutputTokens: 8192
           }
         })
       });
@@ -1058,12 +1062,10 @@ Máš k dispozici kompletní anonymizovaný strukturovaný Závěr Tumor Boardu 
 === STRUKTUROVANÝ ZÁVĚR PACIENTKY (KONSILIUM) ===
 ${contextText}
 
-Odpovídej odborně, věcně, srozumitelně a strukturovaně v češtině. Používej medicínskou terminologii. Zákaz uvádět jakákoliv neanonymizovaná jména nebo RČ.
+Odpovídaj odborně, věcně, srozumitelně, kompletně a bez ořezávání v češtině. Používej medicínskou terminologii. Zákaz uvádět jakákoliv neanonymizovaná jména nebo RČ.
 `;
 
   const contents = [
-    { role: 'user', parts: [{ text: systemInstruction }] },
-    { role: 'model', parts: [{ text: 'Rozumím. Jsem připraven odpovědět na odborné dotazy k tomuto onkologickému případu.' }] },
     ...history,
     { role: 'user', parts: [{ text: userMessage }] }
   ];
@@ -1074,7 +1076,7 @@ Odpovídej odborně, věcně, srozumitelně a strukturovaně v češtině. Použ
   for (const modelName of candidateModels) {
     try {
       console.log(`[Gemini Chat] Odesílám dotaz klinika do ${modelName}...`);
-      const reply = await callGeminiRestText(contents, apiKey, modelName);
+      const reply = await callGeminiRestText(systemInstruction, contents, apiKey, modelName);
       return { reply, isSuccess: true };
     } catch (err: any) {
       console.warn(`[Gemini Chat] Model ${modelName} selhal: ${err.message}`);
