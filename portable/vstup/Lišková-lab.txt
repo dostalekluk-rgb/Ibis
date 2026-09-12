@@ -1,0 +1,343 @@
+Výsledky z 25/10/11: 
+  Nálezy: 
+      REPT_MAMOVYS_DTP:
+
+Nález: 
+Lorad Selenia v.č. 28410095152W výrobce: Selenia System USA, HOLOGIC
+
+Potvrzující lékař: MUDr. Vedralová Jitka
+
+
+
+Výsledky z 01/11/11: 
+  Nálezy: 
+      REPT_MAMOVYS_DTP:
+
+Nález: 
+Přístroj Aplio XG, výr. číslo:99D0833431, výrobce Toshiba
+
+Screeningová (preventivní) mamografie, druhé čtení:
+Na provedených mamogramech se neukazují známky malignity. Vlevo kalcifikace benigního charakteru.
+Mamografický typ žlazový. Vlevo na rozhraní VK opacita benigního charakteru, při UZ cysta vel. asi 20x5 mm.
+Axily bez patol. infiltrovaných lymf. uzlin. Oboustranně další drobnější cysty.
+Dop. kontrolu za rok, při obtížích kdykoli dříve.
+B2T1.
+
+2. čtení: MUDr. Hana Kacerovská
+nález souhlasí s výše uvedeným popisem. 
+
+
+
+
+
+Potvrzující lékař: MUDr. Brousilová Kateřina
+
+
+
+Výsledky z 05/08/26: 
+  Krev-tumor.markery: 
+      Ca 125: 48,0
+  Texty hematologie: 
+      Rozpory a hodnocení:
+Na žádance není uvedeno datum, nebo čas odběru. Upozorňujeme na možné nedodržení preanalytické fáze a možné ovlivnění výsledku.
+
+  Krevní obraz-perifer: 
+      Leu: 5,84
+      Ery: 4,53
+      HGB: 131
+      HCT: 0,401
+      MCV: 88,5
+      MCH: 28,9
+      MCHC: 327
+      RDW: 12,7
+      Plt: 267
+      MPV: 10,5
+      PCT: 0,280
+      PDW: 11,7
+  Dif.stroj. relativní: 
+      Ne: 48,6
+      Ly: 42,6
+      Mo: 7,0
+      Eo: 0,9
+      Ba: 0,7
+      Nezralé granulocyty %: 0,2
+  Dif.stroj. absolutní: 
+      Ne abs.: 2,84
+      Ly abs.: 2,49
+      Mo abs.: 0,41
+      Eo abs.: 0,05
+      Ba abs.: 0,04
+      Nezralé granulocyty abs.: 0,01
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 1,1
+
+Výsledky z 16/08/26: 
+  Zkouška kompatibility: 
+      TP č.1: 
+C20022670162810  Kompatibilní
+Platnost vyšetření: 19.08.2026 23:59:00
+Expirace: 14.09.2026 23:59:00
+
+      TP č.2: 
+C20022670162710  Kompatibilní
+Platnost vyšetření: 19.08.2026 23:59:00
+Expirace: 14.09.2026 23:59:00
+
+  Imunohematologie: 
+      Krevní skupina: A poz
+      Screening protilátek: neg
+  Bez funkční skupiny: 
+      Q_ZkKomp_*: 
+vyšetřena
+
+  Nedefinovaná třída: 
+      Výsl ZK: 
+Kompatibilní
+
+
+Výsledky z 17/08/26: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189
+ed.3:2023. Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle 
+SOP-PAT-10.
+
+Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13.
+
+
+Nález: 
+B15803/26
+
+Pravostranná adnexa dodána v nativním stavu k peroperační biopsii a k odběru tkáně pro potřeby biobanky (příjem materiálu v 8:56 hod.). 
+Pozn.: Odběr tkáně byl proveden z nádorové i nenádorové tkáně (pravá děložní tuba). V kontrolní lamele nádorové struktury přítomny.
+
+Pravé ovarium s hladkým zevním povrchem bez ruptury, velikosti 55 x 45 x 37 mm, prostoupené solidně cystickým tumorem, kdy solidní složka má velikost cca 40 mm v průměru, dominantní cystický prostor na vnitřním povrchu vystlaný polypoidně až brdéčkovité členitým epitelem.
+Na povrchu je napnutá pravá děložní tuba délky 60 mm o průměru 3-6 mm s jemnými fimbriemi, hladkou lesklou serózou, subserózně s disperzními drobnými paratubárními cystami a u fimbrií s 1 tenkostěnnou blanitou hydatidózní cystou velikosti 20 x 13-15 x 13 mm s hladkým zevním i vnitřním povrchem a čirou jantarovou tekutinou. Tuba je terminálně zakončena děložním rohem (?) délky 17 mm při bázi průměru až 10 mm. 
+
+Ve zmrazených řezech ze solidních a vnitřních papilárních/polypoidních formací nacházíme struktury ovariálního karcinomu, fokálně s high grade jadernými atypiemi, fokálně se suspektní destruktivní invazí, u kterého nelze ze zmrazených řezů zcela spolehlivě určit histogenetickou linii Mülleriánského epitelu, definitivně dle imunohistochemického vyšetření a dalšího samplingu. Diferenciálně diagnosticky by se mohlo jednat o high grade serózní karcinom (?) nebo séromucinózní variantu endometroidního karcinomu, eventuálně jiný typ.
+
+Výsledek peroperačního vyšetření sdělen na operační sál prof. MUDr. Slámovi Ph.D. v 9:28 hod.
+Pozn.: Peroperační vyšetření konzultovala MUDr. M. Flídrová Ph.D.
+
+Definitivní vyšetření po fixaci: 
+V pravém ovariu je low grade (G1-2) endometroidní ovariální karcinom s převažujícím expanzivním typem invaze (na více místech konfluentní růst > 5 mm) a místy i s destruktivním typem invaze doprovázeným desmoplastickou stromální reakcí, fokálně se serous-like cystopapilárním růstem a fokusy dlaždicobuněčné diferenciace, který vznikl v terénu atypické endometriózy (s atypiemi architektonickými i cytologickými) přecházející ve struktury endometroidního border line tumoru ovaria. Nádor je omezený na ovarium, bez šíření na serózní povrch a bez známek lymfovaskulární invaze.
+Pravá děložní tuba s přiměřenou histologickou strukturou vzhledem k věku, bez významnějších pozoruhodností. Sliznice je atrofická, s fibrotizací subepiteliálního stromatu. V terminálním konci děložní tuby nenacházíme podstatnější patologické změny. 
+
+Imunohistochemické vyšetření (blok 1E,F):
+WT1 v nádorové tkáni negativní
+ER (Zytomed, klon SP1) : Pozitivní, variabilní jaderná exprese (slabé až silné), značí většinu nádorových buněk, cca 95 %.
+PR (NCL, klon 16) :  Pozitivní, variabilní jaderná exprese (slabé až silné), značí cca 60 %.
+p53 (blok 1D,E,F,H) : v nádorové tkáni wild type exprese
+p16: v nádorové tkáni nepravidelná silnější mozaikovitá exprese
+p40 značí fokusy dlaždicobuněčné diferenciace
+HNF1-beta v nádorové tkáni pozitivní, variabilní jaderná exprese (slabá až silná, převažují slabé a středně silné pozitivity).
+ARID1a, PTEN : v nádorové tkáni kompletní ztráta exprese
+
+Alciánová modř, PAS: v nádorových buňkách s disperzní intracytoplasmatickou hlenotvorbou, vícečetně fokálně s extracelulární hlenotvorbou
+
+Závěr: LG (G1-2) endometroidní karcinom pravého ovaria s fokální dlaždicobuněčnou diferenciací vzniklý v terénu atypické endometriózy a endometroidního border line tumoru ovaria, s převažujícím expanzivním typem invaze, méně často s invazí destruktivní, omezený na ovarium. Lymfovaskulární invazi v rozsahu vyšetření nenacházíme. Pravá děložní tuba s přiměřeným nálezem vzhledem k věku.
+
+Další nález viz souběžně vyšetřovaná cytologie č. C02101/26 a biopsie č. B15865/26, kde bude proveden definitivní staging a souhrnný závěr.
+
+T87  M76500  M69000  M8380/1  M8380/3
+T86  M01000
+
+Datum potvrzení: 28.8.2026 16:13:00
+Potvrzující lékař: Planičková Lenka MUDr.
+
+
+
+Výsledky z 18/08/26: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189
+ed.3:2023. Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle 
+SOP-PAT-10.
+
+
+Nález: 
+B15865/26 
+
+1-12: Vícečetný materiál zpracovaný v pořadí dle klinické průvodky.
+
+1: Děloha + levostranná adnexa, celková hmotnost 87,8 g. Pravostranná adnexa viz souběžně vyšetřovaná biopsie B15803/26. 
+Celistvá děloha s laterálně vlevo konvexně ohnutým děložním tělem, deformovaným myomy, celkové velikosti 70 x 40-50 x 25 až 35 mm, z toho hrdlo délky 20 mm o průměru 25 mm, zakončené čípkem velikosti 20 x 25 mm, krytým strakatě bílo-červenou hladkou sliznicí. Zevní branka velikosti 2 mm. Ve stromatu hrdla diskrétní ovulóza. 
+Děložní dutina v kraniální části dilatovaná na průměr 15 mm, v kaudální části je štěrbinovitá a probíhá za dominantním uzlem v dolním děložním segmentu vpravo. Kraniální porce dutiny je vystlaná plochým endometriem tloušťky do 1 mm. 
+Uzel v dolním děložním segmentu vpravo velikosti na průřezu 35 x 30 mm. Ve zbytku obou stěn jsou vícečetné nodulární bílé tuhé uzly od 5 mm do 15 mm v největším rozměru.
+Myometrium přední stěny mimo objemný uzel je tloušťky 7-15 mm, zadní stěny tloušťky 10-15 mm, ve fundu až 15 mm. 
+Serózní povrch je v celém rozsahu jemný, lesklý, bez významnějších pozoruhodností.
+
+Pravý děložní roh = blok 1N+O, 1P+Q, levý děložní roh = blok 1R+S, 1T+U.
+
+Levostranná adnexa (blok 1E-I) - zpracována kompletně: 
+Levá děložní tuba délky 70 mm o průměru 3-10 mm, s jemnými edematózními fimbriemi, hladkou lesklou serózou bez významnějších pozoruhodností. 
+Levé ovarium atrofické, velikosti 22 x 10 x 7 mm, s bílým hrbolatým povrchem, tuhé konzistence, bez ložiskových změn . 
+
+Mikroskopicky:
+Čípek je na povrchu krytý atrofickým dlaždicovým nerohovějícím epitelem bez dysplastických změn, překrývající i část transformační zóny, subepiteliálně s disperzní řídkou až středně denzní, ložiskově nakupenou chronickou kulatobuněčnou celulizací, která nepravidelně řídce prostupuje do povrchového epitelu. Za skvamokolumnární junkcí pokračuje cervikální sliznice s mírnou až fokálně středně těžkou chronickou cervicitidou, místy s polypoidní úpravou sliznice, až s formací cervikálního polypu. Endocervikální epitel vykazuje pouze iritační změny, místy s hyperplazií buněk rezervních či známkami mikroglandulární hyperplazie.
+V řezu z vyšší porce děložního hrdla jsou změny podobné. Navíc se ve sliznici objevují i mikrofokusy tubární (ciliární) metaplazie.
+Ve svalovině děložního těla, která je povšechně atrofická, nacházíme vícečetné leiomyomy obvyklého typu, s variabilně intenzivně sklerotizovaným (hyalinizovaným) stromatem, ojediněle vč. drobných dystrofických kalcifikací. Děložní dutina je v kraniální porci vystlaná atrofickým endometriem, v levém děložním rohu ojediněle mírně polypoidním, se sporadicky rozptýlenými drobnými inaktivními bazálními žlázkami bez atypií, fokálně cysticky dilatovanými. V redukovaném endometriálním stromatu a někde i v přilehlém submukózním myometriu jsou četné různě objemné skupiny úklidových histiocytů s pěnitou pigmentovanou cytoplazmou a disperzní fokusy kulatobuněčné zánětlivé celulizace. Fokálně povrchový epitel vykazuje známky eozinofilní či syncytiální papilární proliferace (metaplazie), ojediněle je prostoupen neutrofily. Signifikantní atypie nezastiženy.
+Serózní povrch bez významnějších pozoruhodností, pouze subserózně kolem pravého děložního rohu jsou ojedinělé fokusy endometriózy bez atypií (blok 1O).
+
+Levá děložní tuba přiměřené histologické struktury vzhledem k věku, již s fibrotizovaným a rozšířeným subepiteliálním stromatem slizničních klků, doprovázených jejich numetrickou redukcí.
+Levé ovarium je atrofické, v kortexu s ojedinělými drobnými inkluzními cystami a ojediněle s diskrétními okrsky stromální papilární hyperplazie, bez nádorových změn.
+
+2: Omentum částečně fragmentované, velikosti 440 x 220 x až 15 mm, lalůčkovitě uspořádané, makroskopicky bez ložiskových změn.
+Orientačně vyšetřeno 6 náhodných míst.
+Mikroskopicky:
+Obvykle laločnatě uspořádaná adultní tuková tkáň omenta, fokálně drobně čerstvě prokrvácená, bez jiných pozoruhodností, bez nádorových změn.
+
+3-11: Pánevní a paraaortální lymfadenektomie. Vyšetření lymfatických uzlin bylo provedeno v pořadí čísel uvedených na nádobkách a vždy v celém rozsahu:
+
+         velikost tuk. tkáně         lokalita                                    počet uzlin / počet metastáz
+
+3. 50 x 20 x 5 mm	1. vasa illiaca externa lat. dx.		7/0
+4. 70 x 45 x 5 mm	2. fossa obturatoria lat. dx.		9/0
+5. 30 x 25 x 5 mm	4. vasa illiaca externa lat. sin.		4/0
+6. 65 x 30 x 10 mm	5. fossa obturatoria lat. sin.		3/0 
+7. 30 x 25 x 5 mm	6. vasa illiaca communis lat. sin.		5/0
+8. 40 x 20 x 5 mm	7. presakrální				5/0
+9-11. Bifurkace aorty k odstupu a. mesenterica inf.
+9. 35 x 12 x 3 mm	8a. parakavální				5/0
+10. 65 x 35 x 5 mm	8c. interaortokavální			10/0
+11. 30 x 40 x 5 mm	8e. paraaortální				7/0
+
+pozn.: editováno pro přehledný tisk.
+
+Mikroskopicky:
+Celkem bylo vyšetřeno 55 lymfatických uzlin, velikosti < 1mm až délky 55 mm a průměru 10 mm (v odběru č. 6 = klinická lokalita č.5 fossa obturatoria lat. sin.), všechny bez metastázy karcinomu. 
+V uzlinách jsou nespecifické reaktivní změny (reaktivní lymfadenopatie) s dominující sinusovou histiocytózou, v některých uzlinách s folikulární hyperplazií, místy s parakortikální hyperplazií vč. parakortikální histiocytózy a v některých uzlinách s ložiskovou lipomatózní atrofií. Některé uzliny jsou mechanicky i termicky zhmožděné, některé mají porušené vazivové pouzdro.
+
+12: Peritoneum z pánve: 2 neznačené nerozlišené a fixací deformované vzorky pánevního peritonea velikosti 40 x 25 x 1-3 mm (blok 12A,B) a 50 x 32 x 3 mm s ložiskovými bělavými uzlíky (blok 12C,D,E). Materiál zpracován kompletně.
+Mikroskopicky:
+V obou vzorcích zastiženy výrazné fibroproduktivní reparativní změny peritoneálního povrchu, v obou vzorcích s fokálními opouzdřenými stehovými granulomy. nádorové struktury v rozsahu vyšetření nenacházíme.
+
+Souhrnný závěr (+ biopsie č. B15803/26): LG (G1-2) endometroidní karcinom pravého ovaria s fokální dlaždicobuněčnou diferenciací vzniklý v terénu atypické endometriózy a endometroidního border line tumoru ovaria, s převažujícím expanzivním typem invaze, méně často s invazí destruktivní, omezený na ovarium. Lymfovaskulární invazi v rozsahu vyšetření nenacházíme. 
+V děložním těle vícečetné benigní leiomyomy. Endometrium prosté atrofické, bez atypií. V hrdle mírná až středně těžká chronická cervicitis, fokálně s formací cervikálního polypu. Obě děložní tuby a levé ovarium bez významnějších pozoruhodností.
+Omentum bez nádorových změn.
+V pánevní a paraaortální lymfadenektomii bylo celkem vyšetřeno 55 lymfatických uzlin, všechny bez nádorových změn.
+V excizích z pánevního peritonea zastiženy pouze chronické fibroproduktivní reparativní změny s disperzními stehovými granulomy po předchozích operačních výkonech.
+
+Další nález viz souběžně vyšetřovaná cytologie č. C02101/26 (negativní lavage).
+
+TNM 2017 (8.edice)  pT1a  pN0 (55/0)  
+
+T82  M8890/0
+T86, T87, T6385  M01000
+TY4400  M44140
+T08  M77810  M58070
+
+Souhrn:
+
+primární lokalita: pravé ovarium
+typ nádoru: endometroidní karcinom ovaria
+grade: low grade - G1-2
+STIC: ne
+peritoneální cytologie: negativní
+LVSI : ne
+lymfatické uzliny: 55
+počet postižených / lokalizace: 0
+omentum (pokud odebráno): 440 x 220 x až 15 mm; nepostiženo
+regrese (v omentu): NE
+další metastázy: NE
+
+Datum potvrzení: 31.8.2026 15:42:00
+Potvrzující lékař: Planičková Lenka MUDr.
+
+
+      REPT_CYTOVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189
+ed.3:2023. Cytologické vyšetření a diagnostika bylo provedeno metodou v rozsahu akreditace dle SOP PAT-12.
+
+Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13.
+
+
+Nález: 
+C 2101/26
+
+Na cytologické vyšetření bylo dodáno 16 ml bezbarvé kalné tekutiny (lavage), která byla zpracována cytocentrifugou a do cytobloku.
+
+Mikroskopicky:
+Cytospinové preparáty barveny - HE, 2x MGG, PAP.
+Středně denzní krevní pozadí, ve kterém je středně denzně rozptýlená smíšená populace leukocytů, se zastoupením malých lymfocytů, monocytů a neutrofilů v různém stádiu imunitní stimulace, a rozptýlené hojnější jednotlivé nebo skupiny pravidelných nebo mírně aktivovaných mezotelií a nečetné fragmenty pravidelného tubárního epitelu. Buňky podezřelé z maligního nádorového původu jednoznačně nenacházíme.
+
+Cytoblok:
+Nález obdobný jako v otiskových preparátech. 
+
+Imunohistochemické vyšetření (cytoblok):
+BerEP4 značí fragmenty tubárního epitelu 
+CEA neprokazujeme pozitivity (při souběžné pozitivitě externí kontroly)
+D2-40 a Calretinin značí četné mezotelie
+CD68 (klon PGM1) značí řídce rozptýlené buňky monocyto-makrofágového systému
+
+Závěr: Reaktivní peritonitis, v krevním pozadí se smíšenou populací leukocytů. Buňky podezřelé z maligního nádorového původu nenacházíme. 
+Další nález viz souběžně vyšetřované biopsie č. B15865/26, B15803/26.
+
+T6X94  M36370
+
+Datum potvrzení: 31.8.2026 15:51:00
+Potvrzující lékař: Planičková Lenka MUDr.
+
+
+  Diabetický profil: 
+      Glukóza: 5,9
+  ABR - krev: 
+      Hb: 118
+      sat.O2: 18,8
+      Typ odběru: Venous
+  Plná krev: 
+      Na: 140
+      K: 4,2
+      Cl: 105
+      iCa: 1,18
+
+Výsledky z 20/08/26: 
+  Texty laboratoř: 
+      Rozpory a hodnocení:
+Vzhledem k tomu, že čas odběru není uveden, upozorňujeme na možné nedodržení preanalytické fáze a možné ovlivnění výsledků.
+
+  Minerály+Osmolalita: 
+      Na: 139
+      K: 4,3
+      Cl: 105
+  Bílkoviny: 
+      CRP: 79,9
+  Krevní obraz-perifer: 
+      Leu: 6,14
+      Ery: 3,47
+      HGB: 101
+      HCT: 0,313
+      MCV: 90,2
+      MCH: 29,1
+      MCHC: 323
+      RDW: 13,0
+      Plt: 220
+      MPV: 9,9
+      PCT: 0,220
+      PDW: 10,6
+  Dif.stroj. relativní: 
+      Ne: 79,2
+      Ly: 13,8
+      Mo: 5,7
+      Eo: 0,5
+      Ba: 0,3
+      Nezralé granulocyty %: 0,5
+  Dif.stroj. absolutní: 
+      Ne abs.: 4,86
+      Ly abs.: 0,85a
+      Mo abs.: 0,35
+      Eo abs.: 0,03
+      Ba abs.: 0,02
+      Nezralé granulocyty abs.: 0,03
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 5,8

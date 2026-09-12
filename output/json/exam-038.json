@@ -1,11 +1,11 @@
 {
   "id": "EXAM-038",
-  "date": "2024-06-20",
-  "rawDate": "20/06/24",
-  "sourceFile": "Lysiuk-lab.txt",
+  "date": "2007-05-18",
+  "rawDate": "18/05/07",
+  "sourceFile": "Faryadová-lab.txt",
   "sourceType": "lab",
-  "type": "CT Vyšetření",
-  "doctor": "MUDr. Chocholová Simona",
-  "title": "CT Vyšetření (20/06/24)",
-  "content": "Výsledky z 20/06/24: \r\n  Nálezy: \r\n      RTGVYS:\r\n\r\nNález: \r\nKlinická vizita CT 6/2024\r\n\r\nAnamnesticky Ca coli uteru,  stav po HYE 2016, recentně stav po resekci lokální recidivy 2/2024 \r\nlevá ledvina je morfologicky bez změn, systém štíhlý, pravá ledvina svrášťujíicí se , systém štíhlý se zavedeným stentem, tento těsně naléhá na drobnou kolekci tekutiny s bublinami plynu- drobná infikovaná lymfokela?\r\n\r\nPotvrzující lékař: MUDr. Chocholová Simona"
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (18/05/07)",
+  "content": "Výsledky z 18/05/07: \r\n  Texty laboratoř: \r\n      Komentář:\r\nProtilátky APA IgG a IgM neprokázány\r\nLupusový inhibitor koagulace neprokázán.\r\n\r\n      Rozpory a hodnocení:\r\nOd 16.5.2007 nové jednotky u metody CRP - mg/l!!!\r\n\r\n  Minerály+Osmolalita: \r\n      Fe: 8,2\r\n  Bílkoviny: \r\n      Transferrin: 2,95\r\n      Saturace transferrinu: 12,2\r\n  Sérum spec.vyšetření: \r\n      Vitamín B12: 247\r\n      Kys.listová: 12,9\r\n      Ferritin: 22,6\r\n  Krevní obraz-perifer: \r\n      Leu: 7,6\r\n      Ery: 4,23\r\n      HGB: 126\r\n      HCT: 0,371\r\n      MCV: 87,8\r\n      MCH: 29,7\r\n      MCHC: 338\r\n      RDW: 13,7\r\n      Plt: 256\r\n      MPV: 8\r\n      PCT: 0,204\r\n      PDW: 16,6\r\n  Dif.stroj. relativní: \r\n      Ne: 54,5\r\n      Ly: 33,7\r\n      Mo: 8,2\r\n      Eo: 3,2\r\n      Ba: 0,4\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 4,2\r\n      Ly abs.: 2,6\r\n      Mo abs.: 0,6\r\n      Eo abs.: 0,2\r\n      Ba abs.: 0\r\n  Koagulační vyšetření: \r\n      INR: 0,94\r\n      APTT: 36,1\r\n      Trombinový test: 14,1\r\n      Fibrinogen koagul.: 2,9\r\n      Etanol gelifik.test: negativ.\r\n      Antitrombin: 91\r\n      D-Dimer: 170\r\n  Koagulace speciál.-: \r\n      Lupus antikoagulans: negativ.\r\n  Spec.metody ELISA-pl: \r\n      APA_IgG: 3,42\r\n      APA_IgM: 0,87\r\n  Proteiny akutní fáze: \r\n      A1antitrypsin: 1,37\r\n      Transferin: 3,01\r\n      Prealbumin: 0,2\r\n      A2 makroglobulin: 1,88\r\n      Orosomukoid: 0,69\r\n      CRP: 3,16\r\n  Bez funkční skupiny: \r\n      PDW: 16,6"
 }

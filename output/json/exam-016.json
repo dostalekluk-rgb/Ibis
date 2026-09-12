@@ -1,11 +1,12 @@
 {
   "id": "EXAM-016",
-  "date": "2022-04-13",
-  "rawDate": "13/04/22",
-  "sourceFile": "Brejšová-lab.txt",
-  "sourceType": "lab",
-  "type": "Histologie / Biopsie",
-  "doctor": "Planičková Lenka MUDr.",
-  "title": "Histologie / Biopsie (13/04/22)",
-  "content": "Výsledky z 13/04/22: \r\n  Nálezy: \r\n      REPT_BIOPVYS_DTP:\r\n\r\nKlinická diagnóza: \r\nLaboratoře Ústavu patologie jsou zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189:2013. \r\nHistologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle SOP-PAT-10.               \r\n\r\n\r\n\r\n\r\nNález: \r\nB06833/22 \r\n\r\nKlinicky: ZN - tělo děložní (corpus uteri) NS. St.p. hysterektomii.\r\n\r\nBiopsie poševního pahýlu (klinicky v.s. caro luxurians opakovaně): vícečetné částky celkem 15 x 10 x 2 mm, zpracovány v celém rozsahu dohromady do 1 bloku.\r\n\r\nMikroskopicky:\r\nJde o polypózně uspořádané vzorky edematózní a fokálně prokrvácené nespecifické granulační tkáně, sporadicky na povrchu kryté vrstevnatým dlaždicovým nerohovějícím epitelem. Na většině povrchu je epitel destruovaný. Ve stromatu je nepravidelně distribuovaná středně denzní až denzní smíšená zánětlivá celulizace (lymfocyty, plasmatické buňky, četné neutrofily, jednojaderné i vícejaderné histiocyty). V četných kapilárách leukostáza. Nepozorujeme žádné struktury, které by byly podezřelé z recidivy dříve léčeného nádorového onemocnění.\r\n\r\nZávěr: Granulační tkáň v poševním pahýlu, tzv. caro luxurians. Další postup dle klinické úvahy a lokálního nálezu, v případě potřeby doporučujeme zvážit odběr nových diagnostických vzorků.\r\n\r\nT81  M45020\r\n\r\nDatum potvrzení: 19.4.2022 09:09:00\r\nPotvrzující lékař: Planičková Lenka MUDr."
+  "date": "1970-01-01",
+  "rawDate": "",
+  "time": null,
+  "sourceFile": "Faryadová-amb.txt",
+  "sourceType": "amb",
+  "type": "Vyšetření",
+  "doctor": null,
+  "title": "dodatek ze dne 02.06.26 11:27 Valentová Tereza MUDr.:",
+  "content": "dodatek ze dne 02.06.26 11:27 Valentová Tereza MUDr.:                \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n---------------------------------------------------------                  \nLaboratorní vyšetření:                                                     \nCHL                                                                        \nKrevní obraz -  KO + diff. strojový                                        \nordinováno 02.06.2026 v 11:27 na 02.06.2026 11:29, Fischerová Daniela      \nMUDr. Ph.D.                                                                \n---------------------------------------------------------"
 }

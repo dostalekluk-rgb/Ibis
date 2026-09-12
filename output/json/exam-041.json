@@ -1,11 +1,11 @@
 {
   "id": "EXAM-041",
-  "date": "2024-07-02",
-  "rawDate": "02/07/24",
-  "sourceFile": "Lysiuk-lab.txt",
+  "date": "2025-12-10",
+  "rawDate": "10/12/25",
+  "sourceFile": "Faryadová-lab.txt",
   "sourceType": "lab",
-  "type": "Mikrobiologie / Kultivace",
-  "doctor": "MUDr. Jana Kudláčková",
-  "title": "Mikrobiologie / Kultivace (02/07/24)",
-  "content": "Výsledky z 02/07/24: \r\n  Nálezy: \r\n      REP_MRUT_DTP:\r\n\r\nLaboratoř bakteriologie, tel.224967665,7725\r\n----------------------------------------------------------------------------------------------\r\nPacient               DURSIENIEVA MARYNA                       Rodné číslo 7859524365 Poj. 111\r\n\r\nBiologický materiál   MOČ SPONTÁNNÍ\r\nLaboratorní číslo     B0438585                                 Dg.         C539\r\nZdravotnické zařízení VFN                                      NS          22332\r\nOddělení              Klin. gyn., porod. a neonat. - Onkogynekologie -  oddělení\r\nLékař                 -                                        IČP/odb.    02004063  / 4F2\r\nDatum a doba příjmu   02.07.2024 14:10\r\nDatum a doba odběru   02.07.2024\r\nDatum a doba ukončení 03.07.2024 07:39\r\n----------------------------------------------------------------------------------------------\r\nKULTIVACE A VYŠETŘENÍ\r\nPrimokultura\r\n 1.Enterococcus faecalis                 10^4 CFU/1 ml\r\n\r\nUVOLNIL:  MUDr. Jana Kudláčková"
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (10/12/25)",
+  "content": "Výsledky z 10/12/25: \r\n  Texty laboratoř: \r\n      Komentář: PREVEDIG\r\n  Krev-tumor.markery: \r\n      HE4: 38"
 }

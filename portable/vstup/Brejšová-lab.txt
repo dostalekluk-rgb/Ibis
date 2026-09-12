@@ -1,0 +1,360 @@
+Výsledky z 17/10/21: 
+  Diabetický profil: 
+      Glukóza-glukometr: 5,8
+  Zkouška kompatibility: 
+      TP č.1: 
+C20022100604210  Kompatibilní
+Platnost vyšetření: 20.10.2021 23:59:00
+Expirace: 18.11.2021 23:59:00
+
+      TP č.2: 
+C20022170220610  Kompatibilní
+Platnost vyšetření: 20.10.2021 23:59:00
+Expirace: 22.11.2021 23:59:00
+
+  Imunohematologie: 
+      Krevní skupina: A poz
+      Screening protilátek: neg
+  Bez funkční skupiny: 
+      Q_ZkKomp_*: 
+vyšetřena
+
+
+Výsledky z 18/10/21: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189:2013. 
+Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle SOP-PAT-10.               
+
+Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13. Vyšetření s uplatněním flexibility jsou uvedeny v příloze č. 2 SM-PAT-02 Laboratorní příručka.
+
+
+Nález: 
+B16498/21
+
+1-9.
+
+1. Děloha s adnexy: tělo 35 x 30 x 30 mm, hrdlo délky 23 mm, čípek 20 x 25 mm. Adnexa l. dx.: tuba délky 45 mm, průměru 5 mm, ovarium 15 x 10 x 11 mm. Adnexa l.sin.: tuba délky 50 mm, průměru 5 mm, ovarium 17 x 10 x 10 mm. Na řezu v zadní stěně intramurálně bělavý uzel průměru 12 mm. V přední stěně až laterálně vlevo tumor 20 x 20 x 9 mm ( CC, ML, AP), síla myometria pod nádorem 12 mm. Ostatní endometrium nízké. Seróza dělohy a adnex makroskopicky bez nádorového postižením.
+Mikro: v čípku reaktivní změny dlaždicového epitelu. V hrdle sliznice atrofická, s drobnou ovulózou. Endometrium nízké proliferačního typu, místy až atrofické, ojediněle drobně cystické, kde tyto úseky se střídají s hyperplastickými,  fokálně s atypiemi. Anterolaterálně vlevo již struktury invazivního adenokarcinomu s invazí do myometria, místy na hloubku až 5 mm při síle stěny zde 12 mm (blok 1L). Uzel v těle děložním odpovídá leiomyomu běžného histologického typu. V myometriu relativně četná ložiska adenomyózy, zasahující místy subserózně, jsou i nad nádorem. Jednoznačnou angioinvazi nezastihujeme. Nádorové struktury jsou  dobře a místy středně diferencované, tubulovilózní, místy kribriformní. Povrchové úseky nádoru ložiskově nekrotické. Seróza bez nádorového postižením. Dnů. Tuby atrofické s drobnými inkluzními cystami. Ovaria s atrofickém stromatem, bílými tělísky, bez nádorových změn.
+
+2-7. Pánevní lymfatické uzliny.
+2.                       1) vasa illiaca externa l. dx.                                             3 / 0
+3.                       2) fossa obturatoria l. dx.                                                  7/ 0
+4.                       3) vasa illiaca communis l. dx.                                         0/ 0
+5.                       4) vasa illiaca externa l. sin.                                            1 / 0
+6.                       5) fossa obturatoria l. sin.                                                 3 / 0
+7.                       6) vasa illiaca communis l. sin.                                        1 / 0
+Mikro: nalezeno15 LU prům. 1-15 mm, v uzlinách je histiocytóza splavů, lipomatózní atrofie, ložiskově folikulární hyperplazie a vícečetné drobné hyalinizace. 
+
+8. Sentinelová uzlina l.sin.: v tukové částce 3 uzliny průměru 5 mm, 7 x 5 x 4 mm (podle nás) a 4 x 4 x 2 mm. Uzliny zpracované dle protokolu.
+Mikro: v žádné z vyšetřených uzlin metastázy nezastiženy. Přítomna histiocytóza splavů a fokálně drobná folikulární hyperplazie. Části fibrózního pouzdra v největší a menší  z uzlin však místy chybí i v opakovaných řezech.
+
+9. Sentinelová uzlina l.dx.: 7 x 5 x 4 mm, v okolí uzlina průměru 3 mm. Uzliny byly zpracovány dle protokolu. 
+Mikro: uzlině protokol bez metastáz. V okolí v menší z uzlin ložisková kontaminace šupin dlaždicových epitelií a kontaminace nečistot, které nemají charakter adenokarcinomu. Ve větší uzlině chybějí části fibrózního pouzdra,  i v opakovaných řezech protokolu.
+
+Závěr: Low risk group dobře a středně diferencovaný endometroidní adenokarcinom s invazí pod 50 % myometria, bez jednoznačné angioinvaze, bez infiltrace hrdla. Seróza dělohy bez nádorového postižení. Vyšetřeno 20 lymfatických uzlin vč. 5 sentinelových, zpracovaných dle protokolu bez nálezu metastáz. V děloze je drobný intramurální leiomyom a fokální adenomyóza.
+Klasifikace: pTa pN0 pMX (TNM)   IA (FIGO)
+T84 M8380/3  G2
+Pozn.: Vzhledem k zastoupeným znakům doporučujeme v případě klinické relevance provést dovyšetření nádoru se stanovením exprese p53 a testováním mikrosatelitové instability. Tato vyšetření doplníme dodatečně v případě požadavku ze strany onkologa/onkogynekologa.  
+
+CHECK LIST:
+typ nádoru: endometroidní adenokarcinom 
+grading: G2
+velikost nádoru:  20 x 20 x 9 mm ( CC, ML, AP)
+nejhlubši invaze / šíře myometria: 5/12
+lokalizace nejhlubší invaze: anterolaterálně  vlevo
+vzdálenost tumoru od serózy: 6 mm
+invaze do hrdla (pouze epitel / stroma / hloubka stromální invaze / šíře hrdla): ne
+MELF:
+LVSI (nepřítomná, nejednoznačná, fokální, podstatná ("substantial"): ne
+lymfatické uzliny - celkový počet: 20
+počet postižených / lokalizace: 0
+porušení pouzdra: ano
+
+
+Datum potvrzení: 23.10.2021 15:20:00
+Potvrzující lékař: Maňáková Tatjana MUDr.
+
+
+      REPP_NM_DTP:
+
+Nález: 
+Dne 18.10.2021 bylo aplikováno 80 MBq 99mTc značeného koloidu (nanoalbumon) do oblasti krčku dělohy (aplikoval operatér na sále).
+
+                                    Zapsala MUDr.Linda Černá
+
+V případě potřeby nás kontaktujte na tel. 224 965 700. Fax.: 224965957
+Údaje o indikacích, přípravě pacientů, a další informace o vyšetřeních: http://unm.lf1.cuni.cz , seznam zkratek na http://www.vfn.cz/zkratky .
+
+
+Datum potvrzení: 18.10.2021 12:44:00
+Potvrzující lékař: Černá Linda MUDr.
+
+
+  Diabetický profil: 
+      Glukóza-glukometr: 5,7; 6,3
+
+Výsledky z 19/10/21: 
+  Diabetický profil: 
+      Glukóza: 5,6
+      Glukóza-glukometr: 6,9; 9,9
+  ABR - krev: 
+      Hb: 159
+      Typ přístroje Astrup: ABL835
+      Typ odběru: 
+Capillary
+
+  Plná krev: 
+      Na: 143
+      K: 4,1
+      Cl: 112
+      iCa: 1,24
+
+Výsledky z 20/10/21: 
+  Diabetický profil: 
+      Glukóza-glukometr: 6,5; 10,1
+
+Výsledky z 05/11/21: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189:2013. 
+
+Histologické vyšetření tkání a diagnostika bylo provedeno akreditovanou metodou dle SOP-PAT-10. Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13. Vyšetření s uplatněním flexibility jsou uvedeny v příloze č. 2 SM-PAT-02 Laboratorní příručka.
+
+
+Nález: 
+B17707/21
+
+Na žádost onkologického oddělení GPK VFN provedeno  vyšetření p53 a MSI z biopsie B16498/21, blok L.
+
+Výsledek imunohistochemického  vyšetření: 
+
+p53: wild type exprese (normální)
+
+MLH1, MSH2, MSH6  PMS2 : prokázána pozitivita v nádorových buňkách.
+Závěr: Exprese vyšetřených MMR proteinů v nádorové tkáni je zachovaná, pravděpodobnost mikrosatelitové instability nízká, odpovídá MMR proficientnímu profilu ( pMMR).
+
+Souhrný závěr: Endometroidní adenokarcinom (vyšetřený v biopsií B16498/21) spadá do katehorie s nespecifickým molekulárním profilem. 
+
+
+Potvrzující lékař: Maňáková Tatjana MUDr.
+
+
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189:2013. 
+
+Histologické vyšetření tkání a diagnostika bylo provedeno akreditovanou metodou dle SOP-PAT-10. Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13. Vyšetření s uplatněním flexibility jsou uvedeny v příloze č. 2 SM-PAT-02 Laboratorní příručka.
+
+
+Nález: 
+B17707/21
+
+Na žádost onkologického oddělení GPK VFN provedeno  vyšetření p53 a MSI z biopsie B16498/21, blok L.
+
+Výsledek imunohistochemického  vyšetření: 
+
+p53: wild type exprese (normální)
+
+MLH1, MSH2, MSH6  PMS2 : prokázána pozitivita v nádorových buňkách.
+Závěr: Exprese vyšetřených MMR proteinů v nádorové tkáni je zachovaná, pravděpodobnost mikrosatelitové instability nízká, odpovídá MMR proficientnímu profilu ( pMMR).
+
+Souhrný závěr: Endometroidní adenokarcinom (vyšetřený v biopsií B16498/21) spadá do katehorie s nespecifickým molekulárním profilem. 
+
+
+Potvrzující lékař: Maňáková Tatjana MUDr.
+
+
+
+Výsledky z 19/11/21: 
+  Nálezy: 
+      RTGVYS:
+
+Nález: 
+Přístroj AXIOM LUMINOS dRF, v.č.04017-1875, výrobce Siemens
+
+RTG nativní snímek břicha:
+
+Subfrenia jsou bez volného plynu. Kličky střevní jsou bez dilatace, bez hladin. Smíšená náplň střevní. Svorky v pravém podžebří při st.p. CHCE. 
+Nález nemá charakter ileózního stavu.
+
+Potvrzující lékař: MUDr. Forejtová Lubomíra
+
+
+      SONOVYS:
+
+Nález: 
+Přístroj Sonograf 4D: APLIO 500, v.č. T1E13X4702, výrobce TOSHIBA
+
+US břicha:
+1. vyšetření u nás. 
+Játra nezvětšena, přiměřené echogenity a struktury, vaskulární kresba obvyklá, bez ložiskových změn. V. portae nerozšířena. St.p. CHCE. IH a EH žlučové cesty nerozšířeny. Pankreas nepřehledný.Ledviny bez městnání, bez výraznějších strukturálních odchylek. Slezina nezvětšena, homogenní. Retroperitoneum nepřehledné pro plyn. 
+Močový měchýř naplněn anechogenním obsahem, stěna hladká, nerozšířená. 
+Stopa tekutiny v malé pánvi. 
+Apendix nezobrazen. Ileocékálně bez známek zánětlivého prosáknutí, bez evidentní kolekce tekutiny při horší přehlednosti.
+
+
+Potvrzující lékař: MUDr. Hrdlička Jan
+
+
+      REP_MRUT_DTP:
+
+Laboratoř bakteriologie, tel.224967665,7725
+----------------------------------------------------------------------------------------------
+Pacient               BREJŠOVÁ DANA                            Rodné číslo 5755262161 Poj. 201
+
+Biologický materiál   MOČ SPONTÁNNÍ  +PC
+Laboratorní číslo     B0392002                                 Dg.         R102
+Zdravotnické zařízení VFN                                      NS          22313
+Oddělení              Gyn. - por. klinika - Ambulance všeobecná gyn.por.
+Lékař                 Nečitelný                                IČP/odb.    02004059  / 603
+Datum a doba příjmu   20.11.2021 09:30
+Datum a doba odběru   19.11.2021 18:30
+Datum a doba ukončení 21.11.2021 08:56
+----------------------------------------------------------------------------------------------
+KULTIVACE A VYŠETŘENÍ
+Primokultura
+ 1.Escherichia coli, širokospektrá betalaktamáza negativní 10^6 CFU/1 ml
+----------------------------------------------------------------------------------------------
+CITLIVOST - diskový difuzní test / MIC
+------------------------------
+ Účinná látka                1
+------------------------------
+ amoxicilin klavulanát       R
+ amikacin                    C
+ ampicilin                   R
+ ciprofloxacin               C
+ kotrimoxazol                R
+ cefuroxim                   Q
+ furantoin                   C
+ gentamicin                  C
+ pivmecilinam                R
+----------------------------------------------------------------------------------------------
+LEGENDA: C-citlivý, R-resistentní, I-hraničně citlivý, X-výsledek k dispozici po konzultaci
+         *-test citlivosti nebyl proveden, N-bez interpretace, Q-prípravek lze použít za
+         zvýšené expozice, vhodná konzultace ATB centra
+
+UVOLNIL:  MUDr. Helena Hintnausová ZODPOVÍDÁ prim. MUDr. Václava Adámková
+
+  Bílkoviny: 
+      CRP: 12,0
+  Moč chemicky: 
+      pH: 5,0
+      Hustota: 1,010
+      Bílkovina orient.: 0,10
+      Glykosurie: >55,0
+      Ketolátky: neg
+      Bilirubin: neg
+      Urobilinogen: norm
+      Erytrocyty v moči: 150
+      Leuko: 500
+      Nitrity: neg
+  Krevní obraz-perifer: 
+      Leu: 10,80
+      Ery: 5,48
+      HGB: 165
+      HCT: 0,513
+      MCV: 93,6
+      MCH: 30,1
+      MCHC: 322
+      RDW: 13,3
+      Plt: 309
+      MPV: 11,8
+      PCT: 0,360
+      PDW: 16,0
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+
+Výsledky z 11/01/22: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189:2013. 
+Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle SOP-PAT-10.               
+
+
+
+
+Nález: 
+B00553/22
+
+Biopsie poševního pahýlu, fragmenty dohromady 10 x 7 x 3 mm.
+Mikroskopicky jde o edematózní granulační tkáň, čerstvou bohatě prostoupenou smíšenou zánětlivou celulizací, polypoidně utvářenou. Nápadná leukostáza v kapilárách. Nepozorujeme žádné struktury, které by byly podezřelé z recidivy dříve léčeného nádorového onemocnění.
+
+Závěr: Granulační tkáň v poševním pahýlu, tzv. caro luxurians.
+T 81 M 45 000
+
+Datum potvrzení: 14.1.2022 08:06:00
+Potvrzující lékař: Bennett Rosalie Jana MUDr.
+
+
+
+Výsledky z 13/04/22: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189:2013. 
+Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle SOP-PAT-10.               
+
+
+
+
+Nález: 
+B06833/22 
+
+Klinicky: ZN - tělo děložní (corpus uteri) NS. St.p. hysterektomii.
+
+Biopsie poševního pahýlu (klinicky v.s. caro luxurians opakovaně): vícečetné částky celkem 15 x 10 x 2 mm, zpracovány v celém rozsahu dohromady do 1 bloku.
+
+Mikroskopicky:
+Jde o polypózně uspořádané vzorky edematózní a fokálně prokrvácené nespecifické granulační tkáně, sporadicky na povrchu kryté vrstevnatým dlaždicovým nerohovějícím epitelem. Na většině povrchu je epitel destruovaný. Ve stromatu je nepravidelně distribuovaná středně denzní až denzní smíšená zánětlivá celulizace (lymfocyty, plasmatické buňky, četné neutrofily, jednojaderné i vícejaderné histiocyty). V četných kapilárách leukostáza. Nepozorujeme žádné struktury, které by byly podezřelé z recidivy dříve léčeného nádorového onemocnění.
+
+Závěr: Granulační tkáň v poševním pahýlu, tzv. caro luxurians. Další postup dle klinické úvahy a lokálního nálezu, v případě potřeby doporučujeme zvážit odběr nových diagnostických vzorků.
+
+T81  M45020
+
+Datum potvrzení: 19.4.2022 09:09:00
+Potvrzující lékař: Planičková Lenka MUDr.
+
+
+
+Výsledky z 04/09/26: 
+  Nálezy: 
+      REPT_CTVYS_DTP:
+
+Nález: 
+Přístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736
+Výrobce SIEMENS Healthcare GmbH
+Injektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002
+Kontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s
+i.v. aplikoval: Hostaša
+
+CT hrudníku, břicha a pánve:
+
+Provedeno MDCT vyš. od jugula po dno pánevní, s aplikací kontrastní látky i.v. s následnými MPR.
+
+Vpravo paramediálně mezi pochvou přímého břišního svalu a pochvou m. transversus abdominis herniace nitrobřišního tuku o vel. 70x13mm ax., bez propagace do podkoží. Branka šíře 27mm. 
+
+V P plíci nodulus 3mm. 
+V dutině hrudní a břišní bez volné tekutiny.
+Játra nezvětšena, s přiměřenou denzitou bez ložisek. St.p. CHCE. Žlučové cesty kompenzatorně širší. V.portae bez dilatace. 
+Pankreas je norm. velikosti, s přiměřenou denzitou, bez ložiskových změn.
+Slezina je norm. velikosti s přiměřenou denzitou bez ložiskových změn.
+Nadledviny nezvětšeny.
+Ledviny jsou bilat. norm. velikosti a uložení, bez dilatace DS, bez konkrementů, bez ložiskových změn, uretery bilat. bez dilatace.
+Lipom v lumen c. ascendens. Divertikulosa. 
+V zachycené oblasti bez patologicky zvětšených lymphatických uzlin, bez ložiskových změn skeletu.
+St.p. HYE cum AE bilat. 
+
+Z: Bez známek generalisace, bez lymfadenopatie. St.p. HYE cum AE bilat., pro Ca endometrii.
+
+Potvrzující lékař: MUDr. Hanuš Petr
+
+

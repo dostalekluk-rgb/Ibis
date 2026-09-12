@@ -1,11 +1,11 @@
 {
   "id": "EXAM-053",
-  "date": "2024-11-25",
-  "rawDate": "25/11/24",
-  "sourceFile": "Lysiuk-lab.txt",
+  "date": "2026-03-16",
+  "rawDate": "16/03/26",
+  "sourceFile": "Faryadová-lab.txt",
   "sourceType": "lab",
-  "type": "Mikrobiologie / Kultivace",
-  "doctor": "Ing. Gabriela Kroneislová",
-  "title": "Mikrobiologie / Kultivace (25/11/24)",
-  "content": "Výsledky z 25/11/24: \r\n  Nálezy: \r\n      REP_MRUT_DTP:\r\n\r\nLaboratoř bakteriologie, tel.224967663,7662\r\n----------------------------------------------------------------------------------------------\r\nPacient               DURSIENIEVA MARYNA                       Rodné číslo 7859524365 Poj. 111\r\n\r\nBiologický materiál   MOČ SPONTÁNNÍ\r\nLaboratorní číslo     G0326997                                 Dg.         N133\r\nZdravotnické zařízení VFN                                      NS          22711\r\nOddělení              Urologická klinika - Ambulance příjmová\r\nLékař                 Krausová                                 IČP/odb.    02004220  / 706\r\nDatum a doba příjmu   25.11.2024 12:40\r\nDatum a doba odběru   25.11.2024 11:30\r\nDatum a doba ukončení 26.11.2024 06:52\r\n----------------------------------------------------------------------------------------------\r\nKULTIVACE A VYŠETŘENÍ\r\nPrimokultura\r\n negativní\r\n\r\nUVOLNIL:  Ing. Gabriela Kroneislová"
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (16/03/26)",
+  "content": "Výsledky z 16/03/26: \r\n  Zkouška kompatibility: \r\n      TP č.1: \r\nC20022600136710  Kompatibilní\r\nPlatnost vyšetření: 19.03.2026 23:59:00\r\nExpirace: 20.04.2026 23:59:00\r\n\r\n      TP č.2: \r\nC20022600136210  Kompatibilní\r\nPlatnost vyšetření: 19.03.2026 23:59:00\r\nExpirace: 20.04.2026 23:59:00\r\n\r\n  Imunohematologie: \r\n      Krevní skupina: 0 poz\r\n      Screening protilátek: neg\r\n  Bez funkční skupiny: \r\n      Q_ZkKomp_*: \r\nvyšetřena\r\n\r\n  Nedefinovaná třída: \r\n      Výsl ZK: \r\nKompatibilní"
 }

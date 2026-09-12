@@ -1,11 +1,12 @@
 {
   "id": "EXAM-148",
-  "date": "2026-09-03",
-  "rawDate": "03/09/26",
-  "sourceFile": "ai-stankova-hosp-04.txt",
-  "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
-  "doctor": null,
-  "title": "Laboratorní panel (03/09/26)",
-  "content": "Výsledky z 03/09/26: Minerály+Osmolalita: Na: 141, K: 3,9, Cl: 106, P: 0,90, \r\nMg: 0,64"
+  "date": "2026-08-24T09:27:00",
+  "rawDate": "24.08.26",
+  "time": "09:27",
+  "sourceFile": "Lánská-amb.txt",
+  "sourceType": "amb",
+  "type": "Ambulantní nález",
+  "doctor": "Frühauf Filip MUDr., Ph.D.",
+  "title": "------  Dokumentace ze dne 24.08.26 ---------:                                    Nález ze dne 24.08.26 09:27 Frühauf Filip MUDr., Ph.D.:",
+  "content": "------  Dokumentace ze dne 24.08.26 ---------:                             \n      Nález ze dne 24.08.26 09:27 Frühauf Filip MUDr., Ph.D.:              \nDiagnózy:                                                                  \nC549 ZN - tělo děložní [corpus uteri] NS                                   \n\npohovor s pacientkou                                                       \nkožní toxicita nyní minimální \ndop.:                                                                      \nprosím odběr krve (ionty, biochemie, KO+diff) provést 4.9.2026 cestou      \nonkogynekologického stacoináře                                             \n- pacientka se dostaví po CT vyšetření (4.9.2026 v 8.30)                   \n\ndůvod: obtížné dojíždění"
 }

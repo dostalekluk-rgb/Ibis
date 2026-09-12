@@ -1,11 +1,11 @@
 {
   "id": "EXAM-059",
-  "date": "2025-01-27",
-  "rawDate": "27/01/25",
-  "sourceFile": "Lysiuk-lab.txt",
+  "date": "2026-04-16",
+  "rawDate": "16/04/26",
+  "sourceFile": "Faryadová-lab.txt",
   "sourceType": "lab",
-  "type": "Mikrobiologie / Kultivace",
-  "doctor": "Ing. Gabriela Kroneislová, Ph.D",
-  "title": "Mikrobiologie / Kultivace (27/01/25)",
-  "content": "Výsledky z 27/01/25: \r\n  Nálezy: \r\n      REP_MRUT_DTP:\r\n\r\nLaboratoř bakteriologie, tel.224967663,7662\r\n----------------------------------------------------------------------------------------------\r\nPacient               DURSIENIEVA MARYNA                       Rodné číslo 7859524365 Poj. 111\r\n\r\nBiologický materiál   MOČ CÉVKOVANÁ\r\nLaboratorní číslo     G0331410                                 Dg.         N133\r\nZdravotnické zařízení VFN                                      NS          22711\r\nOddělení              Urologická klinika - Ambulance příjmová\r\nLékař                 Řezáč                                    IČP/odb.    02004220  / 706\r\nDatum a doba příjmu   27.01.2025 17:00\r\nDatum a doba odběru   27.01.2025 14:50\r\nDatum a doba ukončení 28.01.2025 07:30\r\n----------------------------------------------------------------------------------------------\r\nKULTIVACE A VYŠETŘENÍ\r\nPrimokultura\r\n negativní\r\n\r\nUVOLNIL:  Ing. Gabriela Kroneislová, Ph.D"
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (16/04/26)",
+  "content": "Výsledky z 16/04/26: \r\n  Texty laboratoř: \r\n      Komentář:\r\nNebyly dodrženy podmínky preanalytické fáze a požadavky na transport vzorků do laboratoře. Možné ovlivnění výsledků. Bližší viz. webové stránky VFN - Přehled laboratorních vyšetření - http://laboratore.vfn.cz\r\n\r\n  Minerály+Osmolalita: \r\n      Na: 141\r\n      K: 3,8\r\n      Cl: 99\r\n  Dusíkové metabolity: \r\n      Urea: 5,0\r\n      Kreat.: 60\r\n      Kys. moč.: 164\r\n  Jaterní testy: \r\n      Bilirubin: 8,6\r\n      ALT: 0,37\r\n      AST: 0,37\r\n      GGT: 0,32\r\n      ALP: 1,46\r\n  Enzymy: \r\n      LD: 3,3\r\n  Bílkoviny: \r\n      Albumin: 45,5\r\n      CB: 77,3\r\n  Diabetický profil: \r\n      Glykemie: 4,9\r\n  Krev-tumor.markery: \r\n      Ca 125: 89,4\r\n  Moč chemicky: \r\n      pH: 5,5\r\n      Hustota: 1,016\r\n      Bílkovina orient.: neg\r\n      Glykosurie: neg\r\n      Ketolátky: neg\r\n      Bilirubin: neg\r\n      Urobilinogen: neg\r\n      Erytrocyty v moči: neg\r\n      Leuko: 70\r\n      Nitrity: pos\r\n  Moč - sediment: \r\n      ERY: 1,0\r\n      LEUKO: 57,0\r\n      Epit.pl: 6,0\r\n      Epit.k: 2,0\r\n      Bakterie: pozitiv.\r\n      Poznámka: \r\nost. neg.\r\n\r\n  Krevní obraz-perifer: \r\n      Leu: 9,73\r\n      Ery: 4,38\r\n      HGB: 133\r\n      HCT: 0,404\r\n      MCV: 92,3\r\n      MCH: 30,3\r\n      MCHC: 328\r\n      RDW: 13,5\r\n      Plt: 264\r\n      MPV: 10,1\r\n  Dif.stroj. relativní: \r\n      Ne: 51,7\r\n      Ly: 35,2\r\n      Mo: 8,0\r\n      Eo: 3,3\r\n      Ba: 1,2\r\n      Nezralé granulocyty %: 0,6\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 5,03\r\n      Ly abs.: 3,43\r\n      Mo abs.: 0,77\r\n      Eo abs.: 0,32\r\n      Ba abs.: 0,12\r\n      Nezralé granulocyty abs.: 0,06\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 1,5\r\n  Koagulační vyšetření: \r\n      Protrombinový test čas: 10,80\r\n      INR: 0,89\r\n      APTT: 30,3\r\n      APTT R: 1,01"
 }

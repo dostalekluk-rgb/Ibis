@@ -1,12 +1,12 @@
 {
   "id": "EXAM-029",
-  "date": "2024-04-17T09:42:00",
-  "rawDate": "17.04.24",
-  "time": "09:42",
-  "sourceFile": "Lysiuk-amb.txt",
+  "date": "1970-01-01",
+  "rawDate": "",
+  "time": null,
+  "sourceFile": "Faryadová-amb.txt",
   "sourceType": "amb",
-  "type": "Ambulantní nález",
-  "doctor": "Kníže Michal MUDr., Ph.D.",
-  "title": "------  Dokumentace ze dne 17.04.24 ---------:                                    Nález ze dne 17.04.24 09:42 Kníže Michal MUDr., Ph.D.:",
-  "content": "------  Dokumentace ze dne 17.04.24 ---------:                             \n      Nález ze dne 17.04.24 09:42 Kníže Michal MUDr., Ph.D.:               \nDiagnózy:                                                                  \nC538 ZN - léze přesahující hrdlo děložní                                   \n\nPacientka se dostavila dnes k 3 cyklu CHT dle následujícího plánu:         \n\" - D1 Abraxane (stacionář) + D2 cDDP (G3 za hostpitalizace) - zhodnocení  \nkožního výsevu                                                             \n- bev až od 4. cyklu (4 . týdny po zavedení portu, nejdříve 19.4.)         \n- pembrolizumab bude až následně ambulantě cestou stacionáře D3-D5         \n(rozlišení etiologie výsevu PTX versus pembrolizumab). (Dr. Kocián)  \"     \n\ndnes:                                                                      \nsubj. už se cití dobře, nausea 0, vertigo 0, stolice a močení v normě,     \nvyrážka vymizela                                                           \nObj.:  exntém vymizel, krk, trup, hrud, břicho, záda a stehna. Normotenze, \nnormokardie. krom vyrážky bez jiných obtížích.                             \n\n15/4/2024 KO+ diff                                                         \nLEU 3,2 , ANC 1,43, Hb 126, PLT 318                                        \n\nZ: neutropenia grade 2                                                     \n\nDop: Zarzio 30 IU s.c. dnes a poté 1x v sobotu,  kontrolní KO+diff  v      \npondělí, poté kontrola zde. Poučena. \n\n\n      dodatek ze dne 17.04.24 09:43 Kníže Michal MUDr., Ph.D.:             \nDiagnózy:                                                                  \nC538 ZN - léze přesahující hrdlo děložní                                   \n\n---------------------------------------------------------                  \nLaboratorní vyšetření:                                                     \nCHL                                                                        \nKrevní obraz -  KO + diff. strojový                                        \nordinováno STATIM 17.04.2024 v 09:43 na 17.04.2024 09:43, Kocián Roman     \nMUDr.                                                                      \n---------------------------------------------------------"
+  "type": "Vyšetření",
+  "doctor": null,
+  "title": "dodatek ze dne 10.08.26 12:52 Skácelová Simona Ing.:",
+  "content": "dodatek ze dne 10.08.26 12:52 Skácelová Simona Ing.:                 \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n---------------------------------------------------------                  \nLaboratorní vyšetření:                                                     \nBiochemie                                                                  \nMoč CH+S -  Moč chem.a mikrosk.                                            \nordinováno 10.08.2026 v 12:52 na 10.08.2026 12:53, Frühauf Filip MUDr.     \n---------------------------------------------------------"
 }

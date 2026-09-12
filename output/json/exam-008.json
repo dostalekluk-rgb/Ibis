@@ -1,11 +1,12 @@
 {
   "id": "EXAM-008",
-  "date": "2021-10-20",
-  "rawDate": "20/10/21",
-  "sourceFile": "Brejšová-lab.txt",
-  "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
+  "date": "1970-01-01",
+  "rawDate": "",
+  "time": null,
+  "sourceFile": "Faryadová-amb.txt",
+  "sourceType": "amb",
+  "type": "Vyšetření",
   "doctor": null,
-  "title": "Laboratorní panel (20/10/21)",
-  "content": "Výsledky z 20/10/21: \r\n  Diabetický profil: \r\n      Glukóza-glukometr: 6,5; 10,1"
+  "title": "dodatek ze dne 20.04.26 14:57 Skácelová Simona Ing.:",
+  "content": "dodatek ze dne 20.04.26 14:57 Skácelová Simona Ing.:                 \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n---------------------------------------------------------                  \nLaboratorní vyšetření:                                                     \nBiochemie                                                                  \nMoč CH+S -  Moč chem.a mikrosk.                                            \nordinováno 20.04.2026 v 14:57 na 20.04.2026 14:58, Frühauf Filip MUDr.     \n---------------------------------------------------------"
 }

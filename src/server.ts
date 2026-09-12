@@ -5,7 +5,8 @@ import * as dotenv from 'dotenv';
 import { generateTumorBoardSummary, handleGeminiChatCall } from './gemini/tumorBoardAgent.js';
 import { parseAllInputs, parseUploadedFiles } from './parser/parseInput.js';
 import { generateChronologyHtml } from './parser/generateHtml.js';
-import { PatientChronologyDataset } from './types/chronology.js';
+import { PatientChronologyDataset, PatientChronologyMetadata } from './types/chronology.js';
+import { generateTumorBoardDocx } from './exporter/docxExporter.js';
 
 dotenv.config();
 
@@ -75,18 +76,71 @@ app.post('/api/gemini', async (req, res) => {
   }
 });
 
+let currentServerDataset: PatientChronologyDataset | null = null;
+
+// Endpoint pro export Závěru Tumor Boardu do Wordu (.docx) ve formátu konzilia.docx
+app.post('/api/export-docx', async (req, res) => {
+  try {
+    const { structuredJson, metadata, maxDate } = req.body;
+
+    let targetJson = structuredJson;
+    if (!targetJson) {
+      const tbJsonPath = path.resolve(process.cwd(), 'output', 'json', 'tumor_board_conclusion.json');
+      if (fs.existsSync(tbJsonPath)) {
+        targetJson = JSON.parse(fs.readFileSync(tbJsonPath, 'utf8'));
+      }
+    }
+
+    if (!targetJson) {
+      return res.status(400).json({ isSuccess: false, error: 'Žádný Závěr Tumor Boardu pro export neby prokazatelný.' });
+    }
+
+    const serverMeta = currentServerDataset?.metadata;
+    const combinedMeta: PatientChronologyMetadata = {
+      patientName: (metadata?.patientName && !metadata.patientName.includes('ANON') && metadata.patientName !== 'Není načten žádný pacient' && metadata.patientName !== 'Vyšetřovaná Pacientka')
+        ? metadata.patientName
+        : (serverMeta?.patientName || 'Pacientka'),
+      insuranceNumber: (metadata?.insuranceNumber && !metadata.insuranceNumber.includes('ANON') && metadata.insuranceNumber !== '—' && metadata.insuranceNumber !== '[Neznámé RČ]')
+        ? metadata.insuranceNumber
+        : (serverMeta?.insuranceNumber || '—'),
+      insuranceCode: (metadata?.insuranceCode && metadata.insuranceCode !== '—')
+        ? metadata.insuranceCode
+        : (serverMeta?.insuranceCode || '—'),
+      address: (metadata?.address && !metadata.address.includes('ANON') && metadata.address !== '—' && metadata.address !== '[Neznámý bydliště]')
+        ? metadata.address
+        : (serverMeta?.address || '—'),
+      phone: (metadata?.phone && !metadata.phone.includes('ANON') && metadata.phone !== '—' && metadata.phone !== '[Neznámý telefon]')
+        ? metadata.phone
+        : (serverMeta?.phone || '—'),
+      dateOfBirth: metadata?.dateOfBirth || serverMeta?.dateOfBirth || '—',
+      generatedAt: metadata?.generatedAt || serverMeta?.generatedAt || new Date().toISOString(),
+      totalEvents: metadata?.totalEvents || serverMeta?.totalEvents || 0,
+      ambEventsCount: metadata?.ambEventsCount || serverMeta?.ambEventsCount || 0,
+      hospEventsCount: metadata?.hospEventsCount || serverMeta?.hospEventsCount || 0,
+      labEventsCount: metadata?.labEventsCount || serverMeta?.labEventsCount || 0,
+      dateRange: metadata?.dateRange || serverMeta?.dateRange || { firstDate: '—', lastDate: '—' }
+    };
+
+    const { buffer, filename } = await generateTumorBoardDocx(targetJson, combinedMeta, maxDate);
+
+    const encodedFilename = encodeURIComponent(filename);
+    res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+    res.setHeader('Content-Disposition', `attachment; filename="${encodedFilename}"; filename*=UTF-8''${encodedFilename}`);
+    res.send(buffer);
+  } catch (err: any) {
+    console.error('[Express Server DOCX Export Error]:', err);
+    res.status(500).json({ isSuccess: false, error: err.message || 'Chyba při generování DOCX.' });
+  }
+});
+
 // Endpoint pro privátní chat s Gemini nad případem
 app.post('/api/chat', async (req, res) => {
   try {
     const { message, history, userApiKey } = req.body;
-
     if (!message || typeof message !== 'string') {
       return res.status(400).json({ isSuccess: false, error: 'Zpráva je povinná.' });
     }
-
-    console.log('[Express Server Chat] Přijat dotaz klinika v chatu...');
     const result = await handleGeminiChatCall(message, history || [], userApiKey);
-
     res.json(result);
   } catch (err: any) {
     console.error('[Express Server Chat Error]:', err.message || err);
@@ -108,6 +162,7 @@ app.post('/api/upload', async (req, res) => {
     const outputDir = path.resolve(process.cwd(), 'output');
     // Zpracování VÝHRADNĚ souborů vybraných v dialogu (složka vstup se nepoužívá ani neprohledává)
     const dataset = parseUploadedFiles(files, outputDir);
+    currentServerDataset = dataset;
     const htmlPath = path.join(outputDir, 'chronology.html');
     generateChronologyHtml(dataset, htmlPath);
 

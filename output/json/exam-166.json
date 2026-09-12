@@ -1,10 +1,11 @@
 {
   "id": "EXAM-166",
-  "date": "2026-07-15",
-  "rawDate": "03.09.25",
-  "sourceFile": "ai-neumannova-hosp-03.txt",
-  "sourceType": "hosp",
-  "type": "Vstupní dekurs / Anamnéza",
-  "title": "Vstupní status a anamnéza hospitalizace",
-  "content": "Všeobecná fakultní nemocnice v Praze                                       \nNeumannová Hana                     Č. poj.: 6061200530     Kód poj.:111  \nBydliště: Na Petřinách 31/1896, 162 00 Praha 6,tel. +420705950652          \nDat. nar.: 20.11.1960                                  Č. chor.: 007211/26\nDat. přij.: 15.07.26                                               GYN-ONKO\n===========================================================================\nAnamnéza CR:                                                                 \nAnamnéza:                                                                    \nSociální anamnéza:                                                           \nNynější onemocnění:                                                          \nObjektivní nález:                                                            \nZávěr při přijetí:                                                           \nCAVE:                                                                        \nAmpicilin, Klacid                                                            \nPovrch těla (m2) =   1,57 ; BMI=  23,23 ; Výška= 158 ; Váha= 58 ;            \n\nDiagnózy:                                                                    \nZákladní diagnóza: C539   ZN - hrdlo děložní [cervix uteri] NS"
+  "date": "2026-03-16",
+  "rawDate": "16/03/26",
+  "sourceFile": "Hukkelová-lab.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (16/03/26)",
+  "content": "Výsledky z 16/03/26: \r\n  Zkouška kompatibility: \r\n      TP č.1: \r\nC20022600136710  Kompatibilní\r\nPlatnost vyšetření: 19.03.2026 23:59:00\r\nExpirace: 20.04.2026 23:59:00\r\n\r\n      TP č.2: \r\nC20022600136210  Kompatibilní\r\nPlatnost vyšetření: 19.03.2026 23:59:00\r\nExpirace: 20.04.2026 23:59:00\r\n\r\n  Imunohematologie: \r\n      Krevní skupina: 0 poz\r\n      Screening protilátek: neg\r\n  Bez funkční skupiny: \r\n      Q_ZkKomp_*: \r\nvyšetřena\r\n\r\n  Nedefinovaná třída: \r\n      Výsl ZK: \r\nKompatibilní"
 }

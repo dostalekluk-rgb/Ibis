@@ -1,12 +1,11 @@
 {
   "id": "EXAM-089",
-  "date": "2026-04-17T07:57:00",
-  "rawDate": "17.04.26",
-  "time": "07:57",
-  "sourceFile": "Lysiuk-amb.txt",
-  "sourceType": "amb",
-  "type": "Ambulantní nález",
-  "doctor": "Hadrabová Kateřina",
-  "title": "------  Dokumentace ze dne 17.04.26 ---------:                                    Nález ze dne 17.04.26 07:57 Hadrabová Kateřina :",
-  "content": "------  Dokumentace ze dne 17.04.26 ---------:                             \n      Nález ze dne 17.04.26 07:57 Hadrabová Kateřina :                     \nDiagnózy:                                                                  \nC538 ZN - léze přesahující hrdlo děložní                                   \n\n---------------------------------------------------------                  \nLaboratorní vyšetření:                                                     \nCHL                                                                        \nKrevní obraz -  KO + diff. strojový                                        \nordinováno STATIM 17.04.2026 v 07:57 na 17.04.2026 07:57, Fischerová       \nDaniela MUDr. Ph.D.                                                        \n---------------------------------------------------------"
+  "date": "2023-11-02",
+  "rawDate": "02/11/23",
+  "sourceFile": "Lánská-lab.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (02/11/23)",
+  "content": "Výsledky z 02/11/23: \r\n  Krevní obraz-perifer: \r\n      Leu: 5,87\r\n      Ery: 2,64\r\n      HGB: 94\r\n      HCT: 0,271\r\n      MCV: 102,7\r\n      MCH: 35,6\r\n      MCHC: 347\r\n      RDW: 22,5\r\n      Plt: 119\r\n      MPV: 10,0\r\n      PCT: 0,120\r\n      PDW: 10,0\r\n  Dif.stroj. relativní: \r\n      Ne: 54,9\r\n      Ly: 30,7\r\n      Mo: 12,9\r\n      Eo: 0,5\r\n      Ba: 0,5\r\n      Nezralé granulocyty %: 0,5\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 3,22\r\n      Ly abs.: 1,80\r\n      Mo abs.: 0,76\r\n      Eo abs.: 0,03\r\n      Ba abs.: 0,03\r\n      Nezralé granulocyty abs.: 0,03\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 1,8"
 }

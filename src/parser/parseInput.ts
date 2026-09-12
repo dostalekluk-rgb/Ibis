@@ -39,7 +39,7 @@ export function parseCzechDateToIso(dateStr: string, timeStr?: string | null): s
 /**
  * Extrakce základních osobnách údajů pacientky z úvodu textu (pro LOKÁLNÍ zobrazení v UI a protokolu)
  */
-function extractPatientInfoFromText(text: string): {
+export function extractPatientInfoFromText(text: string): {
   patientName?: string;
   insuranceNumber?: string;
   insuranceCode?: string;
@@ -57,34 +57,72 @@ function extractPatientInfoFromText(text: string): {
   } = {};
 
   const lines = text.split(/\r?\n/);
-  for (const line of lines.slice(0, 15)) {
-    const nameMatch = line.match(/^(.*?)\s+Č\.\s*poj\.:\s*(\d+)(?:\s+Kód\s*poj\.:\s*(\d+))?/i);
-    if (nameMatch) {
-      if (nameMatch[1].trim()) info.patientName = nameMatch[1].trim();
-      if (nameMatch[2].trim()) info.insuranceNumber = nameMatch[2].trim();
-      if (nameMatch[3]) info.insuranceCode = nameMatch[3].trim();
-      break;
+  const headerLines = lines.slice(0, 30);
+
+  for (const line of headerLines) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+
+    // 1. Jméno pacientky
+    if (!info.patientName) {
+      const mName1 = trimmed.match(/^(?:Pacientka|Pacient|Jméno)\s*:\s*([^|,\r\n]+(?:\s*,\s*[^|,\r\n]+)?)/i);
+      if (mName1 && mName1[1].trim() && !mName1[1].toLowerCase().includes('vyšetřovaná') && !mName1[1].toLowerCase().includes('neznámá')) {
+        info.patientName = mName1[1].trim();
+      } else {
+        const mName2 = trimmed.match(/^(.*?)\s+Č\.\s*poj\.:\s*(\d+)/i);
+        if (mName2 && mName2[1].trim()) {
+          info.patientName = mName2[1].trim();
+        }
+      }
     }
-  }
 
-  if (!info.insuranceCode) {
-    const kodMatch = text.match(/Kód\s*poj\.:\s*(\d+)/i);
-    if (kodMatch) info.insuranceCode = kodMatch[1].trim();
-  }
+    // 2. Číslo pojištěnce (RČ)
+    if (!info.insuranceNumber) {
+      const mRc = trimmed.match(/(?:Číslo\s*pojištěnce(?:\s*\(RČ\))?|Č\.\s*poj\.|RČ|Rodné\s*číslo)\s*:\s*(\d{6}\/?\d{3,4}|\d{9,10})/i);
+      if (mRc && mRc[1].trim()) {
+        info.insuranceNumber = mRc[1].trim();
+      }
+    }
 
-  const addrMatch = text.match(/Bydliště:\s*([^,\r\n]+(?:\s*,\s*[^,\r\n]+)*?)(?:\s*,\s*tel\.|\r?\n|$)/i);
-  if (addrMatch) {
-    info.address = addrMatch[1].trim();
-  }
+    // 3. Kód pojišťovny
+    if (!info.insuranceCode) {
+      const mCode = trimmed.match(/(?:Kód\s*pojišťovny|Kód\s*poj\.|Pojišťovna)\s*:\s*(\d{3}|[A-Z0-9\s()]+)/i);
+      if (mCode && mCode[1].trim()) {
+        let codeVal = mCode[1].trim();
+        if (codeVal === '207') codeVal = 'OZP (207)';
+        else if (codeVal === '111') codeVal = 'VZP (111)';
+        else if (codeVal === '201') codeVal = 'VoZP (201)';
+        else if (codeVal === '205') codeVal = 'ČPZP (205)';
+        else if (codeVal === '209') codeVal = 'ZPŠ (209)';
+        else if (codeVal === '211') codeVal = 'ZPMV (211)';
+        else if (codeVal === '213') codeVal = 'RBP (213)';
+        info.insuranceCode = codeVal;
+      }
+    }
 
-  const phoneMatch = text.match(/tel\.\s*(\+?\d[\d\s]+)/i);
-  if (phoneMatch) {
-    info.phone = phoneMatch[1].trim();
-  }
+    // 4. Datum narození
+    if (!info.dateOfBirth) {
+      const mDob = trimmed.match(/(?:Datum\s*narození|Dat\.\s*nar\.|Narozen(?:a)?)\s*:\s*([0-9]{2}\.[0-9]{2}\.[0-9]{2,4})/i);
+      if (mDob && mDob[1].trim()) {
+        info.dateOfBirth = mDob[1].trim();
+      }
+    }
 
-  const dobMatch = text.match(/Dat\.\s*nar\.:\s*([0-9]{2}\.[0-9]{2}\.[0-9]{2,4})/i);
-  if (dobMatch) {
-    info.dateOfBirth = dobMatch[1].trim();
+    // 5. Bydliště
+    if (!info.address) {
+      const mAddr = trimmed.match(/(?:Bydliště|Adresa)\s*:\s*([^,\r\n]+(?:\s*,\s*[^,\r\n]+)*?)(?:\s*,\s*tel\.|\r?\n|$)/i);
+      if (mAddr && mAddr[1].trim()) {
+        info.address = mAddr[1].trim();
+      }
+    }
+
+    // 6. Telefon
+    if (!info.phone) {
+      const mPhone = trimmed.match(/(?:Telefon|tel\.)\s*:\s*(\+?\d[\d\s]+)/i);
+      if (mPhone && mPhone[1].trim()) {
+        info.phone = mPhone[1].trim();
+      }
+    }
   }
 
   return info;
@@ -108,21 +146,35 @@ export function parseInputText(fileName: string, rawText: string): {
   const blockHeaderIndices: number[] = [];
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
-    if (line.includes('Dokumentace ze dne') || line.includes('Nález ze dne') || line.includes('DEKURZ ze dne')) {
+    if (
+      line.includes('Dokumentace ze dne') ||
+      line.includes('Nález ze dne') ||
+      line.includes('DEKURZ ze dne') ||
+      line.includes('Zpráva ze dne') ||
+      line.includes('Vyšetření ze dne') ||
+      /\b(Dokumentace|Nález|DEKURZ|Zpráva|Vyšetření|Konzilium|Správa)\s+ze\s+dne/i.test(line) ||
+      /\bze\s+dne\s+\d{1,2}[\.\/]\d{1,2}[\.\/]\d{2,4}/i.test(line)
+    ) {
       blockHeaderIndices.push(i);
     }
   }
 
   if (blockHeaderIndices.length === 0) {
     if (text.trim().length > 0) {
-      unparsedFragments.push({
-        id: `${fileName}-unparsed-full`,
-        fileName,
+      const dateMatch = text.match(/\b(\d{1,2})[\.\/](\d{1,2})[\.\/](\d{2,4})\b/);
+      const parsedIso = dateMatch ? parseCzechDateToIso(dateMatch[0]) : null;
+      const examDate = (parsedIso && parsedIso !== '1970-01-01') ? parsedIso : '1970-01-01';
+
+      entries.push({
+        id: `${fileName}-EXAM-001`,
+        date: examDate,
+        rawDate: dateMatch ? dateMatch[0] : 'Neuvedeno',
+        sourceFile: fileName,
         sourceType,
-        location: 'Celý soubor',
-        reason: 'Text neobsahuje rozpoznanou sekční hlavičku (Dokumentace/Nález/DEKURZ ze dne)',
-        content: text.trim(),
-        sizeBytes: Buffer.byteLength(text.trim(), 'utf8')
+        doctor: 'Neuveden',
+        type: 'Zdravotní zpráva',
+        title: `Lékařská zpráva (${fileName})`,
+        content: text.trim()
       });
     }
     return { examinations: entries, unparsedFragments };
@@ -158,11 +210,20 @@ export function parseInputText(fileName: string, rawText: string): {
     const preambleContent = lines.slice(0, mergedHeaders[0].startLineIdx).join('\n').trim();
     if (preambleContent.length > 30) {
       let preambleDateIso = '2025-09-03';
-      const dateMatch = preambleContent.match(/Dat\.\s*zal\.\s*karty:\s*([0-9]{2}\.[0-9]{2}\.[0-9]{2,4})|Dat\.\s*přij\.:\s*([0-9]{2}\.[0-9]{2}\.[0-9]{2,4})/i);
-      if (dateMatch) {
-        const foundDate = dateMatch[1] || dateMatch[2];
-        const parsed = parseCzechDateToIso(foundDate);
-        if (parsed) preambleDateIso = parsed;
+      const preambleDates = (preambleContent.match(/\b(\d{1,2})[\.\/](\d{1,2})[\.\/](\d{2,4})\b/g) || [])
+        .map(dStr => parseCzechDateToIso(dStr))
+        .filter((d): d is string => d !== null && d !== '1970-01-01');
+
+      if (preambleDates.length > 0) {
+        preambleDates.sort();
+        preambleDateIso = preambleDates[preambleDates.length - 1];
+      } else {
+        const dateMatch = preambleContent.match(/Dat\.\s*zal\.\s*karty:\s*([0-9]{2}\.[0-9]{2}\.[0-9]{2,4})|Dat\.\s*přij\.:\s*([0-9]{2}\.[0-9]{2}\.[0-9]{2,4})/i);
+        if (dateMatch) {
+          const foundDate = dateMatch[1] || dateMatch[2];
+          const parsed = parseCzechDateToIso(foundDate);
+          if (parsed) preambleDateIso = parsed;
+        }
       }
 
       entries.push({
@@ -296,12 +357,13 @@ export function parseUploadedFiles(
   } = {};
 
   for (const pf of processedFiles) {
-    if (!patientInfo.patientName) {
-      const extracted = extractPatientInfoFromText(pf.rawText);
-      if (extracted.patientName) {
-        patientInfo = extracted;
-      }
-    }
+    const extracted = extractPatientInfoFromText(pf.rawText);
+    if (extracted.patientName && !patientInfo.patientName) patientInfo.patientName = extracted.patientName;
+    if (extracted.insuranceNumber && !patientInfo.insuranceNumber) patientInfo.insuranceNumber = extracted.insuranceNumber;
+    if (extracted.insuranceCode && !patientInfo.insuranceCode) patientInfo.insuranceCode = extracted.insuranceCode;
+    if (extracted.address && !patientInfo.address) patientInfo.address = extracted.address;
+    if (extracted.phone && !patientInfo.phone) patientInfo.phone = extracted.phone;
+    if (extracted.dateOfBirth && !patientInfo.dateOfBirth) patientInfo.dateOfBirth = extracted.dateOfBirth;
   }
 
   let extractedEntries: ParsedExamination[] = [];
@@ -472,14 +534,17 @@ export function parseAllInputs(vstupDir: string, outputDir: string): PatientChro
 
   // Extrakce osobnách údajů pacientky ze všech dostupných souborů
   allFiles.forEach(file => {
-    if (!patientInfo.patientName) {
-      const filePath = path.join(vstupDir, file);
+    const filePath = path.join(vstupDir, file);
+    if (fs.existsSync(filePath)) {
       const buf = fs.readFileSync(filePath);
       const text = decodeFileBuffer(buf);
       const extracted = extractPatientInfoFromText(text);
-      if (extracted.patientName) {
-        patientInfo = extracted;
-      }
+      if (extracted.patientName && !patientInfo.patientName) patientInfo.patientName = extracted.patientName;
+      if (extracted.insuranceNumber && !patientInfo.insuranceNumber) patientInfo.insuranceNumber = extracted.insuranceNumber;
+      if (extracted.insuranceCode && !patientInfo.insuranceCode) patientInfo.insuranceCode = extracted.insuranceCode;
+      if (extracted.address && !patientInfo.address) patientInfo.address = extracted.address;
+      if (extracted.phone && !patientInfo.phone) patientInfo.phone = extracted.phone;
+      if (extracted.dateOfBirth && !patientInfo.dateOfBirth) patientInfo.dateOfBirth = extracted.dateOfBirth;
     }
   });
 

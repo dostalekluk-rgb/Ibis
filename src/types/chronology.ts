@@ -90,6 +90,7 @@ export interface RecurrenceBlock {
   operations?: Array<{
     title: string;            // např. "St.p. resekci recidivy pánevního tumoru..."
     dateAndPlace: string;     // např. "1.2.2024, VFN Praha"
+    text?: string;            // Popis nálezu v dutině břišní při operaci (in situ)
     histology?: string;       // Popis histologie na novém řádku s "-histol: "
   }>;
   treatmentsAndHistory?: string[]; // např. ["St.p. zavedení ureterálního stentu..."]
@@ -102,12 +103,18 @@ export interface DiagnosisAndTreatmentBlock {
   operations?: Array<{
     title: string;            // např. "St.p. core needle biopsii"
     dateAndPlace: string;     // např. "3.9.2025, VFN"
+    text?: string;            // Popis nálezu v dutině břišní při operaci (in situ)
     histology?: string;       // Popis histologie na novém řádku s "-histol: " kurzívou
   }>;
   chemotherapyLines?: Array<{
-    lineTitle: string;        // např. "St.p. 1. linii chemoterapie v režimu PTX/CBDCA (ukončeno 12.3.2026)"
-    toxicityAndDose: string;  // např. "Toxicita: G2 neutropenie, bez redukce dávky."
-  }>;
+    lineTitle?: string;
+    line?: string;
+    lineText?: string;
+    text?: string;
+    toxicityAndDose?: string;
+    chemotherapyToxicity?: string;
+    toxicity?: string;
+  } | string>;
   treatmentsAndHistory?: string[];
   recurrences?: RecurrenceBlock[];
 }

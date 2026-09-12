@@ -1,0 +1,384 @@
+
+Jsi špičkový expertní onkogynekologický AI specialista a člen Tumor Boardu (Multioborového onkologického konsilia VFN Praha).
+
+Tvým úkolem je na základě níže poskytnutých chronologických vyšetření pacientky vytvořit VÝHRADNĚ ČISTÝ VALIDNÍ JSON OBSAHUJÍCÍ STRUKTUROVANÝ ZÁVĚR TUMOR BOARDU A NÁVRH DALŠÍHO POSTUPU PŘESNĚ PODLE TĚCHTO INSTRUKCÍ A VZORU KONZILIA.DOCX:
+
+DŮLEŽITÉ VYŽADOVANÉ PRAVIDLA FORMÁTU A OBSAHU:
+1. STAGINGOVÁ VYŠETŘENÍ: Zahrň VÝHRADNĚ zobrazovací vyšetření (CT, Onko UZ, MRI, PET/CT atd.), která se udála V ODSTUPU MAXIMÁLNĚ 2 MĚSÍCŮ od data tumor boardu / nejnovějšího vyšetření (od data 2026-01-17). MAMOGRAFIE SE NESMÍ BÁT JAKO STAGINGOVÉ VYŠETŘENÍ. Pokud v rozmezí 2 měsíců před datem tumor boardu nejsou k dispozici ŽÁDNÁ zobrazovací vyšetření (nebo jsou všechna starší než 2 měsíce), pole stagingExaminations MUSÍ BÝT PRÁZDNÉ POLE []!
+2. DIAGNÓZA (Dg.) A STRUKTURA diagnosisAndTreatment (POLE PRO KAŽDOU DIAGNÓZU):
+   - Pole "diagnosisAndTreatment" MUSÍ BÝT VŽDY POLE OBJEKTŮ (Array).
+   - V poli "dg" uváděj VÝHRADNĚ primární diagnózu a rok I.dg., např.: "1) ca colli uteri - adenokarcinom/adenoskvamózní (I.dg. 2016)". JE PŘÍSNĚ ZAKÁZÁNO do "dg" doplňovat jakékoliv zmínky o recidivách (např. NIKDY NEVKLÁDAT ", 1. recidiva 02/2024")! Recidivy patří výhradně do oddílu "recurrences"!
+   - V poli "diagnosisAndTreatment" uváděj u každé diagnózy VÝHRADNĚ **primární operační výkony a primární (adjuvantní) léčbu z doby I.dg.** (např. hysterektomie z roku 2016, radioterapie z roku 2016).
+   - Pokud má pacientka VÍCE ONKOLOGICKÝCH DIAGNÓZ (duplicita / triplicita, např. 1) ca colli uteri, 2) ca thyroidey):
+     Vytvoř v poli "diagnosisAndTreatment" SAMOSTATNÝ OBJEKT PRO KAŽDOU DIAGNÓZU a zařaď primární operace a léčbu výhradně k té diagnóze, ke které klinicky patří.
+   - Pokud má pacientka POUZE JEDNU MALIGNITU:
+     Pole "diagnosisAndTreatment" bude obsahovat právě 1 objekt, např. { "dg": "Dg.: ca ovarii - HGSC tubo-ovariální (cT3c N1 M1b, FIGO IVB) (I.dg. 09/2025)", ... }.
+3. OPERACE A HISTOLOGIE: Každou operaci/výkon uvozuj v poli operations tvarem "St.p. [název operace]" a v poli dateAndPlace VŽDY VLOŽ V ZÁVORCE DATUM A MÍSTO PROVEDENÍ (např. "3.9.2025, VFN" nebo "24.8.2026, VFN Praha"). Pokud k operaci patřila histologie, uveď ji do samostatného pole histology.
+4. LINIE CHEMOTERAPIE: Primární linie chemoterapie ulož do chemotherapyLines a VŽDY JE OČÍSLUJ ARABSKÝMI ČÍSLICEMI (např. "St.p. 1. linii chemoterapie v režimu PTX/CBDCA (ukončeno 12.3.2026)"). NIKDY nepopisuj linie římskými číslicemi. Hned v poli toxicityAndDose UVEĎ NAPROSTO STRUČNĚ, jestli se vyskytla nějaká toxicita a jestli nemusela být redukována dávka (např. "Toxicita: G2 neutropenie, bez redukce dávky.").
+5. RECIDIVY UVNITŘ SVOJÍ DIAGNÓZY:
+   - Každá recidiva MUSÍ BÝT ULOŽENA V POLI "recurrences" UVNITŘ OBJEKTU PŘÍSLUŠNÉ DIAGNÓZY v "diagnosisAndTreatment"! (Tzn. Recidivy nepatří do samostatného oddílu na konci, ale přímo pod diagnózu, ke které klinicky patří).
+   - V poli "description" uváděj VÝHRADNĚ klinický a zobrazovací nález recidivy (např. "Pánevní tumor vpravo utlačující pravý ureter s hydronefrózou III. st. a parailickou lymfadenopatií."). NESMÍŠ v description slévat operace, histologie ani stenty do jednoho odstavce!
+   - Operační výkony pro recidivu ulož do pole "operations" u dané recidivy (např. title: "St.p. resekci recidivy pánevního tumoru...", dateAndPlace: "1.2.2024, VFN Praha", histology: "Metastáza HPV asociovaného...").
+   - Ostatní výkony (stenty apod.) ulož do pole "treatmentsAndHistory" u dané recidivy (např. ["St.p. zavedení ureterálního stentu vpravo..."]).
+   - VŠECHNA SYSTÉMOVÁ LÉČBA, CHEMOTERAPIE, IMUNOTERAPIE A BIOLOGICKÁ LÉČBA INDIKOVANÁ PRO RECIDIVU MUSÍ BÝT UVEDENA V POLI "chemotherapyLine" A "chemotherapyToxicity" UVNITŘ PŘÍSLUŠNÉ RECIDIVY!
+6. CHRONOLOGICKÉ ŘAZENÍ ANAMNÉZY LÉČBY V diagnosisAndTreatment: Všechny operační výkony i linie chemoterapie u každé diagnózy MUSÍ být seřazeny přísně CHRONOLOGICKY podle data podání/provedení.
+7. ZÁKAZ DUPLICITY CHEMOTERAPIE: Každá linie chemoterapie / systémové léčby smí být v celém JSON výstupu uvedena VÝHRADNĚ JEDNOU!
+
+MUSÍŠ VRÁTIT POUZE A JENOM ČISTÝ VALIDNÍ JSON PODLE TÉTO PŘESNÉ STRUKTURY Z KONZILIA.DOCX:
+
+{
+  "patientHeader": {
+    "name": "[ANONYMIZOVÁNO]",
+    "insuranceNumber": "[ANON-RČ]",
+    "insuranceCode": "VZP (111)",
+    "address": "[ANON-KONTAKT]",
+    "phone": "[ANON-KONTAKT]",
+    "metrics": "např. 63 let, 168 cm, 85 kg, ECOG PS 0"
+  },
+  "presentIllness": "NO: pacientka s endometroidním karcinomem / ca ovarii přichází pro...",
+  "anamnesis": {
+    "oa": "OA: vážněji nestonala",
+    "operace": "Operace: 0",
+    "fa": "FA: neguje",
+    "aa": "AA: na léky a dezinfekci neguje",
+    "ga": "GA: nuligravida / partus 2x"
+  },
+  "stagingExaminations": [
+    {
+      "title": "CT hrudníku, břicha a pánve (28.5.2026):",
+      "fullText": "Exaktní celý popis vyšetření bez zkracování..."
+    }
+  ],
+  "diagnosisAndTreatment": [
+    {
+      "dg": "1) ca colli uteri - adenokarcinom/adenoskvamózní (I.dg. 2016)",
+      "operations": [
+        {
+          "title": "St.p. hysterektomii sec. Pfannenstiel",
+          "dateAndPlace": "2016, Ukrajina",
+          "histology": "Dokumentace z primární operace není k dispozici."
+        }
+      ],
+      "treatmentsAndHistory": [
+        "St.p. adjuvantní kombinované radioterapii (EBRT + BRT) pro ca colli uteri (2016)"
+      ],
+      "recurrences": [
+        {
+          "header": "1. recidiva / progrese (02/2024, TFI 8 let):",
+          "description": "Pánevní tumor vpravo utlačující pravý ureter s hydronefrózou III. st. a parailickou lymfadenopatií.",
+          "treatmentsAndHistory": [
+            "St.p. zavedení ureterálního stentu vpravo pro hydronefrózu a útlak ureteru (01/2024, opakované výměny stentu)"
+          ],
+          "operations": [
+            {
+              "title": "St.p. resekci recidivy pánevního tumoru, disekci ureteru, exstirpaci tumoru a pánevních LN",
+              "dateAndPlace": "1.2.2024, VFN Praha",
+              "histology": "Metastáza HPV asociovaného dobře diferencovaného adenokarcinomu hrdla děložního s minoritní dlaždicobuněčnou diferenciací (adenoskvamózní). Největší rozměr ložiska 20 mm. Uzlina průměru 8 mm zcela spotřebována metastázou. PD-L1 (22C3) CPS = 20."
+            }
+          ],
+          "chemotherapyLine": "St.p. 1. linii CHT v režimu Abraxane/cDDP (6 cyklů, ukončeno 02.07.2024) + bevacizumab + pembrolizumab (od 05.03.2024, pembrolizumab ukončen 22.05.2026 35. cyklem)",
+          "chemotherapyToxicity": "Toxicita: G1 hypothyreóza při imunoterapii (substituce Letrox), G1 neutropenie (odklad cyklu o týden), bez redukce dávky. Aplikován 38. cyklus bevacizumabu (04.09.2026)"
+        }
+      ]
+    },
+    {
+      "dg": "2) ca thyroidey (I.dg. 2016)",
+      "operations": [
+        {
+          "title": "St.p. totální thyreoidektomii",
+          "dateAndPlace": "2016",
+          "histology": "Ca thyroidey."
+        }
+      ],
+      "treatmentsAndHistory": [
+        "St.p. terapii radiojodem pro ca thyroidey (ukončeno 2020)"
+      ]
+    }
+  ],
+  "tumorBoardConclusion": {
+    "date": "Onkogynekologické konzilium 9.9.2026",
+    "attendees": "prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová...",
+    "recommendation": "Doporučení: ..."
+  }
+}
+
+ZDE JSOU VSTUPNÍ DATA PACIENTKY:
+
+=== AKTUÁLNÍ VYŠETŘENÍ Z POSLEDNÍCH 2 MĚSÍCŮ (PRO ODDÍL STAGINGOVÁ VYŠETŘENÍ, MAMOGRAFIE EXKLUDOVÁNA) ===
+[
+  {
+    "id": "EXAM-009",
+    "date": "2026-02-04",
+    "rawDate": "04/02/26",
+    "type": "Histologie / Biopsie",
+    "title": "Histologie / Biopsie (04/02/26)",
+    "doctor": "Skálová Helena MUDr., Ph.D.",
+    "fullContent": "Výsledky z 04/02/26: \r\n  Nálezy: \r\n      REPT_BIOPVYS_DTP:\r\n\r\nKlinická diagnóza: \r\nLaboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189\r\ned.3:2023. Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle \r\nSOP-PAT-10.\r\n\r\n\r\nNález: \r\nB 2540/26\r\n\r\nKlinická diagnóza: polyp cervixu\r\n\r\nNepatrná částka z děložního čípku o průměru 1 mm, prokrájena.\r\nMikro: Topograficky nepřehledný fragment stromatu s okrajem žlázky lemovaným zhmožděným endocervikálním epitelem, jehož několik buněk nacházíme i na povrchu sliznice. Dlaždicový epitel zastižen nebyl.\r\n\r\nZávěr: Materiál je málo reprezentativní.\r\nT83, M09000\r\n\r\n\r\nDatum potvrzení: 9.2.2026 12:56:00\r\nPotvrzující lékař: Skálová Helena MUDr., Ph.D."
+  },
+  {
+    "id": "EXAM-010",
+    "date": "2026-02-23",
+    "rawDate": "03.09.25",
+    "type": "Vstupní anamnéza / Souhrn",
+    "title": "Vstupní anamnéza a stagingový souhrn",
+    "doctor": "Neuveden",
+    "fullContent": "[ANONYMIZOVÁNO] [ANONYMIZOVÁNO], Ing.                  Č. poj.: [ANON-RČ]    Kód poj.:207 \nBydliště: [ANON-KONTAKT],tel. +[ANON-KONTAKT]                \nDat. zal. karty: 23.02.26                            Dat. nar.:26.08.1960 \nVšeobecná fakultní nemocnice v Praze                                 GYN-OA\n===========================================================================\nAnamnéza CR:                                                               \nNynější onemocnění: ad HSK pro spotting v postmenopauze                    \n\nRA: matka + 86, Alzheimer., arteriální hypertenze, otec + 90 ca colon,     \nsestra zdravá, 4 děti zdravé                                               \nOA: běžná dětská onem., vážněji nestonala                                  \n       interní onem. arteriální hypertenze, hypercholesterolémie,          \neufunkční sturma, trombofilie - mutace FV - Leiden                         \n       dispenzarizace: kardiologie                                         \n       operace, úrazy: hernia ing. l.dx                                    \n       TRF: 0                                                              \n       varixy: 0                                                           \n       abusus: nekuřačka, alkohol minimálně, drogy ne                      \nAA: neguje                                                                 \nFA: Tezefort 80/5mg tbl.p.o 1-0-0                                          \nSA, PA: vdaná, 4 děti, učitelka                                            \nEA: 0                                                                      \nGA: PM menopauza                                                           \n                                                                           \n       porod: 4x spont. , UPT: , AB: 0                                     \n       malé výkony: 0                                                      \n       zákroky na děl. hrdle: 0                                            \n       gyn. onemocnění: 0                                                  \nAnamnéza:                                                                  \nSociální anamnéza:                                                         \nNynější onemocnění:                                                        \nObjektivní nález:                                                          \nCAVE:                                                                      \nNeudává                                                                    \nPovrch těla (m2) =   1,76 ; BMI=  23,18 ; Výška= 170 ; Váha= 67,000 ;      \n\nEpikríza:                                                                  \nFaryadová [ANONYMIZOVÁNO], Ing.                                                       \n[ANON-RČ]                                                                 \n207                                                                        \nKosmatcová 509, Sibřina, 250 84                                            \ntel. +[ANON-KONTAKT]                                                      \n\n66 let, 168 cm, 62 kg, ECOG PS 0                                           \n\nNO: pacientka přichází pro pánevní tumor selevací CA 125. Provedena CNB   \nsnálezem HGSC. Pacientka indikována kradikální hysterektomii. Po operaci \nzahájila CHT vrežimu PTX/CBDCA. Nyní po 6 cyklech kontrolní CT.           \n\nAnamnéza:                                                                  \nOA: hypertenze, osteopenie, trombofilní mutace f V                         \nOperace: herniopl inq. I. dx.                                              \nAA: na léky a dezinfekci neguje                                            \nGA: partus 4x spont, PM: vcca 50 letech                                   \n\nStagingová vyšetření                                                       \nCT hrudníku, břicha a pánve (8.9.2026): nebylo provedeno \nGynekologické vyšetření (prof. Sláma, dne 4.3.2026)                        \nbřicho klidné, měkké, nebolestivé, bez známek peritoneálního dráždění;     \nzevně: zevní rodidla bez patologie                                         \nspec: pochva klidná, bez fluoru, čípek hladký, cylindrický, ZB štěrbina,   \nnekrvácí                                                                   \npalp: děloha v AVF, nezvětšená, tuhá, volná, taxe nebolestivá, parametria  \nvolná, adnexa nehmatná, Douglas volný                                      \n\nOnko UZ (dr. Frühauf, dne 4.3.2026): Dle UZ tumor pravých adnex - neostře  \nohraničená léze infiltrující okolní struktury včetně stěny sigmoidea a     \njeho mesocolon, k infiltrace fixováno v.s. rovněž ileum, tumor v pánvi     \npevně fixován k pravému SU vazu a děloze, patrná struktura tuby vzhledu    \nhydrosalpingu, patologická lymfadenopatie v oblasti vnitřních i zevních    \nexterních a společných ilik vpravo, další diseminaci nezobrazuji           \nResumé: v.s. HGSC tubárního origa s atypickým šířením v pánvi a dutině     \nbřišní, nález se jeví operabilní (resekce sigmoidea, otázka nutnosti       \nresekce tenkého střeva).                                                   \n\nOnko UZ (dr. Bednářová, dne 23.2.2026): Susp. perfundovaný solidní tumor   \npravých adnex, šířící se kraniálně po pánevní stěně, současně infiltrující \nokolní struktury se zavzetím epiploik a kliček střevních (prorůstání do    \nstěny střevní nevizualizuji), susp. ložiska v obou parakolických fosách,   \npostižení pravé pánevní stěny, susp. ložisko vomentu                      \n\nDg.: sBRCA 1/2 negat., HRD negat.                                          \nHGSC tubo-ovariální pT3b pN1 (18/1) cM0 FIGO IIIB (I.dg. 3/2026)           \nSt.p. core needle biopsii 4.3.2026                                         \nHistologie: Nález má zastoupenými znaky charakter high grade serózního     \nkarcinomu, jehož primární zdroj v oblasti děložní tuby, ovaria či          \npánevního peritonea je pravděpodobný. Na imunohistochemické úrovni         \nzastižen typ exprese p53 wild type, tento typ exprese se však u minority   \nhigh grade serózních karcinomů může vyskytovat. Budeme ještě provádět      \ndodatečná imunohistochemická vyšetření, definitivní závěr sdělíme v        \ndodatku. T87 M8461/3                                                       \n\nSt.p. Rad hyst lat. dex, AE, OE, APE, PLND 17.3.2026, reziduum: R0         \nIn situ, v pánvi dominuje tumor vycházející z P adnex, fixovaný k          \nileocéku, do něho infiltruje apendix, tumor pevně fixovaný do parametria,  \nněkolik uzlu meta ve volné části omenta, levá adnexa bpn, děloha, periton. \npovrchy, játra, bránice, slezina hladké, v P parakolické fose tumor, který \nneinfiltruje rektum, vpravo dokončujeme parametrektomii v rozsahu C1       \nlaterálně...                                                               \nHistologie: Nález má charakter high grade karcinomu tuby/ovaria,           \nzastoupenými morfologickými znaky se na prvním místě jedná o high grade    \nserózní karcinom (místy s tzv. SET rysy). Vzhledem k výsledkům předchozího \nvyšetření doplníme imunohistochemické vyšetření za účelem přesné typizace  \ntumoru, výsledek a definitivní závěr sdělíme v dodatku této biopsie.       \n- s postižením omenta (rozměr největšího nádorového ložiska 18 mm)         \n- s postižením pánevního peritonea                                         \n18 lymfatických uzlin, z toho v 1 metastáza (velikosti 11 mm).             \nT86 M8461/3vs pT3b pN1 (1/18)                                              \n\nSt.p. 6 cyklech CHT vrežimu PTX/CBDCA (poslední 11.8.2026) \nOnkogynekologické konzilium 9.9.2026                                      \nPřítomni: prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr.        \nFrühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr.       \nValentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák                        \nDoporučení: Pacientka ukončila chemoterapii, je ve screeningu studie       \nMK2870-021 – follow-up vs. sacitizumab tirumotecan. Konsilium bude         \nodloženo o týden svýsledky CT. Pacientka informována Dr. Malčákem - dle   \npacientky v plánu CT 17.9.2026, konsilium 23.9.2026.                       \n\n      Zapsal:  10.09.2026                                                  \nDiagnózy:                                                                  \nZákladní diagnóza: C56"
+  },
+  {
+    "id": "EXAM-011",
+    "date": "2026-02-23T10:21:00",
+    "rawDate": "23.02.26",
+    "type": "Ambulantní nález",
+    "title": "------  Dokumentace ze dne 23.02.26 ---------:                                    Nález ze dne 23.02.26 10:21 Bednářová Dominika MUDr.:",
+    "doctor": "Bednářová Dominika MUDr.",
+    "fullContent": "------  Dokumentace ze dne 23.02.26 ---------:                             \n      Nález ze dne 23.02.26 10:21 Bednářová Dominika MUDr.:                \nDiagnózy:                                                                  \nN832 Jiné a neurčené cysty vaječníku                                       \n\n\nPM: v 50 letech                                                            \noperace: st.p. tříselné kýle v 9 letech, před 10 lety myomectomie, HSK     \n4.2.2026                                                                   \nindikace k UZ: 12/25 st.p. ruptuře cysty, bolesti v pravém podbřišku,      \npozitit ca 125 -85                                                         \n\nVag.: Děloha v AVF velikosti 66x27x50mm, volně pohyblivá, hrdlo děložní    \nhomogenní, bez patologické perfuze, endometrium nízké do 2mm, ve fundu     \ndrobná fluidometra do 1,5mm. Na zadní stěně drobný IM myom velikosti       \n12x6x12mm, CS1. V místě pravých adnex bohatě perfundovaný, solidní tumor,  \nfixován k pánevní stěně, o celkové velikosti 39x43x35mm, který nehomogenní \nstruktury (hyper i izoechogenní), vaskularizace CS4, nerovného povrchu s   \npatrnými nekrózami/hemoragiemi, s infiltrací do okolních struktur          \n(epiploiky, donstěny střevní neprorůstá) a šíří se směrem kraniálně po     \npánevní stěně. Ovarium vlevo 16x7x6mm fixováno k pánevní stěně, normální,  \nsolidní struktury, bez patologické perfuze, levá tuba šíře 5,6mm,          \nhomogenní, bez patologické perfuze. Volná tekutina není, rektosigmoideum   \nfixováno k tumoru, ale nezobrazuji infitraci stěny střevní. Při interních  \nilických cévách patrná suspektní zakulacená uzlina se zachovalou           \narchitektonikou, velikosti 14x11mm, s hilovou cévou a současně             \ntranskapsulární perfuzí.                                                   \n\nAbd.: Jaterní parenchym homogenní, KPS bilat. bez dilatace, žlučník bpn.,  \npankreas s fibrolipomatózou, slezina bpn. V pravé parakolické fosse        \nsuspektní hyperechogenní ložisko velikosti 24x9x13mm při pánevní stěně, v  \nlevé parakolické fosse v úrovni pupku při laterální stěně suspektní        \nhypoechogenní ložisko velikosti 9x7mm, patrné perfundované hypoechogenní   \nložisko v omentu 11x8mm.                                                   \n\nZávěr: Susp. perfundovaný solidní tumor pravých adnex, šířící se kraniálně \npo pánevní stěně, současně infiltrující okolní struktury se zavzetím       \nepiploik a kliček střevních (prorůstání do stěny střevní nevizualizuji),   \nsusp. ložiska v obou parakolických fosách, postižení pravé pánevní stěny,  \nsusp. ložisko v omentu \nDop.: ad ambulance č.6, objednat do indikací, prosíme o předání žádanek na \npředoperační vyšetření. Děkuji.                                            \n\nNález konzultován s pacientkou v rámci edukačního pohovoru.                \nDěkujeme za odeslání pacientky k vyšetření na našem pracovišti.            \n\nS pozdravem                                                                \nMUDr. Dominika Bednářová                                                   \n23.2.2026"
+  },
+  {
+    "id": "EXAM-012",
+    "date": "2026-03-04T07:48:00",
+    "rawDate": "04.03.26",
+    "type": "Ambulantní nález",
+    "title": "------  Dokumentace ze dne 04.03.26 ---------:                                    Nález ze dne 04.03.26 07:48 Sláma Jiří prof. MUDr., Ph.D.:",
+    "doctor": "Sláma Jiří prof. MUDr., Ph.D.",
+    "fullContent": "------  Dokumentace ze dne 04.03.26 ---------:                             \n      Nález ze dne 04.03.26 07:48 Sláma Jiří prof. MUDr., Ph.D.:           \nDiagnózy:                                                                  \nD399 Novotvar NNCH - ženský pohlavní orgán NS                              \n\n65 let                                                                     \nNO: pacientka přichází pro pánevní tumor s elevací CA 125                  \n\nOA: hypertenze, osteopenie, trmbofilní mutace f V                          \nOperace, úrazy: herniopl. inq. l. dx.                                      \nFA: viz přil. dokumentace                                                  \nAA: na léky a dezinfekci neguje                                            \nGA: partus 4x spont., PM: cca v 50 letech                                  \nBolest: neguje                                                             \n\nCelkové vyšetření:                                                         \nPacientka při plném vědomí, orientovaná, spolupracuje, emočně stabilní,    \nbez cyanosy, ikteru, eupnoická, přiměřené hydratace a výživy, samostatně   \npohyblivá. Hlava nebolestivá, zornice izokorické, bez zarudnutí; jazyk     \nplazí ve střední čáře, nepovleklý, sliznice růžové, náplň krčních cév      \npřiměřená, uzliny nezvětšeny. Hrudník souměrný, dýchá pravidelně, akce     \nsrdeční pravidelná. Prsy klidné.                                           \nBřicho měkké, nebolestivé, bez známek peritonálního dráždění. Tapottement  \nbilat.negat. Končetiny bez otoků, bez známek TEN či jiných poruch          \nprokrvení, hybnost normální.                                               \n\nObj.:                                                                      \nCA 125 - 85                                                                \nRTG plic - NED                                                             \nHmotnost - 62 kg      Výška - 168 cm                                       \nGynekologické vyšetření:                                                   \nECOG PS - 0                                                                \nbřicho klidné, měkké, nebolestivé, bez známek peritoneálního dráždění;     \nzevně: zevní rodidla bez patologie                                         \nspec: pochva klidná, bez fluoru, čípek hladký, cylindrický, ZB štěrbina,   \nnekrvácí                                                                   \npalp: děloha v AVF, nezvětšená, tuhá, volná, taxe nebolestivá, parametria  \nvolná, adnexa nehmatná, Douglas volný                                      \n\nDiagnostická rozvaha a závěr:                                              \nTU pelvis et abd., elevace CA 125                                          \nHypertenze, osteopenie, mutace f. V                                        \n\nDoporučení: nyní kontrolní onkogyn. UZ vyšetření, s výsledkem zpět do \nambulance č. 6                                                             \n\nPacientka byla o vyšetření a závěru poučena, rozumí, s postupem souhlasí,  \ndotazy nemá, odchází z ambulance v celkově dobrém stavu.                   \n\n\n\n      dodatek ze dne 04.03.26 11:24 Sláma Jiří prof. MUDr., Ph.D.:         \nDiagnózy:                                                                  \nD399 Novotvar NNCH - ženský pohlavní orgán NS                              \n\nOnkogynekol. UZ vyš.:                                                      \nZávěr: Dle UZ tumor pravých adnex - nostře ohraničená léze infiltrující    \nokolní struktury včetně stěny sigmoidea a jeho mesocolon, k infiltrace     \nfixováno v.s. rovněž ileum, tumor v pánvi pevně fixován k pravému SU vazu  \na děloze, patrná struktura tuby vzhledu hydrosalpingu, patologická         \nlymfadenopatie v obasti vnitřních i zevních externích a společných ilik    \nvpravo, další diseminaci nezobrazuji                                       \n\nResumé: v.s. HGSC tubárního origa s atypickým šířením v pánvi a dutině     \nbřišní, nález se jeví operabilní (resekce sigmoidea, otázka nutnosti       \nresekce tenkého střeva)                                                    \n\n\nDop.: dnes core needle biopsie k potvrzení gynekologického origa           \ntransvaginálně (dr. Emingr, 10.00), s výsledkem onkogynekol. konzilium ke  \nstanovení dalšího plánu, pac. bude tel. informována."
+  },
+  {
+    "id": "EXAM-013",
+    "date": "2026-03-04T09:43:00",
+    "rawDate": "04.03.26",
+    "type": "Ambulantní nález",
+    "title": "Nález ze dne 04.03.26 09:43 Frühauf Filip MUDr., Ph.D.:",
+    "doctor": "Frühauf Filip MUDr., Ph.D.",
+    "fullContent": "Nález ze dne 04.03.26 09:43 Frühauf Filip MUDr., Ph.D.:              \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\nPM: v 50 letech                                                            \noperace: st.p. tříselné kýle v 9 letech, před 10 lety myomectomie, HSK     \n4.2.2026                                                                   \nindikace: pacientka 65 let přichází pro pánevní tumor s elevací CA 125 85  \n\nVag.: Děloha v AVF velikosti 58x22x47mm, volně pohyblivá, hrdlo děložní    \nhomogenní, endometrium nízké se synechiemi. V přední stěně drobný          \nnesuspektní IM myom. V oblasti pravých adnex nepravidelný solidní tumor    \nvelikosti 48x29x38mm (39x43x35mm) patrná struktura hydrosalpingu, v        \nsolidní složce perfuze CS 4, pouzdro porušené, nádorové hmoty infiltrují   \nv.s. pravý SU vaz, který je fixován k děloze a přechází na povrch          \nsigmoidea, infiltrují jeho mezokolon. K tumoru v.s. fixováno i ileum.      \nOvarium vpravo mm, normální struktury, ovarium vlevo drobné, solidní,      \nnesuspektního vzhledu o velikosti 11x9x12mm, levá tuba šíře 3mm. Volná     \ntekutina není. Suspektní uzlina při pravých interních ilikách o průměru    \n7mm.                                                                       \n\nAbd.: Jaterní parenchym homogenní, KPS bilat. bez dilatace, vlevo v.s.     \nojedinělá kalikolithiaza, žlučník bpn., pankreas bpn., slezina bpn.,       \nakcesorní slezina o průměru 9mm, patrná lymfadenopathie podél pravých      \nexterních a společných ilik, největší uzlina level 2 o velikosti 11x10mm. \nBez tříselné lymfadenopathie.                                              \n\nZávěr: Dle UZ tumor pravých adnex - nostře ohraničená léze infiltrující    \nokolní struktury včetně stěny sigmoidea a jeho mesocolon, k infiltrace     \nfixováno v.s. rovněž ileum, tumor v pánvi pevně fixován k pravému SU vazu  \na děloze, patrná struktura tuby vzhledu hydrosalpingu, patologická         \nlymfadenopatie v obasti vnitřních i zevních externích a společných ilik    \nvpravo, další diseminaci nezobrazuji                                       \n\nResumé: v.s. HGSC tubárního origa s atypickým šířením v pánvi a dutině     \nbřišní, nález se jeví operabilní (resekce sigmoide, otázka nutnosti        \nresekce tenkého střeva)                                                    \n\nDop.: dnes core needle biopsie k potvrzení gynekologického origa           \ntransvaginálně (dr. Emingr, 10.00)                                         \n\nNález konzultován s pacientkou v rámci edukačního pohovoru.                \nDěkujeme za odeslání pacientky k vyšetření na našem pracovišti.            \n\nS pozdravem                                                                \nMUDr. Frűhauf Filip                                                        \n\n4.3.2026"
+  },
+  {
+    "id": "EXAM-014",
+    "date": "2026-03-04T10:15:00",
+    "rawDate": "04.03.26",
+    "type": "Ambulantní nález",
+    "title": "Nález ze dne 04.03.26 10:15 Emingr Michal MUDr.:",
+    "doctor": "Emingr Michal MUDr.",
+    "fullContent": "Nález ze dne 04.03.26 10:15 Emingr Michal MUDr.:                     \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\nProvedena CNB vag.                                                         \n\nMat ad histol.                                                             \n\nAd onkokonzilia zařazena                                                   \n\nEmingr"
+  },
+  {
+    "id": "EXAM-015",
+    "date": "2026-03-06",
+    "rawDate": "06/03/26",
+    "type": "Histologie / Biopsie",
+    "title": "Histologie / Biopsie (06/03/26)",
+    "doctor": "Dundr Pavel prof. MUDr. Ph.D.",
+    "fullContent": "Výsledky z 06/03/26: \r\n  Nálezy: \r\n      REPT_BIOPVYS_DTP:\r\n\r\nKlinická diagnóza: \r\nLaboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189\r\ned.3:2023. Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle \r\nSOP-PAT-10\r\n\r\nImunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13.\r\n\r\n\r\nNález: \r\nB 4981/26\r\n\r\nCelkem 3 částečně fragmentované punkční vzorky délky 6-8 mm označené jako core needle biopsie bez přesného určení místa odběru.\r\nMikro: Materiál tvoří fragmenty málo diferencovaného karcinomu solidní, papilární a kribriformní úpravy. Nádorové buňky mají nepravidelná jádra s četnými mitózami a středně objemnou eozinofilní či amfofilní cytoplazmu. Okrajově dále zastiženy fragmenty tkáně tvořené vazivovou tkání a hladkou svalovinou místy s patrnou stěnou cystického útvaru vystlaného oploštělou kubickou výstelkou. Fokálně je ve stěně infiltrace skupinami výše popsaných nádorových buněk. V jedné částce je sliznice krytá dlaždicovým epitelem obvyklé struktury.\r\n\r\nImunohistochemický nález (blok C):\r\nWT-1: Difuzně pozitivní.\r\nEstrogenové receptory: Pozitivní (variabilně intenzivní jaderná pozitivita asi v 80 % nádorových buněk).\r\nProgesteronové receptory: Negativní.\r\nP53: Variabilně intenzivní jaderná pozitivita většiny nádorových buněk, silně intenzivní pozitivita asi ve 30 % buněk - hodnotíme jako typ exprese wild type.\r\n\r\nPředběžný závěr: Nález má zastoupenými znaky charakter high grade serózního karcinomu, jehož primární zdroj v oblasti děložní tuby, ovaria či pánevního peritonea je pravděpodobný. Na imunohistochemické úrovni zastižen typ exprese p53 wild type, tento typ exprese se však u minority high grade serózních karcinomů může vyskytovat. Budeme ještě provádět dodatečná imunohistochemická vyšetření, definitivní závěr sdělíme v dodatku.\r\nT87 M8461/3\r\n\r\nDatum potvrzení: 11.3.2026 10:13:00\r\nPotvrzující lékař: Dundr Pavel prof. MUDr. Ph.D.\r\n\r\nDodatek 1:\r\nImunohistochemický nález:\r\nPAX8: Difuzně pozitivní.\r\nP16: Mozaikovitý typ exprese.\r\nPTEN: Úplná ztráta exprese.\r\nKi-67 (MiB-1): Celkově asi 70 % buněk.\r\n\r\nImunohistochemický nález:\r\nPMS2, MSH6: silně intenzivní jaderná pozitivita většiny nádorových buněk.\r\nZávěr: Exprese vyšetřených MMR proteinů v nádorové tkáni je zachovaná. Pravděpodobnost nestability mikrosatelitů (MSI) je tedy nízká.\r\n\r\nZávěr: Předběžný diagnostický nález zůstává nezměněn, v diferenciální dg. na prvém místě připadá v úvahu high grade serózní karcinom, odlišení od méně pravděpodobné možnosti high grade endometroidního karcinomu je však v daném případě obtížné. Jednoznačné hodnocení bude možné až z případného definitivního resekátu, eventuálně by v rámci uvedené diferenciální dg. mohlo být přínosné molekulární vyšetření metodou NGS - toto vyšetření doplníme dodatečně v případě požadavku ze strany klinika.\r\nT87 M8461/3 susp.\r\n\r\n\r\nDatum potvrzení: 12.3.2026 11:55:00\r\nPotvrzující lékař: Dundr Pavel prof. MUDr. Ph.D."
+  },
+  {
+    "id": "EXAM-016",
+    "date": "2026-03-11",
+    "rawDate": "11/03/26",
+    "type": "Laboratoř / Laboratorní panel",
+    "title": "Laboratorní panel (11/03/26)",
+    "doctor": "Neuveden",
+    "fullContent": "Výsledky z 11/03/26: \r\n  Koagulační vyšetření: \r\n      Protrombinový test čas: 10,90\r\n      INR: 0,90\r\n      APTT: 27,0\r\n      APTT R: 0,90"
+  },
+  {
+    "id": "EXAM-017",
+    "date": "2026-03-11T08:23:00",
+    "rawDate": "11.03.26",
+    "type": "Ambulantní nález",
+    "title": "------  Dokumentace ze dne 11.03.26 ---------:                                    Nález ze dne 11.03.26 08:23 Cibula David prof. MUDr., CSc.:",
+    "doctor": "Cibula David prof. MUDr., CSc.",
+    "fullContent": "------  Dokumentace ze dne 11.03.26 ---------:                             \n      Nález ze dne 11.03.26 08:23 Cibula David prof. MUDr., CSc.:          \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n\n65 let                                                                     \nNO: pacientka přichází pro pánevní tumor s elevací CA 125                  \n\nOA: hypertenze, osteopenie, trmbofilní mutace f V                          \nOperace, úrazy: herniopl. inq. l. dx.                                      \nFA: viz přil. dokumentace                                                  \nAA: na léky a dezinfekci neguje                                            \nGA: partus 4x spont., PM: cca v 50 letech                                  \nBolest: neguje                                                             \n\nCelkové vyšetření:                                                         \nPacientka při plném vědomí, orientovaná, spolupracuje, emočně stabilní,    \nbez cyanosy, ikteru, eupnoická, přiměřené hydratace a výživy, samostatně \npohyblivá. Hlava nebolestivá, zornice izokorické, bez zarudnutí; jazyk     \nplazí ve střední čáře, nepovleklý, sliznice růžové, náplň krčních cév      \npřiměřená, uzliny nezvětšeny. Hrudník souměrný, dýchá pravidelně, akce     \nsrdeční pravidelná. Prsy klidné.                                           \nBřicho měkké, nebolestivé, bez známek peritonálního dráždění. Tapottement  \nbilat.negat. Končetiny bez otoků, bez známek TEN či jiných poruch          \nprokrvení, hybnost normální.                                               \n\nObj.:                                                                      \nCA 125 - 85                                                                \nRTG plic - NED                                                             \nHmotnost - 62 kg      Výška - 168 cm                                       \nGynekologické vyšetření:                                                   \nECOG PS - 0                                                                \nbřicho klidné, měkké, nebolestivé, bez známek peritoneálního dráždění;     \nzevně: zevní rodidla bez patologie                                         \nspec: pochva klidná, bez fluoru, čípek hladký, cylindrický, ZB štěrbina,   \nnekrvácí                                                                   \npalp: děloha v AVF, nezvětšená, tuhá, volná, taxe nebolestivá, parametria  \nvolná, adnexa nehmatná, Douglas volný                                      \n\nDiagnostická rozvaha a závěr:                                              \nTU pelvis et abd., elevace CA 125                                          \nHypertenze, osteopenie, mutace f. V                                        \n\nOnkogynekol. UZ vyš.: Dle UZ tumor pravých adnex - nostře ohraničená léze  \ninfiltrující okolní struktury včetně stěny sigmoidea a jeho mesocolon, k   \ninfiltrace fixováno v.s. rovněž ileum, tumor v pánvi pevně fixován k       \npravému SU vazu a děloze, patrná struktura tuby vzhledu hydrosalpingu,     \npatologická lymfadenopatie v obasti vnitřních i zevních externích a        \nspolečných ilik vpravo, další diseminaci nezobrazuji                       \nResumé: v.s. HGSC tubárního origa s atypickým šířením v pánvi a dutině     \nbřišní, nález se jeví operabilní (resekce sigmoidea, otázka nutnosti       \nresekce tenkého střeva)                                                    \nDop.: dnes core needle biopsie k potvrzení gynekologického origa           \ntransvaginálně (dr. Emingr, 10.00), s výsledkem onkogynekol. konzilium ke  \nstanovení dalšího plánu, pac. bude tel. informována."
+  },
+  {
+    "id": "EXAM-018",
+    "date": "2026-03-11T09:02:00",
+    "rawDate": "11.03.26",
+    "type": "Ambulantní nález",
+    "title": "Nález ze dne 11.03.26 09:02 Cibula David prof. MUDr., CSc.:",
+    "doctor": "Cibula David prof. MUDr., CSc.",
+    "fullContent": "Nález ze dne 11.03.26 09:02 Cibula David prof. MUDr., CSc.:          \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n\n65 let                                                                     \nNO: pacientka přichází pro pánevní tumor s elevací CA 125                  \n\nOA: hypertenze, osteopenie, trmbofilní mutace f V                          \nOperace, úrazy: herniopl. inq. l. dx.                                      \nFA: viz přil. dokumentace                                                  \nAA: na léky a dezinfekci neguje                                            \nGA: partus 4x spont., PM: cca v 50 letech                                  \nBolest: neguje \nCelkové vyšetření:                                                         \nPacientka při plném vědomí, orientovaná, spolupracuje, emočně stabilní,    \nbez cyanosy, ikteru, eupnoická, přiměřené hydratace a výživy, samostatně   \npohyblivá. Hlava nebolestivá, zornice izokorické, bez zarudnutí; jazyk     \nplazí ve střední čáře, nepovleklý, sliznice růžové, náplň krčních cév      \npřiměřená, uzliny nezvětšeny. Hrudník souměrný, dýchá pravidelně, akce     \nsrdeční pravidelná. Prsy klidné.                                           \nBřicho měkké, nebolestivé, bez známek peritonálního dráždění. Tapottement  \nbilat.negat. Končetiny bez otoků, bez známek TEN či jiných poruch          \nprokrvení, hybnost normální.                                               \n\nObj.:                                                                      \nCA 125 - 85                                                                \nRTG plic - NED                                                             \nHmotnost - 62 kg      Výška - 168 cm                                       \nGynekologické vyšetření:                                                   \nECOG PS - 0                                                                \nbřicho klidné, měkké, nebolestivé, bez známek peritoneálního dráždění;     \nzevně: zevní rodidla bez patologie                                         \nspec: pochva klidná, bez fluoru, čípek hladký, cylindrický, ZB štěrbina,   \nnekrvácí                                                                   \npalp: děloha v AVF, nezvětšená, tuhá, volná, taxe nebolestivá, parametria  \nvolná, adnexa nehmatná, Douglas volný                                      \n\nDiagnostická rozvaha a závěr:                                              \nTU pelvis et abd., elevace CA 125                                          \nHypertenze, osteopenie, mutace f. V                                        \n\nOnkogynekol. UZ vyš.: Dle UZ tumor pravých adnex - nostře ohraničená léze  \ninfiltrující okolní struktury včetně stěny sigmoidea a jeho mesocolon, k   \ninfiltrace fixováno v.s. rovněž ileum, tumor v pánvi pevně fixován k       \npravému SU vazu a děloze, patrná struktura tuby vzhledu hydrosalpingu,     \npatologická lymfadenopatie v obasti vnitřních i zevních externích a        \nspolečných ilik vpravo, další diseminaci nezobrazuji                       \nResumé: v.s. HGSC tubárního origa s atypickým šířením v pánvi a dutině     \nbřišní, nález se jeví operabilní (resekce sigmoidea, otázka nutnosti       \nresekce tenkého střeva)                                                    \nDop.: dnes core needle biopsie k potvrzení gynekologického origa           \ntransvaginálně (dr. Emingr, 10.00), s výsledkem onkogynekol. konzilium ke  \nstanovení dalšího plánu, pac. bude tel. informována.                       \n\nTelefonická konzultace prof. Dundr - předběžný výsledek HGSC - potvrdí dle \nIHC                                                                        \n\nIndikace: DSL, cytoredukční výkon - vs exstirpace tu, hyst, AE, nutnost    \nresekce sigmoidea, ev. resekce ilea, exstirpace bulky LN v pánvi,          \nexplorace dutiny břišní                                                    \n\nord: dnes předop. konzilia, v pá si zavolá pro termín operace              \ncave - nutná kontrola výsledku CNB - bude-li pochybnost, pak event.        \nprovést FS během operace                                                   \n\ndr. Cibula"
+  },
+  {
+    "id": "EXAM-019",
+    "date": "2026-03-11T09:50:00",
+    "rawDate": "11.03.26",
+    "type": "Ambulantní nález",
+    "title": "Nález ze dne 11.03.26 09:50 Křížanová Lenka :",
+    "doctor": "Křížanová Lenka",
+    "fullContent": "Nález ze dne 11.03.26 09:50 Křížanová Lenka :                        \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n06411 Vyšetření a zhodnocení nutričního stavu                              \n\nPacientka:  [ANONYMIZOVÁNO] [ANONYMIZOVÁNO]                                        65  let  \nIndikace k vyšetření: předoperační indikace. pacientka přichází pro        \npánevní tumor s elevací CA 125                                             \nVýška:    168 cm     Váha:    60 kg     BMI: 21                            \n                                                                          \n\n\nZávěr: Pacientku vhodné během hospital. nutričně sledovat. Doporučila jsem \nsipping 1x denně,preOp před výkonem a suplementaci vit.C a D před operací  \n\nNutriční potřeba:  8500 kJ (120kJ/kg/d)   90gB (1,2g B kg/d)-výpočet denní \npotřeby dle doporučené hmotnosti                                           \nDieta: neuvádí                                                             \nAlergie, intolerance: neuvádí                                              \nStolice:  b.o.                                                             \n\n\n06415 Edukace NT                                                           \nNutriční anamnéza + doporučení ohledně stravování: Pacientka vlivem stresu \nzhubla cca 2kg. Doporučila jsem sipping 1x denně pro navýšení B a EH ve    \nstravě.  Zvracení i nevolnosti neguje. Chuť snížená vlivem strasu. Alergie \nani intoleranci neuvádí. Speciální dietu nedodržuje. Edukovaná o režimu    \nstravování před operaci. Po operaci individuální přístup k pacientce dle   \nindikace. Ve stravě kladu důraz na navýšení množství kvalitních bílkovin.  \nDoporučeno zařadit vajíčka, ryby, mléčné výrobky. Dbát na dostatečný pitný \nrežim 1,5 l/den. Pacientka poučena i o vhodném pohybu pro navyšování       \nsvalové hmoty.                                                             \nDietní opatření: Není vhodná kořeněná, ostrá nadýmavá strava. Omezit       \nsmažená jídla. Před operací omezit hrubou vlákninu.                        \nIndividuální doporučení: Pacientka edukována o sippingu, který je součástí \nperioperační realimentace per os. Poučena o jeho možnostech, využití,      \npříchutích a druzích.                                                      \nPísemné materiály: Pacientce předány edukační materiály do domácího        \nprostředí „Výživa před operačním výkonem“ , \"Sipping\"                      \n\n06421 Indikace sippingu NT                                                 \nStanovení nutriční potřeby a reálného příjmu:  viz. nutriční potřeba       \nDoporučení, druh, doplňková či úplná DEV: Pacientka edukována o sippingu,  \nkterý je součástí perioperační realimentace per os. Poučena o jeho         \nmožnostech, využití, příchutích a druzích.                                 \n\n\n      dodatek ze dne 11.03.26 11:37 Křížanová Lenka :                      \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n  0217500 NUTRIDRINK COMPA POR SOL 4X125ML              2 bal. : 1-2 denně \n                                                                           \n\nMedikace:                                                                  \n  0217500 NUTRIDRINK COMPA POR SOL 4X125ML              2 bal. : 1-2 denně"
+  },
+  {
+    "id": "EXAM-020",
+    "date": "2026-03-12T11:22:00",
+    "rawDate": "12.03.26",
+    "type": "Ambulantní nález",
+    "title": "------  Dokumentace ze dne 12.03.26 ---------:                                    Nález ze dne 12.03.26 11:22 Drahovzalová Marcela :",
+    "doctor": "Drahovzalová Marcela",
+    "fullContent": "------  Dokumentace ze dne 12.03.26 ---------:                             \n      Nález ze dne 12.03.26 11:22 Drahovzalová Marcela :                   \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\nFaryadová [ANONYMIZOVÁNO], Ing.                                                       \n[ANON-RČ]                                                                 \n207                                                                        \nKosmatcová 509, Sibřina, 250 84                                            \ntel. +[ANON-KONTAKT]                                                      \n\n65 let, 168 cm, 62 kg, ECOG PS 0                                           \n\nNO: pacientka přichází pro pánevní tumor selevací CA 125.                 \n\nAnamnéza:                                                                  \nOA: hypertenze, osteopenie, trombofilní mutace f V                         \nOperace: herniopl inq. I. dx.                                              \nAA: na léky a dezinfekci neguje                                            \nGA: partus 4x spont, PM: vcca 50 letech                                   \n\nStagingová vyšetření                                                       \nGynekologické vyšetření (prof. Sláma, dne 4.3.2026)                        \nbřicho klidné, měkké, nebolestivé, bez známek peritoneálního dráždění;     \nzevně: zevní rodidla bez patologie                                         \nspec: pochva klidná, bez fluoru, čípek hladký, cylindrický, ZB štěrbina,   \nnekrvácí                                                                   \npalp: děloha v AVF, nezvětšená, tuhá, volná, taxe nebolestivá, parametria  \nvolná, adnexa nehmatná, Douglas volný                                      \n\nOnko UZ (dr. Frühauf, dne 4.3.2026): Dle UZ tumor pravých adnex - neostře  \nohraničená léze infiltrující okolní struktury včetně stěny sigmoidea a     \njeho mesocolon, k infiltrace fixováno v.s. rovněž ileum, tumor v pánvi     \npevně fixován k pravému SU vazu a děloze, patrná struktura tuby vzhledu    \nhydrosalpingu, patologická lymfadenopatie v oblasti vnitřních i zevních    \nexterních a společných ilik vpravo, další diseminaci nezobrazuji           \nResumé: v.s. HGSC tubárního origa s atypickým šířením v pánvi a dutině     \nbřišní, nález se jeví operabilní (resekce sigmoidea, otázka nutnosti       \nresekce tenkého střeva).                                                   \n\nOnko UZ (dr. Bednářová, dne 23.2.2026): Susp. perfundovaný solidní tumor   \npravých adnex, šířící se kraniálně po pánevní stěně, současně infiltrující \nokolní struktury se zavzetím epiploik a kliček střevních (prorůstání do    \nstěny střevní nevizualizuji), susp. ložiska v obou parakolických fosách,   \npostižení pravé pánevní stěny, susp. ložisko vomentu                      \n\nDg.: abdominopelivcký tumor, v.s. HGSC (I.dg. 3/2026)                      \nSt.p. core needle biopsii 4.3.2026 \nHistologie: Nález má zastoupenými znaky charakter high grade serózního     \nkarcinomu, jehož primární zdroj v oblasti děložní tuby, ovaria či          \npánevního peritonea je pravděpodobný. Na imunohistochemické úrovni         \nzastižen typ exprese p53 wild type, tento typ exprese se však u minority   \nhigh grade serózních karcinomů může vyskytovat. Budeme ještě provádět      \ndodatečná imunohistochemická vyšetření, definitivní závěr sdělíme v        \ndodatku. T87 M8461/3                                                       \n\nOnkogynekologické konzilium 11.3.2026                                     \nPřítomni: prof. MUDr. Cibula, CSc., MUDr. Frühauf, Ph.D., MUDr. Kocián,    \nPh.D., MUDr. Dostálek, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová,      \nPh.D., MUDr. Brynda, MUDr. Emingr, MUDr. Valentová, MUDr. Kníže            \nDoporučení: Pacientka již indikována k PDS, byla informována prof.         \nCibulou."
+  },
+  {
+    "id": "EXAM-021",
+    "date": "2026-03-16",
+    "rawDate": "16/03/26",
+    "type": "Laboratoř / Laboratorní panel",
+    "title": "Laboratorní panel (16/03/26)",
+    "doctor": "Neuveden",
+    "fullContent": "Výsledky z 16/03/26: \r\n  Zkouška kompatibility: \r\n      TP č.1: \r\nC20022600136710  Kompatibilní\r\nPlatnost vyšetření: 19.03.2026 23:59:00\r\nExpirace: 20.04.2026 23:59:00\r\n\r\n      TP č.2: \r\nC20022600136210  Kompatibilní\r\nPlatnost vyšetření: 19.03.2026 23:59:00\r\nExpirace: 20.04.2026 23:59:00\r\n\r\n  Imunohematologie: \r\n      Krevní skupina: 0 poz\r\n      Screening protilátek: neg\r\n  Bez funkční skupiny: \r\n      Q_ZkKomp_*: \r\nvyšetřena\r\n\r\n  Nedefinovaná třída: \r\n      Výsl ZK: \r\nKompatibilní"
+  },
+  {
+    "id": "EXAM-022",
+    "date": "2026-03-18",
+    "rawDate": "18/03/26",
+    "type": "Histologie / Biopsie",
+    "title": "Histologie / Biopsie (18/03/26)",
+    "doctor": "Manethová Monika MUDr. Ph.D.",
+    "fullContent": "Výsledky z 18/03/26: \r\n  Nálezy: \r\n      REPT_BIOPVYS_DTP:\r\n\r\nKlinická diagnóza: \r\nLaboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189\r\ned.3:2023. Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle \r\nSOP-PAT-10.\r\n\r\nImunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13.\r\n\r\n\r\nNález: \r\nB 5806/26\r\n1-5\r\nKlin.: HGC 1: děloha + adnexa + appendix, 2: omentum, 3: lymfatika P, 4: lymfatika L, 5: tumory z pánve \r\n\r\n1:\r\nDěloha 75 x 50 x 20 mm s hrdlem délky 25 mm, průměru 30 mm. Levá tuba délky 53 mm s ovariem 15 x 13 x 5 mm, pravá tuba délky minimálně 60 mm, v oblasti fimbrií nepřehledná, zavzatá ve srůstech s vs nádorově změněným ovariem velikosti 30 x 20 x 15 mm. Na řezu děložním tělem zastihujeme nízké endometrium, v myometriu je patrný uzel průměru 10 mm. V oblasti pravých adnex na řezu zastihujeme tumor 39 x 28 x 25 mm, makroskopicky postihující zejména tubu s prorůstáním do ovaria. Odběr pro účely biobanky nebyl proveden. Materiál byl vyšetřen v 15 blocích.\r\n\r\nMikroskopicky zastihujeme tkáň děložního čípku krytou přiměřeným dlaždicobuněčným epitelem bez dysplazií, který přechází v cylindrický endocervikální žlazový epitel přiměřeného vzhledu. Endometrium je klidové, bez atypií, v myometriu zastihujeme drobné okrsky adenomyózy a benigní leiomyom běžného vzhledu s hyalinizovaným stromatem. \r\nPři levé tubě zastihujeme vícečetné benigní paratubární cysty levé ovarium je s věku přiměřeným nálezem. \r\nVe druhostranné tubě a přilehlém ovariu zastihujeme struktury high grade nádoru rostoucího solidně, kribriformně či viloglandulárně, nádorové buňky mají vezikulární jádra s dobře patrnými jadérky a s patrnou hojnou mitotickou aktivitou, buňky jsou pleomorfní, místy s výraznou variabilitou velikosti. Místy nádor propadá nekróze. Disperzně jsou přítomná psamomatózní tělíska. Fokálně je zastižena lymfangioinvaze nádorových struktur, perineurální šíření nepozorujeme. \r\n\r\n2:\r\nOmentum 290 x 160 x 20 mm s vícečetnými tuhými bělavými ložisky průměru 18 mm, 15 mm a 12 mm. Omentum vyšetřeno v 5 blocích.\r\nMikroskopicky zastihujeme tukovou tkáň omenta se strukturami high grade karcinomu obdobné morfologie jako v č.1.\r\n\r\n3:\r\nČástice 80 x 40 x 10 mm, na řezu s lymfatickými uzlinami. Materiál vyšetřen v 7 blocích.\r\nMikroskopicky zastihujeme tkáň 7 lymfatických uzlin s lipomatózní atrofií, okrsky hyalinizací a lehkou sinusovou histiocytózou, bez maligních nádorových struktur.\r\n\r\n4:\r\nČtyři částice průměru 20 mm, průměru 40 mm, průměru 35 mm a průměru 30 mm, na řezu s lymfatickými uzlinami. Materiál vyšetřen v 9 blocích.\r\nMikroskopicky zastihujeme tkáň 10 lymfatických uzlin s lipomatózní atrofií, okrsky hyalinizací a lehkou sinusovou histiocytózou, bez maligních nádorových struktur.\r\n\r\n5:\r\nČástice průměru 15 mm (A), velikosti 45 x 20 x 20 mm (B) a 40 x 25 x 10 mm (C,D), na řezu se žlutobělavými ložisky. Materiál vyšetřen ve 4 blocích.\r\nMikroskopicky jedna z částic (průměru 15 mm) odpovídá strukturám lymfatické uzliny infiltrované karcinomem obdobného vzhledu jako výše. Zbylé částice odpovídají tukově vazivové tkáni s ložisky totožného nádoru, místy rozsáhle propadajícími nekróze. V nádoru jsou zastiženy početné atypické mitózy.\r\n\r\nPředběžný závěr:\r\nNález má charakter high grade karcinomu tuby/ovaria, zastoupenými morfologickými znaky se na prvním místě jedná o high grade serózní karcinom (místy s tzv. SET rysy). Vzhledem k výsledkům předchozího vyšetření doplníme imunohistochemické vyšetření za účelem přesné typizace tumoru, výsledek a definitivní závěr sdělíme v dodatku této biopsie. \r\n- s postižením omenta (rozměr největšího nádorového ložiska 18 mm)\r\n- s postižením pánevního peritonea\r\n18 lymfatických uzlin, z toho v 1 metastáza (velikosti 11 mm).\r\n\r\nT86 M8461/3vs pT3b pN1 (1/18)\r\n\r\nVhodné bloky pro případná další vyšetření: 1N, 2C, 5C\r\n\r\n\r\nDatum potvrzení: 31.3.2026 16:22:00\r\nPotvrzující lékař: Manethová Monika MUDr. Ph.D.\r\n\r\nDodatek 1:\r\nDodatečně bylo provedeno imunohistochemické vyšetření (1N):\r\np53 - wild type\r\nWT1 - difuzně pozitivní\r\nER - pozitivní v části nádorových buněk, převážně slabě a středně silně\r\nPR - zcela fokální pozitivita, většina nádoru negativní\r\np16 - místy mozaikovitá pozitivita\r\nTTF1 - negativní\r\nGATA3 - většina nádoru negativní, pozitivita malého množství rozptýlených jader.\r\n\r\nZávěr:\r\nNález má charakter high grade karcinomu tuby/ovaria, zastoupenými morfologickými znaky se na prvním místě jedná o high grade serózní karcinom (místy s tzv. SET rysy).\r\n- s postižením omenta (rozměr největšího nádorového ložiska 18 mm)\r\n- s postižením pánevního peritonea\r\n18 lymfatických uzlin, z toho v 1 metastáza (velikosti 11 mm).\r\n\r\nT86 M8461/3vs pT3b pN1 (1/18)\r\n\r\nVhodné bloky pro případná další vyšetření: 1N, 2C, 5C\r\n\r\nDatum potvrzení: 3.4.2026 18:51:00\r\nPotvrzující lékař: Manethová Monika MUDr. Ph.D.\r\n\r\nDodatek 2:\r\nNa základě žádosti MUDr. R. Kociána, Ph.D. z Gyn-por kliniky VFN zapůjčujeme dne 9.4.2026 parafínový blok\r\nB05806/1M/26 do studie N-Plus k centrálnímu testování HRD statusu. \r\n\r\n\r\nDatum potvrzení: 15.4.2026 09:57:00\r\nPotvrzující lékař: Véghová Blanka\r\n\r\nDodatek 3:\r\nNa základě žádosti MUDr. R. Kociána z KGPN VFN zapůjčujeme dne 3.8.2026 parafínový blok B05806/2C/26 pro účely klinické studie MK-2870-021.\r\n\r\n\r\nDatum potvrzení: 5.8.2026 15:13:00\r\nPotvrzující lékař: Véghová Blanka\r\n\r\n\r\n  ABR - krev: \r\n      Hb: 109\r\n      Typ přístroje Astrup: ABL835; ABL835\r\n      Typ odběru: \r\nCapillary\r\n; \r\nNot specifie\r\n\r\n  Plná krev: \r\n      Na: 140; 136\r\n      K: 6,0; 4,1\r\n      Cl: 110; 107\r\n      iCa: 1,28; 1,23"
+  },
+  {
+    "id": "EXAM-023",
+    "date": "2026-03-19",
+    "rawDate": "19/03/26",
+    "type": "Laboratoř / Laboratorní panel",
+    "title": "Laboratorní panel (19/03/26)",
+    "doctor": "Neuveden",
+    "fullContent": "Výsledky z 19/03/26: \r\n  ABR - krev: \r\n      Hb: 106\r\n      Typ přístroje Astrup: ABL835\r\n      Typ odběru: \r\nCapillary\r\n\r\n  Plná krev: \r\n      Na: 141\r\n      K: 3,9\r\n      Cl: 107\r\n      iCa: 1,22"
+  }
+]
+
+=== ANAMNESTICKÝ A STARŠÍ PŘEHLED VYŠETŘENÍ ===
+[
+  {
+    "id": "EXAM-001",
+    "date": "2005-10-27",
+    "rawDate": "27/10/05",
+    "type": "Laboratoř / Laboratorní panel",
+    "title": "Laboratorní panel (27/10/05)",
+    "contentSnippet": "Výsledky z 27/10/05: \r\n  Texty laboratoř: \r\n      Komentář:\r\nProtilátky APA IgG a IgM neprokázány\r\n\r\nFaktor V Leiden (1691 G>A) : G/A - Byla prokázána mutace v heterozygotní\r\nkonstituci.\r\nFaktor II - protrombin (20210 G>A) : G/G - Nebyla prokázána mutace. \r\nMTHFR (677 C>T) : C/C - Nebyla prokázána mutace. \r\nMTHFR (1298 A>C) : A/C - Byla prokázána mutace v heterozygotníkonstituci.\r\n\r\n\r\nbm,kw\r\n\r\n\r\n  Krevní obraz-perifer: \r\n      Leu: 7,9\r\n      Ery: 4,07\r\n      HGB: 113\r\n      HCT: 0,34\r\n      MCV: 83,4\r\n      MCH: 27,8\r\n      MCHC: 333\r\n      RDW: 14,8\r\n      Plt: 292\r\n      MPV: 7,8\r\n      PCT: 0,229\r\n      PDW: 17,4\r\n  Dif.stroj. relativní: \r\n      Ne: 58,7\r\n      Ly: 30,8\r\n      Mo: 8\r\n      Eo: 2\r\n      Ba: 0,5\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 4,7\r\n      Ly abs.: 2,4\r\n      Mo abs.: 0,6\r\n      Eo abs.: 0,2\r\n      Ba abs.: 0\r\n  Speciální metody: \r\n      Homocystein celk.: 7,9\r\n  Koagulační vyšetření: \r\n      INR: 1,01\r\n      APTT: 37,3\r\n      Trombinový test: 16,4\r\n      Fib... [starší zprávu zkráceno]"
+  },
+  {
+    "id": "EXAM-002",
+    "date": "2005-11-03",
+    "rawDate": "03/11/05",
+    "type": "Laboratoř / Laboratorní panel",
+    "title": "Laboratorní panel (03/11/05)",
+    "contentSnippet": "Výsledky z 03/11/05: \r\n  Koagulační vyšetření: \r\n      D-Dimer: 50"
+  },
+  {
+    "id": "EXAM-003",
+    "date": "2006-01-31",
+    "rawDate": "31/01/06",
+    "type": "Laboratoř / Laboratorní panel",
+    "title": "Laboratorní panel (31/01/06)",
+    "contentSnippet": "Výsledky z 31/01/06: \r\n  Texty laboratoř: \r\n      Komentář:\r\nProtilátky APA IgG a IgM neprokázány\r\n\r\n  Minerály+Osmolalita: \r\n      Fe: 17,5\r\n  Bílkoviny: \r\n      Transferrin: 3,43\r\n      Saturace transferrinu: 22,4\r\n  Sérum spec.vyšetření: \r\n      Vitamín B12: 257\r\n      Kys.listová: 12,1\r\n      Ferritin: 38\r\n  Krevní obraz-perifer: \r\n      Leu: 7,4\r\n      Ery: 4,87\r\n      HGB: 137\r\n      HCT: 0,413\r\n      MCV: 84,7\r\n      MCH: 28\r\n      MCHC: 331\r\n      RDW: 15,9\r\n      Plt: 246\r\n      MPV: 8,4\r\n      PCT: 0,206\r\n      PDW: 16,5\r\n  Dif.stroj. relativní: \r\n      Ne: 51\r\n      Ly: 36,4\r\n      Mo: 8,8\r\n      Eo: 3,4\r\n      Ba: 0,4\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 3,7\r\n      Ly abs.: 2,7\r\n      Mo abs.: 0,7\r\n      Eo abs.: 0,3\r\n      Ba abs.: 0\r\n  Speciální metody: \r\n      Homocystein celk.: 8\r\n  Koagulační vyšetření: \r\n      INR: 0,97\r\n      APTT: 39,8\r\n      Trombinový test: 14,1\r\n      Fibrinogen koagul.: 2,96\r\n      Etanol gelifik.test: negativ.\r\n      Antitrombin: 103\r\n    ... [starší zprávu zkráceno]"
+  },
+  {
+    "id": "EXAM-004",
+    "date": "2006-08-29",
+    "rawDate": "29/08/06",
+    "type": "Laboratoř / Laboratorní panel",
+    "title": "Laboratorní panel (29/08/06)",
+    "contentSnippet": "Výsledky z 29/08/06: \r\n  Minerály+Osmolalita: \r\n      Fe: 18,1\r\n      Fe-celk.vazeb.kap.: 58,2\r\n      Fe-saturace: 31\r\n  Bílkoviny: \r\n      CB: 81,8\r\n      CRP: 3,9\r\n      Transferrin: 3,05\r\n      Saturace transferrinu: 26,1\r\n  Sérum spec.vyšetření: \r\n      Vitamín B12: 213\r\n      Kys.listová: 11,8\r\n      Ferritin: 29,8\r\n  Krevní obraz-perifer: \r\n      Leu: 7,8\r\n      Ery: 4,49\r\n      HGB: 136\r\n      HCT: 0,401\r\n      MCV: 89,4\r\n      MCH: 30,3\r\n      MCHC: 338\r\n      RDW: 13,7\r\n      Plt: 272\r\n      MPV: 8,4\r\n      PCT: 0,227\r\n      PDW: 16,5\r\n  Dif.stroj. relativní: \r\n      Ne: 56,2\r\n      Ly: 32,3\r\n      Mo: 7,9\r\n      Eo: 3,2\r\n      Ba: 0,4\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 4,4\r\n      Ly abs.: 2,5\r\n      Mo abs.: 0,6\r\n      Eo abs.: 0,3\r\n      Ba abs.: 0\r\n  Speciální metody: \r\n      Homocystein celk.: 7,6\r\n  Koagulační vyšetření: \r\n      INR: 1,01\r\n      APTT: 40,5\r\n      Trombinový test: 14,4\r\n      Fibrinogen koagul.: 2,8\r\n      Etanol gelifik.test: negativ.\r\n      Antitr... [starší zprávu zkráceno]"
+  },
+  {
+    "id": "EXAM-005",
+    "date": "2007-05-18",
+    "rawDate": "18/05/07",
+    "type": "Laboratoř / Laboratorní panel",
+    "title": "Laboratorní panel (18/05/07)",
+    "contentSnippet": "Výsledky z 18/05/07: \r\n  Texty laboratoř: \r\n      Komentář:\r\nProtilátky APA IgG a IgM neprokázány\r\nLupusový inhibitor koagulace neprokázán.\r\n\r\n      Rozpory a hodnocení:\r\nOd 16.5.2007 nové jednotky u metody CRP - mg/l!!!\r\n\r\n  Minerály+Osmolalita: \r\n      Fe: 8,2\r\n  Bílkoviny: \r\n      Transferrin: 2,95\r\n      Saturace transferrinu: 12,2\r\n  Sérum spec.vyšetření: \r\n      Vitamín B12: 247\r\n      Kys.listová: 12,9\r\n      Ferritin: 22,6\r\n  Krevní obraz-perifer: \r\n      Leu: 7,6\r\n      Ery: 4,23\r\n      HGB: 126\r\n      HCT: 0,371\r\n      MCV: 87,8\r\n      MCH: 29,7\r\n      MCHC: 338\r\n      RDW: 13,7\r\n      Plt: 256\r\n      MPV: 8\r\n      PCT: 0,204\r\n      PDW: 16,6\r\n  Dif.stroj. relativní: \r\n      Ne: 54,5\r\n      Ly: 33,7\r\n      Mo: 8,2\r\n      Eo: 3,2\r\n      Ba: 0,4\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 4,2\r\n      Ly abs.: 2,6\r\n      Mo abs.: 0,6\r\n      Eo abs.: 0,2\r\n      Ba abs.: 0\r\n  Koagulační vyšetření: \r\n      INR: 0,94\r\n      APTT: 36,1\r\n      Trombinový test: 14,1\r\n      Fibrinogen koag... [starší zprávu zkráceno]"
+  },
+  {
+    "id": "EXAM-006",
+    "date": "2007-07-03",
+    "rawDate": "03/07/07",
+    "type": "Laboratoř / Laboratorní panel",
+    "title": "Laboratorní panel (03/07/07)",
+    "contentSnippet": "Výsledky z 03/07/07: \r\n  Koagulační vyšetření: \r\n      INR: 0,9\r\n      APTT: 34,3"
+  },
+  {
+    "id": "EXAM-007",
+    "date": "2008-08-28",
+    "rawDate": "28/08/08",
+    "type": "Laboratoř / Laboratorní panel",
+    "title": "Laboratorní panel (28/08/08)",
+    "contentSnippet": "Výsledky z 28/08/08: \r\n  Krevní obraz-perifer: \r\n      Leu: 6,6\r\n      Ery: 4,62\r\n      HGB: 136\r\n      HCT: 0,403\r\n      MCV: 87,3\r\n      MCH: 29,5\r\n      MCHC: 338\r\n      RDW: 14,2\r\n      Plt: 250\r\n      MPV: 8,2\r\n      PCT: 0,204\r\n      PDW: 16,7\r\n  Dif.stroj. relativní: \r\n      Ne: 50,3\r\n      Ly: 36,4\r\n      Mo: 8,8\r\n      Eo: 4,1\r\n      Ba: 0,4\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 3,3\r\n      Ly abs.: 2,4\r\n      Mo abs.: 0,6\r\n      Eo abs.: 0,3\r\n      Ba abs.: 0\r\n  Koagulační vyšetření: \r\n      INR: 0,89\r\n      APTT: 34,9\r\n      Trombinový test: 14,7\r\n      Fibrinogen koagul.: 2,78\r\n      Etanol gelifik.test: negativ.\r\n      Antitrombin: 111\r\n      D-Dimer: 62\r\n  Proteiny akutní fáze: \r\n      A1antitrypsin: 1,42\r\n      Transferin: 2,1\r\n      Prealbumin: 0,18\r\n      A2 makroglobulin: 1,95\r\n      Orosomukoid: 0,57\r\n      CRP: <3,16\r\n  Bez funkční skupiny: \r\n      PDW: 16,7"
+  },
+  {
+    "id": "EXAM-008",
+    "date": "2025-12-10",
+    "rawDate": "10/12/25",
+    "type": "Laboratoř / Laboratorní panel",
+    "title": "Laboratorní panel (10/12/25)",
+    "contentSnippet": "Výsledky z 10/12/25: \r\n  Texty laboratoř: \r\n      Komentář: PREVEDIG\r\n  Krev-tumor.markery: \r\n      HE4: 38"
+  }
+]
+
+=== SDRUŽENÁ LABORATORNÍ VYŠETŘENÍ (ČASOVÉ ŘADY ANALYTŮ) ===
+Faktor V Leiden (1691 G>A): 27/10/05: G/A - Byla prokázána mutace v heterozygotní
+Faktor II - protrombin (20210 G>A): 27/10/05: G/G - Nebyla prokázána mutace.
+MTHFR (677 C>T): 27/10/05: C/C - Nebyla prokázána mutace.
+MTHFR (1298 A>C): 27/10/05: A/C - Byla prokázána mutace v heterozygotníkonstituci.
+Leu: 27/10/05: 7,9; 31/01/06: 7,4; 29/08/06: 7,8; 18/05/07: 7,6; 28/08/08: 6,6
+Ery: 27/10/05: 4,07; 31/01/06: 4,87; 29/08/06: 4,49; 18/05/07: 4,23; 28/08/08: 4,62
+HGB: 27/10/05: 113; 31/01/06: 137; 29/08/06: 136; 18/05/07: 126; 28/08/08: 136
+HCT: 27/10/05: 0,34; 31/01/06: 0,413; 29/08/06: 0,401; 18/05/07: 0,371; 28/08/08: 0,403
+MCV: 27/10/05: 83,4; 31/01/06: 84,7; 29/08/06: 89,4; 18/05/07: 87,8; 28/08/08: 87,3
+MCH: 27/10/05: 27,8; 31/01/06: 28; 29/08/06: 30,3; 18/05/07: 29,7; 28/08/08: 29,5
+MCHC: 27/10/05: 333; 31/01/06: 331; 29/08/06: 338; 18/05/07: 338; 28/08/08: 338
+RDW: 27/10/05: 14,8; 31/01/06: 15,9; 29/08/06: 13,7; 18/05/07: 13,7; 28/08/08: 14,2
+Plt: 27/10/05: 292; 31/01/06: 246; 29/08/06: 272; 18/05/07: 256; 28/08/08: 250
+MPV: 27/10/05: 7,8; 31/01/06: 8,4; 29/08/06: 8,4; 18/05/07: 8; 28/08/08: 8,2
+PCT: 27/10/05: 0,229; 31/01/06: 0,206; 29/08/06: 0,227; 18/05/07: 0,204; 28/08/08: 0,204
+PDW: 27/10/05: 17,4; 27/10/05: 17,4; 31/01/06: 16,5; 31/01/06: 16,5; 29/08/06: 16,5; 29/08/06: 16,5; 18/05/07: 16,6; 18/05/07: 16,6; 28/08/08: 16,7; 28/08/08: 16,7
+Ne: 27/10/05: 58,7; 31/01/06: 51; 29/08/06: 56,2; 18/05/07: 54,5; 28/08/08: 50,3
+Ly: 27/10/05: 30,8; 31/01/06: 36,4; 29/08/06: 32,3; 18/05/07: 33,7; 28/08/08: 36,4
+Mo: 27/10/05: 8; 31/01/06: 8,8; 29/08/06: 7,9; 18/05/07: 8,2; 28/08/08: 8,8
+Eo: 27/10/05: 2; 31/01/06: 3,4; 29/08/06: 3,2; 18/05/07: 3,2; 28/08/08: 4,1
+Ba: 27/10/05: 0,5; 31/01/06: 0,4; 29/08/06: 0,4; 18/05/07: 0,4; 28/08/08: 0,4
+Ne abs.: 27/10/05: 4,7; 31/01/06: 3,7; 29/08/06: 4,4; 18/05/07: 4,2; 28/08/08: 3,3
+Ly abs.: 27/10/05: 2,4; 31/01/06: 2,7; 29/08/06: 2,5; 18/05/07: 2,6; 28/08/08: 2,4
+Mo abs.: 27/10/05: 0,6; 31/01/06: 0,7; 29/08/06: 0,6; 18/05/07: 0,6; 28/08/08: 0,6
+Eo abs.: 27/10/05: 0,2; 31/01/06: 0,3; 29/08/06: 0,3; 18/05/07: 0,2; 28/08/08: 0,3
+Ba abs.: 27/10/05: 0; 31/01/06: 0; 29/08/06: 0; 18/05/07: 0; 28/08/08: 0
+Homocystein celk.: 27/10/05: 7,9; 31/01/06: 8; 29/08/06: 7,6
+INR: 27/10/05: 1,01; 31/01/06: 0,97; 29/08/06: 1,01; 18/05/07: 0,94; 03/07/07: 0,9; 28/08/08: 0,89; 11/03/26: 0,90
+APTT: 27/10/05: 37,3; 31/01/06: 39,8; 29/08/06: 40,5; 18/05/07: 36,1; 03/07/07: 34,3; 28/08/08: 34,9; 11/03/26: 27,0
+Trombinový test: 27/10/05: 16,4; 31/01/06: 14,1; 29/08/06: 14,4; 18/05/07: 14,1; 28/08/08: 14,7
+Fibrinogen koagul.: 27/10/05: 2,58; 31/01/06: 2,96; 29/08/06: 2,8; 18/05/07: 2,9; 28/08/08: 2,78
+Etanol gelifik.test: 27/10/05: negativ.; 31/01/06: negativ.; 29/08/06: negativ.; 18/05/07: negativ.; 28/08/08: negativ.
+Antitrombin: 27/10/05: 97; 31/01/06: 103; 29/08/06: 96; 18/05/07: 91; 28/08/08: 111
+D-Dimer: 27/10/05: >6000; 03/11/05: 50; 31/01/06: 59; 29/08/06: 53; 18/05/07: 170; 28/08/08: 62
+Lupus antikoagulans: 27/10/05: 4,2; 31/01/06: negativ.; 18/05/07: negativ.
+Protein C: 27/10/05: 128
+Protein S: 27/10/05: 60; 31/01/06: 95
+APC rezistence: 27/10/05: 2,6
+APA_IgG: 27/10/05: 0,1; 31/01/06: 1,64; 18/05/07: 3,42
+APA_IgM: 27/10/05: 14,42; 31/01/06: 1,29; 18/05/07: 0,87
+Faktor VIII: 27/10/05: 67
+A1antitrypsin: 27/10/05: 1,51; 31/01/06: 1,32; 29/08/06: 1,25; 18/05/07: 1,37; 28/08/08: 1,42
+Transferin: 27/10/05: 3,76; 31/01/06: 2,88; 29/08/06: 2,43; 18/05/07: 3,01; 28/08/08: 2,1
+Prealbumin: 27/10/05: 0,17; 31/01/06: 0,19; 29/08/06: 0,21; 18/05/07: 0,2; 28/08/08: 0,18
+A2 makroglobulin: 27/10/05: 1,66; 31/01/06: 1,76; 29/08/06: 1,92; 18/05/07: 1,88; 28/08/08: 1,95
+Orosomukoid: 27/10/05: 0,55; 31/01/06: 0,7; 29/08/06: 0,71; 18/05/07: 0,69; 28/08/08: 0,57
+CRP: 27/10/05: 0,3; 31/01/06: 0,32; 29/08/06: 3,9; 29/08/06: 0,32; 18/05/07: 3,16; 28/08/08: <3,16
+Fe: 31/01/06: 17,5; 29/08/06: 18,1; 18/05/07: 8,2
+Transferrin: 31/01/06: 3,43; 29/08/06: 3,05; 18/05/07: 2,95
+Saturace transferrinu: 31/01/06: 22,4; 29/08/06: 26,1; 18/05/07: 12,2
+Vitamín B12: 31/01/06: 257; 29/08/06: 213; 18/05/07: 247
+Kys.listová: 31/01/06: 12,1; 29/08/06: 11,8; 18/05/07: 12,9
+Ferritin: 31/01/06: 38; 29/08/06: 29,8; 18/05/07: 22,6
+Fe-celk.vazeb.kap.: 29/08/06: 58,2
+Fe-saturace: 29/08/06: 31
+CB: 29/08/06: 81,8
+Komentář: 10/12/25: PREVEDIG
+HE4: 10/12/25: 38
+Protrombinový test čas: 11/03/26: 10,90
+APTT R: 11/03/26: 0,90
+Platnost vyšetření: 16/03/26: 19.03.2026 23:59:00; 16/03/26: 19.03.2026 23:59:00
+Expirace: 16/03/26: 20.04.2026 23:59:00; 16/03/26: 20.04.2026 23:59:00
+Krevní skupina: 16/03/26: 0 poz
+Screening protilátek: 16/03/26: neg
+Hb: 19/03/26: 106
+Typ přístroje Astrup: 19/03/26: ABL835
+Na: 19/03/26: 141
+K: 19/03/26: 3,9
+Cl: 19/03/26: 107
+iCa: 19/03/26: 1,22

@@ -1,29 +1,35 @@
-Dg.: Duplicita:
+Pacientka: Faryadová Jana, Ing.
+Číslo pojištěnce (RČ): 6058266060    |    Kód pojišťovny: 207
+Datum narození: 26.08.1960
+Bydliště: Kosmatcová 509, 250 84 Sibřina
+Telefon: +420776559684
+66 let, 168 cm, 62 kg, ECOG PS 0
+NO: Pacientka s high grade serózním tubo-ovariálním karcinomem (FIGO IIIB) přichází po ukončení 6 cyklů primární chemoterapie v režimu PTX/CBDCA k rozhodnutí o dalším postupu a zvážení účasti v klinické studii MK2870-021.
 
-1) ca colli uteri - adenokarcinom/adenoskvamózní (I.dg. 2016, 1. recidiva 02/2024)
+Anamnéza:
+OA: arteriální hypertenze, osteopenie, trombofilní mutace FV Leiden (heterozygot), mutace MTHFR (1298 A>C heterozygot), eufunkční struma, hypercholesterolémie.
 
-St.p. hysterektomii sec. Pfannenstiel (2016, Ukrajina)
+Operace: hernioplastika inguinální vpravo (v 9 letech), myomektomie (před 10 lety), hysteroskopie (4.2.2026).
 
--histol: Dokumentace z primární operace není k dispozici.
+FA: Tezefort 80/5mg tbl. p.o. 1-0-0.
 
-St.p. adjuvantní kombinované radioterapii (EBRT + BRT) pro ca colli uteri (2016)
+AA: na léky a dezinfekci neguje.
 
-St.p. zavedení ureterálního stentu vpravo pro hydronefrózu a útlak ureteru (01/2024, opakované výměny stentu)
+GA: PM menopauza v cca 50 letech, partus 4x spontánně, AB 0, UPT 0.
 
-St.p. resekci recidivy pánevního tumoru, disekci ureteru, exstirpaci tumoru a pánevních LN (1.2.2024, VFN Praha)
+Dg.: 1) ca ovarii - HGSC tubo-ovariální (pT3b pN1 cM0, FIGO IIIB) (I.dg. 03/2026)
 
--histol: Metastáza HPV asociovaného dobře diferencovaného adenokarcinomu hrdla děložního s minoritní dlaždicobuněčnou diferenciací (adenoskvamózní). Největší rozměr ložiska 20 mm. Uzlina průměru 8 mm zcela spotřebována metastázou. PD-L1 (22C3) CPS = 20.
+St.p. core needle biopsii transvaginálně ((4.3.2026, VFN Praha))
 
-St.p. 1. linii CHT v režimu Abraxane/cDDP (6 cyklů, ukončeno 02.07.2024) + bevacizumab + pembrolizumab (od 05.03.2024, pembrolizumab ukončen 22.05.2026 35. cyklem) Toxicita: G1 hypothyreóza při imunoterapii (substituce Letrox), G1 neutropenie (odklad cyklu o týden), bez redukce dávky.
+-histol: Nález má charakter high grade serózního karcinomu (místy s SET rysy), p53 wild type, WT1 difuzně pozitivní, ER pozitivní (80 %), PR negativní, PAX8 pozitivní, p16 mozaika, PTEN ztráta exprese, Ki-67 70 %.
 
-Aplikován 38. cyklus bevacizumabu (04.09.2026)
+St.p. radikální hysterektomii, adnexektomii oboustranné, omentektomii, appendektomii, pánevní lymfadenektomii ((17.3.2026, VFN Praha))
 
-2) ca thyroidey (I.dg. 2016)
+-histol: High grade serózní karcinom tuby/ovaria (místy s tzv. SET rysy) s postižením omenta (největší ložisko 18 mm) a pánevního peritonea. Metastáza v 1 z 18 lymfatických uzlin (velikost 11 mm). pT3b pN1 (1/18), reziduum R0.
 
-St.p. totální thyreoidektomii (2016)
+Toxicita: neudávána, bez redukce dávky.
 
--histol: Ca thyroidey.
+Onkogynekologické konsilium 9.9.2026
+Přítomni: prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák
 
-St.p. terapii radiojodem pro ca thyroidey (ukončeno 2020)
-
-1. recidiva / progrese (02/2024, TFI 8 let): Pánevní tumor vpravo utlačující pravý ureter s hydronefrózou III. st. a parailickou lymfadenopatií. Provedena resekce 1.2.2024 (R1/R2 pro pevné fúze k cévám). Následně paliativní systémová léčba.
+Doporučení: Pacientka po ukončení 1. linie chemoterapie (PTX/CBDCA) je v současné době plánována ke kontrolnímu CT vyšetření dne 17.9.2026. Aktuálně probíhá screening do klinické studie MK2870-021 (follow-up vs. sacitizumab tirumotecan). Rozhodnutí o dalším postupu a případném zařazení do studie bude učiněno na příštím onkogynekologickém konsiliu dne 23.9.2026 po zhodnocení výsledků kontrolního CT vyšetření.

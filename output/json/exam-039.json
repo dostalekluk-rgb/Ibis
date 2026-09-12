@@ -1,12 +1,11 @@
 {
   "id": "EXAM-039",
-  "date": "2024-06-24T11:24:00",
-  "rawDate": "24.06.24",
-  "time": "11:24",
-  "sourceFile": "Lysiuk-amb.txt",
-  "sourceType": "amb",
-  "type": "Ambulantní nález",
-  "doctor": "Dostálek Lukáš MUDr., Ph.D.",
-  "title": "------  Dokumentace ze dne 24.06.24 ---------:                                    Nález ze dne 24.06.24 11:24 Dostálek Lukáš MUDr., Ph.D.:",
-  "content": "------  Dokumentace ze dne 24.06.24 ---------:                             \n      Nález ze dne 24.06.24 11:24 Dostálek Lukáš MUDr., Ph.D.:             \nDiagnózy:                                                                  \nC538 ZN - léze přesahující hrdlo děložní                                   \n\npro ANC 1,14 odkládám cyklus o týden                                       \n\ndrDostálek"
+  "date": "2007-07-03",
+  "rawDate": "03/07/07",
+  "sourceFile": "Faryadová-lab.txt",
+  "sourceType": "lab",
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (03/07/07)",
+  "content": "Výsledky z 03/07/07: \r\n  Koagulační vyšetření: \r\n      INR: 0,9\r\n      APTT: 34,3"
 }

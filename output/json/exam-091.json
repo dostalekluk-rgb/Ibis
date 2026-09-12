@@ -1,11 +1,12 @@
 {
   "id": "EXAM-091",
-  "date": "2026-05-14",
-  "rawDate": "14/05/26",
-  "sourceFile": "Lysiuk-lab.txt",
-  "sourceType": "lab",
-  "type": "CT Vyšetření",
-  "doctor": "MUDr. Mašek Martin, Ph.D.",
-  "title": "CT Vyšetření (14/05/26)",
-  "content": "Výsledky z 14/05/26: \r\n  Nálezy: \r\n      REPT_CTVYS_DTP:\r\n\r\nNález: \r\nPřístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736\r\nVýrobce SIEMENS Healthcare GmbH\r\nInjektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002\r\nKontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s  i.v. aplikoval: Posejpalová\r\n\r\nCT trupu:\r\n\r\nKontrola, předchozí vyš. v červnu 2024.\r\nIndikace: ca hrdla děložního, stav po HYE 2016, stav po resekci lokální recidivy 2/2024 \r\n\r\n\r\nPlicní parenchym bez ložiskových a infiltrativních změn, ojedinělý nodulus na pleuře dolního laloku vlevo.\r\nBez tekutiny v pleurální dutině. Mediastinum bez lymfadenopatie.  St.p. totální thyreoidektomi.\r\nPortkatetr zprava.\r\nJátra nezvětšena, přiměřené struktury, bez ložiskových změn. \r\nŽlučník homogenní náplně, stěna nerozšířena. Žlučové cesty nedilatovány. \r\nPankreas bez ložiska, nezvětšen. Slezina nezvětšena, homogenní. Nadledviny bez expanze. \r\nLedvina vlevo bez městnání, normální velikosti. Pravá ledvina nefropaticky zmenšená- minule v dl. ose 80 mm, 67 mm v koron. řezum, nyní  s dilatovanější pánvičkou při zavedeném stentu.  Močový měchýř homogenní náplně, stěna nerozšířena.\r\nV pánvi vpravo lymfocysta 24 x 31 x 27 mm zevně od stentu při bifurkaci pravé společní iliky.\r\nVymizela volná volná tekutina v pánvi. \r\nBez lymfadenopatie.\r\nŽaludek a přehledný střevní kličky obvyklého vzhledu, bez strukturálních změn.\r\nSkelet bez ložiskových změn. Ostechondrosa L4/5, L5/S1.\r\n\r\n\r\n\r\nZávěr: Kontrola, předchozí vyš. v červnu 2024. Nadále bez jasných známek lokál. recidivy či generalizace. Lymfocysta v pánvi vpravo. Progrese nefropatických změn pravé ledviny při zavedeném stentu.\r\n\r\nPotvrzující lékař: MUDr. Mašek Martin, Ph.D."
+  "date": "2023-11-03T10:02:00",
+  "rawDate": "03.11.23",
+  "time": "10:02",
+  "sourceFile": "Lánská-amb.txt",
+  "sourceType": "amb",
+  "type": "Ambulantní nález",
+  "doctor": "Poncová Renata MUDr.",
+  "title": "------  Dokumentace ze dne 03.11.23 ---------:                                    Nález ze dne 03.11.23 10:02 Poncová Renata MUDr.:",
+  "content": "------  Dokumentace ze dne 03.11.23 ---------:                             \n      Nález ze dne 03.11.23 10:02 Poncová Renata MUDr.:                    \nDiagnózy:                                                                  \nC549 ZN - tělo děložní [corpus uteri] NS                                   \n\nDnes den 2 - CBDCA                                                         \n\nsubj.: cítí se dobře po včerejšku                                          \n                                                                           \n•__lesk_ws 03.11.2023 10:01                                                \n6. cyklus CBDCA (AUC5)/PTX á 21 dnů od 02.11.2023                          \nPovrch těla (m2) = 1,99; BMI = 33; Výška = 167; Váha  = 91                 \nZahájeno po dodání z OPC , ven. port                                       \nDen 2 (03.11.2023)                                                         \n1. Carboplatin Accord 5 AUC = 714 mg v 500 ml G5% během 100 min.  Infuze \nProplach portu 10 ml F1/1 metodou start/stop                               \n                                                                           \nPodpis lékaře: MUDr. Renata Poncová"
 }

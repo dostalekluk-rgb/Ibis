@@ -1,12 +1,11 @@
 {
   "id": "EXAM-042",
-  "date": "2024-07-02T08:05:00",
-  "rawDate": "02.07.24",
-  "time": "08:05",
-  "sourceFile": "Lysiuk-amb.txt",
-  "sourceType": "amb",
-  "type": "Ambulantní nález",
-  "doctor": "Freitag Pavel doc. MUDr., CSc.",
-  "title": "------  Dokumentace ze dne 02.07.24 ---------:                                    Nález ze dne 02.07.24 08:05 Freitag Pavel doc. MUDr., CSc.:",
-  "content": "------  Dokumentace ze dne 02.07.24 ---------:                             \n      Nález ze dne 02.07.24 08:05 Freitag Pavel doc. MUDr., CSc.:          \nDiagnózy:                                                                  \nC538 ZN - léze přesahující hrdlo děložní                                   \n\n  0220737 APREPITANT SANDO 125MG+80MG CPS DUR 1+2       1 bal. 1-0-0       \n                                                                           \n\nMedikace:                                                                  \n  0220737 APREPITANT SANDO 125MG+80MG CPS DUR 1+2       1 bal. 1-0-0"
+  "date": "2026-02-04",
+  "rawDate": "04/02/26",
+  "sourceFile": "Faryadová-lab.txt",
+  "sourceType": "lab",
+  "type": "Histologie / Biopsie",
+  "doctor": "Skálová Helena MUDr., Ph.D.",
+  "title": "Histologie / Biopsie (04/02/26)",
+  "content": "Výsledky z 04/02/26: \r\n  Nálezy: \r\n      REPT_BIOPVYS_DTP:\r\n\r\nKlinická diagnóza: \r\nLaboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189\r\ned.3:2023. Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle \r\nSOP-PAT-10.\r\n\r\n\r\nNález: \r\nB 2540/26\r\n\r\nKlinická diagnóza: polyp cervixu\r\n\r\nNepatrná částka z děložního čípku o průměru 1 mm, prokrájena.\r\nMikro: Topograficky nepřehledný fragment stromatu s okrajem žlázky lemovaným zhmožděným endocervikálním epitelem, jehož několik buněk nacházíme i na povrchu sliznice. Dlaždicový epitel zastižen nebyl.\r\n\r\nZávěr: Materiál je málo reprezentativní.\r\nT83, M09000\r\n\r\n\r\nDatum potvrzení: 9.2.2026 12:56:00\r\nPotvrzující lékař: Skálová Helena MUDr., Ph.D."
 }

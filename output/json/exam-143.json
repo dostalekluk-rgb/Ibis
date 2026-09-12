@@ -1,11 +1,11 @@
 {
   "id": "EXAM-143",
-  "date": "2026-09-01",
-  "rawDate": "01/09/26",
-  "sourceFile": "ai-stankova-lab.txt",
+  "date": "2026-07-28",
+  "rawDate": "28/07/26",
+  "sourceFile": "Lánská-lab.txt",
   "sourceType": "lab",
   "type": "Laboratoř / Laboratorní panel",
   "doctor": null,
-  "title": "Laboratorní panel (01/09/26)",
-  "content": "Výsledky z 01/09/26: \r\n  Minerály+Osmolalita: \r\n      Na: 140\r\n      K: 3,8\r\n      Cl: 104\r\n      Ca: 2,07\r\n      Ca korig. na albumin: 2,40\r\n  Bílkoviny: \r\n      Albumin: 25,0"
+  "title": "Laboratorní panel (28/07/26)",
+  "content": "Výsledky z 28/07/26: \r\n  Minerály+Osmolalita: \r\n      Na: 138\r\n      K: 4,4\r\n      Cl: 99\r\n  Dusíkové metabolity: \r\n      Urea: 5,0\r\n      Kreat.: 78\r\n      Kys. moč.: 449\r\n  Jaterní testy: \r\n      Bilirubin: 11,4\r\n      ALT: 0,48\r\n      AST: 0,46\r\n      GGT: 1,95\r\n      ALP: 1,53\r\n      FIB-4 index: 1,09\r\n  Bílkoviny: \r\n      Albumin: 36,1\r\n      CB: 59,2\r\n  Štítná žláza: \r\n      FT4: 24,5\r\n      TSH: 4,294\r\n  Krevní obraz-perifer: \r\n      Leu: 4,92\r\n      Ery: 3,92\r\n      HGB: 118\r\n      HCT: 0,362\r\n      MCV: 92,4\r\n      MCH: 30,2\r\n      MCHC: 327\r\n      RDW: 16,8\r\n      Plt: 336\r\n      MPV: 9,3\r\n  Dif.stroj. relativní: \r\n      Ne: 73,3\r\n      Ly: 17,2\r\n      Mo: 7,3\r\n      Eo: 0,6\r\n      Ba: 0,5\r\n      Nezralé granulocyty %: 1,1\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 3,60\r\n      Ly abs.: 0,84\r\n      Mo abs.: 0,36\r\n      Eo abs.: 0,03\r\n      Ba abs.: 0,03\r\n      Nezralé granulocyty abs.: 0,05\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 4,3"
 }

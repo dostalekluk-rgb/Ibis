@@ -1,12 +1,12 @@
 {
   "id": "EXAM-012",
-  "date": "2021-11-23T08:06:00",
-  "rawDate": "23.11.21",
-  "time": "08:06",
-  "sourceFile": "Brejšová-amb.txt",
+  "date": "1970-01-01",
+  "rawDate": "",
+  "time": null,
+  "sourceFile": "Faryadová-amb.txt",
   "sourceType": "amb",
-  "type": "Ambulantní nález",
-  "doctor": "Vosecký Martin MUDr.",
-  "title": "------  Dokumentace ze dne 23.11.21 ---------:                                    Nález ze dne 23.11.21 08:06 Vosecký Martin MUDr.:",
-  "content": "------  Dokumentace ze dne 23.11.21 ---------:                             \n      Nález ze dne 23.11.21 08:06 Vosecký Martin MUDr.:                    \nDiagnózy:                                                                  \nC549 ZN - tělo děložní [corpus uteri] NS                                   \n\nvýsledky testování somatických prediktivních markerů                       \n\np53wt                                                                      \npMMR                                                                       \n\ncelkově - NSMP                                                             \n\ndop.: platí kontrola v onkogyn. ambulanci dle plánu, není indikace ke      \ngenetickému testování"
+  "type": "Vyšetření",
+  "doctor": null,
+  "title": "dodatek ze dne 12.05.26 13:38 Germanová Anna MUDr., Ph.D.:",
+  "content": "dodatek ze dne 12.05.26 13:38 Germanová Anna MUDr., Ph.D.:           \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n---------------------------------------------------------                  \nLaboratorní vyšetření:                                                     \nCHL                                                                        \nKrevní obraz -  KO + diff. strojový \nordinováno STATIM 12.05.2026 v 13:38 na 12.05.2026 13:38, Germanová Anna   \nMUDr.                                                                      \n---------------------------------------------------------"
 }

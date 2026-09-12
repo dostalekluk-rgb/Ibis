@@ -1,11 +1,12 @@
 {
   "id": "EXAM-104",
-  "date": "2026-03-16",
-  "rawDate": "16/03/26",
-  "sourceFile": "Hukkelová-lab.txt",
-  "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
-  "doctor": null,
-  "title": "Laboratorní panel (16/03/26)",
-  "content": "Výsledky z 16/03/26: \r\n  Zkouška kompatibility: \r\n      TP č.1: \r\nC20022600136710  Kompatibilní\r\nPlatnost vyšetření: 19.03.2026 23:59:00\r\nExpirace: 20.04.2026 23:59:00\r\n\r\n      TP č.2: \r\nC20022600136210  Kompatibilní\r\nPlatnost vyšetření: 19.03.2026 23:59:00\r\nExpirace: 20.04.2026 23:59:00\r\n\r\n  Imunohematologie: \r\n      Krevní skupina: 0 poz\r\n      Screening protilátek: neg\r\n  Bez funkční skupiny: \r\n      Q_ZkKomp_*: \r\nvyšetřena\r\n\r\n  Nedefinovaná třída: \r\n      Výsl ZK: \r\nKompatibilní"
+  "date": "2024-12-09T16:21:00",
+  "rawDate": "09.12.24",
+  "time": "16:21",
+  "sourceFile": "Lánská-amb.txt",
+  "sourceType": "amb",
+  "type": "Ambulantní nález",
+  "doctor": "Frühauf Filip MUDr., Ph.D.",
+  "title": "------  Dokumentace ze dne 09.12.24 ---------:                                    Nález ze dne 09.12.24 16:21 Frühauf Filip MUDr., Ph.D.:",
+  "content": "------  Dokumentace ze dne 09.12.24 ---------:                             \n      Nález ze dne 09.12.24 16:21 Frühauf Filip MUDr., Ph.D.:              \nDiagnózy:                                                                  \nC549 ZN - tělo děložní [corpus uteri] NS                                   \n\nCT hrudníku, břicha a pánve:                                               \nPlíce bez suspektních ložisek, pleurální dutiny bez volné tekutiny.        \nPortkatetr vpravo.                                                         \nV zachyceném rozsahu bez zvětšených uzlin.                                 \nJátra nezvětšena, žlučové cesty nerozšířeny, žlučník bez kontrastní        \nlitiázy. Pankreas, slezina, nadledviny bez patrných odchylek. Ledviny      \nobvyklé velikosti, bez dilatace KPS, vlevo malá parenchymová cysta a malé  \nparapelvické cysty. Stacionární sklerozující mesenteritida. Močový měchýř  \nmálo naplněn.                                                              \nSkelet bez ložisek charakteru meta, degenerativní změny páteře.            \nNa pánevním peritoneu dnes fokální zesílení peritonea  nevidím. bez nových \nkarcinomatozních ložisek.                                                  \nBez volné tekutiny v dutině břišní.                                        \nZávěr: Bez známek reziduální peritoneální karcinomatozy . Ostatní je       \nstejné.                                                                    \n\n\nRECIST 1.1                                                                 \nTL1: diskrétní zesílení pánevního peritonea 0 mm                           \nSOD: 0, minule 10 CR                                                       \nNTL: 0                                                                     \nNová ložiska nejsou.                                                       \nCelkově CR                                                                 \n\nPacientka telefonicky informována"
 }

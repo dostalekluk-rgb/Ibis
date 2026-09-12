@@ -1,11 +1,12 @@
 {
   "id": "EXAM-010",
-  "date": "2021-11-05",
-  "rawDate": "05/11/21",
-  "sourceFile": "Brejšová-lab.txt",
-  "sourceType": "lab",
-  "type": "Histologie / Biopsie",
-  "doctor": "Maňáková Tatjana MUDr.",
-  "title": "Histologie / Biopsie (05/11/21)",
-  "content": "Výsledky z 05/11/21: \r\n  Nálezy: \r\n      REPT_BIOPVYS_DTP:\r\n\r\nKlinická diagnóza: \r\nLaboratoře Ústavu patologie jsou zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189:2013. \r\n\r\nHistologické vyšetření tkání a diagnostika bylo provedeno akreditovanou metodou dle SOP-PAT-10. Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13. Vyšetření s uplatněním flexibility jsou uvedeny v příloze č. 2 SM-PAT-02 Laboratorní příručka.\r\n\r\n\r\nNález: \r\nB17707/21\r\n\r\nNa žádost onkologického oddělení GPK VFN provedeno  vyšetření p53 a MSI z biopsie B16498/21, blok L.\r\n\r\nVýsledek imunohistochemického  vyšetření: \r\n\r\np53: wild type exprese (normální)\r\n\r\nMLH1, MSH2, MSH6  PMS2 : prokázána pozitivita v nádorových buňkách.\r\nZávěr: Exprese vyšetřených MMR proteinů v nádorové tkáni je zachovaná, pravděpodobnost mikrosatelitové instability nízká, odpovídá MMR proficientnímu profilu ( pMMR).\r\n\r\nSouhrný závěr: Endometroidní adenokarcinom (vyšetřený v biopsií B16498/21) spadá do katehorie s nespecifickým molekulárním profilem. \r\n\r\n\r\nPotvrzující lékař: Maňáková Tatjana MUDr.\r\n\r\n\r\n\r\nKlinická diagnóza: \r\nLaboratoře Ústavu patologie jsou zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189:2013. \r\n\r\nHistologické vyšetření tkání a diagnostika bylo provedeno akreditovanou metodou dle SOP-PAT-10. Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13. Vyšetření s uplatněním flexibility jsou uvedeny v příloze č. 2 SM-PAT-02 Laboratorní příručka.\r\n\r\n\r\nNález: \r\nB17707/21\r\n\r\nNa žádost onkologického oddělení GPK VFN provedeno  vyšetření p53 a MSI z biopsie B16498/21, blok L.\r\n\r\nVýsledek imunohistochemického  vyšetření: \r\n\r\np53: wild type exprese (normální)\r\n\r\nMLH1, MSH2, MSH6  PMS2 : prokázána pozitivita v nádorových buňkách.\r\nZávěr: Exprese vyšetřených MMR proteinů v nádorové tkáni je zachovaná, pravděpodobnost mikrosatelitové instability nízká, odpovídá MMR proficientnímu profilu ( pMMR).\r\n\r\nSouhrný závěr: Endometroidní adenokarcinom (vyšetřený v biopsií B16498/21) spadá do katehorie s nespecifickým molekulárním profilem. \r\n\r\n\r\nPotvrzující lékař: Maňáková Tatjana MUDr."
+  "date": "1970-01-01",
+  "rawDate": "",
+  "time": null,
+  "sourceFile": "Faryadová-amb.txt",
+  "sourceType": "amb",
+  "type": "Vyšetření",
+  "doctor": null,
+  "title": "dodatek ze dne 21.04.26 09:54 Valentová Tereza MUDr.:",
+  "content": "dodatek ze dne 21.04.26 09:54 Valentová Tereza MUDr.:                \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n  0009844 TORECAN          6,5MG TBL OBD 50             1 bal. : při       \nnauzee                                                                     \n\nMedikace:                                                                  \n  0009844 TORECAN          6,5MG TBL OBD 50             1 bal. : při       \nnauzee"
 }

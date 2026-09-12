@@ -1,0 +1,78 @@
+Výsledky z 05/08/08: 
+  Bez funkční skupiny: 
+      Revmat.faktor aglutinace: negat.
+      Anti-ENA screening: negat.
+  Nedefinovaná třída: 
+      ...Materiál vzorku :: sérum
+
+Výsledky z 17/08/22: 
+  Cirk. imunokomplexy: 
+      CIK PEG: 48,0
+      CIK vazbou na C1q: 1,1
+  Autoimunita základ: 
+      RF: <8,38
+      Revmat.faktor IgG: 14,8
+      Revmat.faktor IgA: 14,7
+      Revmat.faktor IgM: 0,0
+      CCP LEIA: <1,5
+      ANAb IgA NIF (titr 100): negat
+      ANAb IgM NIF (titr 100): negat
+      Anti-ENA screen PLUS (15 A: 1,8
+      ANA IgG NIF (titr): 
+negativní
+
+      Anti-ds-DNA NIF: 
+negativní
+
+  Autoimunita nefrolog: 
+      ANCAb: negat
+      Anti-ANCA-MPO: <3,2
+      Anti-ANCA-PR3: <2,3
+  HLA typizace: 
+      HLAB27: negat
+  Komplement: 
+      C3-komplement: 1,76
+      C4-komplement: 0,36
+  Nedefinovaná třída: 
+      ...Materiál vzorku :: krev
+
+Výsledky z 19/08/26: 
+  Krev-tumor.markery: 
+      Ca 125: 502,2
+
+Výsledky z 04/09/26: 
+  Nálezy: 
+      REPT_CTVYS_DTP:
+
+Nález: 
+Přístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736
+Výrobce SIEMENS Healthcare GmbH
+
+Injektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002
+Kontrastní látka: Iomeron 350, množství aplikované i.v.: 100 ml, průtok: 2,5 ml/s
+i.v. aplikoval: Hostaša
+
+
+CT hrudníku, břicha a pánve:
+
+Provedeno MDCT vyš. od jugula po dno pánevní, s aplikací kontrastní látky i.v. s následnými MPR.
+A, V fáze. 
+
+Obezita. 
+Plicní parenchym bez ložiskových změn. Vlevo parakardiálně hypoventilační kondenzace. Vlevo pleurální výpotek 18mm. 
+V dutině břišní bez volné tekutiny.
+Játra nezvětšena, s přiměřenou denzitou, obvyklá pseudoléze, v P laloku cysta, jinak  bez ložisek. Žlučník je norm. velikosti s jemnou stěnou. Žlučové cesty a v.portae bez dilatace. 
+Pankreas je norm. velikosti, s přiměřenou denzitou, bez ložiskových změn.
+Slezina je norm. velikosti s přiměřenou denzitou bez ložiskových změn.
+Nadledviny nezvětšeny.
+Ledviny jsou nefropatické, se setřelou kortikomedulární diferenciací, bilat. zavedeny ureterální stenty (vpravo malpozice renální smyčky, která stočena v subrenálním močovodu. Vlevo správné poloha stentu.) Perirenální stranding bilat. Žaludek, tenké a tlusté střevo bez zjevných organických změn.
+Bilat. za vnějšími ilickými svazky susp. infiltrované uzliny - vpravo 17mm, vlevo vel. 10mm. Četnější nezvětšné uzliny v retroperitoneu. Bez ložiskových změn skeletu.
+Děloha nehomogenně zvětšená, krček šíře 62mm, hypodenzní, vyplněn patol. obsahem. Susp. patol. infiltrát v L obturatorní fosse. Děloha tlačí na moč. měchýř, je v intimním kontaktu s rektosigmoideem. 
+
+Z: Anamnesticky HG serozní karcinom hrdla děložního. Krček děložní zvětšen. Nález pokročilý, intimní vztah k moč. měchýři, rektosigmatu. V L obturatorní fosse patol. infiltrát. Susp. uzliny bilat. při vnějších ilických svazcích Uzliny v retroperitoneu spíše reaktivní, bilat. akutní nefropatie. Ureterální stent vpravo dosahuje pouze do subrenálního močovodu. 
+
+
+
+Potvrzující lékař: MUDr. Hanuš Petr
+
+

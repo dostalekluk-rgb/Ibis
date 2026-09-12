@@ -1,0 +1,111 @@
+Výsledky z 04/08/26: 
+  Krev-tumor.markery: 
+      Ca 125: 12,9
+
+Výsledky z 05/08/26: 
+  Nálezy: 
+      REPT_CTVYS_DTP:
+
+Nález: 
+Přístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736
+Výrobce SIEMENS Healthcare GmbH
+
+Injektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002
+Kontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s
+i.v. aplikoval:Stará
+
+CT hrudníku, břicha a pánve:
+Provedeno postkontrastní helikální MDCT v portální fázi od jugula po dno pánevní,v rozsahu epigastria dvě fáze, zhotoveny následné MPR.
+Indikace: tumor pravého ovaria
+1. vyšteření u nás.
+
+Plicní parenchym bez ložiskových a infiltrativních změn, bez tekutiny v pleurální dutině. Mediastinum i axilly bez lymfadenopatie. Denzní okrsek v levém prsu vel. 8 mm v DZK. 
+Játra nezvětšena, přiměřené densitou a homogenní struktury, v obou lalocích ložiska nejspíše charakteru hemagiomů - v levém laloku vel. 36x24 mm a 26x20 mm, v pravém v S5 vel. 22x15 mm, bez dalších ložisek. Žlučník s jemnou stěnou a homogenním obsahem. Žlučové cesty a v.portae bez dilatace.
+Pankreas je přiměřené velikosti a density, bez ložisek. Parapapilární divertikl duodena. Slezina norm. velikosti a density bez ložisek.
+Nadledviny nezvětšeny.
+Ledviny bilat. norm. velikosti a uložení, bez dilatace DS, vpravo drobná korová cysta, jinak bez ložiskových změn, uretery bilat. bez dilatace.
+Divertikulóza sigmatu, jinak tenké i tlusté střevo bez patrných organických změn.
+Močový měchýř s jemnou stěnou, hladkou konturou a homogenním obsahem. Expanze pravostranných adnex vel. 50x35x68 mm. Levé ovarium vel. 27x14 mm. Děloha je zvětšena. Stopa tekutiny v pánvi.
+V zachycené oblasti bez patologicky zvětšených uzlin . Bez patrných ložiskových změn skeletu.
+
+závěr: expanze pravostranného ovaria, děloha zvětšená. Bez známek generalizace. 
+Denzní okrsek v levém prsu - k dovyšetření v mamocentru.
+Ložiska jater - nejspíše hemangiomy (event. ke korelaci s US).
+
+
+Potvrzující lékař: MUDr. Sýkorová Anna
+
+
+
+Výsledky z 24/08/26: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189
+ed.3:2023. Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle 
+SOP-PAT-10.
+
+Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13.
+
+
+Nález: 
+B16130/26
+
+Klin. susp. GCT pravého ovária.
+
+Nativně pro odběr do BBM dodaná oboustranná adnexa, klin. pravé ovárium s tumorem.
+Levá tuba délky 45 mm, průměru 5 mm, s ováriem velikosti 30 x 15 x 10 mm (bl. A a B).
+Pravá tuba oddělená, délky 45 mm, průměru 5 mm (bl. C).
+Tumorózně změněné pravé ovárium, potrhané, ve více částech, asi původně cystické, celkem velikosti 70 x 50 x 20 mm, nádorové hmoty žlutavé barvy (bl. D - G).
+Mikro: Na ovariální kortex s četnými bílými tělísky nasedají celkem dobře ohraničené struktury adultního tumoru z buněk granulózy, který roste převážně v solidních čepech, místy s Call-Exnerovými tělísky, případně v nepravidelných trabekulách či řádkovitých formacích v buněčném, místy kolagenizovaném stromatu, místy se známkami luteinizace. Jádra nádorových buněk jsou oválná, s nepravidelnou konturou, často s patrnými zářezy. Místy jsou zastiženy mitózy. Nekrózy ani jednoznačnou lymfovaskulární propagaci nenacházíme.
+Obě tuby vystlané převážně pravidelným epitelem, místy s jeho benigní hyperplazií. Ojediněle drobná paratubární cysta s blandní výstelkou.
+Levé ovárium s vícečetnými folikly, včetně cystického a vícečetnými bílými tělísky a ojedinělou inkluzní cystou.
+
+Imunohistochemické vyšetření z bl. 1D:
+SF1, FOXL2, WT1: v nádorových buňkách pozitivní
+CKAE, EMA, synaptofyzin: v nádorových buňkách negativní
+Retikulární vlákna oddělují různě objemné čepy nádorových buněk.
+
+Závěr: V pravém ováriu adultní nádor z buněk granulózy (AGCT), bez nekróz, bez lymfovaskulární invaze. Ovárium bylo dodané potrhané, k úplnosti odtranění nádoru ani k jeho původní celistvosti se nelze spolehlivě vyjádřit.
+
+Současně vyšetřovaná cytologie laváže pávne (C 2134/26), ve které jednoznačné nádorové struktury nenacházíme.
+
+T87  M8620/3  dle TNM 2017  pT1c1 nebo pT1c2 (nutno korelovat s peroperačním nálezem)  pNX
+
+
+Datum potvrzení: 4.9.2026 13:00:00
+Potvrzující lékař: Ďuránová Kateřina MUDr.
+
+
+      REPT_CYTOVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189
+ed.3:2023. Cytologické vyšetření a diagnostika bylo provedeno metodou v rozsahu akreditace dle SOP PAT-12.
+
+Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13.
+
+
+Nález: 
+C 2134/26
+
+Na cytologické vyšetření bylo dodáno 15 ml světle žluté, mírně kalné tekutiny (laváž pánve) , která byla zpracována cytocentrifugou a do cytobloku.
+
+Mikro: Bohatě buněčný odběr, na hemoragickém pozadí hojné buňky bílé krevní řady, převážně histiocyty, jednotlivě, v drobných skupinách i objemnějších kompaktních shlucích, méně četné lymfocyty. Dále četnější buňky charakteru mezotelií, jednotlivě, ve skupinách či pentlicovitých formacích. Jaderné elementy bez atypií, jednoznačné maligní nádorové buňky nenacházíme.
+
+Imunohistochemické vyšetření:
+SF1: převážně negativní, zcela ojediněle pozitivní v pentlicovité formaci, která je současně pozitivní v D2-40 (mezotelie)
+BerEP4: převážně negativní, pozitivní v drobné skupince pravidelných buněk
+calretinin, D2-40: pozitivní v mezoteliích
+CD68: značí četné histiocyty, místy v kompaktnějších shlucích
+
+Závěr: Nález má charakter reaktivního výpotku. Jednoznačné maligní nádorové buňky neprokazujeme.
+
+T6X94  M01000
+
+
+Datum potvrzení: 4.9.2026 14:30:00
+Potvrzující lékař: Ďuránová Kateřina MUDr.
+
+

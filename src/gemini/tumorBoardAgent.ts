@@ -5,6 +5,8 @@ import * as path from 'path';
 import { DiagnosisAndTreatmentBlock, PatientChronologyDataset, PatientChronologyMetadata, TumorBoardStructuredJson } from '../types/chronology.js';
 import { buildTumorBoardPrompt } from './promptBuilder.js';
 import { anonymizeLocalText } from '../parser/parseLab.js';
+import { parseCzechDateToIso } from '../parser/parseInput.js';
+import { normalizeAndAuditStructuredJson } from '../parser/jsonAudit.js';
 
 dotenv.config();
 
@@ -64,6 +66,57 @@ async function callGeminiRestJson(prompt: string, apiKey: string, modelName: str
   }
 
   throw new Error(`Model ${modelName} neodpověděl po ${maxAttempts} pokusech.`);
+}
+
+/**
+ * Oprava zkráceného/neukončeného JSON řetězce z Gemini (když Gemini narazí na token limit).
+ * Doplní chybějící uvozovky, hranaté a složené závorky.
+ */
+function repairTruncatedJson(str: string): string {
+  let json = str.trim();
+  let inString = false;
+  let isEscaped = false;
+  const openStack: string[] = [];
+
+  for (let i = 0; i < json.length; i++) {
+    const char = json[i];
+    if (isEscaped) {
+      isEscaped = false;
+      continue;
+    }
+    if (char === '\\') {
+      isEscaped = true;
+      continue;
+    }
+    if (char === '"') {
+      inString = !inString;
+      continue;
+    }
+    if (!inString) {
+      if (char === '{' || char === '[') {
+        openStack.push(char);
+      } else if (char === '}' || char === ']') {
+        openStack.pop();
+      }
+    }
+  }
+
+  // Pokud zůstala neukončená hodnota řetězce
+  if (inString) {
+    json += '"';
+  }
+
+  // Oříznutí neukončené čárky nebo dvojtečky na konci
+  json = json.replace(/,\s*$/, '').replace(/:\s*$/, ': ""');
+
+  // Doplnění chybějících uzavíracích závorek v opačném pořadí
+  while (openStack.length > 0) {
+    const top = openStack.pop();
+    if (top === '{') json += '}';
+    else if (top === '[') json += ']';
+  }
+
+  return json;
 }
 
 function escapeHtml(str: string | null | undefined): string {
@@ -152,12 +205,14 @@ function extractTreatmentDateIso(str: string): string {
 }
 
 /**
- * Převede strukturovaný JSON z Gemini na položkové zobrazení exaktně podle vzoru konzilia.docx
+ * Převede strukturovaný JSON z Gemini na položkové zobrazení exaktně podle vzoru konsilium.docx
  */
 export function renderStructuredJsonToHtml(
-  data: TumorBoardStructuredJson,
-  realMeta?: PatientChronologyMetadata
+  dataInput: TumorBoardStructuredJson,
+  realMeta?: PatientChronologyMetadata,
+  maxDate?: string
 ): { reportHtml: string; treatmentPlanHtml: string } {
+  const data = normalizeAndAuditStructuredJson(dataInput);
   const pHeader = {
     name: (realMeta?.patientName && realMeta.patientName !== 'Vyšetřovaná Pacientka' && realMeta.patientName !== 'Není načten žádný pacient')
       ? realMeta.patientName
@@ -182,7 +237,10 @@ export function renderStructuredJsonToHtml(
 
   const presentIllness = data.presentIllness || 'NO: pacientka přichází ke zvážení dalšího postupu...';
   const anam = data.anamnesis || {};
-  
+
+  const isVenousPort = (text: string): boolean => /port|venózn|venozn/i.test(text);
+  const wrapUnderline = (text: string): string => isVenousPort(text) ? escapeHtml(text) : `<u>${escapeHtml(text)}</u>`;
+
   // Stagingová vyšetření (EXKLUDUJE MAMOGRAFII)
   const stagingExams = (Array.isArray(data.stagingExaminations) ? data.stagingExaminations : [])
     .filter(ex => {
@@ -192,10 +250,32 @@ export function renderStructuredJsonToHtml(
 
   const recurrences = Array.isArray(data.recurrences) ? data.recurrences : [];
   const tbConclusion = data.tumorBoardConclusion || {
-    date: 'Onkogynekologické konzilium 9.9.2026',
+    date: 'Onkogynekologické konsilium 9.9.2026',
     attendees: 'prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malik',
     recommendation: Array.isArray((data as any).treatmentRecommendation) ? (data as any).treatmentRecommendation.join(' ') : 'Doporučení: Pacientka je předána ke sledování v onkogynekologické ambulanci.'
   };
+
+  let formattedBoardDate = '9.9.2026';
+  if (maxDate && maxDate.trim()) {
+    const isoMatch = maxDate.trim().match(/^(\d{4})-(\d{2})-(\d{2})/);
+    if (isoMatch) {
+      formattedBoardDate = `${parseInt(isoMatch[3], 10)}.${parseInt(isoMatch[2], 10)}.${isoMatch[1]}`;
+    } else {
+      const czMatch = maxDate.trim().match(/^(\d{1,2})[\.\/](\d{1,2})[\.\/](\d{4})/);
+      if (czMatch) {
+        formattedBoardDate = `${parseInt(czMatch[1], 10)}.${parseInt(czMatch[2], 10)}.${czMatch[3]}`;
+      } else {
+        formattedBoardDate = maxDate.trim();
+      }
+    }
+  } else if (tbConclusion.date) {
+    const dateMatch = tbConclusion.date.match(/(\d{1,2}[\.\/]\d{1,2}[\.\/]\d{4})/);
+    if (dateMatch) {
+      formattedBoardDate = dateMatch[1];
+    } else {
+      formattedBoardDate = tbConclusion.date.replace(/^Onkogynekologické konsilium\s*/i, '');
+    }
+  }
 
   const reportHtml = `
     <article class="konzilia-document">
@@ -257,6 +337,37 @@ export function renderStructuredJsonToHtml(
             html: string;
           }
 
+          const isValidInSituText = (text?: string, title?: string): boolean => {
+            if (!text) return false;
+            const clean = text.replace(/^(?:in\s*situ|\-insitu)\:\s*/i, '').trim();
+            if (!clean) return false;
+            const lower = clean.toLowerCase();
+
+            if (
+              lower.includes('není k dispozici') ||
+              lower.includes('není dispozici') ||
+              lower.includes('neuvedeno') ||
+              lower.includes('dokumentace není') ||
+              lower.includes('neuveden') ||
+              lower === '0'
+            ) {
+              return false;
+            }
+
+            if (title) {
+              const cleanTitle = title.toLowerCase().replace(/^st\.p\.\s*/i, '').trim();
+              if (lower === cleanTitle || lower.includes(cleanTitle)) {
+                return false;
+              }
+            }
+
+            if (/^punkční\s+biopsie/i.test(clean) || /^core\s*needle\s*biops/i.test(clean)) {
+              return false;
+            }
+
+            return true;
+          };
+
           const renderRecurrencesList = (recs?: any[]): string => {
             if (!recs || recs.length === 0) return '';
             return recs.map(r => {
@@ -272,14 +383,17 @@ export function renderStructuredJsonToHtml(
               const ops = r.operations || [];
               ops.forEach((op: any) => {
                 if (typeof op === 'string') {
-                  opsHtml += `<p class="konzilia-history-item" style="margin-top: 6px;"><u>${escapeHtml(op)}</u></p>`;
+                  opsHtml += `<p class="konzilia-history-item" style="margin-top: 6px;">${wrapUnderline(op)}</p>`;
                   return;
                 }
                 const rawTitle = op.title || 'operačním výkonu';
                 const title = rawTitle.startsWith('St.p.') ? rawTitle : `St.p. ${rawTitle}`;
                 const datePlace = op.dateAndPlace ? ` (${op.dateAndPlace})` : '';
+                const cleanInSitu = op.text ? op.text.replace(/^(?:in\s*situ|\-insitu)\:\s*/i, '').trim() : '';
+                const hasValidInSitu = isValidInSituText(cleanInSitu, title);
+                const inSituHtml = hasValidInSitu ? `<p class="konzilia-insitu-line" style="margin-top: 2px; margin-bottom: 4px;">in situ: ${escapeHtml(cleanInSitu)}</p>` : '';
                 const histHtml = op.histology ? `<p class="konzilia-histology-line" style="margin-top: 2px; margin-bottom: 6px; font-style: italic;"><em>-histol: ${escapeHtml(op.histology)}</em></p>` : '';
-                opsHtml += `<p class="konzilia-history-item" style="margin-top: 6px;"><u>${escapeHtml(title)}</u>${escapeHtml(datePlace)}</p>${histHtml}`;
+                opsHtml += `<p class="konzilia-history-item" style="margin-top: 6px;">${wrapUnderline(title)}${escapeHtml(datePlace)}</p>${inSituHtml}${histHtml}`;
               });
 
               let thHtml = '';
@@ -290,7 +404,7 @@ export function renderStructuredJsonToHtml(
                   const spaceIdx = strTh.indexOf(' ', 5);
                   const opName = spaceIdx !== -1 ? strTh.substring(0, spaceIdx) : strTh;
                   const rest = spaceIdx !== -1 ? strTh.substring(spaceIdx) : '';
-                  thHtml += `<p class="konzilia-history-item" style="margin-top: 6px;"><u>${escapeHtml(opName)}</u>${escapeHtml(rest)}</p>`;
+                  thHtml += `<p class="konzilia-history-item" style="margin-top: 6px;">${wrapUnderline(opName)}${escapeHtml(rest)}</p>`;
                 } else {
                   thHtml += `<p class="konzilia-history-item" style="margin-top: 2px;">${escapeHtml(strTh)}</p>`;
                 }
@@ -304,7 +418,8 @@ export function renderStructuredJsonToHtml(
 
                 if (opMatch) {
                   const rawOp = opMatch[1].trim();
-                  opsHtml += `<p class="konzilia-history-item" style="margin-top: 6px;"><u>St.p. ${escapeHtml(rawOp.replace(/^Provedena\s+/i, ''))}</u></p>`;
+                  const opText = `St.p. ${rawOp.replace(/^Provedena\s+/i, '')}`;
+                  opsHtml += `<p class="konzilia-history-item" style="margin-top: 6px;">${wrapUnderline(opText)}</p>`;
                   desc = desc.replace(opMatch[0], '').trim();
                 }
                 if (histMatch) {
@@ -314,7 +429,7 @@ export function renderStructuredJsonToHtml(
                 }
                 if (stentMatch) {
                   const rawStent = stentMatch[1].trim();
-                  thHtml += `<p class="konzilia-history-item" style="margin-top: 6px;"><u>St.p.</u> ${escapeHtml(rawStent)}</p>`;
+                  thHtml += `<p class="konzilia-history-item" style="margin-top: 6px;">${wrapUnderline('St.p.')} ${escapeHtml(rawStent)}</p>`;
                   desc = desc.replace(stentMatch[0], '').trim();
                 }
                 desc = desc.replace(/[\s.,;]+$/, '').trim();
@@ -342,28 +457,33 @@ export function renderStructuredJsonToHtml(
             (block.operations || []).forEach(op => {
               if (typeof op === 'string') {
                 const sortDate = extractTreatmentDateIso(op);
-                treatmentItems.push({ sortDate, html: `<p class="konzilia-history-item" style="margin-top: 6px;"><u>${escapeHtml(op)}</u></p>` });
+                treatmentItems.push({ sortDate, html: `<div class="konzilia-treatment-block" style="margin-top: 12px; margin-bottom: 12px;"><p class="konzilia-history-item" style="margin-top: 0; margin-bottom: 0;">${wrapUnderline(op)}</p></div>` });
                 return;
               }
               const rawTitle = op.title || 'operačním výkonu';
               const title = rawTitle.startsWith('St.p.') ? rawTitle : `St.p. ${rawTitle}`;
               const datePlace = op.dateAndPlace ? ` (${op.dateAndPlace})` : '';
               const sortDate = extractTreatmentDateIso(`${op.dateAndPlace || ''} ${title}`);
-              const histHtml = op.histology ? `<p class="konzilia-histology-line" style="margin-top: 2px; margin-bottom: 6px; font-style: italic;"><em>-histol: ${escapeHtml(op.histology)}</em></p>` : '';
+              const cleanInSitu = op.text ? op.text.replace(/^(?:in\s*situ|\-insitu)\:\s*/i, '').trim() : '';
+              const hasValidInSitu = isValidInSituText(cleanInSitu, title);
+              const inSituHtml = hasValidInSitu ? `<p class="konzilia-insitu-line" style="margin-top: 4px; margin-bottom: 4px;">in situ: ${escapeHtml(cleanInSitu)}</p>` : '';
+              const histHtml = op.histology ? `<p class="konzilia-histology-line" style="margin-top: 4px; margin-bottom: 4px; font-style: italic;"><em>-histol: ${escapeHtml(op.histology)}</em></p>` : '';
 
-              treatmentItems.push({ sortDate, html: `<p class="konzilia-history-item" style="margin-top: 6px;"><u>${escapeHtml(title)}</u>${escapeHtml(datePlace)}</p>${histHtml}` });
+              treatmentItems.push({ sortDate, html: `<div class="konzilia-treatment-block" style="margin-top: 12px; margin-bottom: 12px;"><p class="konzilia-history-item" style="margin-top: 0; margin-bottom: 4px;">${wrapUnderline(title)}${escapeHtml(datePlace)}</p>${inSituHtml}${histHtml}</div>` });
             });
 
             (block.chemotherapyLines || []).forEach(cht => {
               if (typeof cht === 'string') {
                 const sortDate = extractTreatmentDateIso(cht);
-                treatmentItems.push({ sortDate, html: `<p class="konzilia-chemo-line" style="margin-top: 10px;">${escapeHtml(normalizeChemoLineNumerals(cht))}</p>` });
+                treatmentItems.push({ sortDate, html: `<div class="konzilia-treatment-block" style="margin-top: 12px; margin-bottom: 12px;"><p class="konzilia-chemo-line" style="margin-top: 0; margin-bottom: 0;">${escapeHtml(normalizeChemoLineNumerals(cht))}</p></div>` });
                 return;
               }
-              const lineTitle = normalizeChemoLineNumerals(cht.lineTitle || '');
-              const tox = cht.toxicityAndDose ? ` ${cht.toxicityAndDose}` : '';
-              const sortDate = extractTreatmentDateIso(`${lineTitle} ${tox}`);
-              treatmentItems.push({ sortDate, html: `<p class="konzilia-chemo-line" style="margin-top: 10px;">${escapeHtml(lineTitle)}${escapeHtml(tox)}</p>` });
+              const rawLine = typeof cht === 'object' && cht !== null ? (cht.lineTitle || cht.line || cht.lineText || cht.text || '') : String(cht);
+              const lineTitle = normalizeChemoLineNumerals(rawLine);
+              const rawTox = typeof cht === 'object' && cht !== null ? (cht.toxicityAndDose || cht.chemotherapyToxicity || cht.toxicity || '') : '';
+              const toxHtml = rawTox ? `<p class="konzilia-chemo-tox" style="margin-top: 4px; margin-bottom: 4px;">${escapeHtml(rawTox)}</p>` : '';
+              const sortDate = extractTreatmentDateIso(`${lineTitle} ${rawTox}`);
+              treatmentItems.push({ sortDate, html: `<div class="konzilia-treatment-block" style="margin-top: 12px; margin-bottom: 12px;"><p class="konzilia-chemo-line" style="margin-top: 0; margin-bottom: 4px;">${escapeHtml(lineTitle)}</p>${toxHtml}</div>` });
             });
 
             (block.treatmentsAndHistory || []).forEach(th => {
@@ -373,14 +493,19 @@ export function renderStructuredJsonToHtml(
                 const spaceIdx = strTh.indexOf(' ', 5);
                 const opName = spaceIdx !== -1 ? strTh.substring(0, spaceIdx) : strTh;
                 const rest = spaceIdx !== -1 ? strTh.substring(spaceIdx) : '';
-                treatmentItems.push({ sortDate, html: `<p class="konzilia-history-item" style="margin-top: 6px;"><u>${escapeHtml(opName)}</u>${escapeHtml(rest)}</p>` });
+                treatmentItems.push({ sortDate, html: `<div class="konzilia-treatment-block" style="margin-top: 12px; margin-bottom: 12px;"><p class="konzilia-history-item" style="margin-top: 0; margin-bottom: 0;">${wrapUnderline(opName)}${escapeHtml(rest)}</p></div>` });
               } else {
-                treatmentItems.push({ sortDate, html: `<p class="konzilia-history-item" style="margin-top: 2px;">${escapeHtml(strTh)}</p>` });
+                treatmentItems.push({ sortDate, html: `<div class="konzilia-treatment-block" style="margin-top: 12px; margin-bottom: 12px;"><p class="konzilia-history-item" style="margin-top: 0; margin-bottom: 0;">${escapeHtml(strTh)}</p></div>` });
               }
             });
 
             treatmentItems.sort((a, b) => a.sortDate.localeCompare(b.sortDate));
-            const primaryHtml = treatmentItems.map(it => it.html).join('');
+            const primaryHtml = treatmentItems.map((it, idx) => {
+              if (idx === 0) {
+                return it.html.replace('margin-top: 12px;', 'margin-top: 2px;');
+              }
+              return it.html;
+            }).join('');
             const recsHtml = renderRecurrencesList(block.recurrences);
             return primaryHtml + recsHtml;
           };
@@ -409,8 +534,17 @@ export function renderStructuredJsonToHtml(
             return cleaned;
           };
 
+          const getMultiplicityLabel = (count: number): string => {
+            if (count === 2) return 'Duplicita';
+            if (count === 3) return 'Triplicita';
+            if (count === 4) return 'Kvadruplicita';
+            if (count === 5) return 'Kvintuplicita';
+            return `Multiplicita (${count} diagnózy)`;
+          };
+
           if (diagBlocks.length > 1) {
-            let htmlOut = `<p class="konzilia-dg-line" style="margin-bottom: 6px;"><strong>Dg.: Duplicita:</strong></p>`;
+            const label = getMultiplicityLabel(diagBlocks.length);
+            let htmlOut = `<p class="konzilia-dg-line" style="margin-bottom: 6px;"><strong>Dg.: ${label}:</strong></p>`;
             diagBlocks.forEach((block, idx) => {
               let dgTitle = cleanTitleStr(block.dg || '');
               if (!dgTitle.startsWith('Dg.:') && !/^\d+\)/.test(dgTitle)) {
@@ -425,24 +559,54 @@ export function renderStructuredJsonToHtml(
           if (diagBlocks.length === 1) {
             const block = diagBlocks[0];
             const rawDg = block.dg || 'ca ovarii';
-            const isDuplicity = /duplicita/i.test(rawDg);
+            const hasMultipleInSingleStr = /duplicita|triplicita|kvadruplicita|kvintuplicita/i.test(rawDg) || (rawDg.includes('1)') && rawDg.includes('2)'));
 
-            if (isDuplicity) {
-              let htmlOut = `<p class="konzilia-dg-line" style="margin-bottom: 6px;"><strong>Dg.: Duplicita:</strong></p>`;
-              const match1 = rawDg.match(/1\)\s*([\s\S]+?)(?=\s*2\)|$)/i);
-              const match2 = rawDg.match(/2\)\s*([\s\S]+?)(?=\s*3\)|$)/i);
-              let dg1Title = match1 ? '1) ' + cleanTitleStr(match1[1]) : '';
-              let dg2Title = match2 ? '2) ' + cleanTitleStr(match2[1]) : '';
+            if (hasMultipleInSingleStr) {
+              const subItems: string[] = [];
+              let num = 1;
+              while (true) {
+                const reg = new RegExp(`${num}\\)\\s*([\\s\\S]+?)(?=\\s*${num + 1}\\)|$)`, 'i');
+                const m = rawDg.match(reg);
+                if (m && m[1].trim()) {
+                  subItems.push(`${num}) ` + cleanTitleStr(m[1]));
+                  num++;
+                } else {
+                  break;
+                }
+              }
 
-              if (dg1Title) htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: 6px;"><strong>${escapeHtml(dg1Title)}</strong></p>`;
-              htmlOut += renderBlockItems(block);
-              if (dg2Title) htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: 12px;"><strong>${escapeHtml(dg2Title)}</strong></p>`;
+              let count = subItems.length;
+              if (count < 2) {
+                if (/kvintuplicita/i.test(rawDg)) count = 5;
+                else if (/kvadruplicita/i.test(rawDg)) count = 4;
+                else if (/triplicita/i.test(rawDg)) count = 3;
+                else count = 2;
+              }
+
+              const label = getMultiplicityLabel(count);
+              let htmlOut = `<p class="konzilia-dg-line" style="margin-bottom: 6px;"><strong>Dg.: ${label}:</strong></p>`;
+
+              if (subItems.length > 0) {
+                subItems.forEach((subTitle, idx) => {
+                  htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: ${idx === 0 ? '6px' : '12px'};"><strong>${escapeHtml(subTitle)}</strong></p>`;
+                  if (idx === 0) {
+                    htmlOut += renderBlockItems(block);
+                  }
+                });
+              } else {
+                let cleanedDg = cleanTitleStr(rawDg);
+                cleanedDg = cleanedDg.replace(/^(?:Dg\.\:\s*)?(?:duplicita|triplicita|kvadruplicita|kvintuplicita)\s*[\:\-]?\s*/i, '');
+                htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: 6px;"><strong>${escapeHtml(cleanedDg)}</strong></p>`;
+                htmlOut += renderBlockItems(block);
+              }
               return htmlOut;
             }
 
             let formattedDg = cleanTitleStr(rawDg);
+            // Odstranění předpony 1) nebo 1. pokud má pacientka pouze 1 diagnózu
+            formattedDg = formattedDg.replace(/^(?:Dg\.\:\s*)?1[\)\.]\s*/i, '');
             formattedDg = formattedDg.startsWith('Dg.:') ? formattedDg : `Dg.: ${formattedDg}`;
-            formattedDg = formattedDg.replace(/\*\*Duplicita:\*\*/gi, '<strong>Duplicita:</strong>');
+            formattedDg = formattedDg.replace(/\*\*(Duplicita|Triplicita|Kvadruplicita|Kvintuplicita):\*\*/gi, '<strong>$1:</strong>');
             const dgHeaderHtml = `<p class="konzilia-dg-line"><strong>${escapeHtml(formattedDg)}</strong></p>`;
             return dgHeaderHtml + renderBlockItems(block);
           }
@@ -453,8 +617,8 @@ export function renderStructuredJsonToHtml(
 
       <!-- 7. ONKOGYNEKOLOGICKÉ KONZILIUM A DOPORUČENÍ -->
       <div class="konzilia-conclusion-box">
-        <div class="konzilia-board-header">${escapeHtml(tbConclusion.date || 'Onkogynekologické konzilium 9.9.2026')}</div>
-        <p style="margin-bottom: 6px;"><strong>Přítomni:</strong> ${escapeHtml(tbConclusion.attendees || 'prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malik')}</p>
+        <div class="konzilia-board-header">Onkogynekologické konsilium ${escapeHtml(formattedBoardDate)}</div>
+        <p style="margin-bottom: 6px;"><strong>Přítomni:</strong> prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák, doc. MUDr. Kocián, Ph.D. a MUDr. Dostálek, Ph.D.</p>
         <p class="konzilia-recommendation"><strong>${tbConclusion.recommendation.startsWith('Doporučení:') ? '' : 'Doporučení: '}</strong>${escapeHtml(tbConclusion.recommendation)}</p>
       </div>
     </article>
@@ -484,9 +648,27 @@ export function filterDatasetByMaxDate(dataset: PatientChronologyDataset, maxDat
   const cutoffIso = maxDate.trim().split('T')[0];
 
   const filteredExams = (dataset.examinations || []).filter(exam => {
-    if (!exam.date || exam.date === '1970-01-01') return true;
-    const examDateIso = exam.date.split('T')[0];
-    return examDateIso < cutoffIso;
+    // 1. Standardní kontrola podle ISO data (vyřazuje vše >= cutoffIso)
+    if (exam.date && exam.date !== '1970-01-01') {
+      const examDateIso = exam.date.split('T')[0];
+      if (examDateIso >= cutoffIso) return false;
+    }
+
+    // 2. Kontrola všech dat v kompletním obsahu, rawDate a názvu (bez omezení délky textu!)
+    const textToCheck = `${exam.rawDate || ''} ${exam.title || ''} ${exam.content || ''}`;
+    const allFoundDates = (textToCheck.match(/\b(\d{1,2})[\.\/](\d{1,2})[\.\/](\d{2,4})\b/g) || [])
+      .map(dStr => parseCzechDateToIso(dStr))
+      .filter((d): d is string => d !== null && d !== '1970-01-01');
+
+    if (allFoundDates.length > 0) {
+      allFoundDates.sort();
+      const maxFoundIso = allFoundDates[allFoundDates.length - 1].split('T')[0];
+      if (maxFoundIso >= cutoffIso) {
+        return false;
+      }
+    }
+
+    return true;
   });
 
   const totalOriginal = (dataset.examinations || []).length;
@@ -513,14 +695,16 @@ export function filterDatasetByMaxDate(dataset: PatientChronologyDataset, maxDat
     for (const testName of Object.keys(dataset.labAggregated.byTest || {})) {
       const group = dataset.labAggregated.byTest[testName];
       const validMeasurements = (group.measurements || []).filter((m: any) => {
-        const mDate = m.date.split('T')[0];
+        const mDate = (m.date || '').split('T')[0];
         return mDate < cutoffIso;
       });
       if (validMeasurements.length > 0) {
         newByTest[testName] = {
           ...group,
           totalMeasurements: validMeasurements.length,
-          measurements: validMeasurements
+          measurements: validMeasurements,
+          firstDate: validMeasurements[0]?.date ? validMeasurements[0].date.split('T')[0] : group.firstDate,
+          lastDate: validMeasurements[validMeasurements.length - 1]?.date ? validMeasurements[validMeasurements.length - 1].date.split('T')[0] : group.lastDate
         };
       }
     }
@@ -532,6 +716,16 @@ export function filterDatasetByMaxDate(dataset: PatientChronologyDataset, maxDat
       totalUniqueDates: Object.keys(newByDate).length
     };
   }
+
+  // Bezpečnostní vyčištění neparsovaných úseků při aktivním datovém filtru
+  const filteredUnparsedFragments = (dataset.unparsedFragments || []).filter(frag => {
+    const match = (frag.content || '').match(/\b(\d{1,2})[\.\/](\d{1,2})[\.\/](\d{2,4})\b/);
+    if (match) {
+      const parsed = parseCzechDateToIso(match[0]);
+      if (parsed) return parsed.split('T')[0] < cutoffIso;
+    }
+    return true;
+  });
 
   return {
     ...dataset,
@@ -547,7 +741,8 @@ export function filterDatasetByMaxDate(dataset: PatientChronologyDataset, maxDat
       }
     },
     examinations: filteredExams,
-    labAggregated: filteredLabAggregated
+    labAggregated: filteredLabAggregated,
+    unparsedFragments: filteredUnparsedFragments
   };
 }
 
@@ -607,7 +802,7 @@ export async function generateTumorBoardSummary(
   const cleanDataset: PatientChronologyDataset = JSON.parse(anonymizedText);
 
   // 2. Sestavení anonymizovaného promptu s vyžádáním JSONu podle konsilium.docx
-  const prompt = buildTumorBoardPrompt(cleanDataset);
+  const prompt = buildTumorBoardPrompt(cleanDataset, maxDate);
 
   // 3. Volání Gemini API (primárně gemini-3.6-flash, záloha gemini-3.5-flash, gemini-flash-latest)
   const candidateModels = ['gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-flash-latest', 'gemini-pro-latest'];
@@ -640,8 +835,15 @@ export async function generateTumorBoardSummary(
   try {
     structuredJson = JSON.parse(cleanJsonStr);
   } catch (parseErr: any) {
-    console.error('[Tumor Board Agent] Chyba při parsování JSON výstupu z Gemini:', parseErr.message);
-    throw new Error(`Gemini nevrátilo platný JSON: ${parseErr.message}`);
+    console.warn(`[Tumor Board Agent] Prvotní JSON.parse selhal (${parseErr.message}). Pokouším se o auto-repair zkráceného JSONu...`);
+    try {
+      const repairedJsonStr = repairTruncatedJson(cleanJsonStr);
+      structuredJson = JSON.parse(repairedJsonStr);
+      console.log('[Tumor Board Agent] Auto-repair zkráceného JSONu proběhl úspěšně!');
+    } catch (repairErr: any) {
+      console.error('[Tumor Board Agent] Chyba při parsování i po auto-repair:', repairErr.message);
+      throw new Error(`Gemini nevrátilo platný JSON: ${parseErr.message}`);
+    }
   }
 
   // Uložení vygenerovaného strukturovaného JSONu na disk do output/json/tumor_board_conclusion.json
@@ -654,7 +856,7 @@ export async function generateTumorBoardSummary(
   console.log(`[Tumor Board Agent] Strukturovaný Závěr Tumor Boardu (vzor konsilium.docx) uložen do: ${tbJsonPath}`);
 
   // 4. Převod JSON na HTML pololetové zobrazení podle vzoru konsilium.docx s doplněním reálných osobnách údajů z lokálního uložení
-  const { reportHtml, treatmentPlanHtml } = renderStructuredJsonToHtml(structuredJson, targetDataset.metadata);
+  const { reportHtml, treatmentPlanHtml } = renderStructuredJsonToHtml(structuredJson, targetDataset.metadata, maxDate);
 
   return {
     reportHtml,

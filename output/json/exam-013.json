@@ -1,11 +1,12 @@
 {
   "id": "EXAM-013",
-  "date": "2022-01-11",
-  "rawDate": "11/01/22",
-  "sourceFile": "Brejšová-lab.txt",
-  "sourceType": "lab",
-  "type": "Histologie / Biopsie",
-  "doctor": "Bennett Rosalie Jana MUDr.",
-  "title": "Histologie / Biopsie (11/01/22)",
-  "content": "Výsledky z 11/01/22: \r\n  Nálezy: \r\n      REPT_BIOPVYS_DTP:\r\n\r\nKlinická diagnóza: \r\nLaboratoře Ústavu patologie jsou zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189:2013. \r\nHistologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle SOP-PAT-10.               \r\n\r\n\r\n\r\n\r\nNález: \r\nB00553/22\r\n\r\nBiopsie poševního pahýlu, fragmenty dohromady 10 x 7 x 3 mm.\r\nMikroskopicky jde o edematózní granulační tkáň, čerstvou bohatě prostoupenou smíšenou zánětlivou celulizací, polypoidně utvářenou. Nápadná leukostáza v kapilárách. Nepozorujeme žádné struktury, které by byly podezřelé z recidivy dříve léčeného nádorového onemocnění.\r\n\r\nZávěr: Granulační tkáň v poševním pahýlu, tzv. caro luxurians.\r\nT 81 M 45 000\r\n\r\nDatum potvrzení: 14.1.2022 08:06:00\r\nPotvrzující lékař: Bennett Rosalie Jana MUDr."
+  "date": "1970-01-01",
+  "rawDate": "",
+  "time": null,
+  "sourceFile": "Faryadová-amb.txt",
+  "sourceType": "amb",
+  "type": "Vyšetření",
+  "doctor": null,
+  "title": "dodatek ze dne 12.05.26 13:38 Germanová Anna MUDr., Ph.D.:",
+  "content": "dodatek ze dne 12.05.26 13:38 Germanová Anna MUDr., Ph.D.:           \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n---------------------------------------------------------                  \nLaboratorní vyšetření:                                                     \nBiochemie                                                                  \nMoč CH+S -  Moč chem.a mikrosk.                                            \nordinováno 12.05.2026 v 13:38 na 12.05.2026 13:39, Germanová Anna MUDr.    \n---------------------------------------------------------"
 }

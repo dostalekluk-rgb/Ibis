@@ -1,11 +1,12 @@
 {
   "id": "EXAM-194",
-  "date": "2026-08-18",
-  "rawDate": "18/08/26",
-  "sourceFile": "ai-stankova-lab.txt",
-  "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
-  "doctor": null,
-  "title": "Laboratorní panel (18/08/26)",
-  "content": "Výsledky z 18/08/26: \r\n  Krev-tumor.markery: \r\n      Ca 125: 691,0"
+  "date": "2026-08-14T09:52:00",
+  "rawDate": "14.08.26",
+  "time": "09:52",
+  "sourceFile": "Hukkelová-amb.txt",
+  "sourceType": "amb",
+  "type": "Ambulantní nález",
+  "doctor": "Valentová Tereza MUDr.",
+  "title": "------  Dokumentace ze dne 14.08.26 ---------:                                    Nález ze dne 14.08.26 09:52 Valentová Tereza MUDr.:",
+  "content": "------  Dokumentace ze dne 14.08.26 ---------:                             \n      Nález ze dne 14.08.26 09:52 Valentová Tereza MUDr.:                  \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n  0207229 CITRAFLEET       10MG/3,5G/10,97G POR PLV SOL 1 bal. : příprava  \ndle rozp"
 }

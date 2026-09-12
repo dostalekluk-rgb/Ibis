@@ -1,11 +1,12 @@
 {
   "id": "EXAM-030",
-  "date": "2024-04-22",
-  "rawDate": "22/04/24",
-  "sourceFile": "Lysiuk-lab.txt",
-  "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
+  "date": "1970-01-01",
+  "rawDate": "",
+  "time": null,
+  "sourceFile": "Faryadová-amb.txt",
+  "sourceType": "amb",
+  "type": "Vyšetření",
   "doctor": null,
-  "title": "Laboratorní panel (22/04/24)",
-  "content": "Výsledky z 22/04/24: \r\n  Krevní obraz-perifer: \r\n      Leu: 16,84\r\n      Ery: 4,59\r\n      HGB: 134\r\n      HCT: 0,413\r\n      MCV: 90,0\r\n      MCH: 29,2\r\n      MCHC: 324\r\n      RDW: 15,8\r\n      Plt: 235\r\n      MPV: 10,1\r\n      PCT: 0,240\r\n      PDW: 10,7\r\n  Dif.stroj. relativní: \r\n      Ne: 75,6\r\n      Ly: 13,3\r\n      Mo: 6,9\r\n      Eo: 1,3\r\n      Ba: 0,8\r\n      Nezralé granulocyty %: 2,1\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 12,73\r\n      Ly abs.: 2,24\r\n      Mo abs.: 1,17\r\n      Eo abs.: 0,22\r\n      Ba abs.: 0,13\r\n      Nezralé granulocyty abs.: 0,35\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 5,8"
+  "title": "dodatek ze dne 10.08.26 12:53 Skácelová Simona Ing.:",
+  "content": "dodatek ze dne 10.08.26 12:53 Skácelová Simona Ing.:                 \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n---------------------------------------------------------                  \nLaboratorní vyšetření:                                                     \nBiochemie                                                                  \nSpeciální -  CA 125                                                        \nordinováno 10.08.2026 v 12:53 na 10.08.2026 12:54, Frühauf Filip MUDr.     \n---------------------------------------------------------"
 }

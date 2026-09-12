@@ -349,6 +349,17 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
       gap: 12px;
     }
 
+    #rightPanelColumn {
+      position: sticky;
+      top: 16px;
+      align-self: flex-start;
+      height: calc(100vh - 32px);
+      max-height: calc(100vh - 32px);
+      min-width: 0;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
     .panel-header {
       background: var(--nejm-navy);
       color: #ffffff;
@@ -878,11 +889,14 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
       border-radius: 6px;
       display: flex;
       flex-direction: column;
-      height: calc(100vh - 200px);
+      width: 100%;
+      height: 100%;
+      max-height: 100%;
       box-shadow: 0 0 20px rgba(0, 255, 102, 0.15);
       font-family: 'JetBrains Mono', 'Consolas', monospace;
       color: #00ff66;
       overflow: hidden;
+      box-sizing: border-box;
     }
 
     .chat-header {
@@ -896,6 +910,8 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
       font-weight: 700;
       letter-spacing: 0.5px;
       flex-shrink: 0;
+      width: 100%;
+      box-sizing: border-box;
     }
 
     .chat-header-title {
@@ -939,27 +955,68 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
     .chat-messages {
       flex: 1 1 auto;
       min-height: 0;
-      padding: 14px;
-      overflow-y: auto;
+      padding: 16px;
+      overflow-y: auto !important;
+      overflow-x: hidden;
       display: flex;
       flex-direction: column;
-      gap: 12px;
+      gap: 16px;
       background: #050811;
+      scroll-behavior: smooth;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .chat-messages::-webkit-scrollbar {
+      width: 10px;
+      display: block;
+    }
+
+    .chat-messages::-webkit-scrollbar-track {
+      background: #090e1a;
+      border-radius: 4px;
+    }
+
+    .chat-messages::-webkit-scrollbar-thumb {
+      background: #00e5ff;
+      border-radius: 4px;
+      border: 2px solid #050811;
+    }
+
+    .chat-messages::-webkit-scrollbar-thumb:hover {
+      background: #00ff66;
+      box-shadow: 0 0 8px #00ff66;
     }
 
     .chat-msg {
-      padding: 10px 12px;
-      border-radius: 4px;
-      font-size: 11px;
-      line-height: 1.5;
-      max-width: 95%;
-      white-space: pre-wrap;
+      padding: 14px 16px;
+      border-radius: 8px;
+      font-size: 12px;
+      line-height: 1.65;
+      width: 100%;
+      box-sizing: border-box;
       word-break: break-word;
       overflow-wrap: anywhere;
+      margin: 0;
+      flex-shrink: 0;
     }
+
+    .chat-msg h1, .chat-msg h2, .chat-msg h3, .chat-msg h4 {
+      margin-top: 12px;
+      margin-bottom: 6px;
+      color: #00e5ff;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+    .chat-msg h4 { font-size: 12px; }
+    .chat-msg h3 { font-size: 13px; }
+    .chat-msg h2 { font-size: 14px; }
+    .chat-msg strong { color: #ffffff; font-weight: 700; }
+    .chat-msg em { color: #66ffaa; font-style: italic; }
 
     .chat-msg.user {
       align-self: flex-end;
+      max-width: 90%;
       background: #0a2918;
       border: 1px solid #00ff66;
       color: #66ffaa;
@@ -967,12 +1024,15 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
     }
 
     .chat-msg.model {
-      align-self: flex-start;
+      align-self: stretch;
+      width: 100%;
+      box-sizing: border-box;
       background: #0b1326;
       border: 1px solid #00e5ff;
       color: #00ff66;
-      border-radius: 8px 8px 8px 0;
-      box-shadow: 0 0 8px rgba(0, 255, 102, 0.1);
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 229, 255, 0.15);
+      flex-shrink: 0;
     }
 
     .chat-msg-author {
@@ -980,7 +1040,7 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
       text-transform: uppercase;
       font-weight: 700;
       letter-spacing: 0.5px;
-      margin-bottom: 4px;
+      margin-bottom: 6px;
       display: flex;
       align-items: center;
       gap: 4px;
@@ -1067,6 +1127,142 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
       background: #39ff14;
       box-shadow: 0 0 12px #00ff66;
     }
+
+    /* Right Panel Tabs & JSON Viewer */
+    .right-panel-tabs-wrapper {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      max-height: 100%;
+      min-height: 0;
+      background: #050811;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    }
+
+    .right-panel-tab-bar {
+      display: flex;
+      background: #0b1326;
+      border-bottom: 1px solid #1a2942;
+      padding: 4px 6px;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    .rp-tab-btn {
+      flex: 1;
+      padding: 8px 12px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      border: 1px solid transparent;
+      border-radius: 6px;
+      background: transparent;
+      color: #7e8c9f;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      text-align: center;
+    }
+
+    .rp-tab-btn:hover {
+      color: #00e5ff;
+      background: rgba(0, 229, 255, 0.08);
+    }
+
+    .rp-tab-btn.active {
+      background: #00e5ff;
+      color: #050811;
+      border-color: #00e5ff;
+      box-shadow: 0 0 10px rgba(0, 229, 255, 0.4);
+    }
+
+    .rp-tab-content {
+      flex: 1 1 auto;
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .json-viewer-container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      min-height: 0;
+      background: #ffffff;
+      color: #1e293b;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .json-viewer-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 14px;
+      background: #f1f5f9;
+      border-bottom: 1px solid #cbd5e1;
+      font-size: 11px;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .btn-copy-json {
+      background: #2563eb;
+      color: #ffffff;
+      border: none;
+      padding: 4px 10px;
+      font-size: 10px;
+      font-weight: 700;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+      transition: background 0.2s ease;
+    }
+
+    .btn-copy-json:hover {
+      background: #1d4ed8;
+    }
+
+    .btn-download-docx {
+      background: #166534;
+      color: #ffffff;
+      border: 1px solid #22c55e;
+      padding: 5px 12px;
+      font-size: 11px;
+      font-weight: 700;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn-download-docx:hover {
+      background: #15803d;
+      box-shadow: 0 0 10px rgba(34, 197, 94, 0.4);
+    }
+
+    .json-viewer-body {
+      flex: 1 1 auto;
+      min-height: 0;
+      padding: 16px;
+      overflow-y: auto !important;
+      overflow-x: auto;
+      font-size: 11px;
+      line-height: 1.5;
+      background: #ffffff;
+      color: #0f172a;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .json-key { color: #6b21a8; font-weight: 700; }
+    .json-string { color: #047857; }
+    .json-number { color: #1d4ed8; font-weight: 600; }
+    .json-boolean { color: #b45309; font-weight: 700; }
+    .json-null { color: #be123c; font-weight: 700; }
 
 
     .tb-block:last-child {
@@ -1460,21 +1656,17 @@ ${unparsedContentHtml}
           const reader = new FileReader();
           reader.onload = e => {
             try {
-              const arrayBuffer = e.target.result;
-              const bytes = new Uint8Array(arrayBuffer);
-              let binary = '';
-              const len = bytes.byteLength;
-              for (let i = 0; i < len; i++) {
-                binary += String.fromCharCode(bytes[i]);
-              }
-              const base64Content = btoa(binary);
+              const dataUrl = e.target.result;
+              const base64Content = typeof dataUrl === 'string' && dataUrl.includes(',') 
+                ? dataUrl.split(',')[1] 
+                : '';
               resolve({ fileName: file.name, base64Content: base64Content });
             } catch (err) {
               reject(err);
             }
           };
           reader.onerror = err => reject(err);
-          reader.readAsArrayBuffer(file);
+          reader.readAsDataURL(file);
         });
       });
 
@@ -1643,8 +1835,11 @@ ${unparsedContentHtml}
               <!-- HORNÍ ČÁST: ZPRÁVA Z TUMOR BOARDU -->\
               <div class="tb-report-card" style="flex: 1.2;">\
                 <div class="tb-card-header">\
-                  <span>🏥 ZPRÁVA Z TUMOR BOARDU (VZOR KONSILIUM.DOCX)</span>\
-                  <span style="font-size: 10px; font-weight: 400;">VFN Praha — Onkogynekologie</span>\
+                  <div>\
+                    <span>🏥 ZPRÁVA Z TUMOR BOARDU (VZOR KONSILIUM.DOCX)</span>\
+                    <span style="font-size: 10px; font-weight: 400; padding-left: 8px;">VFN Praha — Onkogynekologie</span>\
+                  </div>\
+                  <button class="btn-download-docx" onclick="downloadTumorBoardDocx()">📥 Exportovat DOCX</button>\
                 </div>\
                 <div class="tb-card-body">\
                   ' + data.reportHtml + '\
@@ -1667,35 +1862,59 @@ ${unparsedContentHtml}
         // Aktualizace hlavičky reportu o neanonymizovaná data uložená na začátku
         restoreRealPatientHeader();
 
-        // 2. OTEVŘENÍ PRIVÁTNÍHO CHATU V PRAVÉ ČÁSTI (ČERNÉ POZADÍ, ZELENÝ TEXT, BLIKAJÍCÍ ✦ KURZOR)
+        lastStructuredJson = data.structuredJson;
+
+        // 2. OTEVŘENÍ ZÁLOŽEK A PRIVÁTNÍHO CHATU V PRAVÉ ČÁSTI
         if (rightPanel) {
           rightPanel.innerHTML = '\
-            <div class="chat-container">\
-              <div class="chat-header">\
-                <div class="chat-header-title">\
-                  <span class="chat-star-icon">✦</span>\
-                  <span>GEMINI AI PRIVÁTNÍ KONSILIÁRNÍ CHAT</span>\
-                </div>\
-                <button class="btn-clear-chat" onclick="clearChatSession()">🗑️ Smazat chat</button>\
+            <div class="right-panel-tabs-wrapper">\
+              <div class="right-panel-tab-bar">\
+                <button class="rp-tab-btn active" id="rpTabChat" onclick="switchRightPanelTab(&apos;chat&apos;)">💬 GEMINI AI CHAT</button>\
+                <button class="rp-tab-btn" id="rpTabJson" onclick="switchRightPanelTab(&apos;json&apos;)">📄 JSON ROZPAD</button>\
               </div>\
 \
-              <div class="chat-messages" id="chatMessagesLog">\
-                <div class="chat-msg model">\
-                  <div class="chat-msg-author">✦ Gemini AI (Konzultant)</div>\
+              <div id="chatTabContent" class="rp-tab-content">\
+                <div class="chat-container">\
+                  <div class="chat-header">\
+                    <div class="chat-header-title">\
+                      <span class="chat-star-icon">✦</span>\
+                      <span>GEMINI AI PRIVÁTNÍ KONSILIÁRNÍ CHAT</span>\
+                    </div>\
+                    <button class="btn-clear-chat" onclick="clearChatSession()">🗑️ Smazat chat</button>\
+                  </div>\
+\
+                  <div class="chat-messages" id="chatMessagesLog">\
+                    <div class="chat-msg model">\
+                      <div class="chat-msg-author">✦ Gemini AI (Konzultant)</div>\
 ✦ Dobrý den, jsem váš AI konzultant. Prostudoval jsem kompletní anonymizovaný Závěr Tumor Boardu a vyšetření pacientky. <br><br>Na co se chcete k tomuto případu zeptat?\
+                    </div>\
+                  </div>\
+\
+                  <div class="chat-pills">\
+                    <button class="chat-pill-btn" onclick="askPill(1)">✦ Proč pouze BSC?</button>\
+                    <button class="chat-pill-btn" onclick="askPill(2)">✦ Odezva na Caelyx & CA 125</button>\
+                    <button class="chat-pill-btn" onclick="askPill(3)">✦ Komorbidity a rizika</button>\
+                  </div>\
+\
+                  <div class="chat-input-bar">\
+                    <span class="chat-prompt-symbol">✦</span>\
+                    <input type="text" id="chatInput" class="chat-input" placeholder="Ptejte se Gemini AI na cokoliv k tomuto případu..." onkeydown="handleChatKeyDown(event)" />\
+                    <button class="chat-send-btn" onclick="sendChatMessage()">Odeslat [Enter]</button>\
+                  </div>\
                 </div>\
               </div>\
 \
-              <div class="chat-pills">\
-                <button class="chat-pill-btn" onclick="askPill(1)">✦ Proč pouze BSC?</button>\
-                <button class="chat-pill-btn" onclick="askPill(2)">✦ Odezva na Caelyx & CA 125</button>\
-                <button class="chat-pill-btn" onclick="askPill(3)">✦ Komorbidity a rizika</button>\
-              </div>\
-\
-              <div class="chat-input-bar">\
-                <span class="chat-prompt-symbol">✦</span>\
-                <input type="text" id="chatInput" class="chat-input" placeholder="Ptejte se Gemini AI na cokoliv k tomuto případu..." onkeydown="handleChatKeyDown(event)" />\
-                <button class="chat-send-btn" onclick="sendChatMessage()">Odeslat [Enter]</button>\
+              <div id="jsonTabContent" class="rp-tab-content" style="display: none;">\
+                <div class="json-viewer-container">\
+                  <div class="json-viewer-header">\
+                    <span>📄 Strukturovaný JSON Rozpad (Gemini Output)</span>\
+                    <div style="display: flex; gap: 8px; align-items: center;">\
+                      <button class="btn-download-docx" onclick="downloadTumorBoardDocx()">📥 Exportovat DOCX</button>\
+                      <button class="btn-copy-json" onclick="copyTbJsonToClipboard()">📋 Zkopírovat JSON</button>\
+                    </div>\
+                  </div>\
+                  <div class="json-viewer-body" id="jsonViewerBody"></div>\
+                </div>\
               </div>\
             </div>\
           ';
@@ -1793,7 +2012,7 @@ ${unparsedContentHtml}
       if (messagesLog) {
         const userDiv = document.createElement('div');
         userDiv.className = 'chat-msg user';
-        userDiv.innerHTML = '<div class="chat-msg-author">👤 Klinik</div>' + escapeHtml(msgText);
+        userDiv.innerHTML = '<div class="chat-msg-author">👤 Klinik</div>' + formatChatMessage(msgText);
         messagesLog.appendChild(userDiv);
 
         const loadingDiv = document.createElement('div');
@@ -1828,9 +2047,10 @@ ${unparsedContentHtml}
         if (messagesLog) {
           const modelDiv = document.createElement('div');
           modelDiv.className = 'chat-msg model';
-          modelDiv.innerHTML = '<div class="chat-msg-author">✦ Gemini AI</div>' + escapeHtml(data.reply);
+          modelDiv.innerHTML = '<div class="chat-msg-author">✦ Gemini AI</div>' + formatChatMessage(data.reply);
           messagesLog.appendChild(modelDiv);
-          messagesLog.scrollTop = messagesLog.scrollHeight;
+          // Plynulé posunutí na začátek (začátek odpovědi Gemini)
+          messagesLog.scrollTop = modelDiv.offsetTop - 12;
         }
       })
       .catch(err => {
@@ -1838,6 +2058,20 @@ ${unparsedContentHtml}
         if (loadingDiv) loadingDiv.remove();
         alert('Chyba spojení s chat serverem.');
       });
+    }
+
+    function formatChatMessage(text) {
+      if (!text) return '';
+      let html = escapeHtml(text);
+      html = html.replace(/^### (.*$)/gim, '<h4 class="chat-h3">$1</h4>');
+      html = html.replace(/^## (.*$)/gim, '<h3 class="chat-h2">$1</h3>');
+      html = html.replace(/^# (.*$)/gim, '<h2 class="chat-h1">$1</h2>');
+      html = html.replace(/\\*\\*(.*?)\\*\\*/g, '<strong>$1</strong>');
+      html = html.replace(/\\*(.*?)\\*/g, '<em>$1</em>');
+      html = html.replace(/^\\s*[\\-\\*]\\s+(.*$)/gim, '• $1');
+      html = html.replace(/\\n\\n/g, '<br><br>');
+      html = html.replace(/\\n/g, '<br>');
+      return html;
     }
 
     /**
@@ -1862,6 +2096,127 @@ ${unparsedContentHtml}
       if (event.key === 'Enter') {
         sendChatMessage();
       }
+    }
+
+    let lastStructuredJson = null;
+
+    function switchRightPanelTab(tabName) {
+      const chatBtn = document.getElementById('rpTabChat');
+      const jsonBtn = document.getElementById('rpTabJson');
+      const chatContent = document.getElementById('chatTabContent');
+      const jsonContent = document.getElementById('jsonTabContent');
+
+      if (tabName === 'chat') {
+        if (chatBtn) chatBtn.classList.add('active');
+        if (jsonBtn) jsonBtn.classList.remove('active');
+        if (chatContent) chatContent.style.display = 'flex';
+        if (jsonContent) jsonContent.style.display = 'none';
+      } else {
+        if (jsonBtn) jsonBtn.classList.add('active');
+        if (chatBtn) chatBtn.classList.remove('active');
+        if (jsonContent) jsonContent.style.display = 'flex';
+        if (chatContent) chatContent.style.display = 'none';
+        renderJsonViewerContent();
+      }
+    }
+
+    function renderJsonViewerContent() {
+      const viewer = document.getElementById('jsonViewerBody');
+      if (!viewer) return;
+      if (!lastStructuredJson) {
+        viewer.innerHTML = '<div style="color: #64748b; font-style: italic; text-align: center; padding-top: 40px;">Zatím nejsou k dispozici žádná strukturovaná JSON data.</div>';
+        return;
+      }
+      try {
+        const parsed = typeof lastStructuredJson === 'string' ? JSON.parse(lastStructuredJson) : lastStructuredJson;
+        viewer.innerHTML = highlightJsonHtml(parsed);
+      } catch(e) {
+        const rawStr = typeof lastStructuredJson === 'string' ? lastStructuredJson : JSON.stringify(lastStructuredJson, null, 2);
+        viewer.textContent = rawStr;
+      }
+    }
+
+    function highlightJsonHtml(jsonObj) {
+      const jsonString = JSON.stringify(jsonObj, null, 2);
+      const escaped = escapeHtml(jsonString);
+      return escaped.replace(/("(\\\\u[a-zA-Z0-9]{4}|\\\\[^u]|[^\\\\"])*"(\\\\s*:)?|\\\\b(true|false|null)\\\\b|-?\\\\d+(?:\\\\.\\\\d*)?(?:[eE][+\\\\-]?\\\\d+)?)/g, function (match) {
+        let cls = 'json-number';
+        if (/^"/.test(match)) {
+          if (/:$/.test(match)) {
+            cls = 'json-key';
+          } else {
+            cls = 'json-string';
+          }
+        } else if (/true|false/.test(match)) {
+          cls = 'json-boolean';
+        } else if (/null/.test(match)) {
+          cls = 'json-null';
+        }
+        return '<span class="' + cls + '">' + match + '</span>';
+      });
+    }
+
+    function copyTbJsonToClipboard() {
+      if (!lastStructuredJson) {
+        alert('Žádný JSON ke zkopírování.');
+        return;
+      }
+      const str = typeof lastStructuredJson === 'string' ? lastStructuredJson : JSON.stringify(lastStructuredJson, null, 2);
+      navigator.clipboard.writeText(str).then(() => {
+        alert('Strukturovaný JSON byl zkopírován do schránky!');
+      }).catch(err => {
+        console.error(err);
+        alert('Kopírování selhalo.');
+      });
+    }
+
+    function downloadTumorBoardDocx() {
+      const maxDateVal = document.getElementById('maxDateCutoff') ? document.getElementById('maxDateCutoff').value : '';
+
+      const payload = {
+        structuredJson: lastStructuredJson,
+        metadata: typeof currentMeta !== 'undefined' ? currentMeta : null,
+        maxDate: maxDateVal
+      };
+
+      fetch('/api/export-docx', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      })
+      .then(response => {
+        if (!response.ok) {
+          return response.json().then(err => { throw new Error(err.error || 'Chyba při generování DOCX'); });
+        }
+        let filename = 'konsilium.docx';
+        const disposition = response.headers.get('Content-Disposition');
+        if (disposition) {
+          const matchUtf = disposition.match(/filename\*=UTF-8''([^;]+)/i);
+          if (matchUtf && matchUtf[1]) {
+            filename = decodeURIComponent(matchUtf[1]);
+          } else {
+            const matchNorm = disposition.match(/filename="([^"]+)"/i);
+            if (matchNorm && matchNorm[1]) {
+              filename = decodeURIComponent(matchNorm[1]);
+            }
+          }
+        }
+        return response.blob().then(blob => ({ blob, filename }));
+      })
+      .then(({ blob, filename }) => {
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        window.URL.revokeObjectURL(url);
+      })
+      .catch(err => {
+        console.error(err);
+        alert('Chyba při stažení DOCX: ' + err.message);
+      });
     }
 
     function escapeHtml(text) {

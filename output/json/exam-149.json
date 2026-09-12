@@ -1,11 +1,11 @@
 {
   "id": "EXAM-149",
-  "date": "2026-09-03",
-  "rawDate": "03/09/26",
-  "sourceFile": "ai-stankova-lab.txt",
+  "date": "2026-09-01",
+  "rawDate": "01/09/26",
+  "sourceFile": "Lánská-lab.txt",
   "sourceType": "lab",
   "type": "Laboratoř / Laboratorní panel",
   "doctor": null,
-  "title": "Laboratorní panel (03/09/26)",
-  "content": "Výsledky z 03/09/26: \r\n  Minerály+Osmolalita: \r\n      Na: 141\r\n      K: 3,9\r\n      Cl: 106\r\n      P: 0,90\r\n      Mg: 0,64"
+  "title": "Laboratorní panel (01/09/26)",
+  "content": "Výsledky z 01/09/26: \r\n  Texty laboratoř: \r\n      Komentář:\r\nFIB-4 skóre:\r\nvysoké riziko jaterní fibrózy\r\nSpecificita FIB-4 pro pokročilou fibrózu klesá s rostoucím věkem. K nadhodnocení FIB-4 skóre dochází u trombocytopenií jiné etiologie než je plicní hypertenze a u stavů s náhle vzniklou elevací ALT, AST (hypoxie, hypertenze, trauma, infekce …). Vysoké riziko fibrózy by po zvážení klinických souvislostí mělo vést k úvaze o provedení jaterní elastografie a vyšetření hepatogastroenterologem.\r\n\r\n  Minerály+Osmolalita: \r\n      Na: 132\r\n      K: 4,3\r\n      Cl: 97\r\n  Dusíkové metabolity: \r\n      Urea: 6,3\r\n      Kreat.: 71\r\n      Kys. moč.: 571\r\n  Jaterní testy: \r\n      Bilirubin: 18,9\r\n      ALT: 0,80\r\n      AST: 3,45\r\n      GGT: 10,94\r\n      ALP: 8,51\r\n      FIB-4 index: 6,63      ; Text k metodě přesáhl povolených 255 znaků. Text je uveden v souhrném textu k celé žádance.\r\n  Enzymy: \r\n      AMS-P: 0,13\r\n  Bílkoviny: \r\n      Albumin: 33,6\r\n      CB: 64,6\r\n      CRP: 188,3\r\n  Krevní obraz-perifer: \r\n      Leu: 12,35\r\n      Ery: 4,42\r\n      HGB: 120\r\n      HCT: 0,384\r\n      MCV: 86,9\r\n      MCH: 27,1\r\n      MCHC: 313\r\n      RDW: 16,2\r\n      Plt: 320\r\n      MPV: 9,3\r\n      PCT: 0,300\r\n      PDW: 9,9\r\n  Dif.stroj. relativní: \r\n      Ne: 84,7\r\n      Ly: 7,7\r\n      Mo: 6,4\r\n      Eo: 0,0\r\n      Ba: 0,3\r\n      Nezralé granulocyty %: 0,9\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 10,46\r\n      Ly abs.: 0,95\r\n      Mo abs.: 0,79\r\n      Eo abs.: 0,00\r\n      Ba abs.: 0,04\r\n      Nezralé granulocyty abs.: 0,11\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 11,1\r\n      ICIS skóre: 4,00\r\n      Retikulocyty strojově: 18,9\r\n      Retikulocyty abs. strojově: 0,084\r\n      Konc. hemogl. v RET: 27,6"
 }

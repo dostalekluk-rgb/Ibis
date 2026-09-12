@@ -1,11 +1,11 @@
 {
   "id": "EXAM-113",
-  "date": "2026-04-20",
-  "rawDate": "20/04/26",
-  "sourceFile": "Hukkelová-lab.txt",
+  "date": "2026-01-27",
+  "rawDate": "27/01/26",
+  "sourceFile": "Lánská-lab.txt",
   "sourceType": "lab",
-  "type": "CT Vyšetření",
-  "doctor": "MUDr. Voldánová Michaela",
-  "title": "CT Vyšetření (20/04/26)",
-  "content": "Výsledky z 20/04/26: \r\n  Nálezy: \r\n      RTGVYS:\r\n\r\nNález: \r\nPřístroj DR 600, výr. číslo 2024, výrobce Agfa\r\n\r\nRTG hrudníku:\r\n\r\nPrvní snímek u nás.\r\nPortkatetr zprava s koncem v oblasti kavoatriální junkce. Bez známek PNO. \r\nBránice klenutá, hladká. Kostofrenické úhly volné, ostré. V průběhu dorzální části VII. žebra oválný stín vel. 10 mm, v.s. na CT popisovaný chondrohamartom, jinak v přehledném plicním parenchymu bez viditelných ložisek a infiltrací. Stíny mamill. Mediastinum nerozšířeno. Srdeční stín nezvětšen. Bez známek městnání v malém oběhu. Skleróza oblouku aorty.\r\n\r\n\r\nPotvrzující lékař: MUDr. Voldánová Michaela"
+  "type": "Histologie / Biopsie",
+  "doctor": "Galko Jan MUDr.",
+  "title": "Histologie / Biopsie (27/01/26)",
+  "content": "Výsledky z 27/01/26: \r\n  Nálezy: \r\n      REPT_BIOPVYS_DTP:\r\n\r\nKlinická diagnóza: \r\nLaboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189\r\ned.3:2023. Histologické vyšetření tkání a diagnostika bylo provedeno metodou v rozsahu akreditace dle \r\nSOP-PAT-10.\r\n\r\nImunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13.\r\n\r\n\r\nNález: \r\nB1935/26\r\n\r\n1-2\r\n\r\n1. Tumor pánve z proximální pochvy: 3 nepravidelné potrhané částice velikosti 43 x 18 x 17 mm, 26 x 5-10 x 4 mm a průměru 5 mm, největší ložiskově s hladkou sliznicí. Materiál zpracován celý v 9 blocích.\r\n2. Tumory z rekta: Vícečetné tukové částky celkem 70 x 60 x 15-25 mm, ložiskově s tužšími prokrvácenými oblastmi. Materiál vyšetřen v 5 blocích.\r\n\r\nMikro: V tukovém a kolagenním vazivu (č. 1) a na seróze (č. 2) je infiltrace karcinomem, který roste minoritně v tubulárních a kribriformních formacích, povětšinou tvoří solidní čepy, pruhy a větší plochy s mapovitými nekrózami, místy je výrazně zhmožděný či termicky poškozený. V glandulárních oblastech nádorové buňky vykazují střední stupeň jaderných atypií, cytoplazma je amfofilní či špatně barvitelná. V solidních oblastech jsou nádorové buňky bazaloidního vzhledu s high grade jadernými atypiemi, bohatou mitotickou aktivitou a ložiskovou dlaždicovou diferenciací. Stroma desmoplastické. V č. 1 fokálně zastižena stěna pochvy. Kvůli fragmentaci materiálu se k úplnosti odstranění nelze vyjádřit.\r\n\r\nImunohistochemické vyšetření (blok 2C):\r\nGlandulární komponenta je CKAE1/3 +, CK8/18 +, PAX8 +, SOX17 +, ER + (100 %, středně silně až silně), PR -/+ (do 10 %, středně silně až silně), p40 -/+ (fokálně), p16 -/+ (místy disperzně), p53 wt.\r\nSolidní komponenta je CKAE1/3 +, CK8/18 +, PAX8 -, SOX17 -, ER -, PR -, p40 -/+ (fokálně), p16 -/+ (místy disperzně), p53 wt.\r\n\r\nZávěr: V resekátech proximální pochvy a z povrchu rekta je recidiva dříve diagnostikovaného endometroidního karcinomu endometria, v aktuálním odběru grade 3. Kvůli fragmentaci materiálu se k úplnosti odstranění nelze vyjádřit.\r\nT81, TY44   M8380/3 G3\r\n\r\nDatum potvrzení: 3.2.2026 10:54:00\r\nPotvrzující lékař: Galko Jan MUDr.\r\n\r\n\r\n  ABR - krev: \r\n      Hb: 124\r\n      Typ přístroje Astrup: ABL835\r\n      Typ odběru: \r\nNot specifie\r\n\r\n  Plná krev: \r\n      Na: 135\r\n      K: 4,3\r\n      Cl: 110\r\n      iCa: 1,15"
 }

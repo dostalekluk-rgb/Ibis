@@ -1,11 +1,12 @@
 {
   "id": "EXAM-085",
-  "date": "2026-03-06",
-  "rawDate": "06/03/26",
-  "sourceFile": "Lysiuk-lab.txt",
-  "sourceType": "lab",
-  "type": "Mikrobiologie / Kultivace",
-  "doctor": "MUDr. Jan Závora",
-  "title": "Mikrobiologie / Kultivace (06/03/26)",
-  "content": "Výsledky z 06/03/26: \r\n  Nálezy: \r\n      REP_MRUT_DTP:\r\n\r\nLaboratoř bakteriologie, tel.224967663,7662\r\n----------------------------------------------------------------------------------------------\r\nPacient               LYSIUK MARYNA                            Rodné číslo 7859524365 Poj. 111\r\n\r\nBiologický materiál   MOČ SPONTÁNNÍ\r\nLaboratorní číslo     G0360102                                 Dg.         N133\r\nZdravotnické zařízení VFN                                      NS          22711\r\nOddělení              Urologická klinika - Ambulance příjmová\r\nLékař                 Malý                                     IČP/odb.    02004220  / 706\r\nDatum a doba příjmu   06.03.2026 17:00\r\nDatum a doba odběru   06.03.2026\r\nDatum a doba ukončení 07.03.2026 10:40\r\n----------------------------------------------------------------------------------------------\r\nKULTIVACE A VYŠETŘENÍ\r\nPrimokultura\r\n negativní\r\n\r\nUVOLNIL:  MUDr. Jan Závora"
+  "date": "2023-10-12T08:24:00",
+  "rawDate": "12.10.23",
+  "time": "08:24",
+  "sourceFile": "Lánská-amb.txt",
+  "sourceType": "amb",
+  "type": "Ambulantní nález",
+  "doctor": "Strachotová Dana Mgr.",
+  "title": "------  Dokumentace ze dne 12.10.23 ---------:                                    Nález ze dne 12.10.23 08:24 Strachotová Dana Mgr.:",
+  "content": "------  Dokumentace ze dne 12.10.23 ---------:                             \n      Nález ze dne 12.10.23 08:24 Strachotová Dana Mgr.:                   \nDiagnózy:                                                                  \nC549 ZN - tělo děložní [corpus uteri] NS                                   \n\n---------------------------------------------------------                  \nLaboratorní vyšetření:                                                     \nCHL                                                                        \nKrevní obraz -  KO + diff. strojový                                        \nBiochemie                                                                  \nBiochemie rutinní -  ALT, AST, GGT, ALP, Na, K, Cl, Urea, Kreatinin,       \nBílkovina celková, Albumin                                                 \n  Osmolalita, Močová kyselina, Bilirubin celkový                           \nMoč CH+S -  Moč chem.a mikrosk.                                            \nordinováno 12.10.2023 v 08:24 na 12.10.2023 08:24, Germanová Anna MUDr.    \n---------------------------------------------------------"
 }

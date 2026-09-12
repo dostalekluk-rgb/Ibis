@@ -1,11 +1,12 @@
 {
   "id": "EXAM-142",
-  "date": "2026-09-01",
-  "rawDate": "01/09/26",
-  "sourceFile": "ai-stankova-hosp-04.txt",
-  "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
-  "doctor": null,
-  "title": "Laboratorní panel (01/09/26)",
-  "content": "Výsledky z 01/09/26: Minerály+Osmolalita: Na: 140, K: 3,8, Cl: 104, Ca:      \r\n2,07, Ca korig. na albumin: 2,40,   Bílkoviny: Albumin: 25,0,"
+  "date": "2026-07-20T11:19:00",
+  "rawDate": "20.07.26",
+  "time": "11:19",
+  "sourceFile": "Lánská-amb.txt",
+  "sourceType": "amb",
+  "type": "Ambulantní nález",
+  "doctor": "Hadrabová Kateřina",
+  "title": "------  Dokumentace ze dne 20.07.26 ---------:                                    Nález ze dne 20.07.26 11:19 Hadrabová Kateřina :",
+  "content": "------  Dokumentace ze dne 20.07.26 ---------:                             \n      Nález ze dne 20.07.26 11:19 Hadrabová Kateřina :                     \nDiagnózy:                                                                  \nC549 ZN - tělo děložní [corpus uteri] NS                                   \n\n---------------------------------------------------------                  \nLaboratorní vyšetření:                                                     \nBiochemie                                                                  \nBiochemie rutinní -  ALT, AST, GGT, ALP, T4 - volný, TSH, Na, K, Cl, Urea, \nKreatinin, Bílkovina celková                                               \n  Albumin, Močová kyselina, Bilirubin celkový                              \nordinováno 20.07.2026 v 11:18 na 20.07.2026 11:15, Fischerová Daniela      \nMUDr. Ph.D.                                                                \n---------------------------------------------------------"
 }

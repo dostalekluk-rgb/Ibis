@@ -1,11 +1,12 @@
 {
   "id": "EXAM-119",
-  "date": "2026-06-01",
-  "rawDate": "01/06/26",
-  "sourceFile": "Hukkelová-lab.txt",
-  "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
-  "doctor": null,
-  "title": "Laboratorní panel (01/06/26)",
-  "content": "Výsledky z 01/06/26: \r\n  Minerály+Osmolalita: \r\n      Na: 142\r\n      K: 4,2\r\n      Cl: 103\r\n  Dusíkové metabolity: \r\n      Urea: 4,8\r\n      Kreat.: 62\r\n      Kys. moč.: 195\r\n  Jaterní testy: \r\n      Bilirubin: 5,9\r\n      ALT: 0,33\r\n      AST: 0,37\r\n      GGT: 0,26\r\n      ALP: 1,62\r\n      FIB-4 index: 1,49      ; mírné riziko jaterní fibrózy\r\n  Bílkoviny: \r\n      Albumin: 45,3\r\n      CB: 72,5\r\n  Moč chemicky: \r\n      pH: 6,5\r\n      Hustota: 1,003\r\n      Bílkovina orient.: neg\r\n      Glykosurie: neg\r\n      Ketolátky: neg\r\n      Bilirubin: neg\r\n      Urobilinogen: neg\r\n      Erytrocyty v moči: neg\r\n      Leuko: 70\r\n      Nitrity: neg\r\n  Moč - sediment: \r\n      ERY: 0,0\r\n      LEUKO: 2,0\r\n      Epit.pl: 11,0\r\n      Epit.k: 2,0\r\n      Bakterie: negativ.\r\n      Poznámka: \r\nost. neg.\r\n\r\n  Krevní obraz-perifer: \r\n      Leu: 5,75\r\n      Ery: 3,85\r\n      HGB: 113\r\n      HCT: 0,351\r\n      MCV: 91,2\r\n      MCH: 29,4\r\n      MCHC: 322\r\n      RDW: 14,3\r\n      Plt: 218\r\n      MPV: 9,4\r\n      PCT: 0,200\r\n      PDW: 9,3\r\n  Dif.stroj. relativní: \r\n      Ne: 42,6\r\n      Ly: 47,3\r\n      Mo: 9,0\r\n      Eo: 0,5\r\n      Ba: 0,3\r\n      Nezralé granulocyty %: 0,3\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 2,44\r\n      Ly abs.: 2,72\r\n      Mo abs.: 0,52\r\n      Eo abs.: 0,03\r\n      Ba abs.: 0,02\r\n      Nezralé granulocyty abs.: 0,02\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,00\r\n      Normoblasty abs. strojově: 0,00\r\n      NLR: 0,9"
+  "date": "2026-02-27T13:34:00",
+  "rawDate": "27.02.26",
+  "time": "13:34",
+  "sourceFile": "Lánská-amb.txt",
+  "sourceType": "amb",
+  "type": "Ambulantní nález",
+  "doctor": "Hadrabová Kateřina",
+  "title": "------  Dokumentace ze dne 27.02.26 ---------:                                    Nález ze dne 27.02.26 13:34 Hadrabová Kateřina :",
+  "content": "------  Dokumentace ze dne 27.02.26 ---------:                             \n      Nález ze dne 27.02.26 13:34 Hadrabová Kateřina :                     \nDiagnózy:                                                                  \nC549 ZN - tělo děložní [corpus uteri] NS                                   \n\n---------------------------------------------------------                  \nLaboratorní vyšetření:                                                     \nBiochemie                                                                  \nBiochemie rutinní -  Železo-vaz.kap.volná, ALT, AST, GGT, ALP, Na, K, Cl,  \nUrea, Železo, Kreatinin                                                    \n  Bílkovina celková, Albumin, Transferin, Močová kyselina, Bilirubin       \ncelkový                                                                    \nordinováno 27.02.2026 v 13:33 na 27.02.2026 13:33, Valentová Tereza MUDr.  \n---------------------------------------------------------"
 }

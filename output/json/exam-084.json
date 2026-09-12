@@ -1,11 +1,11 @@
 {
   "id": "EXAM-084",
-  "date": "2026-02-17",
-  "rawDate": "17/02/26",
-  "sourceFile": "Lysiuk-lab.txt",
+  "date": "2023-10-12",
+  "rawDate": "12/10/23",
+  "sourceFile": "Lánská-lab.txt",
   "sourceType": "lab",
-  "type": "RTG Vyšetření",
-  "doctor": "MUDr. Chocholová Simona",
-  "title": "RTG Vyšetření (17/02/26)",
-  "content": "Výsledky z 17/02/26: \r\n  Nálezy: \r\n      RTGVYS:\r\n\r\nNález: \r\nPřístroj: Ziehm Vision, v.č. 25066\r\n\r\nvýměna stentu vpravo; výkon na sále urologie\r\n\r\nPotvrzující lékař: MUDr. Chocholová Simona"
+  "type": "Laboratoř / Laboratorní panel",
+  "doctor": null,
+  "title": "Laboratorní panel (12/10/23)",
+  "content": "Výsledky z 12/10/23: \r\n  Krevní obraz-perifer: \r\n      Leu: 4,71\r\n      Ery: 3,02\r\n      HGB: 101\r\n      HCT: 0,288\r\n      MCV: 95,4\r\n      MCH: 33,4\r\n      MCHC: 351\r\n      RDW: 21,9\r\n      Plt: 319\r\n      MPV: 9,5\r\n      PCT: 0,300\r\n      PDW: 9,7\r\n  Dif.stroj. relativní: \r\n      Ne: 41,6\r\n      Ly: 40,8\r\n      Mo: 14,2\r\n      Eo: 1,5\r\n      Ba: 0,4\r\n      Nezralé granulocyty %: 1,5\r\n  Dif.stroj. absolutní: \r\n      Ne abs.: 1,96\r\n      Ly abs.: 1,92\r\n      Mo abs.: 0,67\r\n      Eo abs.: 0,07\r\n      Ba abs.: 0,02\r\n      Nezralé granulocyty abs.: 0,07\r\n  Ostatní hematologie-: \r\n      Normoblasty strojově: 0,40\r\n      Normoblasty abs. strojově: 0,02\r\n      NLR: 1,1"
 }

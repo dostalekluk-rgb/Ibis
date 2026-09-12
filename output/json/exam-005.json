@@ -1,11 +1,12 @@
 {
   "id": "EXAM-005",
-  "date": "2021-10-17",
-  "rawDate": "17/10/21",
-  "sourceFile": "Brejšová-lab.txt",
-  "sourceType": "lab",
-  "type": "Laboratoř / Laboratorní panel",
+  "date": "1970-01-01",
+  "rawDate": "",
+  "time": null,
+  "sourceFile": "Faryadová-amb.txt",
+  "sourceType": "amb",
+  "type": "Vyšetření",
   "doctor": null,
-  "title": "Laboratorní panel (17/10/21)",
-  "content": "Výsledky z 17/10/21: \r\n  Diabetický profil: \r\n      Glukóza-glukometr: 5,8\r\n  Zkouška kompatibility: \r\n      TP č.1: \r\nC20022100604210  Kompatibilní\r\nPlatnost vyšetření: 20.10.2021 23:59:00\r\nExpirace: 18.11.2021 23:59:00\r\n\r\n      TP č.2: \r\nC20022170220610  Kompatibilní\r\nPlatnost vyšetření: 20.10.2021 23:59:00\r\nExpirace: 22.11.2021 23:59:00\r\n\r\n  Imunohematologie: \r\n      Krevní skupina: A poz\r\n      Screening protilátek: neg\r\n  Bez funkční skupiny: \r\n      Q_ZkKomp_*: \r\nvyšetřena"
+  "title": "dodatek ze dne 02.04.26 14:51 Drahovzalová Marcela :",
+  "content": "dodatek ze dne 02.04.26 14:51 Drahovzalová Marcela :                 \nDiagnózy:                                                                  \nC56 Zhoubný novotvar vaječníku                                             \n\n---------------------------------------------------------                  \nLaboratorní vyšetření:                                                     \nBiochemie                                                                  \nBiochemie rutinní -  ALT, AST, GGT, ALP, LD, Na, K, Cl, Urea, Kreatinin,   \nBílkovina celková                                                          \n  Albumin, Močová kyselina, Glukóza, Bilirubin celkový                     \nSpeciální -  CA 125                                                        \nordinováno 02.04.2026 v 14:51 na 02.04.2026 14:51, Kocián Roman MUDr.      \n---------------------------------------------------------"
 }

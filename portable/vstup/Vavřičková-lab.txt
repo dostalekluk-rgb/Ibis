@@ -1,0 +1,260 @@
+Výsledky z 22/06/26: 
+  Nálezy: 
+      REPT_BIOPVYS_DTP:
+
+Klinická diagnóza: 
+Laboratoře Ústavu patologie jsou Zdravotnická laboratoř č. 8163 akreditovaná ČIA dle ČSN EN ISO 15189 ed.3:2023. 
+
+Imunohistochemické vyšetření bylo provedeno metodou nepřímé imunohistochemie v rozsahu akreditace dle SOP-PAT-13.
+
+
+
+Nález: 
+B12806/26
+
+Na žádost klinika MUDr. Emingra z KGPN VFN k vyšetření genu BRCA1 a BRCA2 a IHC byl dodán bloček č. 1062378/26 (HGSC) zhotovený v Bioptické laboratoři s.r.o. Plzeň.
+
+Imunohistochemické vyšetření:
+HER2/neu (certifikovaný kit Ventana HER2/neu, klon 4B5): slabé inkompletní zbarvení membrány více než 10 % nádorových buněk - skóre 1+ (negativní)
+
+
+Molekulárně biologické vyšetření genů BRCA1 a BRCA2 v nádorové tkáni (DNA NGS):
+Genomová DNA byla izolována z makrodisekované tkáně z parafinového bločku č. 1062378/26 (50 % nádorových buněk).
+
+Výsledek vyšetření mutačního stavu genů BRCA1 a BRCA2 provedeného metodou NGS v rozsahu akreditace dle SOP-PAT-23. Spektrum vyšetřovaných genů je uvedeno v příloze č. 2 SM-PAT-02 Laboratorní příručka: https://www.vfn.cz/pacienti/kliniky-ustavy/ustav-patologie/laboratore/
+Podstatou metody je masivní paralelní sekvenování nabohacených vybraných oblastí genomu (tzv. capture NGS) na platformě NextSeq 2000 (Illumina, který je umístěn ve smluvní laboratoři ULBLD, Laboratoř pro komplexní výzkum nových biomarkerů). Metoda umožňuje vyšetření somatických variant (bodové mutace, krátké delece/inzerce apod.) ve všech exonech a přilehlých intronových oblastech genů BRCA1 a BRCA2. Metodou lze detekovat somatické varianty zastoupené alespoň u 5 % buněčné populace ve vyšetřeném vzorku, kdy pro zachování robustnosti detekce genových variant je vhodný vzorek obsahující >40 % nádorových buněk. Limitace metody: Vyšetření rozsáhlých přestaveb >40 bp a CNV může být u parafinových vzorků s nižší kvalitou limitováno a takovéto varianty nemusí být detekovány. Mutace hluboko v intronových a regulačních sekvencích nejsou zachyceny.
+Vyšetření umožňuje stanovení HRD skóre na základě detekce Loss of Heterozygosity (LOH), Large-scale State Transitions (LST) a Telomeric Allelic Imbalance (TAI) pomocí software CLC Genomic Workbench (modul Calculate HRD Score). HRD skóre >=52 je hodnoceno jako pozitivní; HRD skóre <=51 je hodnoceno jako negativní. U HGSC pacientů se statusem HRD pozitivní byla prokázána vyšší citlivost na léčbu PARP inhibitory.
+
+Nomenklatura vychází z referenční sekvence NM_007294.3 a NP_009225.1 pro BRCA1 a NM_000059.3 a NP_000050.2 pro BRCA2. Reportovány budou pouze klinicky relevantní mutace (class 4-5; pravděpodobně patogenní varianty - patogenní varianty), dle aktuálních kritérií v době vydání této zprávy. 
+
+Průměrné pokrytí cílových oblastí ve vzorku 212x.
+
+Závěr a interpretace:
+V nádoru BYLA prokázána patogenní varianta genu BRCA1 NM_007294.3:c.5266dup, p.(Gln1756fs), frekvence mutované alely 82% (121x).
+
+Nádory s detekovanou patogenní mutací v genech BRCA1 jsou v literatuře spojovány se zvýšenou citlivostí na PARP inhibitory.
+
+Pozn.: Tento výsledek může, ale nemusí být ve shodě s mutačním stavem zárodečných variant vyšetřované pacientky. Z testování nádorové tkáně nelze jednoznačně určit, zda se jedná o mutaci zděděnou nebo získanou (somatická mutace). Pokud tak již nebylo učiněno, pacientce by mělo být doporučeno vyšetření klinickým genetikem a testování variant zárodečné linie genu BRCA1/BRCA2.
+
+HRD nelze spolehlivě hodnotit.
+
+Vyšetření vyhodnotil: Mgr. Nikola Kudrnová, Ph.D.
+
+Datum potvrzení: 30.6.2026 12:29:00
+Potvrzující lékař: Galko Jan MUDr.
+
+
+  Minerály+Osmolalita: 
+      Na: 140
+      K: 4,4
+      Cl: 103
+  Dusíkové metabolity: 
+      Urea: 3,6
+      Kreat.: 55
+      Kys. moč.: 159
+  Jaterní testy: 
+      Bilirubin: 4,1
+      ALT: 0,29
+      AST: 0,23
+      GGT: 0,21
+      ALP: 1,19
+  Bílkoviny: 
+      Albumin: 42,8
+      CB: 70,1
+
+Výsledky z 14/07/26: 
+  Texty laboratoř: 
+      Komentář:
+Nebyly dodrženy podmínky preanalytické fáze a požadavky na transport vzorků do laboratoře. Možné ovlivnění výsledků. Bližší viz. webové stránky VFN - Přehled laboratorních vyšetření - http://laboratore.vfn.cz
+
+  Minerály+Osmolalita: 
+      Na: 139
+      K: 4,1
+      Cl: 103
+  Dusíkové metabolity: 
+      Urea: 4,2
+      Kreat.: 58
+      Kys. moč.: 169
+  Jaterní testy: 
+      Bilirubin: 7,2
+      ALT: 0,18
+      AST: 0,28
+      GGT: 0,22
+      ALP: 1,23
+      FIB-4 index: 1,17
+  Bílkoviny: 
+      Albumin: 44,1
+      CB: 73,0
+  Moč chemicky: 
+      pH: 5,5
+      Hustota: 1,019
+      Bílkovina orient.: neg
+      Glykosurie: neg
+      Ketolátky: neg
+      Bilirubin: neg
+      Urobilinogen: neg
+      Erytrocyty v moči: neg
+      Leuko: neg
+      Nitrity: neg
+  Moč - sediment: 
+      Hlen: poz.
+      ERY: 0,0
+      LEUKO: 0,0
+      Epit.pl: 1,0
+      Bakterie: negativ.
+      Poznámka: 
+ost. neg.
+
+  Krevní obraz-perifer: 
+      Leu: 4,47
+      Ery: 4,21
+      HGB: 128
+      HCT: 0,376
+      MCV: 89,5
+      MCH: 30,5
+      MCHC: 341
+      RDW: 13,2
+      Plt: 197
+      MPV: 10,6
+  Dif.stroj. relativní: 
+      Ne: 54,4
+      Ly: 35,5
+      Mo: 7,4
+      Eo: 1,4
+      Ba: 1,3
+      Nezralé granulocyty %: 0,0
+  Dif.stroj. absolutní: 
+      Ne abs.: 2,43
+      Ly abs.: 1,59
+      Mo abs.: 0,33
+      Eo abs.: 0,06
+      Ba abs.: 0,06
+      Nezralé granulocyty abs.: 0,00
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 1,5
+
+Výsledky z 03/08/26: 
+  Nálezy: 
+      REPT_MAMOVYS_DTP:
+
+Nález: 
+Selenia 3DIMENSIONS, v.č. 3DM160701298, výrobce HOLOGIC
+Přístroj Aplio A, výr. číslo:99A1992097, výrobce Toshiba
+
+Screeningová (preventivní) mamografie, US prsů a axill, druhé čtení:
+
+Mamografický typ denzní. Birads denzita D.
+Při US vpravo drobné cysty do 6 mm, oboustranně bez známek malignity. Axilly bez patol. infiltrovaných uzlin. Birads 2
+
+2.čtení: MUDr. Šebelová Lenka
+nález souhlasí s výše uvedeným popisem.
+
+Potvrzující lékař: MUDr. Červenková Jana
+
+
+  Texty laboratoř: 
+      Komentář:
+U odběru moče nebyly dodrženy podmínky preanalytické fáze a požadavky na transport vzorků do laboratoře nebo odběrového centra. Možné ovlivnění výsledků. Moč by měla být zpracována do 2 hodin od odběru. Bližší viz. webové stránky VFN - Přehled laboratorních vyšetření - http://laboratore.vfn.cz
+
+  Minerály+Osmolalita: 
+      Na: 138
+      K: 4,4
+      Cl: 102
+  Dusíkové metabolity: 
+      Urea: 7,1
+      Kreat.: 61
+      Kys. moč.: 182
+  Jaterní testy: 
+      Bilirubin: 4,9
+      ALT: 0,24
+      AST: 0,23
+      GGT: 0,18
+      ALP: 1,11
+      FIB-4 index: 0,63
+  Bílkoviny: 
+      Albumin: 44,6
+      CB: 69,3
+  Moč chemicky: 
+      pH: 5,5
+      Hustota: 1,029
+      Bílkovina orient.: neg
+      Glykosurie: neg
+      Ketolátky: neg
+      Bilirubin: neg
+      Urobilinogen: neg
+      Erytrocyty v moči: neg
+      Leuko: neg
+      Nitrity: neg
+  Moč - sediment: 
+      Hlen: poz.
+      ERY: 1,0
+      LEUKO: 3,0
+      Epit.pl: 1,0
+      Bakterie: negativ.
+      Poznámka: 
+ost. neg.
+
+  Krevní obraz-perifer: 
+      Leu: 3,57
+      Ery: 3,83
+      HGB: 121
+      HCT: 0,349
+      MCV: 90,9
+      MCH: 31,5
+      MCHC: 347
+      RDW: 13,3
+      Plt: 260
+      MPV: 10,1
+  Dif.stroj. relativní: 
+      Ne: 54,7
+      Ly: 36,6
+      Mo: 7,7
+      Eo: 0,2
+      Ba: 0,8
+      Nezralé granulocyty %: 0,0
+  Dif.stroj. absolutní: 
+      Ne abs.: 1,95
+      Ly abs.: 1,31
+      Mo abs.: 0,27
+      Eo abs.: 0,01
+      Ba abs.: 0,03
+      Nezralé granulocyty abs.: 0,00
+  Ostatní hematologie-: 
+      Normoblasty strojově: 0,00
+      Normoblasty abs. strojově: 0,00
+      NLR: 1,5
+
+Výsledky z 08/09/26: 
+  Nálezy: 
+      REPT_CTVYS_DTP:
+
+Nález: 
+Přístroj SOMATOM Definition Edge, seriové číslo: 155313, inv.č. M10/01736
+Výrobce SIEMENS Healthcare GmbH
+
+Injektor: MEDRAD Stellant SCT 310, Výrobce: Bayer AG, seriové č. 301002
+Kontrastní látka: Iomeron 350, množství aplikované i.v.: 85 ml, průtok: 2,5 ml/s
+i.v. aplikoval:Stará
+
+CT hrudníku, břicha a pánve:
+Provedeno postkontrastní helikální MDCT epigastrium v art. fázi,  v portální fázi od jugula po dno pánevní, zhotoveny následné MPR. 1. CT vyšetření ve VFN.
+
+V epikardiálním tuku nodulus vel. 8x6 mm.
+Plicní parenchym je vícečetnými kalcfikacemi do vel. 6 mm, dystelektatické změny pl. parenchymu dorsálně bilat, bez ložiskových a infiltrativních změn, plicní kresba přiměřená, bez tekutiny v pleurální dutině. Mediastinum i axilly bez lymfadenopatie. Portkatétr zprava do VCS.
+Játra nezvětšena, přiměřené densitou a homogenní struktury, bez ložisek. Žlučník s jemnou stěnou a homogenním obsahem. Žlučové cesty a v.portae bez dilatace.
+Pankreas je přiměřené velikosti a density, bez ložisek. Slezina norm. velikosti a density bez ložisek.
+Nadledviny nezvětšeny.
+Ledviny bilat. norm. velikosti a uložení, bez dilatace DS, bez ložiskových změn, uretery bilat. bez dilatace.
+
+St.p. IDS, DSL, HSL, TAH, BSO, OE tot, APE, st.p. peritonektomii mesenteria terminálního ilea. Karcinomatoza je patrná při konvexitě jater, při slezině, na bránici oboustranně, parakolicky oboustranně, v mesenteriu, v pánvi mezikličově a pararektálně. V malé pánvi menší ascites.
+Tenké i tlusté střevo nerozšířené.Močový měchýř s jemnou stěnou, hladkou konturou a homogenním obsahem.
+V zachycené oblasti bez patologicky zvětšených uzlin. Bez patrných ložiskových změn skeletu.
+
+Závěr:  Susp. lymf. uzlina v epikardiálním tuku, podbrániční karcinomatoza, amlý ascites v pánvi.
+
+
+Potvrzující lékař: MUDr. Leščinskij Artem
+
+

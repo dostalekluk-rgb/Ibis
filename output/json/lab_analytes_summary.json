@@ -1,632 +1,5101 @@
 {
   "byTest": {
-    "Glukóza-glukometr": {
-      "testName": "Glukóza-glukometr",
+    "Faktor V Leiden (1691 G>A)": {
+      "testName": "Faktor V Leiden (1691 G>A)",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "G/A - Byla prokázána mutace v heterozygotní",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2005-10-27"
+    },
+    "Faktor II - protrombin (20210 G>A)": {
+      "testName": "Faktor II - protrombin (20210 G>A)",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "G/G - Nebyla prokázána mutace.",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2005-10-27"
+    },
+    "MTHFR (677 C>T)": {
+      "testName": "MTHFR (677 C>T)",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "C/C - Nebyla prokázána mutace.",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2005-10-27"
+    },
+    "MTHFR (1298 A>C)": {
+      "testName": "MTHFR (1298 A>C)",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "A/C - Byla prokázána mutace v heterozygotníkonstituci.",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2005-10-27"
+    },
+    "Leu": {
+      "testName": "Leu",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "7,9",
+          "numericValue": 7.9
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "7,4",
+          "numericValue": 7.4
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "7,8",
+          "numericValue": 7.8
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "7,6",
+          "numericValue": 7.6
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "6,6",
+          "numericValue": 6.6
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "9,73",
+          "numericValue": 9.73
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "7,67",
+          "numericValue": 7.67
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "5,75",
+          "numericValue": 5.75
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "7,80",
+          "numericValue": 7.8
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "4,82",
+          "numericValue": 4.82
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "5,95",
+          "numericValue": 5.95
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "Ery": {
+      "testName": "Ery",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "4,07",
+          "numericValue": 4.07
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "4,87",
+          "numericValue": 4.87
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "4,49",
+          "numericValue": 4.49
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "4,23",
+          "numericValue": 4.23
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "4,62",
+          "numericValue": 4.62
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "4,38",
+          "numericValue": 4.38
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "4,29",
+          "numericValue": 4.29
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "3,85",
+          "numericValue": 3.85
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "3,77",
+          "numericValue": 3.77
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "3,49",
+          "numericValue": 3.49
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "3,33",
+          "numericValue": 3.33
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "HGB": {
+      "testName": "HGB",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "113",
+          "numericValue": 113
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "137",
+          "numericValue": 137
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "136",
+          "numericValue": 136
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "126",
+          "numericValue": 126
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "136",
+          "numericValue": 136
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "133",
+          "numericValue": 133
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "127",
+          "numericValue": 127
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "113",
+          "numericValue": 113
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "117",
+          "numericValue": 117
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "107",
+          "numericValue": 107
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "105",
+          "numericValue": 105
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "HCT": {
+      "testName": "HCT",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "0,34",
+          "numericValue": 0.34
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "0,413",
+          "numericValue": 0.413
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "0,401",
+          "numericValue": 0.401
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "0,371",
+          "numericValue": 0.371
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "0,403",
+          "numericValue": 0.403
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "0,404",
+          "numericValue": 0.404
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "0,391",
+          "numericValue": 0.391
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "0,351",
+          "numericValue": 0.351
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,346",
+          "numericValue": 0.346
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "0,328",
+          "numericValue": 0.328
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "0,329",
+          "numericValue": 0.329
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "MCV": {
+      "testName": "MCV",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "83,4",
+          "numericValue": 83.4
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "84,7",
+          "numericValue": 84.7
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "89,4",
+          "numericValue": 89.4
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "87,8",
+          "numericValue": 87.8
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "87,3",
+          "numericValue": 87.3
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "92,3",
+          "numericValue": 92.3
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "91,2",
+          "numericValue": 91.2
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "91,2",
+          "numericValue": 91.2
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "91,8",
+          "numericValue": 91.8
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "93,8",
+          "numericValue": 93.8
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "98,6",
+          "numericValue": 98.6
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "MCH": {
+      "testName": "MCH",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "27,8",
+          "numericValue": 27.8
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "28",
+          "numericValue": 28
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "30,3",
+          "numericValue": 30.3
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "29,7",
+          "numericValue": 29.7
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "29,5",
+          "numericValue": 29.5
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "30,3",
+          "numericValue": 30.3
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "29,6",
+          "numericValue": 29.6
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "29,4",
+          "numericValue": 29.4
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "31,1",
+          "numericValue": 31.1
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "30,6",
+          "numericValue": 30.6
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "31,6",
+          "numericValue": 31.6
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "MCHC": {
+      "testName": "MCHC",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "333",
+          "numericValue": 333
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "331",
+          "numericValue": 331
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "338",
+          "numericValue": 338
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "338",
+          "numericValue": 338
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "338",
+          "numericValue": 338
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "328",
+          "numericValue": 328
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "325",
+          "numericValue": 325
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "322",
+          "numericValue": 322
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "338",
+          "numericValue": 338
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "326",
+          "numericValue": 326
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "320",
+          "numericValue": 320
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "RDW": {
+      "testName": "RDW",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "14,8",
+          "numericValue": 14.8
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "15,9",
+          "numericValue": 15.9
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "13,7",
+          "numericValue": 13.7
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "13,7",
+          "numericValue": 13.7
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "14,2",
+          "numericValue": 14.2
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "13,5",
+          "numericValue": 13.5
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "13,7",
+          "numericValue": 13.7
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "14,3",
+          "numericValue": 14.3
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "15,9",
+          "numericValue": 15.9
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "17,3",
+          "numericValue": 17.3
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "17,7",
+          "numericValue": 17.7
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "Plt": {
+      "testName": "Plt",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "292",
+          "numericValue": 292
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "246",
+          "numericValue": 246
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "272",
+          "numericValue": 272
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "256",
+          "numericValue": 256
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "250",
+          "numericValue": 250
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "264",
+          "numericValue": 264
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "148",
+          "numericValue": 148
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "218",
+          "numericValue": 218
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "119",
+          "numericValue": 119
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "209",
+          "numericValue": 209
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "136",
+          "numericValue": 136
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "MPV": {
+      "testName": "MPV",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "7,8",
+          "numericValue": 7.8
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "8,4",
+          "numericValue": 8.4
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "8,4",
+          "numericValue": 8.4
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "8",
+          "numericValue": 8
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "8,2",
+          "numericValue": 8.2
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "10,1",
+          "numericValue": 10.1
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "9,5",
+          "numericValue": 9.5
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "9,4",
+          "numericValue": 9.4
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "8,9",
+          "numericValue": 8.9
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "9,2",
+          "numericValue": 9.2
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "9,3",
+          "numericValue": 9.3
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "PCT": {
+      "testName": "PCT",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "0,229",
+          "numericValue": 0.229
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "0,206",
+          "numericValue": 0.206
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "0,227",
+          "numericValue": 0.227
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "0,204",
+          "numericValue": 0.204
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "0,204",
+          "numericValue": 0.204
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "0,200",
+          "numericValue": 0.2
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-06-01"
+    },
+    "PDW": {
+      "testName": "PDW",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "17,4",
+          "numericValue": 17.4
+        },
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "17,4",
+          "numericValue": 17.4
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "16,5",
+          "numericValue": 16.5
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "16,5",
+          "numericValue": 16.5
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "16,5",
+          "numericValue": 16.5
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "16,5",
+          "numericValue": 16.5
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "16,6",
+          "numericValue": 16.6
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "16,6",
+          "numericValue": 16.6
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "16,7",
+          "numericValue": 16.7
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "16,7",
+          "numericValue": 16.7
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "9,3",
+          "numericValue": 9.3
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-06-01"
+    },
+    "Ne": {
+      "testName": "Ne",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "58,7",
+          "numericValue": 58.7
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "51",
+          "numericValue": 51
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "56,2",
+          "numericValue": 56.2
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "54,5",
+          "numericValue": 54.5
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "50,3",
+          "numericValue": 50.3
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "51,7",
+          "numericValue": 51.7
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "48,8",
+          "numericValue": 48.8
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "42,6",
+          "numericValue": 42.6
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "47,0",
+          "numericValue": 47
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "40,5",
+          "numericValue": 40.5
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "43,0",
+          "numericValue": 43
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "Ly": {
+      "testName": "Ly",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "30,8",
+          "numericValue": 30.8
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "36,4",
+          "numericValue": 36.4
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "32,3",
+          "numericValue": 32.3
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "33,7",
+          "numericValue": 33.7
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "36,4",
+          "numericValue": 36.4
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "35,2",
+          "numericValue": 35.2
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "39,5",
+          "numericValue": 39.5
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "47,3",
+          "numericValue": 47.3
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "40,2",
+          "numericValue": 40.2
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "49,2",
+          "numericValue": 49.2
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "43,1",
+          "numericValue": 43.1
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "Mo": {
+      "testName": "Mo",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "8",
+          "numericValue": 8
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "8,8",
+          "numericValue": 8.8
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "7,9",
+          "numericValue": 7.9
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "8,2",
+          "numericValue": 8.2
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "8,8",
+          "numericValue": 8.8
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "8,0",
+          "numericValue": 8
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "9,5",
+          "numericValue": 9.5
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "9,0",
+          "numericValue": 9
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "11,8",
+          "numericValue": 11.8
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "9,9",
+          "numericValue": 9.9
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "12,3",
+          "numericValue": 12.3
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "Eo": {
+      "testName": "Eo",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "2",
+          "numericValue": 2
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "3,4",
+          "numericValue": 3.4
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "3,2",
+          "numericValue": 3.2
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "3,2",
+          "numericValue": 3.2
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "4,1",
+          "numericValue": 4.1
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "3,3",
+          "numericValue": 3.3
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "1,6",
+          "numericValue": 1.6
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "0,5",
+          "numericValue": 0.5
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,7",
+          "numericValue": 0.7
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "0,2",
+          "numericValue": 0.2
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "0,9",
+          "numericValue": 0.9
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "Ba": {
+      "testName": "Ba",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "0,5",
+          "numericValue": 0.5
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "0,4",
+          "numericValue": 0.4
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "0,4",
+          "numericValue": 0.4
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "0,4",
+          "numericValue": 0.4
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "0,4",
+          "numericValue": 0.4
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "1,2",
+          "numericValue": 1.2
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "0,3",
+          "numericValue": 0.3
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "0,3",
+          "numericValue": 0.3
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,3",
+          "numericValue": 0.3
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "0,2",
+          "numericValue": 0.2
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "0,7",
+          "numericValue": 0.7
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "Ne abs.": {
+      "testName": "Ne abs.",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "4,7",
+          "numericValue": 4.7
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "3,7",
+          "numericValue": 3.7
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "4,4",
+          "numericValue": 4.4
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "4,2",
+          "numericValue": 4.2
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "3,3",
+          "numericValue": 3.3
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "5,03",
+          "numericValue": 5.03
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "3,74",
+          "numericValue": 3.74
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "2,44",
+          "numericValue": 2.44
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "3,67",
+          "numericValue": 3.67
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "1,95",
+          "numericValue": 1.95
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "2,56",
+          "numericValue": 2.56
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "Ly abs.": {
+      "testName": "Ly abs.",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "2,4",
+          "numericValue": 2.4
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "2,7",
+          "numericValue": 2.7
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "2,5",
+          "numericValue": 2.5
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "2,6",
+          "numericValue": 2.6
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "2,4",
+          "numericValue": 2.4
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "3,43",
+          "numericValue": 3.43
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "3,03",
+          "numericValue": 3.03
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "2,72",
+          "numericValue": 2.72
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "3,14",
+          "numericValue": 3.14
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "2,37",
+          "numericValue": 2.37
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "2,57",
+          "numericValue": 2.57
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "Mo abs.": {
+      "testName": "Mo abs.",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "0,6",
+          "numericValue": 0.6
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "0,7",
+          "numericValue": 0.7
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "0,6",
+          "numericValue": 0.6
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "0,6",
+          "numericValue": 0.6
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "0,6",
+          "numericValue": 0.6
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "0,77",
+          "numericValue": 0.77
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "0,73",
+          "numericValue": 0.73
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "0,52",
+          "numericValue": 0.52
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,92",
+          "numericValue": 0.92
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "0,48",
+          "numericValue": 0.48
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "0,73",
+          "numericValue": 0.73
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "Eo abs.": {
+      "testName": "Eo abs.",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "0,2",
+          "numericValue": 0.2
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "0,3",
+          "numericValue": 0.3
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "0,3",
+          "numericValue": 0.3
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "0,2",
+          "numericValue": 0.2
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "0,3",
+          "numericValue": 0.3
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "0,32",
+          "numericValue": 0.32
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "0,12",
+          "numericValue": 0.12
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "0,03",
+          "numericValue": 0.03
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,05",
+          "numericValue": 0.05
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "0,01",
+          "numericValue": 0.01
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "0,06",
+          "numericValue": 0.06
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "Ba abs.": {
+      "testName": "Ba abs.",
+      "totalMeasurements": 11,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "0",
+          "numericValue": 0
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "0",
+          "numericValue": 0
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "0",
+          "numericValue": 0
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "0",
+          "numericValue": 0
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "0",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "0,12",
+          "numericValue": 0.12
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "0,02",
+          "numericValue": 0.02
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "0,02",
+          "numericValue": 0.02
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,02",
+          "numericValue": 0.02
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "0,01",
+          "numericValue": 0.01
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "0,04",
+          "numericValue": 0.04
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-08-10"
+    },
+    "Homocystein celk.": {
+      "testName": "Homocystein celk.",
       "totalMeasurements": 3,
       "measurements": [
         {
-          "date": "2021-10-17",
-          "rawDate": "17/10/21",
-          "value": "5,8",
-          "numericValue": 5.8
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "7,9",
+          "numericValue": 7.9
         },
         {
-          "date": "2021-10-19",
-          "rawDate": "19/10/21",
-          "value": "6,9; 9,9",
-          "numericValue": 6.9
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "8",
+          "numericValue": 8
         },
         {
-          "date": "2021-10-20",
-          "rawDate": "20/10/21",
-          "value": "6,5; 10,1",
-          "numericValue": 6.5
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "7,6",
+          "numericValue": 7.6
         }
       ],
-      "firstDate": "2021-10-17",
-      "lastDate": "2021-10-20"
+      "firstDate": "2005-10-27",
+      "lastDate": "2006-08-29"
+    },
+    "INR": {
+      "testName": "INR",
+      "totalMeasurements": 8,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "1,01",
+          "numericValue": 1.01
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "0,97",
+          "numericValue": 0.97
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "1,01",
+          "numericValue": 1.01
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "0,94",
+          "numericValue": 0.94
+        },
+        {
+          "date": "2007-07-03",
+          "rawDate": "03/07/07",
+          "value": "0,9",
+          "numericValue": 0.9
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "0,89",
+          "numericValue": 0.89
+        },
+        {
+          "date": "2026-03-11",
+          "rawDate": "11/03/26",
+          "value": "0,90",
+          "numericValue": 0.9
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "0,89",
+          "numericValue": 0.89
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-04-16"
+    },
+    "APTT": {
+      "testName": "APTT",
+      "totalMeasurements": 8,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "37,3",
+          "numericValue": 37.3
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "39,8",
+          "numericValue": 39.8
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "40,5",
+          "numericValue": 40.5
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "36,1",
+          "numericValue": 36.1
+        },
+        {
+          "date": "2007-07-03",
+          "rawDate": "03/07/07",
+          "value": "34,3",
+          "numericValue": 34.3
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "34,9",
+          "numericValue": 34.9
+        },
+        {
+          "date": "2026-03-11",
+          "rawDate": "11/03/26",
+          "value": "27,0",
+          "numericValue": 27
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "30,3",
+          "numericValue": 30.3
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2026-04-16"
+    },
+    "Trombinový test": {
+      "testName": "Trombinový test",
+      "totalMeasurements": 5,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "16,4",
+          "numericValue": 16.4
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "14,1",
+          "numericValue": 14.1
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "14,4",
+          "numericValue": 14.4
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "14,1",
+          "numericValue": 14.1
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "14,7",
+          "numericValue": 14.7
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2008-08-28"
+    },
+    "Fibrinogen koagul.": {
+      "testName": "Fibrinogen koagul.",
+      "totalMeasurements": 5,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "2,58",
+          "numericValue": 2.58
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "2,96",
+          "numericValue": 2.96
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "2,8",
+          "numericValue": 2.8
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "2,9",
+          "numericValue": 2.9
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "2,78",
+          "numericValue": 2.78
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2008-08-28"
+    },
+    "Etanol gelifik.test": {
+      "testName": "Etanol gelifik.test",
+      "totalMeasurements": 5,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "negativ.",
+          "numericValue": null
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "negativ.",
+          "numericValue": null
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "negativ.",
+          "numericValue": null
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "negativ.",
+          "numericValue": null
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "negativ.",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2008-08-28"
+    },
+    "Antitrombin": {
+      "testName": "Antitrombin",
+      "totalMeasurements": 5,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "97",
+          "numericValue": 97
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "103",
+          "numericValue": 103
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "96",
+          "numericValue": 96
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "91",
+          "numericValue": 91
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "111",
+          "numericValue": 111
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2008-08-28"
+    },
+    "D-Dimer": {
+      "testName": "D-Dimer",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": ">6000",
+          "numericValue": null
+        },
+        {
+          "date": "2005-11-03",
+          "rawDate": "03/11/05",
+          "value": "50",
+          "numericValue": 50
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "59",
+          "numericValue": 59
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "53",
+          "numericValue": 53
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "170",
+          "numericValue": 170
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "62",
+          "numericValue": 62
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2008-08-28"
+    },
+    "Lupus antikoagulans": {
+      "testName": "Lupus antikoagulans",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "4,2",
+          "numericValue": 4.2
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "negativ.",
+          "numericValue": null
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "negativ.",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2007-05-18"
+    },
+    "Protein C": {
+      "testName": "Protein C",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "128",
+          "numericValue": 128
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2005-10-27"
+    },
+    "Protein S": {
+      "testName": "Protein S",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "60",
+          "numericValue": 60
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "95",
+          "numericValue": 95
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2006-01-31"
+    },
+    "APC rezistence": {
+      "testName": "APC rezistence",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "2,6",
+          "numericValue": 2.6
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2005-10-27"
+    },
+    "APA_IgG": {
+      "testName": "APA_IgG",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "0,1",
+          "numericValue": 0.1
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "1,64",
+          "numericValue": 1.64
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "3,42",
+          "numericValue": 3.42
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2007-05-18"
+    },
+    "APA_IgM": {
+      "testName": "APA_IgM",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "14,42",
+          "numericValue": 14.42
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "1,29",
+          "numericValue": 1.29
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "0,87",
+          "numericValue": 0.87
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2007-05-18"
+    },
+    "Faktor VIII": {
+      "testName": "Faktor VIII",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "67",
+          "numericValue": 67
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2005-10-27"
+    },
+    "A1antitrypsin": {
+      "testName": "A1antitrypsin",
+      "totalMeasurements": 5,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "1,51",
+          "numericValue": 1.51
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "1,32",
+          "numericValue": 1.32
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "1,25",
+          "numericValue": 1.25
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "1,37",
+          "numericValue": 1.37
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "1,42",
+          "numericValue": 1.42
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2008-08-28"
+    },
+    "Transferin": {
+      "testName": "Transferin",
+      "totalMeasurements": 5,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "3,76",
+          "numericValue": 3.76
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "2,88",
+          "numericValue": 2.88
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "2,43",
+          "numericValue": 2.43
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "3,01",
+          "numericValue": 3.01
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "2,1",
+          "numericValue": 2.1
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2008-08-28"
+    },
+    "Prealbumin": {
+      "testName": "Prealbumin",
+      "totalMeasurements": 5,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "0,17",
+          "numericValue": 0.17
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "0,19",
+          "numericValue": 0.19
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "0,21",
+          "numericValue": 0.21
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "0,2",
+          "numericValue": 0.2
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "0,18",
+          "numericValue": 0.18
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2008-08-28"
+    },
+    "A2 makroglobulin": {
+      "testName": "A2 makroglobulin",
+      "totalMeasurements": 5,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "1,66",
+          "numericValue": 1.66
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "1,76",
+          "numericValue": 1.76
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "1,92",
+          "numericValue": 1.92
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "1,88",
+          "numericValue": 1.88
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "1,95",
+          "numericValue": 1.95
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2008-08-28"
+    },
+    "Orosomukoid": {
+      "testName": "Orosomukoid",
+      "totalMeasurements": 5,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "0,55",
+          "numericValue": 0.55
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "0,7",
+          "numericValue": 0.7
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "0,71",
+          "numericValue": 0.71
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "0,69",
+          "numericValue": 0.69
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "0,57",
+          "numericValue": 0.57
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2008-08-28"
+    },
+    "CRP": {
+      "testName": "CRP",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2005-10-27",
+          "rawDate": "27/10/05",
+          "value": "0,3",
+          "numericValue": 0.3
+        },
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "0,32",
+          "numericValue": 0.32
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "3,9",
+          "numericValue": 3.9
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "0,32",
+          "numericValue": 0.32
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "3,16",
+          "numericValue": 3.16
+        },
+        {
+          "date": "2008-08-28",
+          "rawDate": "28/08/08",
+          "value": "<3,16",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2005-10-27",
+      "lastDate": "2008-08-28"
+    },
+    "Fe": {
+      "testName": "Fe",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "17,5",
+          "numericValue": 17.5
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "18,1",
+          "numericValue": 18.1
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "8,2",
+          "numericValue": 8.2
+        }
+      ],
+      "firstDate": "2006-01-31",
+      "lastDate": "2007-05-18"
+    },
+    "Transferrin": {
+      "testName": "Transferrin",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "3,43",
+          "numericValue": 3.43
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "3,05",
+          "numericValue": 3.05
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "2,95",
+          "numericValue": 2.95
+        }
+      ],
+      "firstDate": "2006-01-31",
+      "lastDate": "2007-05-18"
+    },
+    "Saturace transferrinu": {
+      "testName": "Saturace transferrinu",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "22,4",
+          "numericValue": 22.4
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "26,1",
+          "numericValue": 26.1
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "12,2",
+          "numericValue": 12.2
+        }
+      ],
+      "firstDate": "2006-01-31",
+      "lastDate": "2007-05-18"
+    },
+    "Vitamín B12": {
+      "testName": "Vitamín B12",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "257",
+          "numericValue": 257
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "213",
+          "numericValue": 213
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "247",
+          "numericValue": 247
+        }
+      ],
+      "firstDate": "2006-01-31",
+      "lastDate": "2007-05-18"
+    },
+    "Kys.listová": {
+      "testName": "Kys.listová",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "12,1",
+          "numericValue": 12.1
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "11,8",
+          "numericValue": 11.8
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "12,9",
+          "numericValue": 12.9
+        }
+      ],
+      "firstDate": "2006-01-31",
+      "lastDate": "2007-05-18"
+    },
+    "Ferritin": {
+      "testName": "Ferritin",
+      "totalMeasurements": 3,
+      "measurements": [
+        {
+          "date": "2006-01-31",
+          "rawDate": "31/01/06",
+          "value": "38",
+          "numericValue": 38
+        },
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "29,8",
+          "numericValue": 29.8
+        },
+        {
+          "date": "2007-05-18",
+          "rawDate": "18/05/07",
+          "value": "22,6",
+          "numericValue": 22.6
+        }
+      ],
+      "firstDate": "2006-01-31",
+      "lastDate": "2007-05-18"
+    },
+    "Fe-celk.vazeb.kap.": {
+      "testName": "Fe-celk.vazeb.kap.",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "58,2",
+          "numericValue": 58.2
+        }
+      ],
+      "firstDate": "2006-08-29",
+      "lastDate": "2006-08-29"
+    },
+    "Fe-saturace": {
+      "testName": "Fe-saturace",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "31",
+          "numericValue": 31
+        }
+      ],
+      "firstDate": "2006-08-29",
+      "lastDate": "2006-08-29"
+    },
+    "CB": {
+      "testName": "CB",
+      "totalMeasurements": 7,
+      "measurements": [
+        {
+          "date": "2006-08-29",
+          "rawDate": "29/08/06",
+          "value": "81,8",
+          "numericValue": 81.8
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "77,3",
+          "numericValue": 77.3
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "72,8",
+          "numericValue": 72.8
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "72,5",
+          "numericValue": 72.5
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "69,8",
+          "numericValue": 69.8
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "74,3",
+          "numericValue": 74.3
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "73,5",
+          "numericValue": 73.5
+        }
+      ],
+      "firstDate": "2006-08-29",
+      "lastDate": "2026-08-10"
+    },
+    "Komentář": {
+      "testName": "Komentář",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-12-10",
+          "rawDate": "10/12/25",
+          "value": "PREVEDIG",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2025-12-10",
+      "lastDate": "2025-12-10"
+    },
+    "HE4": {
+      "testName": "HE4",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2025-12-10",
+          "rawDate": "10/12/25",
+          "value": "38",
+          "numericValue": 38
+        }
+      ],
+      "firstDate": "2025-12-10",
+      "lastDate": "2025-12-10"
+    },
+    "Protrombinový test čas": {
+      "testName": "Protrombinový test čas",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2026-03-11",
+          "rawDate": "11/03/26",
+          "value": "10,90",
+          "numericValue": 10.9
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "10,80",
+          "numericValue": 10.8
+        }
+      ],
+      "firstDate": "2026-03-11",
+      "lastDate": "2026-04-16"
+    },
+    "APTT R": {
+      "testName": "APTT R",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2026-03-11",
+          "rawDate": "11/03/26",
+          "value": "0,90",
+          "numericValue": 0.9
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "1,01",
+          "numericValue": 1.01
+        }
+      ],
+      "firstDate": "2026-03-11",
+      "lastDate": "2026-04-16"
     },
     "Platnost vyšetření": {
       "testName": "Platnost vyšetření",
       "totalMeasurements": 2,
       "measurements": [
         {
-          "date": "2021-10-17",
-          "rawDate": "17/10/21",
-          "value": "20.10.2021 23:59:00",
-          "numericValue": 20.1
+          "date": "2026-03-16",
+          "rawDate": "16/03/26",
+          "value": "19.03.2026 23:59:00",
+          "numericValue": 19.03
         },
         {
-          "date": "2021-10-17",
-          "rawDate": "17/10/21",
-          "value": "20.10.2021 23:59:00",
-          "numericValue": 20.1
+          "date": "2026-03-16",
+          "rawDate": "16/03/26",
+          "value": "19.03.2026 23:59:00",
+          "numericValue": 19.03
         }
       ],
-      "firstDate": "2021-10-17",
-      "lastDate": "2021-10-17"
+      "firstDate": "2026-03-16",
+      "lastDate": "2026-03-16"
     },
     "Expirace": {
       "testName": "Expirace",
       "totalMeasurements": 2,
       "measurements": [
         {
-          "date": "2021-10-17",
-          "rawDate": "17/10/21",
-          "value": "18.11.2021 23:59:00",
-          "numericValue": 18.11
+          "date": "2026-03-16",
+          "rawDate": "16/03/26",
+          "value": "20.04.2026 23:59:00",
+          "numericValue": 20.04
         },
         {
-          "date": "2021-10-17",
-          "rawDate": "17/10/21",
-          "value": "22.11.2021 23:59:00",
-          "numericValue": 22.11
+          "date": "2026-03-16",
+          "rawDate": "16/03/26",
+          "value": "20.04.2026 23:59:00",
+          "numericValue": 20.04
         }
       ],
-      "firstDate": "2021-10-17",
-      "lastDate": "2021-10-17"
+      "firstDate": "2026-03-16",
+      "lastDate": "2026-03-16"
     },
     "Krevní skupina": {
       "testName": "Krevní skupina",
       "totalMeasurements": 1,
       "measurements": [
         {
-          "date": "2021-10-17",
-          "rawDate": "17/10/21",
-          "value": "A poz",
-          "numericValue": null
+          "date": "2026-03-16",
+          "rawDate": "16/03/26",
+          "value": "0 poz",
+          "numericValue": 0
         }
       ],
-      "firstDate": "2021-10-17",
-      "lastDate": "2021-10-17"
+      "firstDate": "2026-03-16",
+      "lastDate": "2026-03-16"
     },
     "Screening protilátek": {
       "testName": "Screening protilátek",
       "totalMeasurements": 1,
       "measurements": [
         {
-          "date": "2021-10-17",
-          "rawDate": "17/10/21",
+          "date": "2026-03-16",
+          "rawDate": "16/03/26",
           "value": "neg",
           "numericValue": null
         }
       ],
-      "firstDate": "2021-10-17",
-      "lastDate": "2021-10-17"
-    },
-    "Glukóza": {
-      "testName": "Glukóza",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-10-19",
-          "rawDate": "19/10/21",
-          "value": "5,6",
-          "numericValue": 5.6
-        }
-      ],
-      "firstDate": "2021-10-19",
-      "lastDate": "2021-10-19"
+      "firstDate": "2026-03-16",
+      "lastDate": "2026-03-16"
     },
     "Hb": {
       "testName": "Hb",
       "totalMeasurements": 1,
       "measurements": [
         {
-          "date": "2021-10-19",
-          "rawDate": "19/10/21",
-          "value": "159",
-          "numericValue": 159
+          "date": "2026-03-19",
+          "rawDate": "19/03/26",
+          "value": "106",
+          "numericValue": 106
         }
       ],
-      "firstDate": "2021-10-19",
-      "lastDate": "2021-10-19"
+      "firstDate": "2026-03-19",
+      "lastDate": "2026-03-19"
     },
     "Typ přístroje Astrup": {
       "testName": "Typ přístroje Astrup",
       "totalMeasurements": 1,
       "measurements": [
         {
-          "date": "2021-10-19",
-          "rawDate": "19/10/21",
+          "date": "2026-03-19",
+          "rawDate": "19/03/26",
           "value": "ABL835",
           "numericValue": null
         }
       ],
-      "firstDate": "2021-10-19",
-      "lastDate": "2021-10-19"
+      "firstDate": "2026-03-19",
+      "lastDate": "2026-03-19"
     },
     "Na": {
       "testName": "Na",
-      "totalMeasurements": 1,
+      "totalMeasurements": 7,
       "measurements": [
         {
-          "date": "2021-10-19",
-          "rawDate": "19/10/21",
+          "date": "2026-03-19",
+          "rawDate": "19/03/26",
+          "value": "141",
+          "numericValue": 141
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "141",
+          "numericValue": 141
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "147",
+          "numericValue": 147
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "142",
+          "numericValue": 142
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "145",
+          "numericValue": 145
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "144",
+          "numericValue": 144
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
           "value": "143",
           "numericValue": 143
         }
       ],
-      "firstDate": "2021-10-19",
-      "lastDate": "2021-10-19"
+      "firstDate": "2026-03-19",
+      "lastDate": "2026-08-10"
     },
     "K": {
       "testName": "K",
-      "totalMeasurements": 1,
+      "totalMeasurements": 7,
       "measurements": [
         {
-          "date": "2021-10-19",
-          "rawDate": "19/10/21",
-          "value": "4,1",
-          "numericValue": 4.1
+          "date": "2026-03-19",
+          "rawDate": "19/03/26",
+          "value": "3,9",
+          "numericValue": 3.9
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "3,8",
+          "numericValue": 3.8
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "4,2",
+          "numericValue": 4.2
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "4,2",
+          "numericValue": 4.2
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "3,8",
+          "numericValue": 3.8
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "3,9",
+          "numericValue": 3.9
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "4,3",
+          "numericValue": 4.3
         }
       ],
-      "firstDate": "2021-10-19",
-      "lastDate": "2021-10-19"
+      "firstDate": "2026-03-19",
+      "lastDate": "2026-08-10"
     },
     "Cl": {
       "testName": "Cl",
-      "totalMeasurements": 1,
+      "totalMeasurements": 7,
       "measurements": [
         {
-          "date": "2021-10-19",
-          "rawDate": "19/10/21",
-          "value": "112",
-          "numericValue": 112
+          "date": "2026-03-19",
+          "rawDate": "19/03/26",
+          "value": "107",
+          "numericValue": 107
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "99",
+          "numericValue": 99
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "102",
+          "numericValue": 102
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "103",
+          "numericValue": 103
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "105",
+          "numericValue": 105
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "104",
+          "numericValue": 104
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "105",
+          "numericValue": 105
         }
       ],
-      "firstDate": "2021-10-19",
-      "lastDate": "2021-10-19"
+      "firstDate": "2026-03-19",
+      "lastDate": "2026-08-10"
     },
     "iCa": {
       "testName": "iCa",
       "totalMeasurements": 1,
       "measurements": [
         {
-          "date": "2021-10-19",
-          "rawDate": "19/10/21",
-          "value": "1,24",
-          "numericValue": 1.24
+          "date": "2026-03-19",
+          "rawDate": "19/03/26",
+          "value": "1,22",
+          "numericValue": 1.22
         }
       ],
-      "firstDate": "2021-10-19",
-      "lastDate": "2021-10-19"
+      "firstDate": "2026-03-19",
+      "lastDate": "2026-03-19"
+    },
+    "Nebyly dodrženy podmínky preanalytické fáze a požadavky na transport vzorků do laboratoře. Možné ovlivnění výsledků. Bližší viz. webové stránky VFN - Přehled laboratorních vyšetření - http": {
+      "testName": "Nebyly dodrženy podmínky preanalytické fáze a požadavky na transport vzorků do laboratoře. Možné ovlivnění výsledků. Bližší viz. webové stránky VFN - Přehled laboratorních vyšetření - http",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "//laboratore.vfn.cz",
+          "numericValue": null
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "//laboratore.vfn.cz",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-05-11"
+    },
+    "Urea": {
+      "testName": "Urea",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "5,0",
+          "numericValue": 5
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "5,3",
+          "numericValue": 5.3
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "4,8",
+          "numericValue": 4.8
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "4,1",
+          "numericValue": 4.1
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "4,0",
+          "numericValue": 4
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "7,4",
+          "numericValue": 7.4
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Kreat.": {
+      "testName": "Kreat.",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "60",
+          "numericValue": 60
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "66",
+          "numericValue": 66
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "62",
+          "numericValue": 62
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "66",
+          "numericValue": 66
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "63",
+          "numericValue": 63
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "65",
+          "numericValue": 65
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Kys. moč.": {
+      "testName": "Kys. moč.",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "164",
+          "numericValue": 164
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "209",
+          "numericValue": 209
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "195",
+          "numericValue": 195
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "213",
+          "numericValue": 213
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "187",
+          "numericValue": 187
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "197",
+          "numericValue": 197
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Bilirubin": {
+      "testName": "Bilirubin",
+      "totalMeasurements": 12,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "8,6",
+          "numericValue": 8.6
+        },
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "7,2",
+          "numericValue": 7.2
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "5,9",
+          "numericValue": 5.9
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "5,7",
+          "numericValue": 5.7
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "6,5",
+          "numericValue": 6.5
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "6,9",
+          "numericValue": 6.9
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "neg",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "ALT": {
+      "testName": "ALT",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "0,37",
+          "numericValue": 0.37
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "0,33",
+          "numericValue": 0.33
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "0,33",
+          "numericValue": 0.33
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,20",
+          "numericValue": 0.2
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "0,28",
+          "numericValue": 0.28
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "0,36",
+          "numericValue": 0.36
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "AST": {
+      "testName": "AST",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "0,37",
+          "numericValue": 0.37
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "0,40",
+          "numericValue": 0.4
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "0,37",
+          "numericValue": 0.37
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,37",
+          "numericValue": 0.37
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "0,41",
+          "numericValue": 0.41
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "0,38",
+          "numericValue": 0.38
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "GGT": {
+      "testName": "GGT",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "0,32",
+          "numericValue": 0.32
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "0,24",
+          "numericValue": 0.24
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "0,26",
+          "numericValue": 0.26
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,25",
+          "numericValue": 0.25
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "0,26",
+          "numericValue": 0.26
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "0,26",
+          "numericValue": 0.26
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "ALP": {
+      "testName": "ALP",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "1,46",
+          "numericValue": 1.46
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "1,68",
+          "numericValue": 1.68
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "1,62",
+          "numericValue": 1.62
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "1,54",
+          "numericValue": 1.54
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "1,63",
+          "numericValue": 1.63
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "1,62",
+          "numericValue": 1.62
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "LD": {
+      "testName": "LD",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "3,3",
+          "numericValue": 3.3
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "3,7",
+          "numericValue": 3.7
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-05-11"
+    },
+    "Albumin": {
+      "testName": "Albumin",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "45,5",
+          "numericValue": 45.5
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "43,9",
+          "numericValue": 43.9
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "45,3",
+          "numericValue": 45.3
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "43,6",
+          "numericValue": 43.6
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "45,9",
+          "numericValue": 45.9
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "45,1",
+          "numericValue": 45.1
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Glykemie": {
+      "testName": "Glykemie",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "4,9",
+          "numericValue": 4.9
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "4,9",
+          "numericValue": 4.9
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-05-11"
+    },
+    "Ca 125": {
+      "testName": "Ca 125",
+      "totalMeasurements": 2,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "89,4",
+          "numericValue": 89.4
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "10,0",
+          "numericValue": 10
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-06-22"
+    },
+    "pH": {
+      "testName": "pH",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "5,5",
+          "numericValue": 5.5
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "6,0",
+          "numericValue": 6
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "6,5",
+          "numericValue": 6.5
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "6,0",
+          "numericValue": 6
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "7,5",
+          "numericValue": 7.5
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "6,0",
+          "numericValue": 6
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Hustota": {
+      "testName": "Hustota",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "1,016",
+          "numericValue": 1.016
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "1,008",
+          "numericValue": 1.008
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "1,003",
+          "numericValue": 1.003
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "1,005",
+          "numericValue": 1.005
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "1,006",
+          "numericValue": 1.006
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "1,019",
+          "numericValue": 1.019
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Bílkovina orient.": {
+      "testName": "Bílkovina orient.",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "neg",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Glykosurie": {
+      "testName": "Glykosurie",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "neg",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Ketolátky": {
+      "testName": "Ketolátky",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "neg",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Urobilinogen": {
+      "testName": "Urobilinogen",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "neg",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Erytrocyty v moči": {
+      "testName": "Erytrocyty v moči",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "10      ; „Nižší počet erythrocytů nalezených mikroskopicky, oproti stanovení testačním proužkem, může být způsobeno jejich rozpadem či přítomností myoglobinu v moči.``",
+          "numericValue": 10
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "neg",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Leuko": {
+      "testName": "Leuko",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "70",
+          "numericValue": 70
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "500",
+          "numericValue": 500
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "70",
+          "numericValue": 70
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "15",
+          "numericValue": 15
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "70",
+          "numericValue": 70
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "125",
+          "numericValue": 125
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Nitrity": {
+      "testName": "Nitrity",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "pos",
+          "numericValue": null
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "neg",
+          "numericValue": null
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "neg",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "ERY": {
+      "testName": "ERY",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "1,0",
+          "numericValue": 1
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "3,0",
+          "numericValue": 3
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "0,0",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "1,0",
+          "numericValue": 1
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "2,0",
+          "numericValue": 2
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "6,0",
+          "numericValue": 6
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "LEUKO": {
+      "testName": "LEUKO",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "57,0",
+          "numericValue": 57
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "9,0",
+          "numericValue": 9
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "2,0",
+          "numericValue": 2
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,0",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "0,0",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "8,0",
+          "numericValue": 8
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Epit.pl": {
+      "testName": "Epit.pl",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "6,0",
+          "numericValue": 6
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "6,0",
+          "numericValue": 6
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "11,0",
+          "numericValue": 11
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "12,0",
+          "numericValue": 12
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "4,0",
+          "numericValue": 4
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "29,0",
+          "numericValue": 29
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Epit.k": {
+      "testName": "Epit.k",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "2,0",
+          "numericValue": 2
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "6,0",
+          "numericValue": 6
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "2,0",
+          "numericValue": 2
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "2,0",
+          "numericValue": 2
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "1,0",
+          "numericValue": 1
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "1,0",
+          "numericValue": 1
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Bakterie": {
+      "testName": "Bakterie",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "pozitiv.",
+          "numericValue": null
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "negativ.",
+          "numericValue": null
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "negativ.",
+          "numericValue": null
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "negativ.",
+          "numericValue": null
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "negativ.",
+          "numericValue": null
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "negativ.",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Nezralé granulocyty %": {
+      "testName": "Nezralé granulocyty %",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "0,6",
+          "numericValue": 0.6
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "0,4",
+          "numericValue": 0.4
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "0,3",
+          "numericValue": 0.3
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,0",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "0,0",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "0,0",
+          "numericValue": 0
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Nezralé granulocyty abs.": {
+      "testName": "Nezralé granulocyty abs.",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "0,06",
+          "numericValue": 0.06
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "0,03",
+          "numericValue": 0.03
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "0,02",
+          "numericValue": 0.02
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,00",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "0,00",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "0,00",
+          "numericValue": 0
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Normoblasty strojově": {
+      "testName": "Normoblasty strojově",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "0,00",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "0,00",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "0,00",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,00",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "0,00",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "0,00",
+          "numericValue": 0
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Normoblasty abs. strojově": {
+      "testName": "Normoblasty abs. strojově",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "0,00",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "0,00",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "0,00",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "0,00",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "0,00",
+          "numericValue": 0
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "0,00",
+          "numericValue": 0
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "NLR": {
+      "testName": "NLR",
+      "totalMeasurements": 6,
+      "measurements": [
+        {
+          "date": "2026-04-16",
+          "rawDate": "16/04/26",
+          "value": "1,5",
+          "numericValue": 1.5
+        },
+        {
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "1,2",
+          "numericValue": 1.2
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "0,9",
+          "numericValue": 0.9
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "1,2",
+          "numericValue": 1.2
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "0,8",
+          "numericValue": 0.8
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "1,0",
+          "numericValue": 1
+        }
+      ],
+      "firstDate": "2026-04-16",
+      "lastDate": "2026-08-10"
+    },
+    "Závěr": {
+      "testName": "Závěr",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2026-04-17",
+          "rawDate": "17/04/26",
+          "value": "Ložisko v pravé plíci charakteru chondrohamartomu. Zastření tuku v pánvi a v suprakolickém omentu, zřejmě pooperačně.",
+          "numericValue": null
+        }
+      ],
+      "firstDate": "2026-04-17",
+      "lastDate": "2026-04-17"
+    },
+    "TL": {
+      "testName": "TL",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2026-04-17",
+          "rawDate": "17/04/26",
+          "value": "0",
+          "numericValue": 0
+        }
+      ],
+      "firstDate": "2026-04-17",
+      "lastDate": "2026-04-17"
+    },
+    "NTL": {
+      "testName": "NTL",
+      "totalMeasurements": 1,
+      "measurements": [
+        {
+          "date": "2026-04-17",
+          "rawDate": "17/04/26",
+          "value": "0",
+          "numericValue": 0
+        }
+      ],
+      "firstDate": "2026-04-17",
+      "lastDate": "2026-04-17"
     },
     "Potvrzující lékař": {
       "testName": "Potvrzující lékař",
       "totalMeasurements": 1,
       "measurements": [
         {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "MUDr. Hrdlička Jan",
+          "date": "2026-04-17",
+          "rawDate": "17/04/26",
+          "value": "prof. MUDr. Burgetová Andrea Ph.D.",
           "numericValue": null
         }
       ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
+      "firstDate": "2026-04-17",
+      "lastDate": "2026-04-17"
     },
-    "CRP": {
-      "testName": "CRP",
+    "Osmolalita": {
+      "testName": "Osmolalita",
       "totalMeasurements": 1,
       "measurements": [
         {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "12,0",
-          "numericValue": 12
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "296",
+          "numericValue": 296
         }
       ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
+      "firstDate": "2026-05-11",
+      "lastDate": "2026-05-11"
     },
-    "pH": {
-      "testName": "pH",
-      "totalMeasurements": 1,
+    "FIB-4 index": {
+      "testName": "FIB-4 index",
+      "totalMeasurements": 5,
       "measurements": [
         {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "5,0",
-          "numericValue": 5
+          "date": "2026-05-11",
+          "rawDate": "11/05/26",
+          "value": "2,37      ; mírné riziko jaterní fibrózy",
+          "numericValue": 2.37
+        },
+        {
+          "date": "2026-06-01",
+          "rawDate": "01/06/26",
+          "value": "1,49      ; mírné riziko jaterní fibrózy",
+          "numericValue": 1.49
+        },
+        {
+          "date": "2026-06-22",
+          "rawDate": "22/06/26",
+          "value": "3,50      ; Text k metodě přesáhl povolených 255 znaků. Text je uveden v souhrném textu k celé žádance.",
+          "numericValue": 3.5
+        },
+        {
+          "date": "2026-07-13",
+          "rawDate": "13/07/26",
+          "value": "1,87      ; mírné riziko jaterní fibrózy",
+          "numericValue": 1.87
+        },
+        {
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "2,34      ; mírné riziko jaterní fibrózy",
+          "numericValue": 2.34
         }
       ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
+      "firstDate": "2026-05-11",
+      "lastDate": "2026-08-10"
     },
-    "Hustota": {
-      "testName": "Hustota",
+    "Hlen": {
+      "testName": "Hlen",
       "totalMeasurements": 1,
       "measurements": [
         {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "1,010",
-          "numericValue": 1.01
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "Bílkovina orient.": {
-      "testName": "Bílkovina orient.",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "0,10",
-          "numericValue": 0.1
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "Glykosurie": {
-      "testName": "Glykosurie",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": ">55,0",
+          "date": "2026-08-10",
+          "rawDate": "10/08/26",
+          "value": "poz.",
           "numericValue": null
         }
       ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "Ketolátky": {
-      "testName": "Ketolátky",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "neg",
-          "numericValue": null
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "Bilirubin": {
-      "testName": "Bilirubin",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "neg",
-          "numericValue": null
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "Urobilinogen": {
-      "testName": "Urobilinogen",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "norm",
-          "numericValue": null
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "Erytrocyty v moči": {
-      "testName": "Erytrocyty v moči",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "150",
-          "numericValue": 150
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "Leuko": {
-      "testName": "Leuko",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "500",
-          "numericValue": 500
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "Nitrity": {
-      "testName": "Nitrity",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "neg",
-          "numericValue": null
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "Leu": {
-      "testName": "Leu",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "10,80",
-          "numericValue": 10.8
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "Ery": {
-      "testName": "Ery",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "5,48",
-          "numericValue": 5.48
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "HGB": {
-      "testName": "HGB",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "165",
-          "numericValue": 165
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "HCT": {
-      "testName": "HCT",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "0,513",
-          "numericValue": 0.513
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "MCV": {
-      "testName": "MCV",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "93,6",
-          "numericValue": 93.6
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "MCH": {
-      "testName": "MCH",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "30,1",
-          "numericValue": 30.1
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "MCHC": {
-      "testName": "MCHC",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "322",
-          "numericValue": 322
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "RDW": {
-      "testName": "RDW",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "13,3",
-          "numericValue": 13.3
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "Plt": {
-      "testName": "Plt",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "309",
-          "numericValue": 309
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "MPV": {
-      "testName": "MPV",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "11,8",
-          "numericValue": 11.8
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "PCT": {
-      "testName": "PCT",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "0,360",
-          "numericValue": 0.36
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "PDW": {
-      "testName": "PDW",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "16,0",
-          "numericValue": 16
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "Normoblasty strojově": {
-      "testName": "Normoblasty strojově",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "0,00",
-          "numericValue": 0
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
-    },
-    "Normoblasty abs. strojově": {
-      "testName": "Normoblasty abs. strojově",
-      "totalMeasurements": 1,
-      "measurements": [
-        {
-          "date": "2021-11-19",
-          "rawDate": "19/11/21",
-          "value": "0,00",
-          "numericValue": 0
-        }
-      ],
-      "firstDate": "2021-11-19",
-      "lastDate": "2021-11-19"
+      "firstDate": "2026-08-10",
+      "lastDate": "2026-08-10"
     }
   },
   "byDate": {
-    "2021-10-17": {
-      "date": "2021-10-17",
-      "rawDate": "17/10/21",
-      "totalTests": 5,
+    "2005-10-27": {
+      "date": "2005-10-27",
+      "rawDate": "27/10/05",
+      "totalTests": 47,
       "results": {
-        "Glukóza-glukometr": "5,8",
-        "Platnost vyšetření": "20.10.2021 23:59:00",
-        "Expirace": "22.11.2021 23:59:00",
-        "Krevní skupina": "A poz",
+        "Faktor V Leiden (1691 G>A)": "G/A - Byla prokázána mutace v heterozygotní",
+        "Faktor II - protrombin (20210 G>A)": "G/G - Nebyla prokázána mutace.",
+        "MTHFR (677 C>T)": "C/C - Nebyla prokázána mutace.",
+        "MTHFR (1298 A>C)": "A/C - Byla prokázána mutace v heterozygotníkonstituci.",
+        "Leu": "7,9",
+        "Ery": "4,07",
+        "HGB": "113",
+        "HCT": "0,34",
+        "MCV": "83,4",
+        "MCH": "27,8",
+        "MCHC": "333",
+        "RDW": "14,8",
+        "Plt": "292",
+        "MPV": "7,8",
+        "PCT": "0,229",
+        "PDW": "17,4",
+        "Ne": "58,7",
+        "Ly": "30,8",
+        "Mo": "8",
+        "Eo": "2",
+        "Ba": "0,5",
+        "Ne abs.": "4,7",
+        "Ly abs.": "2,4",
+        "Mo abs.": "0,6",
+        "Eo abs.": "0,2",
+        "Ba abs.": "0",
+        "Homocystein celk.": "7,9",
+        "INR": "1,01",
+        "APTT": "37,3",
+        "Trombinový test": "16,4",
+        "Fibrinogen koagul.": "2,58",
+        "Etanol gelifik.test": "negativ.",
+        "Antitrombin": "97",
+        "D-Dimer": ">6000",
+        "Lupus antikoagulans": "4,2",
+        "Protein C": "128",
+        "Protein S": "60",
+        "APC rezistence": "2,6",
+        "APA_IgG": "0,1",
+        "APA_IgM": "14,42",
+        "Faktor VIII": "67",
+        "A1antitrypsin": "1,51",
+        "Transferin": "3,76",
+        "Prealbumin": "0,17",
+        "A2 makroglobulin": "1,66",
+        "Orosomukoid": "0,55",
+        "CRP": "0,3"
+      }
+    },
+    "2005-11-03": {
+      "date": "2005-11-03",
+      "rawDate": "03/11/05",
+      "totalTests": 1,
+      "results": {
+        "D-Dimer": "50"
+      }
+    },
+    "2006-01-31": {
+      "date": "2006-01-31",
+      "rawDate": "31/01/06",
+      "totalTests": 46,
+      "results": {
+        "Fe": "17,5",
+        "Transferrin": "3,43",
+        "Saturace transferrinu": "22,4",
+        "Vitamín B12": "257",
+        "Kys.listová": "12,1",
+        "Ferritin": "38",
+        "Leu": "7,4",
+        "Ery": "4,87",
+        "HGB": "137",
+        "HCT": "0,413",
+        "MCV": "84,7",
+        "MCH": "28",
+        "MCHC": "331",
+        "RDW": "15,9",
+        "Plt": "246",
+        "MPV": "8,4",
+        "PCT": "0,206",
+        "PDW": "16,5",
+        "Ne": "51",
+        "Ly": "36,4",
+        "Mo": "8,8",
+        "Eo": "3,4",
+        "Ba": "0,4",
+        "Ne abs.": "3,7",
+        "Ly abs.": "2,7",
+        "Mo abs.": "0,7",
+        "Eo abs.": "0,3",
+        "Ba abs.": "0",
+        "Homocystein celk.": "8",
+        "INR": "0,97",
+        "APTT": "39,8",
+        "Trombinový test": "14,1",
+        "Fibrinogen koagul.": "2,96",
+        "Etanol gelifik.test": "negativ.",
+        "Antitrombin": "103",
+        "D-Dimer": "59",
+        "Lupus antikoagulans": "negativ.",
+        "Protein S": "95",
+        "APA_IgG": "1,64",
+        "APA_IgM": "1,29",
+        "A1antitrypsin": "1,32",
+        "Transferin": "2,88",
+        "Prealbumin": "0,19",
+        "A2 makroglobulin": "1,76",
+        "Orosomukoid": "0,7",
+        "CRP": "0,32"
+      }
+    },
+    "2006-08-29": {
+      "date": "2006-08-29",
+      "rawDate": "29/08/06",
+      "totalTests": 45,
+      "results": {
+        "Fe": "18,1",
+        "Fe-celk.vazeb.kap.": "58,2",
+        "Fe-saturace": "31",
+        "CB": "81,8",
+        "CRP": "0,32",
+        "Transferrin": "3,05",
+        "Saturace transferrinu": "26,1",
+        "Vitamín B12": "213",
+        "Kys.listová": "11,8",
+        "Ferritin": "29,8",
+        "Leu": "7,8",
+        "Ery": "4,49",
+        "HGB": "136",
+        "HCT": "0,401",
+        "MCV": "89,4",
+        "MCH": "30,3",
+        "MCHC": "338",
+        "RDW": "13,7",
+        "Plt": "272",
+        "MPV": "8,4",
+        "PCT": "0,227",
+        "PDW": "16,5",
+        "Ne": "56,2",
+        "Ly": "32,3",
+        "Mo": "7,9",
+        "Eo": "3,2",
+        "Ba": "0,4",
+        "Ne abs.": "4,4",
+        "Ly abs.": "2,5",
+        "Mo abs.": "0,6",
+        "Eo abs.": "0,3",
+        "Ba abs.": "0",
+        "Homocystein celk.": "7,6",
+        "INR": "1,01",
+        "APTT": "40,5",
+        "Trombinový test": "14,4",
+        "Fibrinogen koagul.": "2,8",
+        "Etanol gelifik.test": "negativ.",
+        "Antitrombin": "96",
+        "D-Dimer": "53",
+        "A1antitrypsin": "1,25",
+        "Transferin": "2,43",
+        "Prealbumin": "0,21",
+        "A2 makroglobulin": "1,92",
+        "Orosomukoid": "0,71"
+      }
+    },
+    "2007-05-18": {
+      "date": "2007-05-18",
+      "rawDate": "18/05/07",
+      "totalTests": 44,
+      "results": {
+        "Fe": "8,2",
+        "Transferrin": "2,95",
+        "Saturace transferrinu": "12,2",
+        "Vitamín B12": "247",
+        "Kys.listová": "12,9",
+        "Ferritin": "22,6",
+        "Leu": "7,6",
+        "Ery": "4,23",
+        "HGB": "126",
+        "HCT": "0,371",
+        "MCV": "87,8",
+        "MCH": "29,7",
+        "MCHC": "338",
+        "RDW": "13,7",
+        "Plt": "256",
+        "MPV": "8",
+        "PCT": "0,204",
+        "PDW": "16,6",
+        "Ne": "54,5",
+        "Ly": "33,7",
+        "Mo": "8,2",
+        "Eo": "3,2",
+        "Ba": "0,4",
+        "Ne abs.": "4,2",
+        "Ly abs.": "2,6",
+        "Mo abs.": "0,6",
+        "Eo abs.": "0,2",
+        "Ba abs.": "0",
+        "INR": "0,94",
+        "APTT": "36,1",
+        "Trombinový test": "14,1",
+        "Fibrinogen koagul.": "2,9",
+        "Etanol gelifik.test": "negativ.",
+        "Antitrombin": "91",
+        "D-Dimer": "170",
+        "Lupus antikoagulans": "negativ.",
+        "APA_IgG": "3,42",
+        "APA_IgM": "0,87",
+        "A1antitrypsin": "1,37",
+        "Transferin": "3,01",
+        "Prealbumin": "0,2",
+        "A2 makroglobulin": "1,88",
+        "Orosomukoid": "0,69",
+        "CRP": "3,16"
+      }
+    },
+    "2007-07-03": {
+      "date": "2007-07-03",
+      "rawDate": "03/07/07",
+      "totalTests": 2,
+      "results": {
+        "INR": "0,9",
+        "APTT": "34,3"
+      }
+    },
+    "2008-08-28": {
+      "date": "2008-08-28",
+      "rawDate": "28/08/08",
+      "totalTests": 35,
+      "results": {
+        "Leu": "6,6",
+        "Ery": "4,62",
+        "HGB": "136",
+        "HCT": "0,403",
+        "MCV": "87,3",
+        "MCH": "29,5",
+        "MCHC": "338",
+        "RDW": "14,2",
+        "Plt": "250",
+        "MPV": "8,2",
+        "PCT": "0,204",
+        "PDW": "16,7",
+        "Ne": "50,3",
+        "Ly": "36,4",
+        "Mo": "8,8",
+        "Eo": "4,1",
+        "Ba": "0,4",
+        "Ne abs.": "3,3",
+        "Ly abs.": "2,4",
+        "Mo abs.": "0,6",
+        "Eo abs.": "0,3",
+        "Ba abs.": "0",
+        "INR": "0,89",
+        "APTT": "34,9",
+        "Trombinový test": "14,7",
+        "Fibrinogen koagul.": "2,78",
+        "Etanol gelifik.test": "negativ.",
+        "Antitrombin": "111",
+        "D-Dimer": "62",
+        "A1antitrypsin": "1,42",
+        "Transferin": "2,1",
+        "Prealbumin": "0,18",
+        "A2 makroglobulin": "1,95",
+        "Orosomukoid": "0,57",
+        "CRP": "<3,16"
+      }
+    },
+    "2025-12-10": {
+      "date": "2025-12-10",
+      "rawDate": "10/12/25",
+      "totalTests": 2,
+      "results": {
+        "Komentář": "PREVEDIG",
+        "HE4": "38"
+      }
+    },
+    "2026-03-11": {
+      "date": "2026-03-11",
+      "rawDate": "11/03/26",
+      "totalTests": 4,
+      "results": {
+        "Protrombinový test čas": "10,90",
+        "INR": "0,90",
+        "APTT": "27,0",
+        "APTT R": "0,90"
+      }
+    },
+    "2026-03-16": {
+      "date": "2026-03-16",
+      "rawDate": "16/03/26",
+      "totalTests": 4,
+      "results": {
+        "Platnost vyšetření": "19.03.2026 23:59:00",
+        "Expirace": "20.04.2026 23:59:00",
+        "Krevní skupina": "0 poz",
         "Screening protilátek": "neg"
       }
     },
-    "2021-10-19": {
-      "date": "2021-10-19",
-      "rawDate": "19/10/21",
-      "totalTests": 8,
+    "2026-03-19": {
+      "date": "2026-03-19",
+      "rawDate": "19/03/26",
+      "totalTests": 6,
       "results": {
-        "Glukóza": "5,6",
-        "Glukóza-glukometr": "6,9; 9,9",
-        "Hb": "159",
+        "Hb": "106",
         "Typ přístroje Astrup": "ABL835",
-        "Na": "143",
-        "K": "4,1",
-        "Cl": "112",
-        "iCa": "1,24"
+        "Na": "141",
+        "K": "3,9",
+        "Cl": "107",
+        "iCa": "1,22"
       }
     },
-    "2021-10-20": {
-      "date": "2021-10-20",
-      "rawDate": "20/10/21",
-      "totalTests": 1,
+    "2026-04-16": {
+      "date": "2026-04-16",
+      "rawDate": "16/04/26",
+      "totalTests": 60,
       "results": {
-        "Glukóza-glukometr": "6,5; 10,1"
-      }
-    },
-    "2021-11-19": {
-      "date": "2021-11-19",
-      "rawDate": "19/11/21",
-      "totalTests": 26,
-      "results": {
-        "Potvrzující lékař": "MUDr. Hrdlička Jan",
-        "CRP": "12,0",
-        "pH": "5,0",
-        "Hustota": "1,010",
-        "Bílkovina orient.": "0,10",
-        "Glykosurie": ">55,0",
-        "Ketolátky": "neg",
+        "Nebyly dodrženy podmínky preanalytické fáze a požadavky na transport vzorků do laboratoře. Možné ovlivnění výsledků. Bližší viz. webové stránky VFN - Přehled laboratorních vyšetření - http": "//laboratore.vfn.cz",
+        "Na": "141",
+        "K": "3,8",
+        "Cl": "99",
+        "Urea": "5,0",
+        "Kreat.": "60",
+        "Kys. moč.": "164",
         "Bilirubin": "neg",
-        "Urobilinogen": "norm",
-        "Erytrocyty v moči": "150",
+        "ALT": "0,37",
+        "AST": "0,37",
+        "GGT": "0,32",
+        "ALP": "1,46",
+        "LD": "3,3",
+        "Albumin": "45,5",
+        "CB": "77,3",
+        "Glykemie": "4,9",
+        "Ca 125": "89,4",
+        "pH": "5,5",
+        "Hustota": "1,016",
+        "Bílkovina orient.": "neg",
+        "Glykosurie": "neg",
+        "Ketolátky": "neg",
+        "Urobilinogen": "neg",
+        "Erytrocyty v moči": "neg",
+        "Leuko": "70",
+        "Nitrity": "pos",
+        "ERY": "1,0",
+        "LEUKO": "57,0",
+        "Epit.pl": "6,0",
+        "Epit.k": "2,0",
+        "Bakterie": "pozitiv.",
+        "Leu": "9,73",
+        "Ery": "4,38",
+        "HGB": "133",
+        "HCT": "0,404",
+        "MCV": "92,3",
+        "MCH": "30,3",
+        "MCHC": "328",
+        "RDW": "13,5",
+        "Plt": "264",
+        "MPV": "10,1",
+        "Ne": "51,7",
+        "Ly": "35,2",
+        "Mo": "8,0",
+        "Eo": "3,3",
+        "Ba": "1,2",
+        "Nezralé granulocyty %": "0,6",
+        "Ne abs.": "5,03",
+        "Ly abs.": "3,43",
+        "Mo abs.": "0,77",
+        "Eo abs.": "0,32",
+        "Ba abs.": "0,12",
+        "Nezralé granulocyty abs.": "0,06",
+        "Normoblasty strojově": "0,00",
+        "Normoblasty abs. strojově": "0,00",
+        "NLR": "1,5",
+        "Protrombinový test čas": "10,80",
+        "INR": "0,89",
+        "APTT": "30,3",
+        "APTT R": "1,01"
+      }
+    },
+    "2026-04-17": {
+      "date": "2026-04-17",
+      "rawDate": "17/04/26",
+      "totalTests": 4,
+      "results": {
+        "Závěr": "Ložisko v pravé plíci charakteru chondrohamartomu. Zastření tuku v pánvi a v suprakolickém omentu, zřejmě pooperačně.",
+        "TL": "0",
+        "NTL": "0",
+        "Potvrzující lékař": "prof. MUDr. Burgetová Andrea Ph.D."
+      }
+    },
+    "2026-05-11": {
+      "date": "2026-05-11",
+      "rawDate": "11/05/26",
+      "totalTests": 57,
+      "results": {
+        "Nebyly dodrženy podmínky preanalytické fáze a požadavky na transport vzorků do laboratoře. Možné ovlivnění výsledků. Bližší viz. webové stránky VFN - Přehled laboratorních vyšetření - http": "//laboratore.vfn.cz",
+        "Na": "147",
+        "K": "4,2",
+        "Cl": "102",
+        "Osmolalita": "296",
+        "Urea": "5,3",
+        "Kreat.": "66",
+        "Kys. moč.": "209",
+        "Bilirubin": "neg",
+        "ALT": "0,33",
+        "AST": "0,40",
+        "GGT": "0,24",
+        "ALP": "1,68",
+        "FIB-4 index": "2,37      ; mírné riziko jaterní fibrózy",
+        "LD": "3,7",
+        "Albumin": "43,9",
+        "CB": "72,8",
+        "Glykemie": "4,9",
+        "pH": "6,0",
+        "Hustota": "1,008",
+        "Bílkovina orient.": "neg",
+        "Glykosurie": "neg",
+        "Ketolátky": "neg",
+        "Urobilinogen": "neg",
+        "Erytrocyty v moči": "10      ; „Nižší počet erythrocytů nalezených mikroskopicky, oproti stanovení testačním proužkem, může být způsobeno jejich rozpadem či přítomností myoglobinu v moči.``",
         "Leuko": "500",
         "Nitrity": "neg",
-        "Leu": "10,80",
-        "Ery": "5,48",
-        "HGB": "165",
-        "HCT": "0,513",
-        "MCV": "93,6",
-        "MCH": "30,1",
-        "MCHC": "322",
-        "RDW": "13,3",
-        "Plt": "309",
-        "MPV": "11,8",
-        "PCT": "0,360",
-        "PDW": "16,0",
+        "ERY": "3,0",
+        "LEUKO": "9,0",
+        "Epit.pl": "6,0",
+        "Epit.k": "6,0",
+        "Bakterie": "negativ.",
+        "Leu": "7,67",
+        "Ery": "4,29",
+        "HGB": "127",
+        "HCT": "0,391",
+        "MCV": "91,2",
+        "MCH": "29,6",
+        "MCHC": "325",
+        "RDW": "13,7",
+        "Plt": "148",
+        "MPV": "9,5",
+        "Ne": "48,8",
+        "Ly": "39,5",
+        "Mo": "9,5",
+        "Eo": "1,6",
+        "Ba": "0,3",
+        "Nezralé granulocyty %": "0,4",
+        "Ne abs.": "3,74",
+        "Ly abs.": "3,03",
+        "Mo abs.": "0,73",
+        "Eo abs.": "0,12",
+        "Ba abs.": "0,02",
+        "Nezralé granulocyty abs.": "0,03",
         "Normoblasty strojově": "0,00",
-        "Normoblasty abs. strojově": "0,00"
+        "Normoblasty abs. strojově": "0,00",
+        "NLR": "1,2"
+      }
+    },
+    "2026-06-01": {
+      "date": "2026-06-01",
+      "rawDate": "01/06/26",
+      "totalTests": 55,
+      "results": {
+        "Na": "142",
+        "K": "4,2",
+        "Cl": "103",
+        "Urea": "4,8",
+        "Kreat.": "62",
+        "Kys. moč.": "195",
+        "Bilirubin": "neg",
+        "ALT": "0,33",
+        "AST": "0,37",
+        "GGT": "0,26",
+        "ALP": "1,62",
+        "FIB-4 index": "1,49      ; mírné riziko jaterní fibrózy",
+        "Albumin": "45,3",
+        "CB": "72,5",
+        "pH": "6,5",
+        "Hustota": "1,003",
+        "Bílkovina orient.": "neg",
+        "Glykosurie": "neg",
+        "Ketolátky": "neg",
+        "Urobilinogen": "neg",
+        "Erytrocyty v moči": "neg",
+        "Leuko": "70",
+        "Nitrity": "neg",
+        "ERY": "0,0",
+        "LEUKO": "2,0",
+        "Epit.pl": "11,0",
+        "Epit.k": "2,0",
+        "Bakterie": "negativ.",
+        "Leu": "5,75",
+        "Ery": "3,85",
+        "HGB": "113",
+        "HCT": "0,351",
+        "MCV": "91,2",
+        "MCH": "29,4",
+        "MCHC": "322",
+        "RDW": "14,3",
+        "Plt": "218",
+        "MPV": "9,4",
+        "PCT": "0,200",
+        "PDW": "9,3",
+        "Ne": "42,6",
+        "Ly": "47,3",
+        "Mo": "9,0",
+        "Eo": "0,5",
+        "Ba": "0,3",
+        "Nezralé granulocyty %": "0,3",
+        "Ne abs.": "2,44",
+        "Ly abs.": "2,72",
+        "Mo abs.": "0,52",
+        "Eo abs.": "0,03",
+        "Ba abs.": "0,02",
+        "Nezralé granulocyty abs.": "0,02",
+        "Normoblasty strojově": "0,00",
+        "Normoblasty abs. strojově": "0,00",
+        "NLR": "0,9"
+      }
+    },
+    "2026-06-22": {
+      "date": "2026-06-22",
+      "rawDate": "22/06/26",
+      "totalTests": 54,
+      "results": {
+        "Na": "145",
+        "K": "3,8",
+        "Cl": "105",
+        "Urea": "4,1",
+        "Kreat.": "66",
+        "Kys. moč.": "213",
+        "Bilirubin": "neg",
+        "ALT": "0,20",
+        "AST": "0,37",
+        "GGT": "0,25",
+        "ALP": "1,54",
+        "FIB-4 index": "3,50      ; Text k metodě přesáhl povolených 255 znaků. Text je uveden v souhrném textu k celé žádance.",
+        "Albumin": "43,6",
+        "CB": "69,8",
+        "Ca 125": "10,0",
+        "pH": "6,0",
+        "Hustota": "1,005",
+        "Bílkovina orient.": "neg",
+        "Glykosurie": "neg",
+        "Ketolátky": "neg",
+        "Urobilinogen": "neg",
+        "Erytrocyty v moči": "neg",
+        "Leuko": "15",
+        "Nitrity": "neg",
+        "ERY": "1,0",
+        "LEUKO": "0,0",
+        "Epit.pl": "12,0",
+        "Epit.k": "2,0",
+        "Bakterie": "negativ.",
+        "Leu": "7,80",
+        "Ery": "3,77",
+        "HGB": "117",
+        "HCT": "0,346",
+        "MCV": "91,8",
+        "MCH": "31,1",
+        "MCHC": "338",
+        "RDW": "15,9",
+        "Plt": "119",
+        "MPV": "8,9",
+        "Ne": "47,0",
+        "Ly": "40,2",
+        "Mo": "11,8",
+        "Eo": "0,7",
+        "Ba": "0,3",
+        "Nezralé granulocyty %": "0,0",
+        "Ne abs.": "3,67",
+        "Ly abs.": "3,14",
+        "Mo abs.": "0,92",
+        "Eo abs.": "0,05",
+        "Ba abs.": "0,02",
+        "Nezralé granulocyty abs.": "0,00",
+        "Normoblasty strojově": "0,00",
+        "Normoblasty abs. strojově": "0,00",
+        "NLR": "1,2"
+      }
+    },
+    "2026-07-13": {
+      "date": "2026-07-13",
+      "rawDate": "13/07/26",
+      "totalTests": 53,
+      "results": {
+        "Na": "144",
+        "K": "3,9",
+        "Cl": "104",
+        "Urea": "4,0",
+        "Kreat.": "63",
+        "Kys. moč.": "187",
+        "Bilirubin": "neg",
+        "ALT": "0,28",
+        "AST": "0,41",
+        "GGT": "0,26",
+        "ALP": "1,63",
+        "FIB-4 index": "1,87      ; mírné riziko jaterní fibrózy",
+        "Albumin": "45,9",
+        "CB": "74,3",
+        "pH": "7,5",
+        "Hustota": "1,006",
+        "Bílkovina orient.": "neg",
+        "Glykosurie": "neg",
+        "Ketolátky": "neg",
+        "Urobilinogen": "neg",
+        "Erytrocyty v moči": "neg",
+        "Leuko": "70",
+        "Nitrity": "neg",
+        "ERY": "2,0",
+        "LEUKO": "0,0",
+        "Epit.pl": "4,0",
+        "Epit.k": "1,0",
+        "Bakterie": "negativ.",
+        "Leu": "4,82",
+        "Ery": "3,49",
+        "HGB": "107",
+        "HCT": "0,328",
+        "MCV": "93,8",
+        "MCH": "30,6",
+        "MCHC": "326",
+        "RDW": "17,3",
+        "Plt": "209",
+        "MPV": "9,2",
+        "Ne": "40,5",
+        "Ly": "49,2",
+        "Mo": "9,9",
+        "Eo": "0,2",
+        "Ba": "0,2",
+        "Nezralé granulocyty %": "0,0",
+        "Ne abs.": "1,95",
+        "Ly abs.": "2,37",
+        "Mo abs.": "0,48",
+        "Eo abs.": "0,01",
+        "Ba abs.": "0,01",
+        "Nezralé granulocyty abs.": "0,00",
+        "Normoblasty strojově": "0,00",
+        "Normoblasty abs. strojově": "0,00",
+        "NLR": "0,8"
+      }
+    },
+    "2026-08-10": {
+      "date": "2026-08-10",
+      "rawDate": "10/08/26",
+      "totalTests": 54,
+      "results": {
+        "Na": "143",
+        "K": "4,3",
+        "Cl": "105",
+        "Urea": "7,4",
+        "Kreat.": "65",
+        "Kys. moč.": "197",
+        "Bilirubin": "neg",
+        "ALT": "0,36",
+        "AST": "0,38",
+        "GGT": "0,26",
+        "ALP": "1,62",
+        "FIB-4 index": "2,34      ; mírné riziko jaterní fibrózy",
+        "Albumin": "45,1",
+        "CB": "73,5",
+        "pH": "6,0",
+        "Hustota": "1,019",
+        "Bílkovina orient.": "neg",
+        "Glykosurie": "neg",
+        "Ketolátky": "neg",
+        "Urobilinogen": "neg",
+        "Erytrocyty v moči": "neg",
+        "Leuko": "125",
+        "Nitrity": "neg",
+        "Hlen": "poz.",
+        "ERY": "6,0",
+        "LEUKO": "8,0",
+        "Epit.pl": "29,0",
+        "Epit.k": "1,0",
+        "Bakterie": "negativ.",
+        "Leu": "5,95",
+        "Ery": "3,33",
+        "HGB": "105",
+        "HCT": "0,329",
+        "MCV": "98,6",
+        "MCH": "31,6",
+        "MCHC": "320",
+        "RDW": "17,7",
+        "Plt": "136",
+        "MPV": "9,3",
+        "Ne": "43,0",
+        "Ly": "43,1",
+        "Mo": "12,3",
+        "Eo": "0,9",
+        "Ba": "0,7",
+        "Nezralé granulocyty %": "0,0",
+        "Ne abs.": "2,56",
+        "Ly abs.": "2,57",
+        "Mo abs.": "0,73",
+        "Eo abs.": "0,06",
+        "Ba abs.": "0,04",
+        "Nezralé granulocyty abs.": "0,00",
+        "Normoblasty strojově": "0,00",
+        "Normoblasty abs. strojově": "0,00",
+        "NLR": "1,0"
       }
     }
   },
-  "totalUniqueTests": 38,
-  "totalUniqueDates": 4
+  "totalUniqueTests": 109,
+  "totalUniqueDates": 18
 }
