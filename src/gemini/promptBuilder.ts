@@ -100,12 +100,11 @@ export function buildTumorBoardPrompt(dataset: PatientChronologyDataset, maxDate
       fullContent: e.content
     }));
 
-  // Sdružená laboratorní vyšetření (posledních 20 měření pro každý analyt)
+  // Sdružená laboratorní vyšetření (100% kompletní časové řady měření pro každý analyt)
   const labAggregatedSummary = cleanDataset.labAggregated?.byTest ? 
     Object.keys(cleanDataset.labAggregated.byTest).map(testKey => {
       const t = cleanDataset.labAggregated!.byTest[testKey];
-      const recentMeasurements = t.measurements.slice(-20);
-      const history = recentMeasurements.map(m => `${m.rawDate}: ${m.value}`).join('; ');
+      const history = t.measurements.map(m => `${m.rawDate}: ${m.value}`).join('; ');
       return `${t.testName}: ${history}`;
     }).join('\n') : '';
 
