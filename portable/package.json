@@ -1,6 +1,6 @@
 {
   "name": "ibis-vfn",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Multi-agentní systém pro zpracování onkologické dokumentace a podporu rozhodování (VFN)",
   "main": "dist/index.js",
   "scripts": {

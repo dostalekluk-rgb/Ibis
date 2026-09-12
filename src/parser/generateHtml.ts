@@ -1823,8 +1823,8 @@ ${unparsedContentHtml}
             </div>\
 \
             <div class="tb-container-right">\
-              <!-- HORNÍ ČÁST: ZPRÁVA Z TUMOR BOARDU -->\
-              <div class="tb-report-card" style="flex: 1.2;">\
+              <!-- ZPRÁVA Z TUMOR BOARDU -->\
+              <div class="tb-report-card" style="flex: 1;">\
                 <div class="tb-card-header">\
                   <div>\
                     <span>🏥 ZPRÁVA Z TUMOR BOARDU (VZOR KONSILIUM.DOCX)</span>\
@@ -1834,16 +1834,6 @@ ${unparsedContentHtml}
                 </div>\
                 <div class="tb-card-body">\
                   ' + data.reportHtml + '\
-                </div>\
-              </div>\
-\
-              <!-- DOLNÍ ČÁST: NÁVRH DALŠÍ LÉČBY A POSTUPU -->\
-              <div class="tb-report-card" style="flex: 0.8;">\
-                <div class="tb-card-header proposal">\
-                  <span>💡 NÁVRH DALŠÍHO POSTUPU A LÉČBY</span>\
-                </div>\
-                <div class="tb-card-body">\
-                  ' + data.treatmentPlanHtml + '\
                 </div>\
               </div>\
             </div>\
