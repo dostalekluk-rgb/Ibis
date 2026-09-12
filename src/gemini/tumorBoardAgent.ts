@@ -55,15 +55,35 @@ async function callGeminiRestJson(promptPayload: TumorBoardPromptPayload | strin
       const data: any = await response.json();
 
       if (response.status === 200 && data.candidates && data.candidates[0]?.content?.parts[0]?.text) {
-        return data.candidates[0].content.parts[0].text;
+        const cand = data.candidates[0];
+        const rawText = cand.content.parts[0].text;
+        const finishReason = cand.finishReason || 'STOP';
+
+        const cleanStr = rawText.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/```\s*$/i, '').trim();
+        let parseOk = false;
+        try {
+          JSON.parse(cleanStr);
+          parseOk = true;
+        } catch (e) {
+          parseOk = false;
+        }
+
+        if (parseOk && (finishReason === 'STOP' || finishReason === 'MAX_TOKENS')) {
+          return rawText;
+        }
+
+        console.warn(`[Gemini REST] Pokus ${attempt}/${maxAttempts} pro ${modelName} nevrátil kompletní JSON (finishReason: ${finishReason}, délka: ${rawText.length} znaků, platný JSON: ${parseOk}). Opakuji pokus...`);
+      } else {
+        const errMsg = data.error?.message || `HTTP ${response.status}`;
+        const isRateLimit = response.status === 429 || /quota|rate\s*limit|resource_exhausted|demand|try\s*again/i.test(errMsg);
+        console.warn(`[Gemini REST] Pokus ${attempt}/${maxAttempts} selhal pro ${modelName}: ${errMsg}`);
       }
 
-      const errMsg = data.error?.message || `HTTP ${response.status}`;
-      const isRateLimit = response.status === 429 || /quota|rate\s*limit|resource_exhausted|demand|try\s*again/i.test(errMsg);
-      console.warn(`[Gemini REST] Pokus ${attempt}/${maxAttempts} selhal pro ${modelName}: ${errMsg}`);
-
       if (attempt < maxAttempts) {
-        let actualDelay = isRateLimit ? 10000 : delayMs;
+        let actualDelay = delayMs;
+        const errMsg = data?.error?.message || '';
+        const isRateLimit = response.status === 429 || /quota|rate\s*limit|resource_exhausted|demand|try\s*again/i.test(errMsg);
+        if (isRateLimit) actualDelay = 10000;
         const retryMatch = errMsg.match(/retry\s+in\s+([\d\.]+)\s*s/i);
         if (retryMatch) {
           actualDelay = Math.ceil(parseFloat(retryMatch[1])) * 1000 + 2000;
@@ -71,8 +91,6 @@ async function callGeminiRestJson(promptPayload: TumorBoardPromptPayload | strin
         console.log(`[Gemini REST] Čekám ${(actualDelay / 1000).toFixed(1)}s před dalším pokusem...`);
         await new Promise(res => setTimeout(res, actualDelay));
         delayMs *= 2;
-      } else {
-        throw new Error(`Gemini REST error (${modelName}): ${errMsg}`);
       }
     } catch (err: any) {
       if (attempt === maxAttempts) throw err;
