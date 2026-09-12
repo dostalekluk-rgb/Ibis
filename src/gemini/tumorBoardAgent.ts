@@ -628,18 +628,30 @@ export function renderStructuredJsonToHtml(
 
           if (diagBlocks.length > 1) {
             const label = getMultiplicityLabel(diagBlocks.length);
-            let htmlOut = `<p class="konzilia-dg-line" style="margin-bottom: 6px;"><strong>Dg.: ${label}:</strong></p>`;
+            let htmlOut = '';
+
+            const genTesting = diagBlocks[0]?.geneticTesting || diagBlocks.find(b => b.geneticTesting)?.geneticTesting;
+            if (genTesting) {
+              htmlOut += `<p class="konzilia-genetic-line" style="margin-top: 0; margin-bottom: 2px;"><strong>${escapeHtml(genTesting)}</strong></p>`;
+            }
+            htmlOut += `<p class="konzilia-dg-line" style="margin-top: 0; margin-bottom: 2px;"><strong>${escapeHtml(label)}:</strong></p>`;
+
             diagBlocks.forEach((block, idx) => {
               let dgTitle = cleanTitleStr(block.dg || '');
               if (!dgTitle.startsWith('Dg.:') && !/^\d+\)/.test(dgTitle)) {
                 dgTitle = `${idx + 1}) ${dgTitle}`;
               }
-              if (block.geneticTesting) {
-                const genText = block.geneticTesting.startsWith('St.p.') ? block.geneticTesting : `St.p. ${block.geneticTesting}`;
-                htmlOut += `<p class="konzilia-genetic-line" style="margin-top: ${idx === 0 ? '4px' : '12px'}; margin-bottom: 2px;"><strong>${escapeHtml(genText)}</strong></p>`;
-                htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: 2px;"><strong>${escapeHtml(dgTitle)}</strong></p>`;
+
+              if (idx === 0) {
+                const firstDgTitle = dgTitle.startsWith('Dg.:') ? dgTitle : `Dg.: ${dgTitle}`;
+                htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: 0; margin-bottom: 4px;"><strong>${escapeHtml(firstDgTitle)}</strong></p>`;
               } else {
-                htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: ${idx === 0 ? '4px' : '12px'};"><strong>${escapeHtml(dgTitle)}</strong></p>`;
+                if (block.geneticTesting && block.geneticTesting !== genTesting) {
+                  htmlOut += `<p class="konzilia-genetic-line" style="margin-top: 12px; margin-bottom: 2px;"><strong>${escapeHtml(block.geneticTesting)}</strong></p>`;
+                  htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: 2px; margin-bottom: 4px;"><strong>${escapeHtml(dgTitle)}</strong></p>`;
+                } else {
+                  htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: 12px; margin-bottom: 4px;"><strong>${escapeHtml(dgTitle)}</strong></p>`;
+                }
               }
               htmlOut += renderBlockItems(block);
             });
@@ -653,8 +665,7 @@ export function renderStructuredJsonToHtml(
 
             let genHtml = '';
             if (block.geneticTesting) {
-              const genText = block.geneticTesting.startsWith('St.p.') ? block.geneticTesting : `St.p. ${block.geneticTesting}`;
-              genHtml = `<p class="konzilia-genetic-line" style="margin-bottom: 4px;"><strong>${escapeHtml(genText)}</strong></p>`;
+              genHtml = `<p class="konzilia-genetic-line" style="margin-top: 0; margin-bottom: 2px;"><strong>${escapeHtml(block.geneticTesting)}</strong></p>`;
             }
 
             if (hasMultipleInSingleStr) {
@@ -680,30 +691,32 @@ export function renderStructuredJsonToHtml(
               }
 
               const label = getMultiplicityLabel(count);
-              let htmlOut = genHtml + `<p class="konzilia-dg-line" style="margin-bottom: 6px;"><strong>Dg.: ${label}:</strong></p>`;
+              let htmlOut = genHtml + `<p class="konzilia-dg-line" style="margin-top: 0; margin-bottom: 2px;"><strong>${escapeHtml(label)}:</strong></p>`;
 
               if (subItems.length > 0) {
                 subItems.forEach((subTitle, idx) => {
-                  htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: ${idx === 0 ? '6px' : '12px'};"><strong>${escapeHtml(subTitle)}</strong></p>`;
                   if (idx === 0) {
+                    const firstSub = subTitle.startsWith('Dg.:') ? subTitle : `Dg.: ${subTitle}`;
+                    htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: 0; margin-bottom: 4px;"><strong>${escapeHtml(firstSub)}</strong></p>`;
                     htmlOut += renderBlockItems(block);
+                  } else {
+                    htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: 12px; margin-bottom: 4px;"><strong>${escapeHtml(subTitle)}</strong></p>`;
                   }
                 });
               } else {
                 let cleanedDg = cleanTitleStr(rawDg);
                 cleanedDg = cleanedDg.replace(/^(?:Dg\.\:\s*)?(?:duplicita|triplicita|kvadruplicita|kvintuplicita)\s*[\:\-]?\s*/i, '');
-                htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: 6px;"><strong>${escapeHtml(cleanedDg)}</strong></p>`;
+                htmlOut += `<p class="konzilia-dg-subtitle" style="margin-top: 0; margin-bottom: 4px;"><strong>Dg.: ${escapeHtml(cleanedDg)}</strong></p>`;
                 htmlOut += renderBlockItems(block);
               }
               return htmlOut;
             }
 
             let formattedDg = cleanTitleStr(rawDg);
-            // Odstranění předpony 1) nebo 1. pokud má pacientka pouze 1 diagnózu
             formattedDg = formattedDg.replace(/^(?:Dg\.\:\s*)?1[\)\.]\s*/i, '');
             formattedDg = formattedDg.startsWith('Dg.:') ? formattedDg : `Dg.: ${formattedDg}`;
             formattedDg = formattedDg.replace(/\*\*(Duplicita|Triplicita|Kvadruplicita|Kvintuplicita):\*\*/gi, '<strong>$1:</strong>');
-            const dgHeaderHtml = `${genHtml}<p class="konzilia-dg-line"><strong>${escapeHtml(formattedDg)}</strong></p>`;
+            const dgHeaderHtml = `${genHtml}<p class="konzilia-dg-line" style="margin-top: 0; margin-bottom: 4px;"><strong>${escapeHtml(formattedDg)}</strong></p>`;
             return dgHeaderHtml + renderBlockItems(block);
           }
 

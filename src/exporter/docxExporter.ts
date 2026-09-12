@@ -209,19 +209,30 @@ export async function generateTumorBoardDocx(
 
   if (diagBlocks.length > 1) {
     const label = getMultiplicityLabel(diagBlocks.length);
-    addP([new TextRun({ text: `Dg.: ${label}:`, font: FONT_NAME, size: FONT_SIZE, bold: true })]);
+
+    const genTesting = diagBlocks[0]?.geneticTesting || diagBlocks.find((b: any) => b.geneticTesting)?.geneticTesting;
+    if (genTesting) {
+      addP([new TextRun({ text: genTesting, font: FONT_NAME, size: FONT_SIZE, bold: true })], 1, 0);
+    }
+    addP([new TextRun({ text: `${label}:`, font: FONT_NAME, size: FONT_SIZE, bold: true })], 1, 0);
+
     diagBlocks.forEach((block, idx) => {
       let dgTitle = block.dg || '';
       dgTitle = dgTitle.replace(/^(?:Dg\.\:\s*)?/, '').trim();
       if (!dgTitle.startsWith('Dg.:') && !/^\d+\)/.test(dgTitle)) {
         dgTitle = `${idx + 1}) ${dgTitle}`;
       }
-      if (block.geneticTesting) {
-        const genText = block.geneticTesting.startsWith('St.p.') ? block.geneticTesting : `St.p. ${block.geneticTesting}`;
-        addP([new TextRun({ text: genText, font: FONT_NAME, size: FONT_SIZE, bold: true })], 2, idx === 0 ? 2 : 6);
-        addP([new TextRun({ text: dgTitle, font: FONT_NAME, size: FONT_SIZE, bold: true })], 3, 1);
+
+      if (idx === 0) {
+        const firstDgTitle = dgTitle.startsWith('Dg.:') ? dgTitle : `Dg.: ${dgTitle}`;
+        addP([new TextRun({ text: firstDgTitle, font: FONT_NAME, size: FONT_SIZE, bold: true })], 2, 0);
       } else {
-        addP([new TextRun({ text: dgTitle, font: FONT_NAME, size: FONT_SIZE, bold: true })], 3, idx === 0 ? 2 : 6);
+        if (block.geneticTesting && block.geneticTesting !== genTesting) {
+          addP([new TextRun({ text: block.geneticTesting, font: FONT_NAME, size: FONT_SIZE, bold: true })], 1, 6);
+          addP([new TextRun({ text: dgTitle, font: FONT_NAME, size: FONT_SIZE, bold: true })], 2, 1);
+        } else {
+          addP([new TextRun({ text: dgTitle, font: FONT_NAME, size: FONT_SIZE, bold: true })], 2, 6);
+        }
       }
       renderBlockToDocx(block, addP, FONT_NAME, FONT_SIZE);
     });
@@ -231,8 +242,7 @@ export async function generateTumorBoardDocx(
     const hasMultipleInSingleStr = /duplicita|triplicita|kvadruplicita|kvintuplicita/i.test(rawDg) || (rawDg.includes('1)') && rawDg.includes('2)'));
 
     if (block.geneticTesting) {
-      const genText = block.geneticTesting.startsWith('St.p.') ? block.geneticTesting : `St.p. ${block.geneticTesting}`;
-      addP([new TextRun({ text: genText, font: FONT_NAME, size: FONT_SIZE, bold: true })], 2, 0);
+      addP([new TextRun({ text: block.geneticTesting, font: FONT_NAME, size: FONT_SIZE, bold: true })], 1, 0);
     }
 
     if (hasMultipleInSingleStr) {
@@ -258,22 +268,27 @@ export async function generateTumorBoardDocx(
       }
 
       const label = getMultiplicityLabel(count);
-      addP([new TextRun({ text: `Dg.: ${label}:`, font: FONT_NAME, size: FONT_SIZE, bold: true })]);
+      addP([new TextRun({ text: `${label}:`, font: FONT_NAME, size: FONT_SIZE, bold: true })], 1, 0);
 
       if (subItems.length > 0) {
         subItems.forEach((subTitle, idx) => {
-          addP([new TextRun({ text: subTitle, font: FONT_NAME, size: FONT_SIZE, bold: true })], 3, idx === 0 ? 2 : 6);
           if (idx === 0) {
+            const firstSub = subTitle.startsWith('Dg.:') ? subTitle : `Dg.: ${subTitle}`;
+            addP([new TextRun({ text: firstSub, font: FONT_NAME, size: FONT_SIZE, bold: true })], 2, 0);
             renderBlockToDocx(block, addP, FONT_NAME, FONT_SIZE);
+          } else {
+            addP([new TextRun({ text: subTitle, font: FONT_NAME, size: FONT_SIZE, bold: true })], 2, 6);
           }
         });
       } else {
+        let cleanedDg = rawDg.replace(/^(?:Dg\.\:\s*)?(?:duplicita|triplicita|kvadruplicita|kvintuplicita)\s*[\:\-]?\s*/i, '').trim();
+        addP([new TextRun({ text: `Dg.: ${cleanedDg}`, font: FONT_NAME, size: FONT_SIZE, bold: true })], 2, 0);
         renderBlockToDocx(block, addP, FONT_NAME, FONT_SIZE);
       }
     } else {
       let formattedDg = rawDg.replace(/^(?:Dg\.\:\s*)?1[\)\.]\s*/i, '').trim();
       formattedDg = formattedDg.startsWith('Dg.:') ? formattedDg : `Dg.: ${formattedDg}`;
-      addP([new TextRun({ text: formattedDg, font: FONT_NAME, size: FONT_SIZE, bold: true })]);
+      addP([new TextRun({ text: formattedDg, font: FONT_NAME, size: FONT_SIZE, bold: true })], 2, 0);
       renderBlockToDocx(block, addP, FONT_NAME, FONT_SIZE);
     }
   } else {
