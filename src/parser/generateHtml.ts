@@ -1881,12 +1881,6 @@ ${unparsedContentHtml}
                     </div>\
                   </div>\
 \
-                  <div class="chat-pills">\
-                    <button class="chat-pill-btn" onclick="askPill(1)">✦ Proč pouze BSC?</button>\
-                    <button class="chat-pill-btn" onclick="askPill(2)">✦ Odezva na Caelyx & CA 125</button>\
-                    <button class="chat-pill-btn" onclick="askPill(3)">✦ Komorbidity a rizika</button>\
-                  </div>\
-\
                   <div class="chat-input-bar">\
                     <span class="chat-prompt-symbol">✦</span>\
                     <input type="text" id="chatInput" class="chat-input" placeholder="Ptejte se Gemini AI na cokoliv k tomuto případu..." onkeydown="handleChatKeyDown(event)" />\
@@ -1981,12 +1975,6 @@ ${unparsedContentHtml}
           }
         });
       }
-    }
-
-    function askPill(num) {
-      if (num === 1) sendChatMessage('Proč přesně je navrženo ukončení CHT a indikováno pouze BSC?');
-      if (num === 2) sendChatMessage('Sumařuj odezvu na CHT II. linie Caelyx a vývoj CA 125.');
-      if (num === 3) sendChatMessage('Jaké jsou hlavní komorbidity a anamnestická rizika pacientky?');
     }
 
     /**
