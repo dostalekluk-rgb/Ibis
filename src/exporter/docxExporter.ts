@@ -547,6 +547,7 @@ function renderBlockToDocx(
   });
 
   // 4. Recidivy (recurrences)
+  // 4. Recidivy (recurrences)
   if (block.recurrences && Array.isArray(block.recurrences)) {
     block.recurrences.forEach((rec: any) => {
       addP([], 6); // Prázdný řádek před recidivou
@@ -556,79 +557,100 @@ function renderBlockToDocx(
       if (rec.description) {
         addP([new TextRun({ text: rec.description, font, size })]);
       }
+
+      interface RecDocxItem {
+        sortDate: string;
+        render: () => void;
+      }
+      const recItems: RecDocxItem[] = [];
+
+      // 1. Ostatní výkony (treatmentsAndHistory)
       if (rec.treatmentsAndHistory && Array.isArray(rec.treatmentsAndHistory)) {
         rec.treatmentsAndHistory.forEach((t: string) => {
-          addP([], 6); // Prázdný řádek
           let text = t;
           if (!text.toLowerCase().startsWith('st.p.')) {
             text = `St.p. ${text}`;
           }
-          addP([
-            new TextRun({
-              text,
-              font,
-              size,
-            }),
-          ]);
+          const sortDate = extractTreatmentDateIso(text);
+          recItems.push({
+            sortDate,
+            render: () => {
+              addP([], 6);
+              addP([new TextRun({ text, font, size })]);
+            }
+          });
         });
       }
+
+      // 2. Operace
       if (rec.operations && Array.isArray(rec.operations)) {
         rec.operations.forEach((op: any) => {
-          addP([], 6); // Prázdný řádek
-          let opTitle = op.title || '';
+          let opTitle = typeof op === 'string' ? op : (op.title || '');
           if (opTitle && !opTitle.toLowerCase().startsWith('st.p.')) {
             opTitle = `St.p. ${opTitle}`;
           }
-          const dpStr = op.dateAndPlace ? ` (${op.dateAndPlace})` : '';
+          const dpStr = typeof op === 'object' && op.dateAndPlace ? ` (${op.dateAndPlace})` : '';
+          const sortDate = extractTreatmentDateIso(`${typeof op === 'object' ? op.dateAndPlace || '' : ''} ${opTitle}`);
           const isVenousPort = /zaveden[íi]\s+(?:venózního\s+)?portu/i.test(opTitle);
 
-          addP([
-            new TextRun({
-              text: opTitle,
-              font,
-              size,
-              underline: isVenousPort ? undefined : {},
-            }),
-            new TextRun({
-              text: dpStr,
-              font,
-              size,
-            }),
-          ]);
-
-          if (op.text) {
-            let cleanInSitu = op.text.replace(/^(?:in\s*situ|\-insitu)\:\s*/i, '').trim();
-            if (isValidInSituText(cleanInSitu, opTitle)) {
+          recItems.push({
+            sortDate,
+            render: () => {
+              addP([], 6);
               addP([
                 new TextRun({
-                  text: `in situ: ${cleanInSitu}`,
+                  text: opTitle,
+                  font,
+                  size,
+                  underline: isVenousPort ? undefined : {},
+                }),
+                new TextRun({
+                  text: dpStr,
                   font,
                   size,
                 }),
               ]);
-            }
-          }
 
-          if (op.histology) {
-            let cleanHist = op.histology.replace(/^(?:Histologie|\-histol|\-histo)\:\s*/i, '').trim();
-            addP([
-              new TextRun({
-                text: `-histol: ${cleanHist}`,
-                font,
-                size,
-                italics: true,
-              }),
-            ]);
+              if (typeof op === 'object' && op.text) {
+                let cleanInSitu = op.text.replace(/^(?:in\s*situ|\-insitu)\:\s*/i, '').trim();
+                if (isValidInSituText(cleanInSitu, opTitle)) {
+                  addP([new TextRun({ text: `in situ: ${cleanInSitu}`, font, size })]);
+                }
+              }
+
+              if (typeof op === 'object' && op.histology) {
+                let cleanHist = op.histology.replace(/^(?:Histologie|\-histol|\-histo)\:\s*/i, '').trim();
+                addP([new TextRun({ text: `-histol: ${cleanHist}`, font, size, italics: true })]);
+              }
+            }
+          });
+        });
+      }
+
+      // 3. Chemoterapie u recidivy
+      if (rec.chemotherapyLine) {
+        let chtLine = rec.chemotherapyLine;
+        chtLine = normalizeChemoLineNumerals(chtLine);
+        const chtTox = rec.chemotherapyToxicity ? ` ${rec.chemotherapyToxicity}` : '';
+        const sortDate = extractTreatmentDateIso(`${chtLine} ${chtTox}`);
+
+        recItems.push({
+          sortDate,
+          render: () => {
+            addP([], 6);
+            addP([new TextRun({ text: chtLine, font, size })]);
+            if (rec.chemotherapyToxicity) {
+              addP([new TextRun({ text: rec.chemotherapyToxicity, font, size })]);
+            }
           }
         });
       }
-      if (rec.chemotherapyLine) {
-        addP([], 6); // Prázdný řádek
-        addP([new TextRun({ text: rec.chemotherapyLine, font, size })]);
-      }
-      if (rec.chemotherapyToxicity) {
-        addP([new TextRun({ text: rec.chemotherapyToxicity, font, size })]);
-      }
+
+      // Seřazení položek v recidivě přísně chronologicky podle zjištěného data
+      recItems.sort((a, b) => a.sortDate.localeCompare(b.sortDate));
+
+      // Vykreslení položek
+      recItems.forEach(item => item.render());
     });
   }
 }

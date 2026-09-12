@@ -884,7 +884,7 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
 
     /* AI CHAT ROOM (TERMINAL GREEN ON BLACK WITH BLINKING GEMINI STAR) */
     .chat-container {
-      background: #050811;
+      background: #000000;
       border: 1.5px solid #00ff66;
       border-radius: 6px;
       display: flex;
@@ -900,7 +900,7 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
     }
 
     .chat-header {
-      background: #0d1527;
+      background: #050a05;
       border-bottom: 1.5px solid #00ff66;
       padding: 10px 14px;
       display: flex;
@@ -919,7 +919,7 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
       align-items: center;
       gap: 8px;
       color: #00ff66;
-      text-shadow: 0 0 8px rgba(0, 255, 102, 0.4);
+      text-shadow: 0 0 8px rgba(0, 255, 102, 0.5);
     }
 
     .chat-star-icon {
@@ -934,7 +934,7 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
     }
 
     .btn-clear-chat {
-      background: #330000;
+      background: #200000;
       color: #ff4d4d;
       border: 1px solid #ff4d4d;
       padding: 4px 10px;
@@ -952,6 +952,7 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
       box-shadow: 0 0 8px rgba(255, 77, 77, 0.5);
     }
 
+    /* PROSTÉ TEXTOVÉ POLE - ČERNÉ POZADÍ, ZELENÝ TEXT V TERMINÁLOVÉM STYLU (BEZ BUBLIN) */
     .chat-messages {
       flex: 1 1 auto;
       min-height: 0;
@@ -960,11 +961,15 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
       overflow-x: hidden;
       display: flex;
       flex-direction: column;
-      gap: 16px;
-      background: #050811;
-      scroll-behavior: smooth;
+      gap: 14px;
+      background: #000000;
+      color: #00ff66;
+      font-family: 'JetBrains Mono', 'Consolas', monospace;
+      font-size: 11px;
+      line-height: 1.65;
       width: 100%;
       box-sizing: border-box;
+      scroll-behavior: smooth;
     }
 
     .chat-messages::-webkit-scrollbar {
@@ -973,81 +978,67 @@ export function generateChronologyHtml(dataset: PatientChronologyDataset, output
     }
 
     .chat-messages::-webkit-scrollbar-track {
-      background: #090e1a;
+      background: #050a05;
       border-radius: 4px;
     }
 
     .chat-messages::-webkit-scrollbar-thumb {
-      background: #00e5ff;
+      background: #00ff66;
       border-radius: 4px;
-      border: 2px solid #050811;
+      border: 2px solid #000000;
     }
 
     .chat-messages::-webkit-scrollbar-thumb:hover {
-      background: #00ff66;
+      background: #39ff14;
       box-shadow: 0 0 8px #00ff66;
     }
 
-    .chat-msg {
-      padding: 14px 16px;
-      border-radius: 8px;
-      font-size: 12px;
-      line-height: 1.65;
+    .chat-entry {
+      background: transparent;
+      border-bottom: 1px dashed #00441b;
+      padding-bottom: 12px;
+      margin: 0;
       width: 100%;
       box-sizing: border-box;
       word-break: break-word;
       overflow-wrap: anywhere;
-      margin: 0;
+      font-family: 'JetBrains Mono', 'Consolas', monospace;
+      font-size: 11px;
+      line-height: 1.65;
+      color: #00ff66;
       flex-shrink: 0;
     }
 
-    .chat-msg h1, .chat-msg h2, .chat-msg h3, .chat-msg h4 {
-      margin-top: 12px;
+    .chat-entry:last-child {
+      border-bottom: none;
+    }
+
+    .chat-entry h1, .chat-entry h2, .chat-entry h3, .chat-entry h4 {
+      margin-top: 10px;
       margin-bottom: 6px;
       color: #00e5ff;
       font-weight: 700;
       line-height: 1.3;
     }
-    .chat-msg h4 { font-size: 12px; }
-    .chat-msg h3 { font-size: 13px; }
-    .chat-msg h2 { font-size: 14px; }
-    .chat-msg strong { color: #ffffff; font-weight: 700; }
-    .chat-msg em { color: #66ffaa; font-style: italic; }
+    .chat-entry h4 { font-size: 11px; }
+    .chat-entry h3 { font-size: 12px; }
+    .chat-entry h2 { font-size: 13px; }
+    .chat-entry strong { color: #ffffff; font-weight: 700; text-shadow: 0 0 2px #00ff66; }
+    .chat-entry em { color: #66ffaa; font-style: italic; }
 
-    .chat-msg.user {
-      align-self: flex-end;
-      max-width: 90%;
-      background: #0a2918;
-      border: 1px solid #00ff66;
-      color: #66ffaa;
-      border-radius: 8px 8px 0 8px;
-    }
-
-    .chat-msg.model {
-      align-self: stretch;
-      width: 100%;
-      box-sizing: border-box;
-      background: #0b1326;
-      border: 1px solid #00e5ff;
-      color: #00ff66;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 229, 255, 0.15);
-      flex-shrink: 0;
-    }
-
-    .chat-msg-author {
-      font-size: 9px;
+    .chat-entry-author {
+      font-size: 10px;
       text-transform: uppercase;
       font-weight: 700;
       letter-spacing: 0.5px;
       margin-bottom: 6px;
       display: flex;
       align-items: center;
-      gap: 4px;
+      gap: 6px;
     }
 
-    .chat-msg.user .chat-msg-author { color: #66ffaa; }
-    .chat-msg.model .chat-msg-author { color: #00e5ff; }
+    .chat-entry.user .chat-entry-author { color: #39ff14; }
+    .chat-entry.model .chat-entry-author { color: #00e5ff; }
 
     .chat-pills {
       padding: 8px 12px;
@@ -1884,8 +1875,8 @@ ${unparsedContentHtml}
                   </div>\
 \
                   <div class="chat-messages" id="chatMessagesLog">\
-                    <div class="chat-msg model">\
-                      <div class="chat-msg-author">✦ Gemini AI (Konzultant)</div>\
+                    <div class="chat-entry model">\
+                      <div class="chat-entry-author">✦ Gemini AI Konzultant:</div>\
 ✦ Dobrý den, jsem váš AI konzultant. Prostudoval jsem kompletní anonymizovaný Závěr Tumor Boardu a vyšetření pacientky. <br><br>Na co se chcete k tomuto případu zeptat?\
                     </div>\
                   </div>\
@@ -2011,14 +2002,14 @@ ${unparsedContentHtml}
       const messagesLog = document.getElementById('chatMessagesLog');
       if (messagesLog) {
         const userDiv = document.createElement('div');
-        userDiv.className = 'chat-msg user';
-        userDiv.innerHTML = '<div class="chat-msg-author">👤 Klinik</div>' + formatChatMessage(msgText);
+        userDiv.className = 'chat-entry user';
+        userDiv.innerHTML = '<div class="chat-entry-author">👤 Klinik:</div>' + formatChatMessage(msgText);
         messagesLog.appendChild(userDiv);
 
         const loadingDiv = document.createElement('div');
-        loadingDiv.className = 'chat-msg model';
+        loadingDiv.className = 'chat-entry model';
         loadingDiv.id = 'chatLoadingMsg';
-        loadingDiv.innerHTML = '<div class="chat-msg-author">✦ Gemini AI</div><span class="chat-star-icon">✦</span> Přemýšlím nad odpovedí...';
+        loadingDiv.innerHTML = '<div class="chat-entry-author">✦ Gemini AI:</div><span class="chat-star-icon">✦</span> Přemýšlím nad odpovědí...';
         messagesLog.appendChild(loadingDiv);
         messagesLog.scrollTop = messagesLog.scrollHeight;
       }
@@ -2046,8 +2037,8 @@ ${unparsedContentHtml}
 
         if (messagesLog) {
           const modelDiv = document.createElement('div');
-          modelDiv.className = 'chat-msg model';
-          modelDiv.innerHTML = '<div class="chat-msg-author">✦ Gemini AI</div>' + formatChatMessage(data.reply);
+          modelDiv.className = 'chat-entry model';
+          modelDiv.innerHTML = '<div class="chat-entry-author">✦ Gemini AI:</div>' + formatChatMessage(data.reply);
           messagesLog.appendChild(modelDiv);
           // Plynulé posunutí na začátek (začátek odpovědi Gemini)
           messagesLog.scrollTop = modelDiv.offsetTop - 12;
@@ -2083,8 +2074,8 @@ ${unparsedContentHtml}
         const messagesLog = document.getElementById('chatMessagesLog');
         if (messagesLog) {
           messagesLog.innerHTML = '\
-            <div class="chat-msg model">\
-              <div class="chat-msg-author">✦ Gemini AI</div>\
+            <div class="chat-entry model">\
+              <div class="chat-entry-author">✦ Gemini AI:</div>\
 ✦ [Relace byla resetována]. Chat byl kompletně smazán z paměti. Na co se chcete znova zeptat?\
             </div>\
           ';

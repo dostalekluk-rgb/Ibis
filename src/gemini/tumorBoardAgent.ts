@@ -3,7 +3,7 @@ import * as dotenv from 'dotenv';
 import * as fs from 'fs';
 import * as path from 'path';
 import { DiagnosisAndTreatmentBlock, PatientChronologyDataset, PatientChronologyMetadata, TumorBoardStructuredJson } from '../types/chronology.js';
-import { buildTumorBoardPrompt } from './promptBuilder.js';
+import { buildTumorBoardPrompt, TumorBoardPromptPayload } from './promptBuilder.js';
 import { anonymizeLocalText } from '../parser/parseLab.js';
 import { parseCzechDateToIso } from '../parser/parseInput.js';
 import { normalizeAndAuditStructuredJson } from '../parser/jsonAudit.js';
@@ -23,25 +23,33 @@ export interface TumorBoardResult {
 /**
  * Volání Gemini API přes REST s vynuceným JSON výstupem
  */
-async function callGeminiRestJson(prompt: string, apiKey: string, modelName: string): Promise<string> {
+async function callGeminiRestJson(promptPayload: TumorBoardPromptPayload | string, apiKey: string, modelName: string): Promise<string> {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`;
 
-  let maxAttempts = 3;
-  let delayMs = 1500;
+  let maxAttempts = 4;
+  let delayMs = 3000;
+
+  const requestBody: any = {
+    generationConfig: {
+      temperature: 0.1,
+      maxOutputTokens: 8192,
+      responseMimeType: 'application/json'
+    }
+  };
+
+  if (typeof promptPayload === 'string') {
+    requestBody.contents = [{ parts: [{ text: promptPayload }] }];
+  } else {
+    requestBody.systemInstruction = { parts: [{ text: promptPayload.systemInstruction }] };
+    requestBody.contents = [{ role: 'user', parts: [{ text: promptPayload.userContent }] }];
+  }
 
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     try {
       const response = await fetch(url, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: {
-            temperature: 0.1,
-            maxOutputTokens: 8192,
-            responseMimeType: 'application/json'
-          }
-        })
+        body: JSON.stringify(requestBody)
       });
 
       const data: any = await response.json();
@@ -51,10 +59,17 @@ async function callGeminiRestJson(prompt: string, apiKey: string, modelName: str
       }
 
       const errMsg = data.error?.message || `HTTP ${response.status}`;
+      const isRateLimit = response.status === 429 || /quota|rate\s*limit|resource_exhausted|demand|try\s*again/i.test(errMsg);
       console.warn(`[Gemini REST] Pokus ${attempt}/${maxAttempts} selhal pro ${modelName}: ${errMsg}`);
 
       if (attempt < maxAttempts) {
-        await new Promise(res => setTimeout(res, delayMs));
+        let actualDelay = isRateLimit ? 10000 : delayMs;
+        const retryMatch = errMsg.match(/retry\s+in\s+([\d\.]+)\s*s/i);
+        if (retryMatch) {
+          actualDelay = Math.ceil(parseFloat(retryMatch[1])) * 1000 + 2000;
+        }
+        console.log(`[Gemini REST] Čekám ${(actualDelay / 1000).toFixed(1)}s před dalším pokusem...`);
+        await new Promise(res => setTimeout(res, actualDelay));
         delayMs *= 2;
       } else {
         throw new Error(`Gemini REST error (${modelName}): ${errMsg}`);
@@ -369,46 +384,23 @@ export function renderStructuredJsonToHtml(
           };
 
           const renderRecurrencesList = (recs?: any[]): string => {
-            if (!recs || recs.length === 0) return '';
+            if (!recs || !Array.isArray(recs) || recs.length === 0) return '';
             return recs.map(r => {
+              if (!r) return '';
               if (typeof r === 'string') {
                 return `<p class="konzilia-recurrence-plain" style="margin-top: 10px;">${escapeHtml(r)}</p>`;
               }
-              const header = r.header || (r as any).recurrenceHeader || (r as any).date || '1. recidiva / progrese:';
-              let desc = r.description || (r as any).details?.join(' ') || (r as any).findingsAndImaging || '';
+              const header = r.header || r.recurrenceHeader || r.date || '1. recidiva / progrese:';
+              let desc = typeof r.description === 'string' ? r.description : (Array.isArray(r.details) ? r.details.join(' ') : (r.findingsAndImaging || ''));
               
-              desc = desc.replace(/Zahájena\s+/gi, '');
+              if (typeof desc === 'string') {
+                desc = desc.replace(/Zahájena\s+/gi, '');
+              } else {
+                desc = String(desc || '');
+              }
 
-              let opsHtml = '';
-              const ops = r.operations || [];
-              ops.forEach((op: any) => {
-                if (typeof op === 'string') {
-                  opsHtml += `<p class="konzilia-history-item" style="margin-top: 6px;">${wrapUnderline(op)}</p>`;
-                  return;
-                }
-                const rawTitle = op.title || 'operačním výkonu';
-                const title = rawTitle.startsWith('St.p.') ? rawTitle : `St.p. ${rawTitle}`;
-                const datePlace = op.dateAndPlace ? ` (${op.dateAndPlace})` : '';
-                const cleanInSitu = op.text ? op.text.replace(/^(?:in\s*situ|\-insitu)\:\s*/i, '').trim() : '';
-                const hasValidInSitu = isValidInSituText(cleanInSitu, title);
-                const inSituHtml = hasValidInSitu ? `<p class="konzilia-insitu-line" style="margin-top: 2px; margin-bottom: 4px;">in situ: ${escapeHtml(cleanInSitu)}</p>` : '';
-                const histHtml = op.histology ? `<p class="konzilia-histology-line" style="margin-top: 2px; margin-bottom: 6px; font-style: italic;"><em>-histol: ${escapeHtml(op.histology)}</em></p>` : '';
-                opsHtml += `<p class="konzilia-history-item" style="margin-top: 6px;">${wrapUnderline(title)}${escapeHtml(datePlace)}</p>${inSituHtml}${histHtml}`;
-              });
-
-              let thHtml = '';
-              const ths = r.treatmentsAndHistory || [];
-              ths.forEach((th: any) => {
-                const strTh = String(th);
-                if (strTh.toLowerCase().startsWith('st.p.')) {
-                  const spaceIdx = strTh.indexOf(' ', 5);
-                  const opName = spaceIdx !== -1 ? strTh.substring(0, spaceIdx) : strTh;
-                  const rest = spaceIdx !== -1 ? strTh.substring(spaceIdx) : '';
-                  thHtml += `<p class="konzilia-history-item" style="margin-top: 6px;">${wrapUnderline(opName)}${escapeHtml(rest)}</p>`;
-                } else {
-                  thHtml += `<p class="konzilia-history-item" style="margin-top: 2px;">${escapeHtml(strTh)}</p>`;
-                }
-              });
+              const ops = Array.isArray(r.operations) ? r.operations : (r.operations ? [r.operations] : []);
+              const ths = Array.isArray(r.treatmentsAndHistory) ? r.treatmentsAndHistory : (r.treatmentsAndHistory ? [r.treatmentsAndHistory] : []);
 
               // Náhradní rozdělení, pokud AI vrátila operaci slitou přímo v textu popisu desc
               if (ops.length === 0 && ths.length === 0 && /provedena\s+resekce|st\.p\./i.test(desc)) {
@@ -418,35 +410,103 @@ export function renderStructuredJsonToHtml(
 
                 if (opMatch) {
                   const rawOp = opMatch[1].trim();
-                  const opText = `St.p. ${rawOp.replace(/^Provedena\s+/i, '')}`;
-                  opsHtml += `<p class="konzilia-history-item" style="margin-top: 6px;">${wrapUnderline(opText)}</p>`;
+                  ops.push({ title: `St.p. ${rawOp.replace(/^Provedena\s+/i, '')}` });
                   desc = desc.replace(opMatch[0], '').trim();
                 }
                 if (histMatch) {
                   const rawHist = histMatch[1].trim();
-                  opsHtml += `<p class="konzilia-histology-line" style="margin-top: 2px; margin-bottom: 6px; font-style: italic;"><em>-histol: ${escapeHtml(rawHist)}</em></p>`;
+                  if (ops.length > 0) {
+                    ops[ops.length - 1].histology = rawHist;
+                  }
                   desc = desc.replace(histMatch[0], '').trim();
                 }
                 if (stentMatch) {
                   const rawStent = stentMatch[1].trim();
-                  thHtml += `<p class="konzilia-history-item" style="margin-top: 6px;">${wrapUnderline('St.p.')} ${escapeHtml(rawStent)}</p>`;
+                  ths.push(`St.p. ${rawStent}`);
                   desc = desc.replace(stentMatch[0], '').trim();
                 }
                 desc = desc.replace(/[\s.,;]+$/, '').trim();
               }
 
-              let chtLine = r.chemotherapyLine || '';
-              if (chtLine.toLowerCase().startsWith('zahájena ')) {
+              interface RecItem {
+                sortDate: string;
+                html: string;
+              }
+              const recItems: RecItem[] = [];
+
+              // 1. Operace
+              ops.forEach((op: any) => {
+                if (!op) return;
+                if (typeof op === 'string') {
+                  const sortDate = extractTreatmentDateIso(op);
+                  recItems.push({ sortDate, html: `<p class="konzilia-history-item" style="margin-top: 6px;">${wrapUnderline(op)}</p>` });
+                  return;
+                }
+                const rawTitle = op.title || op.name || op.opTitle || 'operačním výkonu';
+                const title = rawTitle.startsWith('St.p.') ? rawTitle : `St.p. ${rawTitle}`;
+                const datePlace = op.dateAndPlace ? ` (${op.dateAndPlace})` : '';
+                const sortDate = extractTreatmentDateIso(`${op.dateAndPlace || ''} ${title}`);
+                const cleanInSitu = typeof op.text === 'string' ? op.text.replace(/^(?:in\s*situ|\-insitu)\:\s*/i, '').trim() : '';
+                const hasValidInSitu = isValidInSituText(cleanInSitu, title);
+                const inSituHtml = hasValidInSitu ? `<p class="konzilia-insitu-line" style="margin-top: 2px; margin-bottom: 4px;">in situ: ${escapeHtml(cleanInSitu)}</p>` : '';
+                const histHtml = op.histology ? `<p class="konzilia-histology-line" style="margin-top: 2px; margin-bottom: 6px; font-style: italic;"><em>-histol: ${escapeHtml(String(op.histology))}</em></p>` : '';
+                recItems.push({
+                  sortDate,
+                  html: `<p class="konzilia-history-item" style="margin-top: 6px;">${wrapUnderline(title)}${escapeHtml(datePlace)}</p>${inSituHtml}${histHtml}`
+                });
+              });
+
+              // 2. Anamnéza / Ostatní výkony (stenty atd.)
+              ths.forEach((th: any) => {
+                if (!th) return;
+                const strTh = String(th);
+                const sortDate = extractTreatmentDateIso(strTh);
+                if (strTh.toLowerCase().startsWith('st.p.')) {
+                  const spaceIdx = strTh.indexOf(' ', 5);
+                  const opName = spaceIdx !== -1 ? strTh.substring(0, spaceIdx) : strTh;
+                  const rest = spaceIdx !== -1 ? strTh.substring(spaceIdx) : '';
+                  recItems.push({ sortDate, html: `<p class="konzilia-history-item" style="margin-top: 6px;">${wrapUnderline(opName)}${escapeHtml(rest)}</p>` });
+                } else {
+                  recItems.push({ sortDate, html: `<p class="konzilia-history-item" style="margin-top: 2px;">${escapeHtml(strTh)}</p>` });
+                }
+              });
+
+              // 3. Linie chemoterapie pro recidivu
+              let rawCht = r.chemotherapyLine || r.chemotherapyLines || r.chemotherapy || '';
+              let chtLine = '';
+              if (typeof rawCht === 'string') {
+                chtLine = rawCht;
+              } else if (Array.isArray(rawCht)) {
+                chtLine = rawCht.map(c => typeof c === 'string' ? c : (c.lineTitle || c.line || c.text || String(c))).join(' ');
+              } else if (typeof rawCht === 'object' && rawCht !== null) {
+                chtLine = rawCht.lineTitle || rawCht.line || rawCht.text || JSON.stringify(rawCht);
+              }
+
+              if (chtLine && chtLine.toLowerCase().startsWith('zahájena ')) {
                 chtLine = chtLine.substring(9);
               }
               chtLine = normalizeChemoLineNumerals(chtLine);
-              const chtTox = r.chemotherapyToxicity && chtLine ? ` ${r.chemotherapyToxicity}` : '';
+
+              let rawTox = r.chemotherapyToxicity || r.toxicityAndDose || r.toxicity || '';
+              let chtTox = typeof rawTox === 'string' ? rawTox : (typeof rawTox === 'object' && rawTox !== null ? (rawTox.toxicityAndDose || rawTox.text || '') : String(rawTox));
+              const fullChtToxStr = chtTox && chtLine ? ` ${chtTox}` : '';
+
+              if (chtLine) {
+                const sortDate = extractTreatmentDateIso(`${chtLine} ${fullChtToxStr}`);
+                recItems.push({
+                  sortDate,
+                  html: `<p class="konzilia-recurrence-cht" style="margin-top: 10px;">${escapeHtml(chtLine)}${escapeHtml(fullChtToxStr)}</p>`
+                });
+              }
+
+              // Seřazení položek v recidivě přísně chronologicky podle zjištěného data
+              recItems.sort((a, b) => a.sortDate.localeCompare(b.sortDate));
+
+              const itemsHtml = recItems.map(item => item.html).join('');
 
               return `
                 <p class="konzilia-recurrence-plain" style="margin-top: 10px;"><strong>${escapeHtml(header)}</strong> ${escapeHtml(desc)}</p>
-                ${opsHtml}
-                ${thHtml}
-                ${chtLine ? `<p class="konzilia-recurrence-cht" style="margin-top: 10px;">${escapeHtml(chtLine)}${escapeHtml(chtTox)}</p>` : ''}
+                ${itemsHtml}
               `;
             }).join('');
           };
@@ -454,39 +514,45 @@ export function renderStructuredJsonToHtml(
           const renderBlockItems = (block: DiagnosisAndTreatmentBlock): string => {
             const treatmentItems: TreatmentItem[] = [];
 
-            (block.operations || []).forEach(op => {
+            const ops = Array.isArray(block.operations) ? block.operations : (block.operations ? [block.operations] : []);
+            ops.forEach(op => {
+              if (!op) return;
               if (typeof op === 'string') {
                 const sortDate = extractTreatmentDateIso(op);
                 treatmentItems.push({ sortDate, html: `<div class="konzilia-treatment-block" style="margin-top: 12px; margin-bottom: 12px;"><p class="konzilia-history-item" style="margin-top: 0; margin-bottom: 0;">${wrapUnderline(op)}</p></div>` });
                 return;
               }
-              const rawTitle = op.title || 'operačním výkonu';
+              const rawTitle = op.title || (op as any).name || (op as any).opTitle || 'operačním výkonu';
               const title = rawTitle.startsWith('St.p.') ? rawTitle : `St.p. ${rawTitle}`;
               const datePlace = op.dateAndPlace ? ` (${op.dateAndPlace})` : '';
               const sortDate = extractTreatmentDateIso(`${op.dateAndPlace || ''} ${title}`);
-              const cleanInSitu = op.text ? op.text.replace(/^(?:in\s*situ|\-insitu)\:\s*/i, '').trim() : '';
+              const cleanInSitu = typeof op.text === 'string' ? op.text.replace(/^(?:in\s*situ|\-insitu)\:\s*/i, '').trim() : '';
               const hasValidInSitu = isValidInSituText(cleanInSitu, title);
               const inSituHtml = hasValidInSitu ? `<p class="konzilia-insitu-line" style="margin-top: 4px; margin-bottom: 4px;">in situ: ${escapeHtml(cleanInSitu)}</p>` : '';
-              const histHtml = op.histology ? `<p class="konzilia-histology-line" style="margin-top: 4px; margin-bottom: 4px; font-style: italic;"><em>-histol: ${escapeHtml(op.histology)}</em></p>` : '';
+              const histHtml = op.histology ? `<p class="konzilia-histology-line" style="margin-top: 4px; margin-bottom: 4px; font-style: italic;"><em>-histol: ${escapeHtml(String(op.histology))}</em></p>` : '';
 
               treatmentItems.push({ sortDate, html: `<div class="konzilia-treatment-block" style="margin-top: 12px; margin-bottom: 12px;"><p class="konzilia-history-item" style="margin-top: 0; margin-bottom: 4px;">${wrapUnderline(title)}${escapeHtml(datePlace)}</p>${inSituHtml}${histHtml}</div>` });
             });
 
-            (block.chemotherapyLines || []).forEach(cht => {
+            const chts = Array.isArray(block.chemotherapyLines) ? block.chemotherapyLines : (block.chemotherapyLines ? [block.chemotherapyLines] : []);
+            chts.forEach(cht => {
+              if (!cht) return;
               if (typeof cht === 'string') {
                 const sortDate = extractTreatmentDateIso(cht);
                 treatmentItems.push({ sortDate, html: `<div class="konzilia-treatment-block" style="margin-top: 12px; margin-bottom: 12px;"><p class="konzilia-chemo-line" style="margin-top: 0; margin-bottom: 0;">${escapeHtml(normalizeChemoLineNumerals(cht))}</p></div>` });
                 return;
               }
-              const rawLine = typeof cht === 'object' && cht !== null ? (cht.lineTitle || cht.line || cht.lineText || cht.text || '') : String(cht);
+              const rawLine = typeof cht === 'object' && cht !== null ? (cht.lineTitle || cht.line || cht.lineText || cht.text || (cht as any).title || '') : String(cht);
               const lineTitle = normalizeChemoLineNumerals(rawLine);
               const rawTox = typeof cht === 'object' && cht !== null ? (cht.toxicityAndDose || cht.chemotherapyToxicity || cht.toxicity || '') : '';
-              const toxHtml = rawTox ? `<p class="konzilia-chemo-tox" style="margin-top: 4px; margin-bottom: 4px;">${escapeHtml(rawTox)}</p>` : '';
+              const toxHtml = rawTox ? `<p class="konzilia-chemo-tox" style="margin-top: 4px; margin-bottom: 4px;">${escapeHtml(String(rawTox))}</p>` : '';
               const sortDate = extractTreatmentDateIso(`${lineTitle} ${rawTox}`);
               treatmentItems.push({ sortDate, html: `<div class="konzilia-treatment-block" style="margin-top: 12px; margin-bottom: 12px;"><p class="konzilia-chemo-line" style="margin-top: 0; margin-bottom: 4px;">${escapeHtml(lineTitle)}</p>${toxHtml}</div>` });
             });
 
-            (block.treatmentsAndHistory || []).forEach(th => {
+            const ths = Array.isArray(block.treatmentsAndHistory) ? block.treatmentsAndHistory : (block.treatmentsAndHistory ? [block.treatmentsAndHistory] : []);
+            ths.forEach(th => {
+              if (!th) return;
               const strTh = String(th);
               const sortDate = extractTreatmentDateIso(strTh);
               if (strTh.toLowerCase().startsWith('st.p.')) {
@@ -802,10 +868,10 @@ export async function generateTumorBoardSummary(
   const cleanDataset: PatientChronologyDataset = JSON.parse(anonymizedText);
 
   // 2. Sestavení anonymizovaného promptu s vyžádáním JSONu podle konsilium.docx
-  const prompt = buildTumorBoardPrompt(cleanDataset, maxDate);
+  const promptPayload = buildTumorBoardPrompt(cleanDataset, maxDate);
 
-  // 3. Volání Gemini API (primárně gemini-3.6-flash, záloha gemini-3.5-flash, gemini-flash-latest)
-  const candidateModels = ['gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-flash-latest', 'gemini-pro-latest'];
+  // 3. Volání Gemini API (primárně gemini-flash-latest, záloha gemini-3.6-flash)
+  const candidateModels = ['gemini-flash-latest', 'gemini-3.6-flash'];
 
   let resultJsonStr = '';
   let modelUsed = '';
@@ -814,7 +880,7 @@ export async function generateTumorBoardSummary(
   for (const modelName of candidateModels) {
     try {
       console.log(`[Tumor Board Agent] Odesílám anonymizovaný dotaz (konsilium.docx JSON mode) do Gemini API (model: ${modelName})...`);
-      resultJsonStr = await callGeminiRestJson(prompt, apiKey, modelName);
+      resultJsonStr = await callGeminiRestJson(promptPayload, apiKey, modelName);
       modelUsed = modelName;
       console.log(`[Tumor Board Agent] Úspěšně přijat JSON výstup z ${modelName} (${resultJsonStr.length} znaků).`);
       break;
@@ -875,8 +941,8 @@ export async function generateTumorBoardSummary(
 async function callGeminiRestText(contents: any[], apiKey: string, modelName: string): Promise<string> {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`;
   
-  let maxAttempts = 3;
-  let delayMs = 1500;
+  let maxAttempts = 4;
+  let delayMs = 2000;
 
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     try {
@@ -898,10 +964,17 @@ async function callGeminiRestText(contents: any[], apiKey: string, modelName: st
       }
 
       const errMsg = data.error?.message || `HTTP ${response.status}`;
+      const isRateLimit = response.status === 429 || /quota|rate\s*limit|resource_exhausted|demand|try\s*again/i.test(errMsg);
       console.warn(`[Gemini Chat REST] Pokus ${attempt}/${maxAttempts} selhal pro ${modelName}: ${errMsg}`);
 
       if (attempt < maxAttempts) {
-        await new Promise(res => setTimeout(res, delayMs));
+        let actualDelay = isRateLimit ? 10000 : delayMs;
+        const retryMatch = errMsg.match(/retry\s+in\s+([\d\.]+)\s*s/i);
+        if (retryMatch) {
+          actualDelay = Math.ceil(parseFloat(retryMatch[1])) * 1000 + 2000;
+        }
+        console.log(`[Gemini Chat REST] Čekám ${(actualDelay / 1000).toFixed(1)}s před dalším pokusem...`);
+        await new Promise(res => setTimeout(res, actualDelay));
         delayMs *= 2;
       } else {
         throw new Error(`Gemini REST error (${modelName}): ${errMsg}`);
@@ -952,7 +1025,7 @@ Odpovídej odborně, věcně, srozumitelně a strukturovaně v češtině. Použ
     { role: 'user', parts: [{ text: userMessage }] }
   ];
 
-  const candidateModels = ['gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-flash-latest', 'gemini-pro-latest'];
+  const candidateModels = ['gemini-flash-latest', 'gemini-3.6-flash'];
   let lastError = '';
 
   for (const modelName of candidateModels) {

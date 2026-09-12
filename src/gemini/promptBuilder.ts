@@ -2,11 +2,16 @@ import { PatientChronologyDataset } from '../types/chronology.js';
 import { anonymizeLocalText } from '../parser/parseLab.js';
 import { parseCzechDateToIso } from '../parser/parseInput.js';
 
+export interface TumorBoardPromptPayload {
+  systemInstruction: string;
+  userContent: string;
+}
+
 /**
  * Bezpečné a optimalizované sestavení promptu pro Gemini s žádostí o strukturovaný JSON podle vzoru konsilium.docx.
  * GARANCE: Všechna data jsou před sestavením promptu přísně anonymizována!
  */
-export function buildTumorBoardPrompt(dataset: PatientChronologyDataset, maxDate?: string): string {
+export function buildTumorBoardPrompt(dataset: PatientChronologyDataset, maxDate?: string): TumorBoardPromptPayload {
   // 1. Důsledná anonymizace celého datasetu před odesláním
   const jsonStr = JSON.stringify(dataset);
   const { anonymizedText } = anonymizeLocalText(jsonStr, dataset.metadata);
@@ -74,10 +79,10 @@ export function buildTumorBoardPrompt(dataset: PatientChronologyDataset, maxDate
       type: e.type,
       title: e.title,
       doctor: e.doctor || 'Neuveden',
-      fullContent: e.content && e.content.length > 2500 ? e.content.substring(0, 2500) + '... [text vyšetření zkrácen]' : e.content
+      fullContent: e.content
     }));
 
-  // Ostatní starší vyšetření (zkrácený přehled pro kontext)
+  // Ostatní starší vyšetření (100% plný text bez zkracování pro maximální přesnost)
   const olderExams = cleanDataset.examinations
     .filter(e => {
       if (!e.date || e.date === '1970-01-01') return true;
@@ -92,7 +97,7 @@ export function buildTumorBoardPrompt(dataset: PatientChronologyDataset, maxDate
       rawDate: e.rawDate,
       type: e.type,
       title: e.title,
-      contentSnippet: e.content && e.content.length > 1000 ? e.content.substring(0, 1000) + '... [starší zprávu zkráceno]' : e.content
+      fullContent: e.content
     }));
 
   // Sdružená laboratorní vyšetření (posledních 20 měření pro každý analyt)
@@ -104,7 +109,7 @@ export function buildTumorBoardPrompt(dataset: PatientChronologyDataset, maxDate
       return `${t.testName}: ${history}`;
     }).join('\n') : '';
 
-  const prompt = `
+  const systemInstruction = `
 Jsi špičkový expertní onkogynekologický AI specialista a člen Tumor Boardu (Multioborového onkologického konsilia VFN Praha).
 
 Tvým úkolem je na základě níže poskytnutých chronologických vyšetření pacientky vytvořit VÝHRADNĚ ČISTÝ VALIDNÍ JSON OBSAHUJÍCÍ STRUKTUROVANÝ ZÁVĚR TUMOR BOARDU A NÁVRH DALŠÍHO POSTUPU PŘESNĚ PODLE TĚCHTO INSTRUKCÍ A VZORU KONZILIA.DOCX:
@@ -125,11 +130,19 @@ DŮLEŽITÉ VYŽADOVANÉ PRAVIDLA FORMÁTU A OBSAHU:
    - Každá recidiva MUSÍ BÝT ULOŽENA V POLI "recurrences" UVNITŘ OBJEKTU PŘÍSLUŠNÉ DIAGNÓZY v "diagnosisAndTreatment"! (Tzn. Recidivy nepatří do samostatného oddílu na konci, ale přímo pod diagnózu, ke které klinicky patří).
    - V poli "description" uváděj VÝHRADNĚ klinický a zobrazovací nález recidivy (např. "Pánevní tumor vpravo utlačující pravý ureter s hydronefrózou III. st. a parailickou lymfadenopatií."). NESMÍŠ v description slévat operace, histologie ani stenty do jednoho odstavce!
    - Operační výkony pro recidivu ulož do pole "operations" u dané recidivy (např. title: "St.p. resekci recidivy pánevního tumoru...", dateAndPlace: "1.2.2024, VFN Praha", text: "v dutině břišní ložisko...", histology: "Metastáza HPV asociovaného...").
-   - Ostatní výkony (stenty apod.) ulož do pole "treatmentsAndHistory" u dané recidivy (např. ["St.p. zavedení ureterálního stentu vpravo..."]).
+   - Ostatní výkony (stenty apod.) ulož do pole "treatmentsAndHistory" u dané recidivy (např. ["St.p. zavedení ureterálního stentu vpravo pro hydronefrózu a útlak ureteru (01/2024, opakované výměny stentu)"]).
    - VŠECHNA SYSTÉMOVÁ LÉČBA, CHEMOTERAPIE, IMUNOTERAPIE A BIOLOGICKÁ LÉČBA INDIKOVANÁ PRO RECIDIVU MUSÍ BÝT UVEDENA V POLI "chemotherapyLine" A "chemotherapyToxicity" UVNITŘ PŘÍSLUŠNÉ RECIDIVY!
-6. CHRONOLOGICKÉ ŘAZENÍ ANAMNÉZY LÉČBY V diagnosisAndTreatment: Všechny operační výkony i linie chemoterapie u každé diagnózy MUSÍ být seřazeny přísně CHRONOLOGICKY podle data podání/provedení.
+6. CHRONOLOGICKÉ ŘAZENÍ ANAMNÉZY LÉČBY V diagnosisAndTreatment I RECIDIVÁCH: Všechny operační výkony, linie chemoterapie i ostatní léčebné výkony u každé diagnózy i u každé recidivy MUSÍ být seřazeny přísně CHRONOLOGICKY podle data jejich provedení/zahájení (např. pokud linie chemoterapie proběhla až po operaci, napíše se až za operaci; pokud byla zahájena před operaci, napíše se před operaci).
 7. ZÁKAZ DUPLICITY CHEMOTERAPIE: Každá linie chemoterapie / systémové léčby smí být v celém JSON výstupu uvedena VÝHRADNĚ JEDNOU!
 8. PŘÍSNÉ DODRŽENÍ NÁZVŮ POLÍ: Názvy všech klíčů v JSON výstupu MUSÍ PŘESNĚ odpovídat tomuto schématu! Pro chemoterapii vkládej výhradně pole "chemotherapyLines" (obsahující objekty s vlastnostmi "lineTitle" a "toxicityAndDose"). JE PŘÍSNĚ ZAKÁZÁNO měnit název 'chemotherapyLines' na 'chemotherapyLine' nebo 'lineTitle' na 'line'!
+9. CÍLENÁ A BIOLOGICKÁ LÉČBA (PARP INHIBITORY, ADC, CHECKPOINT INHIBITORY, ANTIANGIOGENIKA):
+   - Prohledej celou zdravotní dokumentaci a identifikuj veškerou biologickou, imunitní a cílenou léčbu:
+     * PARP inhibitory (např. Olaparib/Lynparza, Niraparib/Zejula, Rucaparib/Rubraca)
+     * ADC - Antibody-Drug Conjugates (např. Elahere / mirvetuximab soravtansine, Trastuzumab deruxtecan / Enhertu, Sacituzumab govitecan / Trodelvy)
+     * Checkpoint inhibitory / Imunoterapie (např. Pembrolizumab/Keytruda, Dostarlimab/Jemperli, Atezolizumab/Tecentriq)
+     * Antiangiogenní biologická léčba (např. Bevacizumab/Avastin)
+10. STRUČNOST NARRATIVNÍCH POPISŮ: V poli "presentIllness" uveď VÝHRADNĚ 1-2 stručné věty (max 150 znaků), např. "NO: Pacientka s nádorovou triplicitou přichází ke zvážení dalšího postupu.". NIKDY nepopisuj celou anamnézu ani operace do presentIllness! Všechny operace, histologie, chemoterapie a recidivy patři výhradně do strukturovaných polí "diagnosisAndTreatment" a "recurrences"!
+11. ZÁKAZ VYNECHÁNÍ DIAGNÓZ U DUPLICITY/TRIPLICITY: Pokud má pacientka v dokumentaci více zjištěných malignit (např. 1) ca ovarii, 2) ca mammae, 3) adenoca recti), MUSÍŠ VYDOPLNIT VŠECHNY DIAGNÓZY DO "diagnosisAndTreatment"! Je PŘÍSNĚ ZAKÁZÁNO vynechat druhou nebo třetí diagnózu!
 
 MUSÍŠ VRÁTIT POUZE A JENOM ČISTÝ VALIDNÍ JSON PODLE TÉTO PŘESNÉ STRUKTURY Z KONZILIA.DOCX:
 
@@ -158,49 +171,24 @@ MUSÍŠ VRÁTIT POUZE A JENOM ČISTÝ VALIDNÍ JSON PODLE TÉTO PŘESNÉ STRUKTU
   ],
   "diagnosisAndTreatment": [
     {
-      "dg": "1) ca colli uteri - adenokarcinom/adenoskvamózní (I.dg. 2016)",
+      "dg": "1) ca ovarii - HGSC ... (I.dg. 2022)",
       "operations": [
         {
-          "title": "St.p. hysterektomii sec. Pfannenstiel",
-          "dateAndPlace": "2016, Ukrajina",
+          "title": "St.p. ...",
+          "dateAndPlace": "2022, FN Bulovka",
           "text": "Popis nálezu v dutině břišní při operaci (in situ), pokud je k dispozici v operačním protokolu, jinak 'není k dispozici'.",
           "histology": "Dokumentace z primární operace není k dispozici."
         }
       ],
-      "treatmentsAndHistory": [
-        "St.p. adjuvantní kombinované radioterapii (EBRT + BRT) pro ca colli uteri (2016)"
-      ],
+      "treatmentsAndHistory": [],
       "recurrences": [
         {
           "header": "1. recidiva / progrese (02/2024, TFI 8 let):",
-          "description": "Pánevní tumor vpravo utlačující pravý ureter s hydronefrózou III. st. a parailickou lymfadenopatií.",
-          "treatmentsAndHistory": [
-            "St.p. zavedení ureterálního stentu vpravo pro hydronefrózu a útlak ureteru (01/2024, opakované výměny stentu)"
-          ],
-          "operations": [
-            {
-              "title": "St.p. resekci recidivy pánevního tumoru, disekci ureteru, exstirpaci tumoru a pánevních LN",
-              "dateAndPlace": "1.2.2024, VFN Praha",
-              "text": "Popis nálezu v dutině břišní při operaci recidivy...",
-              "histology": "Metastáza HPV asociovaného dobře diferencovaného adenokarcinomu hrdla děložního s minoritní dlaždicobuněčnou diferenciací (adenoskvamózní). Největší rozměr ložiska 20 mm. Uzlina průměru 8 mm zcela spotřebována metastázou. PD-L1 (22C3) CPS = 20."
-            }
-          ],
-          "chemotherapyLine": "St.p. 1. linii CHT v režimu Abraxane/cDDP (6 cyklů, ukončeno 02.07.2024) + bevacizumab + pembrolizumab (od 05.03.2024, pembrolizumab ukončen 22.05.2026 35. cyklem)",
-          "chemotherapyToxicity": "Toxicita: G1 hypothyreóza při imunoterapii (substituce Letrox), G1 neutropenie (odklad cyklu o týden), bez redukce dávky. Aplikován 38. cyklus bevacizumabu (04.09.2026)"
+          "description": "...",
+          "operations": [],
+          "chemotherapyLine": "St.p. 1. linii CHT...",
+          "chemotherapyToxicity": "..."
         }
-      ]
-    },
-    {
-      "dg": "2) ca thyroidey (I.dg. 2016)",
-      "operations": [
-        {
-          "title": "St.p. totální thyreoidektomii",
-          "dateAndPlace": "2016",
-          "histology": "Ca thyroidey."
-        }
-      ],
-      "treatmentsAndHistory": [
-        "St.p. terapii radiojodem pro ca thyroidey (ukončeno 2020)"
       ]
     }
   ],
@@ -209,9 +197,9 @@ MUSÍŠ VRÁTIT POUZE A JENOM ČISTÝ VALIDNÍ JSON PODLE TÉTO PŘESNÉ STRUKTU
     "attendees": "prof. MUDr. Cibula, CSc., prof. MUDr. Sláma, Ph.D., MUDr. Frühauf, Ph.D., MUDr. Tomancová, prof. MUDr. Burgetová, Ph.D., MUDr. Valentová, MUDr. Brynda, MUDr. Emingr, MUDr. Malčák, doc. MUDr. Kocián, Ph.D. a MUDr. Dostálek, Ph.D.",
     "recommendation": "Doporučení: ..."
   }
-}
+};`;
 
-ZDE JSOU VSTUPNÍ DATA PACIENTKY:
+  const userContent = `ZDE JSOU VSTUPNÍ DATA PACIENTKY:
 
 === AKTUÁLNÍ VYŠETŘENÍ Z POSLEDNÍCH 2 MĚSÍCŮ (PRO ODDÍL STAGINGOVÁ VYŠETŘENÍ, MAMOGRAFIE EXKLUDOVÁNA) ===
 ${JSON.stringify(recentExamsWithFullText, null, 2)}
@@ -223,7 +211,7 @@ ${JSON.stringify(olderExams, null, 2)}
 ${labAggregatedSummary}
 `;
 
-  return prompt;
+  return { systemInstruction, userContent };
 }
 
 
